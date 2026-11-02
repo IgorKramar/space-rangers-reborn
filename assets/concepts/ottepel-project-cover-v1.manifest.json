@@ -1,0 +1,17 @@
+{
+  "title": "Оттепель — обложка досье проекта",
+  "project": "Космические Рейнджеры: Возрождение",
+  "purpose": "Концептуальная обложка Notion; не готовый игровой ассет",
+  "generation_mode": "built-in image_gen",
+  "created": "2026-11-02",
+  "asset": "ottepel-project-cover-v1.png",
+  "prompt": "ottepel-project-cover-v1.prompt.txt",
+  "width": 2172,
+  "height": 724,
+  "sha256": "0294faca8fdda9caba15773b266813b50ebea18348dc0c65dc57327d170d0ead",
+  "visual_check": "Панорамная зимняя колония, паровые причалы, цеха, освещённые теплицы, геотермальные разломы; без текста и логотипов.",
+  "model": null,
+  "model_version": null,
+  "reference_images": [],
+  "reproduction_notes": "Точная модель и версия встроенного генератора не сообщены инструментом. Исходный запрос сохранён без изменений."
+}

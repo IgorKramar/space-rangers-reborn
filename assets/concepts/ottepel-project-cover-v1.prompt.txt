@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: wide Notion project dossier cover, original environment concept, not a finished in-game asset
+Primary request: An original panoramic view of Ottepel, a human industrial space colony in winter built around an old spaceship repair base above geothermal fissures.
+Scene/backdrop: A cold blue evening with clear stars; snow-covered dark terrain cut by warmly glowing geothermal seams and curling steam. Long dark repair workshops, chunky industrial structures, aged pipes and gantries. Steam hangs above the spaceport docks. Between the workshops run long glass greenhouses glowing with amber light. One small spacecraft in the distant sky adds scale, without dominating the town.
+Style/medium: Warm, detailed hand-painted retrofuturist space-RPG environment illustration, evocative of classic late-1990s and early-2000s illustrated science-fiction game backgrounds; handcrafted, lived-in engineering, a welcoming human scale. Original architecture and original spacecraft silhouette.
+Composition/framing: Very wide horizontal panorama, approximately 3:1, designed for a shallow cover crop. Keep the important colony, dock silhouettes, steam and greenhouse lights in the middle horizontal band, with broad atmospheric space above and below. Cohesive landscape rather than collage. Calm, readable silhouette rhythm; no single giant foreground object.
+Lighting/mood: Cold winter atmosphere balanced by warm working lights and geothermal warmth; resilient, humane industrial outpost, slightly whimsical retro engineering.
+Color palette: Deep midnight blue, subdued turquoise, warm ochre and amber accents.
+Materials/textures: Aged metal, frost, dark stone, luminous greenhouse glass, soft painted steam; restrained fine detail.
+Constraints: No text, no lettering, no logos, no watermark, no UI, no border, no exact copies of existing game art. Opaque background.
