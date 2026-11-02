@@ -1,0 +1,13 @@
+/.local/
+/build/
+/work/
+/original-game/
+/game/
+/research/private/
+.env
+.env.*
+*.log
+*.sav
+__pycache__/
+*.pyc
+.DS_Store
