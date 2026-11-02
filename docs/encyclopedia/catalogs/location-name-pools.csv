@@ -1,0 +1,1073 @@
+kind,group,id,name_ru,name_en,resource_suffix,classification,source,block
+star,Star,00,Тарон,Taron,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.00
+star,Star,01,Пхедок,Pkhedoc,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.01
+star,Star,02,Солнце,Sol,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.02
+star,Star,03,Атлан,Atlas,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.03
+star,Star,04,Краа,Kraa,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.04
+star,Star,05,Ицар,Itsar,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.05
+star,Star,06,Муфрид,Mufrid,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.06
+star,Star,07,Фомальгаут,Fomalhaut,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.07
+star,Star,08,Альфард,Alphard,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.08
+star,Star,09,Хезе,Heze,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.09
+star,Star,10,Растабан,Rastaban,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.10
+star,Star,11,Альдиба,Aldiba,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.11
+star,Star,12,Шедир,Schedar,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.12
+star,Star,13,Канопус,Canopus,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.13
+star,Star,14,Авиор,Avior,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.14
+star,Star,15,Менкар,Menkar,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.15
+star,Star,16,Денеб,Deneb,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.16
+star,Star,17,Денебола,Denebola,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.17
+star,Star,18,Процион,Procyon,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.18
+star,Star,19,Альтаир,Altair,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.19
+star,Star,20,Бетельгейзе,Betelgeuse,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.20
+star,Star,21,Беллатрикс,Bellatrix,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.21
+star,Star,22,Шеат,Scheat,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.22
+star,Star,23,Наккар,Nakkar,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.23
+star,Star,24,Орион,Orion,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.24
+star,Star,25,Алфекка,Alphekka,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.25
+star,Star,26,Алиот,Alioth,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.26
+star,Star,27,Регулус,Regulus,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.27
+star,Star,28,Хамаль,Hamal,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.28
+star,Star,29,Акхарра,Akharra,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.29
+star,Star,30,Кастор,Castor,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.30
+star,Star,31,Маркаб,Marcab,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.31
+star,Star,32,Хемни,Hemni,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.32
+star,Star,33,Антарес,Antares,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.33
+star,Star,34,Атрия,Atria,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.34
+star,Star,35,Мегрез,Megrez,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.35
+star,Star,36,Поллюкс,Pollux,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.36
+star,Star,37,Арц,Arts,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.37
+star,Star,38,Кефрон,Cephron,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.38
+star,Star,39,Вакхар,Bakhar,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.39
+star,Star,40,Витта Прайонис,Vitta Pryonis,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.40
+star,Star,41,Гевер,Hever,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.41
+star,Star,42,Шомма,Shomma,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.42
+star,Star,43,Виннатрикс,Vinnatrix,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.43
+star,Star,44,Велес,Veles,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.44
+star,Star,45,Таллот,Tallot,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.45
+star,Star,46,Арктур,Arcturus,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.46
+star,Star,47,Диатар,Diatar,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.47
+star,Star,48,Элга,Elga,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.48
+star,Star,49,Аркабе,Arcabe,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.49
+star,Star,50,Капелла,Capella,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.50
+star,Star,51,Арракис,Arrakis,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.51
+star,Star,52,Сафрона,Saphrona,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.52
+star,Star,53,Аль Дагор,Al Dagor,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.53
+star,Star,54,Завия,Zavia,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.54
+star,Star,55,Диадема,Diadem,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.55
+star,Star,56,Озеум,Oseum,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.56
+star,Star,57,Ригель,Rigel,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.57
+star,Star,58,Тураис,Turais,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.58
+star,Star,59,Селиостр,Celiostre,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.59
+star,Star,60,Цуфай,Tzufai,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.60
+star,Star,61,Юфалли,Yufalli,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.61
+star,Star,62,Муррац,Murratz,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.62
+star,Star,63,Миннавер,Minnaver,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.63
+star,Star,64,Эйрон,Euron,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.64
+star,Star,65,Фелгест,Felgeste,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.65
+star,Star,66,Рекц,Rex,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.66
+star,Star,67,Сезерк,Sezerke,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.67
+star,Star,68,Укфал,Ukphal,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.68
+star,Star,69,Сезмен,Sezmen,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.69
+star,Star,70,Тортугац,Tortugatz,Star.Small,localized_name_pool,CFG/Rus/Lang.dat,Star.70
+star,Star,71,Нифигац,Nifigatz,Star.Normal,localized_name_pool,CFG/Rus/Lang.dat,Star.71
+star,Star,Terron,Гралгар,Gralgar,,localized_name_pool,CFG/Rus/Lang.dat,Star.Terron
+planet,Fei,01,Умий,Umius,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.01
+planet,Fei,02,Эйпентак,Eipentak,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.02
+planet,Fei,03,Эйланк,Eilank,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.03
+planet,Fei,04,Априш,Aprish,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.04
+planet,Fei,05,Энейкал,Eneical,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.05
+planet,Fei,06,Эллента,Ellenta,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.06
+planet,Fei,07,Омдей,Omdey,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.07
+planet,Fei,08,Антибий,Antibius,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.08
+planet,Fei,09,Иньянд,Inyand,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.09
+planet,Fei,10,Ахандиш,Akhandish,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.10
+planet,Fei,11,Оннд,Onnd,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.11
+planet,Fei,12,Ушалла,Ushalla,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.12
+planet,Fei,13,Индерон,Inderon,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.13
+planet,Fei,14,Эйманаполон,Eimanapolon,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.14
+planet,Fei,15,Алганак,Alganak,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.15
+planet,Fei,16,Уммадан,Ummaden,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.16
+planet,Fei,17,Эйф,Eif,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.17
+planet,Fei,18,Эшнинк,Eshnink,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.18
+planet,Fei,19,Альянони,Alyanony,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.19
+planet,Fei,20,Эгмер,Egmer,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.20
+planet,Fei,21,Итниклей,Itniglue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.21
+planet,Fei,22,Лантинда,Lantinda,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.22
+planet,Fei,23,Умартаниш,Umartanish,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.23
+planet,Fei,24,Асасот,Asasot,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.24
+planet,Fei,25,Уннун,Unnun,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.25
+planet,Fei,26,Игмейриш,Igmeirish,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.26
+planet,Fei,27,Инклада,Inklada,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.27
+planet,Fei,28,Аммарк,Ammark,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.28
+planet,Fei,29,Узуни,Uzuny,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.29
+planet,Fei,30,Ириниа,Irinia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.30
+planet,Fei,31,Эфэймел,Efeimel,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.31
+planet,Fei,32,Айданго,Eidango,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.32
+planet,Fei,35,Ихинш,Ikhinsh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.35
+planet,Fei,36,Орналиш,Ornalish,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.36
+planet,Fei,37,Эмзема,Emzema,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.37
+planet,Fei,38,Асьян,Asyan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.38
+planet,Fei,39,Илгадак,Ilgadok,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.39
+planet,Fei,40,Улиаллян,Ulliallyan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.40
+planet,Fei,41,Айзагондин,Eizagondin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.41
+planet,Fei,42,Ишгибнул,Ishgibnul,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.42
+planet,Fei,43,Эфмма,Efmma,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.43
+planet,Fei,44,Уккунай,Ukkunay,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.44
+planet,Fei,45,Эзэбан,Ezeban,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.45
+planet,Fei,46,Оминена,Ominena,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.46
+planet,Fei,47,Аглея,Agleya,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.47
+planet,Fei,48,Ондеранш,Onderansh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.48
+planet,Fei,49,Улгеуни,Ulgeuny,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.49
+planet,Fei,50,Илгос,Ilgos,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.50
+planet,Fei,51,Агунниш,Agunnish,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.51
+planet,Fei,52,Эзиленк,Ezilenk,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.52
+planet,Fei,53,Унданка,Undanka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.53
+planet,Fei,54,Ижаита,Izhaita,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.54
+planet,Fei,55,Опренин,Oprenin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.55
+planet,Fei,56,Аффам,Affam,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.56
+planet,Fei,57,Онтакалани,Ontakalany,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.57
+planet,Fei,58,Удитамир,Uditamire,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.58
+planet,Fei,59,Упранай,Upraney,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.59
+planet,Fei,60,Эшшикул,Eshikul,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.60
+planet,Fei,61,Анголай,Angoley,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.61
+planet,Fei,62,Омьяла,Omyala,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.62
+planet,Fei,63,Эжидан,Ezhidan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.63
+planet,Fei,64,Углаха,Uglakha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.64
+planet,Fei,65,Изитри,Izitry,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.65
+planet,Fei,66,Элкада,Elkada,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.66
+planet,Fei,67,Алис,Alice,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.67
+planet,Fei,68,Унганамерун,Unganamerun,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.68
+planet,Fei,69,Эрпагай,Erpagey,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.69
+planet,Fei,70,Апр,Apr,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Fei.70
+planet,Gaal,01,Дуэдэ,Duede,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.01
+planet,Gaal,02,Гаалдок,Hahaldock,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.02
+planet,Gaal,03,Банана,Banana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.03
+planet,Gaal,04,Бооз,Bohoz,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.04
+planet,Gaal,05,Зоолто,Zoholto,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.05
+planet,Gaal,06,Раалито,Rahalito,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.06
+planet,Gaal,07,Мэдэрито,Mederito,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.07
+planet,Gaal,08,Роока,Rohoka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.08
+planet,Gaal,09,Мэнэкато,Menecato,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.09
+planet,Gaal,10,Гайна,Heina,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.10
+planet,Gaal,11,Заа,Zaha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.11
+planet,Gaal,12,Зэмин,Zemin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.12
+planet,Gaal,13,Рэдэа,Redea,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.13
+planet,Gaal,14,Пунэ-анита,Pune-anita,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.14
+planet,Gaal,15,Сиалла,Sialla,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.15
+planet,Gaal,16,Толт-гаин,Tolt-Hain,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.16
+planet,Gaal,17,Риолки,Riolky,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.17
+planet,Gaal,18,Уудлана,Uhudlana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.18
+planet,Gaal,19,Палтеомео,Palteomeo,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.19
+planet,Gaal,20,Запаас,Zapahas,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.20
+planet,Gaal,21,Орооген,Orohogen,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.21
+planet,Gaal,22,Илоока,Ilohoka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.22
+planet,Gaal,23,Проон,Prohont,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.23
+planet,Gaal,24,Элуана,Eluana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.24
+planet,Gaal,25,Летамаи,Letamay,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.25
+planet,Gaal,26,Лиеная-ва,Lienay-va,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.26
+planet,Gaal,27,Кэйинаа,Keyinaha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.27
+planet,Gaal,28,Эуруаат,Euruahat,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.28
+planet,Gaal,29,Калионтоо,Kaliontoho,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.29
+planet,Gaal,30,Роол,Rohol,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.30
+planet,Gaal,31,Рантаас,Rantahas,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.31
+planet,Gaal,32,Галтайя,Galteya,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.32
+planet,Gaal,33,Ото-рара,Oto-rara,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.33
+planet,Gaal,34,Унотака,Unotaka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.34
+planet,Gaal,35,Га-по,Ha-poe,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.35
+planet,Gaal,36,Шолоани,Sholohany,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.36
+planet,Gaal,37,Гаил-отни,Hail-otny,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.37
+planet,Gaal,38,Иилтайя,Ihiltaya,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.38
+planet,Gaal,39,Силоо,Siloho,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.39
+planet,Gaal,40,Лу-пуру,Lu-pupurue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.40
+planet,Gaal,41,Заваи,Zavay,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.41
+planet,Gaal,42,Эллэ,Elle,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.42
+planet,Gaal,43,Люсьяан,Lyusyahan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.43
+planet,Gaal,44,Онге-аммиа,Onghe-ammia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.44
+planet,Gaal,45,Авиинэ,Avihine,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.45
+planet,Gaal,46,Абэва,Abeva,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.46
+planet,Gaal,47,Улри-анит,Ulry-anit,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.47
+planet,Gaal,48,Арти-лит,Arty-lit,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.48
+planet,Gaal,49,Брэ-гедне,Bre-gedne,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.49
+planet,Gaal,50,Суали,Sualy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.50
+planet,Gaal,51,Аа-оги,Aha-ogy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.51
+planet,Gaal,52,Дана-иа,Dana-ia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.52
+planet,Gaal,53,Гасьяин,Hasyain,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.53
+planet,Gaal,54,Литт-умиа,Litt-umia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.54
+planet,Gaal,55,Данио,Danio,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.55
+planet,Gaal,56,Эноро-инит,Enoro-init,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.56
+planet,Gaal,57,Линиа,Linia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.57
+planet,Gaal,58,Ранто-муна,Ranto-mune,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.58
+planet,Gaal,59,Гоол-ана,Hohol-ana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.59
+planet,Gaal,60,Алмаан-утэ,Almahan-uteb,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.60
+planet,Gaal,61,Аурумэа,Aurumea,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.61
+planet,Gaal,62,Иас-аната,Ias-anata,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.62
+planet,Gaal,63,Глассии-наи,Glassee-nai,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.63
+planet,Gaal,64,Аллоро-бисти,Alloro-bisty,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.64
+planet,Gaal,65,Пудру-ои,Pudrue-oi,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.65
+planet,Gaal,66,Омаки-ена,Omaky-ena,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.66
+planet,Gaal,67,Фаввап-ог,Favvap-og,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.67
+planet,Gaal,68,Ситра-аандо,Sitra-ahando,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.68
+planet,Gaal,69,Гаштик-чина,Gashtik-china,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.69
+planet,Gaal,70,Липа-иуи,Lipa-iuy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Gaal.70
+planet,Maloc,01,Арнарик Гаудад,Arnarick Guadad,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.01
+planet,Maloc,02,Рамгатру,Ramgatrue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.02
+planet,Maloc,03,Проту Памперой,Protue Pamperoy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.03
+planet,Maloc,04,Дрэдну-астан,Dreadnue-astan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.04
+planet,Maloc,05,Зэнтак,Zantak,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.05
+planet,Maloc,06,Орсту-оудид,Orstue-odid,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.06
+planet,Maloc,07,Тантак Тампарт,Tanntack Pampart,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.07
+planet,Maloc,08,Гордиу Прэту,Godiue Pratue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.08
+planet,Maloc,09,Ойдэр-амарод,Oider-amarod,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.09
+planet,Maloc,10,Гранэка,Graneka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.10
+planet,Maloc,11,Тригит-аугро,Trigit-augro,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.11
+planet,Maloc,12,Ханой,Khanoy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.12
+planet,Maloc,13,Трад Рраг,Trad Rack,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.13
+planet,Maloc,14,Айхарру Меддона,Aikharrue Meddona,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.14
+planet,Maloc,15,Аррака Гатру,Arracka Gatrue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.15
+planet,Maloc,16,Кнэту,Knetue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.16
+planet,Maloc,17,Грнадок-умак,Grnadock-umack,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.17
+planet,Maloc,18,Урсана Гусс,Ursana Guss,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.18
+planet,Maloc,19,Мабэл,Mabel,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.19
+planet,Maloc,20,Ойкнур Бад,Oiknur Bad,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.20
+planet,Maloc,21,Шэга Кри,Shega Krie,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.21
+planet,Maloc,22,Малари,Malary,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.22
+planet,Maloc,23,Урда Гал,Urda Gal,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.23
+planet,Maloc,24,Зарик Мугудун,Zarik Mugund,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.24
+planet,Maloc,25,Дна Гуранд,Dna Gurand,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.25
+planet,Maloc,26,Уманит,Umanit,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.26
+planet,Maloc,27,Уграр Лато,Ugrar Lato,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.27
+planet,Maloc,28,Зунуассод,Zunuassod,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.28
+planet,Maloc,29,Аррагид-асда,Arragid-asda,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.29
+planet,Maloc,30,Самтару,Samtarue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.30
+planet,Maloc,31,Дагод,Dagod,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.31
+planet,Maloc,32,Прэдид Руканай,Predid Rukanay,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.32
+planet,Maloc,33,Дакот Руканай,Dakot Rukanay,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.33
+planet,Maloc,34,Сабзда Руканай,Sabzda Rukanay,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.34
+planet,Maloc,35,Ихмег-элло,Ikhmeg-ello,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.35
+planet,Maloc,36,Ирузгартод,Iruzgartod,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.36
+planet,Maloc,37,Гонт Марин,Gont Marin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.37
+planet,Maloc,38,Вакси-арналу,Vaxie-arnalue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.38
+planet,Maloc,39,Задлорт,Zadlort,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.39
+planet,Maloc,40,Ахманой Прэкти,Akhmanoy Prekty,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.40
+planet,Maloc,41,Могпин Роу,Mogpin Roe,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.41
+planet,Maloc,42,Гдул-онролд,Gdul-onrold,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.42
+planet,Maloc,43,Эллатна Марко,Ellatna Marko,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.43
+planet,Maloc,44,Загэдит,Zagedit,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.44
+planet,Maloc,45,Кмэртил,Kmertil,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.45
+planet,Maloc,46,Пра-абийнит,Pra-abiynitz,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.46
+planet,Maloc,47,Хазэнна,Khazenna,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.47
+planet,Maloc,48,Вирт,Virt,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.48
+planet,Maloc,49,Ин-акрэнли,In-akrenly,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.49
+planet,Maloc,50,Латот Кирамас,Latot Kiramas,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.50
+planet,Maloc,51,Грагодр,Gragodr,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.51
+planet,Maloc,52,Бробис Дану,Brobis Danue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.52
+planet,Maloc,53,Юждана-мэлис,Yuzhdana-melis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.53
+planet,Maloc,54,Раптенти,Raptenty,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.54
+planet,Maloc,55,Барракарта,Barracard,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.55
+planet,Maloc,56,Тристи,Tristie,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.56
+planet,Maloc,57,Вагдитай,Vagdity,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.57
+planet,Maloc,58,Эну-апригга,Enue-aprigga,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.58
+planet,Maloc,59,Хракундо-майра,Khrakundo-mayra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.59
+planet,Maloc,60,Беринар Даг,Berinar Dag,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.60
+planet,Maloc,61,Вактос,Vactos,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.61
+planet,Maloc,62,Драшта Ронги,Drashta Rongy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.62
+planet,Maloc,63,Гемерт,Hemert,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.63
+planet,Maloc,64,Мирроки,Mirroky,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.64
+planet,Maloc,65,Кудладра Гад,Kudladra Gad,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.65
+planet,Maloc,66,Зушту-оуги,Suzhtue-ogy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.66
+planet,Maloc,67,Тисси Рад,Tissie Rad,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.67
+planet,Maloc,68,Лестанг,Lestang,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.68
+planet,Maloc,69,Пракинрой,Prakinroy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.69
+planet,Maloc,70,Днориу Гадзека,Dnoriue Gadzeka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Maloc.70
+planet,None,001,Хартис,Hartis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.001
+planet,None,002,Калайна,Kalayna,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.002
+planet,None,003,Унашера,Unashera,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.003
+planet,None,004,Ванг,Vang,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.004
+planet,None,005,Престон,Preston,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.005
+planet,None,006,Дайтола,Daitola,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.006
+planet,None,007,Увадол,Uvadol,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.007
+planet,None,008,Листин,Listin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.008
+planet,None,009,Узза,Uzza,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.009
+planet,None,010,Амикл,Amicle,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.010
+planet,None,011,Цинея,Ciney,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.011
+planet,None,012,Айзас,Eizas,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.012
+planet,None,013,Паракелдо,Parakeldo,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.013
+planet,None,014,Жарну,Zharnue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.014
+planet,None,015,Ранепрон,Raneprone,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.015
+planet,None,016,Мерисис,Mersis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.016
+planet,None,017,Мулнао,Mulnao,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.017
+planet,None,018,Пхати,Pkhaty,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.018
+planet,None,019,Бернут,Bernut,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.019
+planet,None,020,Айна-вера,Aina-vera,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.020
+planet,None,021,Гунгана,Gungana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.021
+planet,None,022,Занландия,Zanland,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.022
+planet,None,023,Рокша,Roksha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.023
+planet,None,024,Литти,Littie,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.024
+planet,None,025,Хангадор,Gangador,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.025
+planet,None,026,Юкка,Yukka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.026
+planet,None,027,Выньдабрось,Comegetsome,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.027
+planet,None,028,Фанкор,Fankor,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.028
+planet,None,029,Ялгаза,Yalgaza,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.029
+planet,None,030,Перетур,Pereture,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.030
+planet,None,031,Земля Юкаса,Yukas' Earth,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.031
+planet,None,032,Пранш,Pransh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.032
+planet,None,033,Диамаси,Diamasy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.033
+planet,None,034,Цыбаррак,Cibarrack,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.034
+planet,None,035,Жоржо,Gorgio,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.035
+planet,None,036,Ланка Стратин,Lanka Stratin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.036
+planet,None,037,Негляш,Neglyash,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.037
+planet,None,038,Лайкамуэрте,Likamuerte,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.038
+planet,None,039,Эйя,Eiya,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.039
+planet,None,040,Суджим,Sujim,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.040
+planet,None,041,Баркаг,Barcag,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.041
+planet,None,042,Агасли,Agasly,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.042
+planet,None,043,Ксарцимус,Xarcimus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.043
+planet,None,044,Неосфена,Neosphene,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.044
+planet,None,045,Хард Кор,Hard Core,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.045
+planet,None,046,Заповедный Кучгун,Sanctuary Kuchgun,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.046
+planet,None,047,Дипа,Dipa,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.047
+planet,None,048,Мурены,Moreys,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.048
+planet,None,049,Энжа,Angia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.049
+planet,None,050,Гаших,Gashikh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.050
+planet,None,051,Уррагах,Urragakh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.051
+planet,None,052,Менна Геацин,Menna Geacine,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.052
+planet,None,053,Ощили,Oshchily,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.053
+planet,None,054,Чанга,Changa,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.054
+planet,None,055,Донный Песок,Benthal Sand,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.055
+planet,None,056,Ляйка,Laika,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.056
+planet,None,057,Муйнус,Muynus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.057
+planet,None,058,Фаргадры,Fargadry,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.058
+planet,None,059,Панка Айлори,Panka Ailory,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.059
+planet,None,060,Гнады,Gnady,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.060
+planet,None,061,Занма,Zanma,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.061
+planet,None,062,Эйнанала,Einanala,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.062
+planet,None,063,Бек,Bek,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.063
+planet,None,064,Алексания,Alexania,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.064
+planet,None,065,Хуку,Hukue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.065
+planet,None,066,Листия,Listia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.066
+planet,None,067,Арта-лораг,Arta-lorag,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.067
+planet,None,068,Гемезда,Hemezda,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.068
+planet,None,069,Боннасис,Bonnasis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.069
+planet,None,070,Юблар,Jublar,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.070
+planet,None,071,Женеба,Zhenebe,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.071
+planet,None,072,Каракас Мальора,Malior Carcass,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.072
+planet,None,073,Ад,Hell,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.073
+planet,None,074,Рай,Heaven,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.074
+planet,None,075,Чистилище,Limbo,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.075
+planet,None,076,Дуада,Duade,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.076
+planet,None,077,Перегон,Stage,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.077
+planet,None,078,Глоткус,Glotcus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.078
+planet,None,079,Дарзания,Darzania,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.079
+planet,None,080,Претун,Pretun,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.080
+planet,None,081,Моква,Mokva,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.081
+planet,None,082,Шун,Shun,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.082
+planet,None,083,Доррис Кага,Dorris Kaga,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.083
+planet,None,084,Ултиро,Ultiro,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.084
+planet,None,085,Горик,Gorick,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.085
+planet,None,086,Жинтибус,Zhintibus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.086
+planet,None,087,Саввала,Savvala,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.087
+planet,None,088,Лири,Liry,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.088
+planet,None,089,Ургу,Urgue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.089
+planet,None,090,Вестала,Vestala,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.090
+planet,None,091,Длори,Dlory,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.091
+planet,None,092,Бгасак,Bgasack,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.092
+planet,None,093,Кнут,Knout,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.093
+planet,None,094,Финнириве,Phinnirive,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.094
+planet,None,095,Айкен Ма,Aiken Ma,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.095
+planet,None,096,Хорхи,Horkhy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.096
+planet,None,097,Траннбаш,Trannabash,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.097
+planet,None,098,Земля Белышева,Belishev Earth,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.098
+planet,None,099,Безымянная,Unnamed,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.099
+planet,None,100,Пуркатор,Purkator,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.100
+planet,None,101,Мепла,Mepla,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.101
+planet,None,102,Люнкун,Lyunkun,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.102
+planet,None,103,Пустарга,Pustarga,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.103
+planet,None,104,Баххус,Bakhus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.104
+planet,None,105,Саанори,Sahanory,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.105
+planet,None,106,Жистин,Zhistin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.106
+planet,None,107,Азадагра,Azadagra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.107
+planet,None,108,Меркатори,Mercatory,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.108
+planet,None,109,Пинна,Pinna,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.109
+planet,None,110,Камут,Kamut,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.110
+planet,None,111,Лейна,Leine,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.111
+planet,None,112,Базар,Market,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.112
+planet,None,113,Прессимо,Pressimo,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.113
+planet,None,114,Раптис,Raptis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.114
+planet,None,115,Большой Чимек,Big Chimek,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.115
+planet,None,116,Рис,Rice,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.116
+planet,None,117,Лайлаш,Leilash,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.117
+planet,None,118,Фиолет,Violet,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.118
+planet,None,119,Брапхор,Brapkhor,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.119
+planet,None,120,Ханапутра,Khanaputra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.120
+planet,None,121,Изгинья,Izginya,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.121
+planet,None,122,Лекалос,Lekalos,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.122
+planet,None,123,Донш,Donsh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.123
+planet,None,124,Рапаха,Rapakha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.124
+planet,None,125,Дэу Ассори,Dewue Assory,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.125
+planet,None,126,Нуи,Nuy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.126
+planet,None,127,Вевы,Veve,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.127
+planet,None,128,Тлалак,Tlalack,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.128
+planet,None,129,Хотташи,Khottoshy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.129
+planet,None,130,Арнаул,Arnaul,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.130
+planet,None,131,Димезда,Dimezda,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.131
+planet,None,132,Икка,Ikka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.132
+planet,None,133,Русимет,Russimet,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.133
+planet,None,134,Хакл,Hakle,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.134
+planet,None,135,Чуйки,Chuiky,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.135
+planet,None,136,Локон,Curl,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.136
+planet,None,137,Пунисе,Punisse,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.137
+planet,None,138,Драдор,Dreador,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.138
+planet,None,139,Башна,Bashna,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.139
+planet,None,140,Переплет,Mess,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.140
+planet,None,141,Ибез,Ibez,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.141
+planet,None,142,Учкундин,Uchkundin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.142
+planet,None,143,Керши,Kirshie,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.143
+planet,None,144,Винетт,Vinett,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.144
+planet,None,145,Клэдис,Cladis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.145
+planet,None,146,Бетх,Betkh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.146
+planet,None,147,Ларлори,Larlory,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.147
+planet,None,148,Аскасинаш,Askasinash,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.148
+planet,None,149,Зона,Zone,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.149
+planet,None,150,Суссик,Sussick,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.150
+planet,None,151,Дитер,Diter,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.151
+planet,None,152,Робарра,Robarra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.152
+planet,None,153,Прусаг,Prusag,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.153
+planet,None,154,Люминиор,Luminior,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.154
+planet,None,155,Авен,Aven,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.155
+planet,None,156,Клакла,Klakla,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.156
+planet,None,157,Хубериды,Hugberids,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.157
+planet,None,158,Дора,Dora,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.158
+planet,None,159,Эзмеральда,Ezmeralda,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.159
+planet,None,160,Пинки,Pinky,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.160
+planet,None,161,Ферфекс,Farevex,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.161
+planet,None,162,Бульба,Bulba,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.162
+planet,None,163,Сиамин,Siamin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.163
+planet,None,164,Челемсан,Chelemsan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.164
+planet,None,165,Киноччи,Kinochy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.165
+planet,None,166,Селеу-данган,Seleue-dangan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.166
+planet,None,167,Эрнедис,Ernedis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.167
+planet,None,168,Пиррикака,Pirrikaka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.168
+planet,None,169,Цуккар,Suggar,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.169
+planet,None,170,Зиралдак,Ziraldack,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.170
+planet,None,171,Язаны,Yazans,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.171
+planet,None,172,Ленсин,Lensin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.172
+planet,None,173,Шлагон,Shlagon,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.173
+planet,None,174,Вапиури,Vampiury,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.174
+planet,None,175,Ламкенг,Lamkeng,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.175
+planet,None,176,Джадда,Jadda,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.176
+planet,None,177,Сизиф,Sisyphus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.177
+planet,None,178,Элеонеарх,Eleonearch,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.178
+planet,None,179,Криптид,Cryptid,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.179
+planet,None,180,Сусандр,Susander,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.180
+planet,None,181,Бунней,Bunney,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.181
+planet,None,182,Вьюга,Blizzard,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.182
+planet,None,183,Силести,Silesty,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.183
+planet,None,184,Риппо,Rippo,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.184
+planet,None,185,Аленга,Alenga,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.185
+planet,None,186,Кьянма,Kyanma,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.186
+planet,None,187,Сушка Пайбола,Paiball Drying,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.187
+planet,None,188,Трашея,Trashey,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.188
+planet,None,189,Диндарэ,Dindare,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.189
+planet,None,190,Пелемпей,Pelempey,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.190
+planet,None,191,Хорч,Horch,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.191
+planet,None,192,Вангеш,Vangesh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.192
+planet,None,193,Дладиу,Dladiue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.193
+planet,None,194,Аэ,Ire,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.194
+planet,None,195,Биннари,Binnary,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.195
+planet,None,196,Диодар,Diodar,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.196
+planet,None,197,Пернеп,Pernep,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.197
+planet,None,198,Шаркан,Sharkhan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.198
+planet,None,199,Притло,Pritlo,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.199
+planet,None,200,Дудау,Dudau,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.200
+planet,None,201,Ненрит,Nenrit,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.201
+planet,None,202,Элеориати,Eleoriaty,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.202
+planet,None,203,Зехх,Zekh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.203
+planet,None,204,Смиряна,Smiryana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.204
+planet,None,205,Хухры,Khukhrs,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.205
+planet,None,206,Эйга,Eiga,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.206
+planet,None,207,Манса-укаш,Mansa-ukash,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.207
+planet,None,208,Риноа,Rinoa,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.208
+planet,None,209,Самма,Samma,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.209
+planet,None,210,Бестис,Bestis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.210
+planet,None,211,Логант,Logant,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.211
+planet,None,212,Креонар,Kreonar,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.212
+planet,None,213,Тюлды,Tyulds,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.213
+planet,None,214,Зимьяш,Zimyash,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.214
+planet,None,215,Цзы Марипу,Tzi Maripue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.215
+planet,None,216,Калку,Kalkue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.216
+planet,None,217,Санаполь,Sanapol,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.217
+planet,None,218,Бермелеа,Bermelea,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.218
+planet,None,219,Аррол,Arrol,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.219
+planet,None,220,Нанару,Nanarue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.220
+planet,None,221,Ложиман,Logiman,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.221
+planet,None,222,Днеа-рангут,Dnea-rangut,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.222
+planet,None,223,Банаферма,Banafarm,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.223
+planet,None,224,Цветок Ари,Arie Flower,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.224
+planet,None,225,Ашока,Ashoka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.225
+planet,None,226,Сизюн,Sizer,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.226
+planet,None,227,Минислав,Minislave,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.227
+planet,None,228,Гергедос,Hergedos,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.228
+planet,None,229,Вайпра,Vaipra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.229
+planet,None,230,Неонал,Neonal,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.230
+planet,None,231,Фандры,Phander,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.231
+planet,None,232,Беспедей,Bespeday,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.232
+planet,None,233,Умчун,Umshun,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.233
+planet,None,234,Перенис,Perenis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.234
+planet,None,235,Руптур,Ruptur,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.235
+planet,None,236,Ксенофас,Xenophas,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.236
+planet,None,237,Герхеды,Herkhedy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.237
+planet,None,238,Лисну,Lisnue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.238
+planet,None,239,Рратис,Rratis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.239
+planet,None,240,Зезден,Zezden,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.240
+planet,None,241,Валла Нео,Valla Neo,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.241
+planet,None,242,Кент,Kent,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.242
+planet,None,243,Рамфина,Ramphyne,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.243
+planet,None,244,Нэйя,Neya,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.244
+planet,None,245,Беллини,Belliny,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.245
+planet,None,246,Пурхен,Purkhen,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.246
+planet,None,247,Шиори,Shiorie,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.247
+planet,None,248,Днадзори,Dnadzory,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.248
+planet,None,249,Скуадро,Squadro,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.249
+planet,None,250,Аплит,Aplit,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.250
+planet,None,251,Настис,Nastis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.251
+planet,None,252,Заигра,Zaigra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.252
+planet,None,253,Вантра Молка,Vantra Molka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.253
+planet,None,254,Перистиду,Peristidue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.254
+planet,None,255,Лумпа Дэвид,Lumpa David,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.255
+planet,None,256,Цулолы,Tzulols,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.256
+planet,None,257,Яхчар,Yakhchar,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.257
+planet,None,258,Мениу,Meniue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.258
+planet,None,259,Онела,Onela,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.259
+planet,None,260,Майорбек,Majorbeck,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.260
+planet,None,261,Плистин,Plistine,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.261
+planet,None,262,Гайда,Hyde,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.262
+planet,None,263,Шархалла,Sharkhalla,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.263
+planet,None,264,Мурпс,Murps,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.264
+planet,None,265,Фобий,Phobia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.265
+planet,None,266,Барбадос,Barbados,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.266
+planet,None,267,Муринека,Murineck,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.267
+planet,None,268,Гунн,Hun,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.268
+planet,None,269,Ждана,Zhdana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.269
+planet,None,270,Силлис Олд,Sillis Old,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.270
+planet,None,271,Ванасу,Vanasue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.271
+planet,None,272,Ють Барра,Ut Barra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.272
+planet,None,273,Ферпсихена,Pherpsykhene,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.273
+planet,None,274,Зантр,Zanter,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.274
+planet,None,275,Шеша Мунека,Shesha Muneka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.275
+planet,None,276,Канай,Canay,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.276
+planet,None,277,Алевкап,Alevcap,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.277
+planet,None,278,Житнин,Zhitnin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.278
+planet,None,279,Бах,Bach,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.279
+planet,None,280,Винифрит,Vinifritis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.280
+planet,None,281,Каллы,Kalls,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.281
+planet,None,282,Аргемма,Arghemma,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.282
+planet,None,283,Лито,Lito,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.283
+planet,None,284,Семуна,Semune,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.284
+planet,None,285,Перостит,Perostitus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.285
+planet,None,286,Денки,Denky,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.286
+planet,None,287,Канкус,Cancus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.287
+planet,None,288,Пиреней,Pireneus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.288
+planet,None,289,Уллача,Ullacha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.289
+planet,None,290,Эженори,Egenory,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.290
+planet,None,291,Диастра,Diastra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.291
+planet,None,292,Ирса,Irsa,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.292
+planet,None,293,Кентра,Kentra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.293
+planet,None,294,Шинахарнад,Shinakhernad,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.294
+planet,None,295,Бенесеи,Benesey,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.295
+planet,None,296,Валлид,Vallid,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.296
+planet,None,297,Секундус Бралд,Secundus Brald,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.297
+planet,None,298,Площ,Ploshch,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.298
+planet,None,299,Сикотта,Sicotta,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.299
+planet,None,300,Леана-мие,Leana-mie,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.None.300
+planet,Peleng,01,Шухэо,Shukheo,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.01
+planet,Peleng,02,Рахиш,Rakhish,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.02
+planet,Peleng,03,Джыцказ,Gitzkaz,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.03
+planet,Peleng,04,Рехешлих,Rkheshlikh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.04
+planet,Peleng,05,Рокренха,Rokrenkha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.05
+planet,Peleng,06,Крынинг,Krining,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.06
+planet,Peleng,07,Тэудорх,Teudorkh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.07
+planet,Peleng,08,Шоргароц,Shorgharotz,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.08
+planet,Peleng,09,Гешши,Geshy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.09
+planet,Peleng,10,Ципца,Tziptza,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.10
+planet,Peleng,11,Зуягил,Zuyagil,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.11
+planet,Peleng,12,Джемих,Gemikh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.12
+planet,Peleng,13,Силиц,Silitz,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.13
+planet,Peleng,14,Рагц,Ragtz,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.14
+planet,Peleng,15,Урних,Urnikh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.15
+planet,Peleng,16,Питу,Pitue,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.16
+planet,Peleng,17,Бокалац,Bokalatz,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.17
+planet,Peleng,18,Шеша,Shesha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.18
+planet,Peleng,19,Каияха,Kayakha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.19
+planet,Peleng,20,Щимеа,Shchimea,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.20
+planet,Peleng,21,Зхот,Zkhot,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.21
+planet,Peleng,22,Дабозо,Dabozoe,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.22
+planet,Peleng,23,Гаргынг,Garging,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.23
+planet,Peleng,24,Чшаша,Chshasha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.24
+planet,Peleng,25,Алхацинг,Alkhatzing,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.25
+planet,Peleng,26,Хейнхарона,Kheinkharona,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.26
+planet,Peleng,27,Панг,Pang,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.27
+planet,Peleng,28,Гэжми,Gazhmy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.28
+planet,Peleng,29,Валуйх,Valuykh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.29
+planet,Peleng,30,Фычин,Phichin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.30
+planet,Peleng,31,Грамцы,Gramtzy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.31
+planet,Peleng,32,Иоханг,Yokhang,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.32
+planet,Peleng,33,Эрхенамат,Erkhenamat,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.33
+planet,Peleng,34,Сиязж,Siyazzh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.34
+planet,Peleng,35,Ракхарагог,Rakharogog,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.35
+planet,Peleng,36,Пресьян,Presyan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.36
+planet,Peleng,37,Лиюнта,Liyunta,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.37
+planet,Peleng,38,Ршаних,Rshanikh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.38
+planet,Peleng,39,Апенг,Apeng,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.39
+planet,Peleng,40,Зимер,Zimer,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.40
+planet,Peleng,41,Упканта,Upkanta,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.41
+planet,Peleng,42,Чичшаса,Chichshasa,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.42
+planet,Peleng,43,Дэзци,Deztzy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.43
+planet,Peleng,44,Гогецин,Gogetzin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.44
+planet,Peleng,45,Улфенгих,Ulfengikh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.45
+planet,Peleng,46,Гишлинг,Gishling,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.46
+planet,Peleng,47,Доцакхур,Dotzakhur,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.47
+planet,Peleng,48,Эухпрах,Eukhprakh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.48
+planet,Peleng,49,Умаргацин,Umargatzin,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.49
+planet,Peleng,50,Хынг,Khing,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.50
+planet,Peleng,51,Чинг,Ching,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.51
+planet,Peleng,52,Пхаяха,Pkhayakha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.52
+planet,Peleng,53,Суйхиса,Sujkhisa,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.53
+planet,Peleng,54,Эчихмек,Echikhmek,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.54
+planet,Peleng,55,Нуцбаша,Nutzbasha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.55
+planet,Peleng,56,Ленших,Lenshikh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.56
+planet,Peleng,57,Ашьямпа,Ashjampa,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.57
+planet,Peleng,58,Рагайх,Ragaikh,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.58
+planet,Peleng,59,Гуйхинанг,Gujkhinang,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.59
+planet,Peleng,60,Титичафа,Titishapha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.60
+planet,Peleng,61,Лехайха,Lekhaikha,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.61
+planet,Peleng,62,Жалта,Zhalta,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.62
+planet,Peleng,63,Щирашка,Shchirashka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.63
+planet,Peleng,64,Жаншема,Zhanshema,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.64
+planet,Peleng,65,Гаргациг,Gargatzig,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.65
+planet,Peleng,66,Драначчи,Dranachy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.66
+planet,Peleng,67,Кейка,Keika,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.67
+planet,Peleng,68,Радацуй,Radatzuy,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.68
+planet,Peleng,69,Бихкена,Bikhkena,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.69
+planet,Peleng,70,Лиянтаг,Liyantag,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Peleng.70
+planet,People,01,Юникс,Unix,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.01
+planet,People,02,Эрания,Arania,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.02
+planet,People,03,Аксельман,Axelman,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.03
+planet,People,04,Бета-ионис,Beta-ionis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.04
+planet,People,05,Калаган,Kalagan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.05
+planet,People,06,Линукс,Linux,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.06
+planet,People,07,Стопка,Shot,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.07
+planet,People,08,Запорожец,Zaporozhets,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.08
+planet,People,09,Халгалла,Hullgalla,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.09
+planet,People,10,Астрон,Astron,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.10
+planet,People,11,Элиния,Elinia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.11
+planet,People,12,Большой котел,Big Cauldron,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.12
+planet,People,13,Палец Геракла,Heracle Finger,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.13
+planet,People,14,Святая Барбара,Santa Barbara,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.14
+planet,People,15,Инкара,Incara,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.15
+planet,People,16,Малис Каланка,Malis Calanka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.16
+planet,People,17,Перчатка,Glove,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.17
+planet,People,18,Новые Фивы,New Thiva,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.18
+planet,People,19,Орленон,Orlenon,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.19
+planet,People,20,Упсала-вега,Uppsala-Vega,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.20
+planet,People,21,Полуось,Axle,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.21
+planet,People,22,Дассилон,Dassilon,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.22
+planet,People,23,Юнасис,Unasis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.23
+planet,People,24,Персефона,Persephone,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.24
+planet,People,25,Прокрут,Prokrut,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.25
+planet,People,26,Надежда,Hope,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.26
+planet,People,27,Плиний,Plinius,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.27
+planet,People,28,Капабланка,Capablanca,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.28
+planet,People,29,Еврейский дом,Hanukah,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.29
+planet,People,30,Порт Улисс,Uliss Port,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.30
+planet,People,31,Грюнвальд,Grunwald,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.31
+planet,People,32,Малый Артур,Small Arthur,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.32
+planet,People,33,Окошки,Windows,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.33
+planet,People,34,Симбимелла,Simbimella,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.34
+planet,People,35,Ламайла,Lamaila,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.35
+planet,People,36,Матрешка,Nesting Doll,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.36
+planet,People,37,Глинозем,Alumina,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.37
+planet,People,38,Кресты,Crosses,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.38
+planet,People,39,Аурелий,Aurelius,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.39
+planet,People,40,Неолангория,Neolangoria,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.40
+planet,People,41,Каменков,Kamenkov,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.41
+planet,People,42,Сибил,Sybill,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.42
+planet,People,43,Райнтроп,Raintrop,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.43
+planet,People,44,Аквалгон,Aqualgon,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.44
+planet,People,45,Селиван,Selivan,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.45
+planet,People,46,Гранд Конкорд,Grand Concorde,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.46
+planet,People,47,Лорена,Lorena,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.47
+planet,People,48,Россияночка,Rossiyanochka,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.48
+planet,People,49,Понт,Pont,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.49
+planet,People,50,Курдания,Qurdania,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.50
+planet,People,51,Земля Ликсана,Lixan Land,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.51
+planet,People,52,Велеция,Velecia,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.52
+planet,People,53,Уцар,Utzar,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.53
+planet,People,54,Парк Керала,Kerala Park,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.54
+planet,People,55,Агора,Agora,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.55
+planet,People,56,Контемптис,Contemptis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.56
+planet,People,57,Лейра,Leyra,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.57
+planet,People,58,Винитрон,Vinitron,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.58
+planet,People,59,Будана,Budana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.59
+planet,People,60,Корриоли,Corriolli,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.60
+planet,People,61,Чакус,Chakus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.61
+planet,People,62,Байгал,Bygal,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.62
+planet,People,63,Большой Барьер,Big Barrier,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.63
+planet,People,64,Малый Барьер,Small Barrier,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.64
+planet,People,65,Лескана,Leskana,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.65
+planet,People,66,Яшма,Jasper,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.66
+planet,People,67,Дора Презент,Dora Present,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.67
+planet,People,68,Пинта,Pint,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.68
+planet,People,69,Юллис,Jullis,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.69
+planet,People,70,Интагон,Intagon,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.People.70
+planet,PirateClan,01,Роджерия,Rogeria,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.PirateClan.01
+planet,PirateClan,02,Моновар,Monovar,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.PirateClan.02
+planet,PirateClan,03,Шхуна,Schooner,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.PirateClan.03
+planet,PirateClan,04,Жемчужина,Pearl,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.PirateClan.04
+planet,PirateClan,05,Фале-де-Фей,Fale-de-Fae,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.PirateClan.05
+planet,PirateClan,06,Гаалеон,Gaaleon,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.PirateClan.06
+planet,Solar,0,Меркурий,Mercury,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.0
+planet,Solar,1,Венера,Venus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.1
+planet,Solar,2,Земля,Earth,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.2
+planet,Solar,3,Марс,Mars,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.3
+planet,Solar,4,Юпитер,Jupiter,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.4
+planet,Solar,5,Сатурн,Saturn,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.5
+planet,Solar,6,Нептун,Neptune,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.6
+planet,Solar,7,Уран,Uranus,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.7
+planet,Solar,8,Плутон,Pluto,,localized_name_pool,CFG/Rus/Lang.dat,PlanetName.Solar.8
+station,BK,1,Эконом,Economist,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.1
+station,BK,10,Высокой активности,High Activity,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.10
+station,BK,11,Толстяк,Fatman,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.11
+station,BK,12,Красный барон,Red Baron,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.12
+station,BK,13,Мудрый горец,Wise Highlander,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.13
+station,BK,14,Золотой телец,Golden Calf,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.14
+station,BK,15,Выгодный процент,Lucrative Interest,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.15
+station,BK,16,Денежных переводов,Wire Transfer,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.16
+station,BK,17,Депозит,Deposit,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.17
+station,BK,18,Биржевой маклер,Stock Brocker,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.18
+station,BK,19,Магнат,Magnate,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.19
+station,BK,2,Инкомат,Incomatic,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.2
+station,BK,20,Сидоровича,Johnson,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.20
+station,BK,21,Толстосум,Moneybags,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.21
+station,BK,22,Олигарх,Oligarch,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.22
+station,BK,23,Делец,Dealer,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.23
+station,BK,24,Большой куш,Big Score,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.24
+station,BK,25,Вклад,Contribution,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.25
+station,BK,26,Ипотека,Mortgage,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.26
+station,BK,27,Аудитор,Auditor,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.27
+station,BK,28,Зелени,Greens,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.28
+station,BK,29,Заём,Loan,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.29
+station,BK,3,Инвестор,Investor,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.3
+station,BK,30,Денежная лавка,Money Store,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.30
+station,BK,31,Выгодной торговли,Lucrative Trade,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.31
+station,BK,32,Прииск,Mine,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.32
+station,BK,33,Алмазный,Adamantium,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.33
+station,BK,34,Платиновый,Platinum,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.34
+station,BK,35,Бриллиант,Diamond,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.35
+station,BK,36,Золотой,Gold,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.36
+station,BK,37,Финансовый поток,Financial Flow,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.37
+station,BK,38,Надежный,Reliable,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.38
+station,BK,39,Откат,Kickback,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.39
+station,BK,4,Неоэкономики,Neoeconomy,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.4
+station,BK,40,Авшор,Offshore,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.40
+station,BK,41,Бюджетный,Budget,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.41
+station,BK,42,Чиновник,Official,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.42
+station,BK,43,Виза,Visa,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.43
+station,BK,44,Партнёр,Partner,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.44
+station,BK,45,Выгодный контракт,Lucrative Contract,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.45
+station,BK,46,Банк,Bank,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.46
+station,BK,47,Накоплений,Savings,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.47
+station,BK,48,Миллионер,Millionaire,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.48
+station,BK,49,Щедрый,Generous,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.49
+station,BK,5,Кредитс,Credits,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.5
+station,BK,50,Жадный,Greedy,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.50
+station,BK,51,Экстрим,Extreme,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.51
+station,BK,6,Больших денег,Big Money,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.6
+station,BK,7,Гиперинфляции,Hyperinflation,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.7
+station,BK,8,Пакмен,Pac-Man,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.8
+station,BK,9,Резиновый,Rubber,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.BK.9
+station,CB,1,Ужас Коалиции,Horror of Coalition,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.1
+station,CB,10,Мрачный оскал,Sombre forest,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.10
+station,CB,11,Блэк Джек,Black Jack,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.11
+station,CB,12,Беспощадный,Pitiless,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.12
+station,CB,13,Курилка,Smoking room,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.13
+station,CB,14,Старая Нора,Old hole,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.14
+station,CB,15,Раздражитель,Irritant,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.15
+station,CB,16,Валгалла,Valhalla,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.16
+station,CB,17,Крюгер,Kruger,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.17
+station,CB,18,Оплот анархии,Bastion of anarchy,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.18
+station,CB,19,Сверхстарый,Super-old,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.19
+station,CB,2,Оскал смерти,Grin of death,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.2
+station,CB,20,Агрессия,Aggression,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.20
+station,CB,21,Коготь барона,Baron's claw,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.21
+station,CB,22,Конец света,Doomsday,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.22
+station,CB,23,Хэви метал,Heavy metal,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.23
+station,CB,24,Подлый трюк,Foul trick,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.24
+station,CB,25,Последний кошмар,Last nightmare,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.25
+station,CB,26,Черная жемчужина,Black pearl,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.26
+station,CB,27,Пиратская гавань,Pirate harbor,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.27
+station,CB,28,Вольница космоса,Space freedom,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.28
+station,CB,29,Заплати и лети,Pay'n'fly,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.29
+station,CB,3,Смертоносный,Deadly,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.3
+station,CB,30,Антагонист,Antagonist,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.30
+station,CB,31,Нонконформист,Nonconformist,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.31
+station,CB,32,Залетный,Straying asteroid,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.32
+station,CB,33,Пьяный кварк,Drunken quark,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.33
+station,CB,34,Шальной кредит,Crazy credit,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.34
+station,CB,4,Аннигилятор,Annihilator,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.4
+station,CB,5,Наследие Рачехана,Rachekhan's legacy,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.5
+station,CB,6,Черный Джокер,Black Joker,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.6
+station,CB,7,Сокрушитель миров,World crusher,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.7
+station,CB,8,Опасный,Dangerous,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.8
+station,CB,9,Успех пирата,Pirate success,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.CB.9
+station,MC,1,Стоматологии,Stomatology,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.1
+station,MC,10,Диетологии,Dietology,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.10
+station,MC,11,Скальпель,Scalpel,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.11
+station,MC,12,Кардиограмма,Cardiogram,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.12
+station,MC,13,Осколок,Splinter,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.13
+station,MC,14,Надежда,Hope,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.14
+station,MC,15,Имени Айболита,Dr. Doolittle,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.15
+station,MC,16,Лекарь,Medic,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.16
+station,MC,17,Нанохирургии,Nanosurgery,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.17
+station,MC,18,Карантин,Quarantine,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.18
+station,MC,19,Кардиохирургии,Cardiosurgery,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.19
+station,MC,2,Тихая обитель,Quiet Abode,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.2
+station,MC,20,Нейрон,Neuron,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.20
+station,MC,21,Перепонка,Drum,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.21
+station,MC,22,Имени Григория Хаты,House M.D.,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.22
+station,MC,23,Микроб,Microbe,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.23
+station,MC,24,Эритроцит,Erythrocyte,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.24
+station,MC,25,Антидот,Antidote,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.25
+station,MC,26,Противопередозировки,Antioverdose,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.26
+station,MC,27,Полезный вирус,Beneficial Virus,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.27
+station,MC,28,Вредное лекарство,Harmful Medicine,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.28
+station,MC,29,Таблетка,Pill,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.29
+station,MC,3,Последнее пристанище,Last Haven,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.3
+station,MC,30,Пилюля,Capsule,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.30
+station,MC,31,Касторка,Castor Oil,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.31
+station,MC,32,Противопростудный,Anticold,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.32
+station,MC,33,100 рентген,100 X-Rays,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.33
+station,MC,34,Зеленка,Antiseptic,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.34
+station,MC,35,Йод,Iodine,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.35
+station,MC,36,Стерильный,Sterile,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.36
+station,MC,37,Самолечения,Autotherapy,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.37
+station,MC,38,Градусник,Thermometer,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.38
+station,MC,39,Анальгетик,Analgesic,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.39
+station,MC,4,Ухогорлонос,ENT,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.4
+station,MC,40,Операций,Operations,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.40
+station,MC,41,Анестезии,Anesthesia,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.41
+station,MC,42,Капельница,IV,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.42
+station,MC,43,Клизма,Enema,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.43
+station,MC,44,Трезвый Хирург,Sober Surgeon,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.44
+station,MC,45,Утка,Duck,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.45
+station,MC,46,Постельного режима,Bed Rest,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.46
+station,MC,47,Автоклав,Autoclave,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.47
+station,MC,48,Реанимации,Reanimations,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.48
+station,MC,49,Диетологии,Dietitians,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.49
+station,MC,5,Шприц,Syringe,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.5
+station,MC,50,Психотерапевт,Therapist,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.50
+station,MC,51,Психоделия,Psychedelia,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.51
+station,MC,6,Автоматики,Automatics,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.6
+station,MC,7,Оздоровления,Recovery,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.7
+station,MC,8,Физкультуры,Phys Ed,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.8
+station,MC,9,Мечта,Dream,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.MC.9
+station,PB,1,Лисица,Fox,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.1
+station,PB,10,Ферзь,Queen,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.10
+station,PB,11,Мизгирь,Lycosa,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.11
+station,PB,12,Гнилая башка,Rotten Chump,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.12
+station,PB,13,Катакомба,Catacomb,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.13
+station,PB,14,Пасть волка,Wolf Jaws,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.14
+station,PB,15,Зуб дракона,Dragon Tooth,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.15
+station,PB,16,Весельчак,Merrymaker,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.16
+station,PB,17,Каракатица,Cuttlefish,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.17
+station,PB,18,Тормоз,Brake,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.18
+station,PB,19,Топор войны,War Axe,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.19
+station,PB,2,Ужастик,Thriller,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.2
+station,PB,20,Беспредел,Outlaw,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.20
+station,PB,21,Свалка трупов,Corpse Dump,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.21
+station,PB,22,Стервятники,Vultures,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.22
+station,PB,23,Коготь смерти,Death Claw,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.23
+station,PB,24,Перцы,Peppers,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.24
+station,PB,25,Язва,Ulcer,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.25
+station,PB,26,Солдат удачи,Soldier of Fortune,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.26
+station,PB,27,Кома,Comma,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.27
+station,PB,28,Черная,Black,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.28
+station,PB,29,Патоген,Pathogen,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.29
+station,PB,3,Террор,Terror,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.3
+station,PB,30,Травля,Hunt,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.30
+station,PB,31,Рачехан,Rachehan,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.31
+station,PB,32,Бабай,Boogieman,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.32
+station,PB,33,Черный краб,Black Crab,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.33
+station,PB,34,Контрабанды,Contraband,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.34
+station,PB,35,Курятник,Hen Coop,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.35
+station,PB,36,Копирайт,Copyright,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.36
+station,PB,37,Хакеров,Hackers,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.37
+station,PB,38,Череп,Skull,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.38
+station,PB,39,Веселый роджер,Jolly Roger,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.39
+station,PB,4,Глаза огня,Eyes of Flame,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.4
+station,PB,40,Скелет,Skeleton,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.40
+station,PB,41,Эпидемия,Epidemic,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.41
+station,PB,42,Острого перца,Hot Pepper,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.42
+station,PB,43,Тяжелого металла,Heavy Metal,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.43
+station,PB,44,Паяльник,Blowtorch,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.44
+station,PB,45,Кейген,Keygen,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.45
+station,PB,46,Распил,Saw Cut,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.46
+station,PB,47,Подполье,Underground,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.47
+station,PB,48,Матричный Агент,Matrix Agent,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.48
+station,PB,49,Кластер,Cluster,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.49
+station,PB,5,Фабрика грез,Dream Factory,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.5
+station,PB,50,Кряк,Quack,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.50
+station,PB,6,Сладкий плен,Sweet Captivity,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.6
+station,PB,7,Чучундра,Bugaboo,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.7
+station,PB,8,Флуктуация,Fluctuation,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.8
+station,PB,9,Шабаш,Coven,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.PB.9
+station,RC,1,Союз,Union,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.1
+station,RC,10,Беспечный,Carefree,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.10
+station,RC,11,Бриз,Breeze,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.11
+station,RC,12,Бетазоидов,Betazoids,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.12
+station,RC,13,Агат,Agate,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.13
+station,RC,14,Титан,Titan,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.14
+station,RC,15,Тополь,Poplar,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.15
+station,RC,16,Тысячелетия,Millennium,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.16
+station,RC,17,Старый,Old,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.17
+station,RC,18,Полюс мира,Celestial Pole,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.18
+station,RC,19,Рубин,Ruby,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.19
+station,RC,2,Странник,Wanderer,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.2
+station,RC,20,Мирный,Peaceful,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.20
+station,RC,21,Синий огонь,Blue Flame,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.21
+station,RC,22,Млечный путь,Milky Way,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.22
+station,RC,23,Пегас,Pegasus,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.23
+station,RC,24,Кристалл,Crystal,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.24
+station,RC,25,Сапфир,Sapphire,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.25
+station,RC,26,Кварц,Quartz,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.26
+station,RC,27,Первый,First,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.27
+station,RC,28,Протоплазменный,Protoplasmic,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.28
+station,RC,29,Мутёнок,Little Mutant,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.29
+station,RC,3,Мечтатель,Dreamer,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.3
+station,RC,30,Генератор,Generator,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.30
+station,RC,31,Отдыха,Respite,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.31
+station,RC,32,Кот,Cat,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.32
+station,RC,33,Иксианин,Ixianite,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.33
+station,RC,34,Легенда,Legend,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.34
+station,RC,35,Дикий огонь,Wildfire,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.35
+station,RC,36,Дружба,Friendship,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.36
+station,RC,37,Мост,Bridge,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.37
+station,RC,38,Транзистор,Transistor,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.38
+station,RC,39,Приращения,Increment,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.39
+station,RC,4,Ястреб,Hawk,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.4
+station,RC,40,Системник,Systematizer,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.40
+station,RC,41,Аккумулятор,Accumulator,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.41
+station,RC,42,Красивый,Lovely,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.42
+station,RC,43,Октаэдр,Octahedron,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.43
+station,RC,44,Гиперкуб,Hypercube,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.44
+station,RC,45,Дельфин,Dolphin,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.45
+station,RC,46,Фотон,Photon,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.46
+station,RC,47,Далёкий,Distant,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.47
+station,RC,48,Цветок,Flower,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.48
+station,RC,49,Фобос,Phobos,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.49
+station,RC,5,Тихий,Pacific,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.5
+station,RC,50,Европа,Europe,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.50
+station,RC,6,Кедр,Cedar,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.6
+station,RC,7,Защитник,Defender,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.7
+station,RC,8,Спокойный,Serene,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.8
+station,RC,9,Великий,Great,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.RC.9
+station,SB,1,Квантум,Quantum,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.1
+station,SB,10,Протуберанца,Protuberance,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.10
+station,SB,11,Магний,Magnesium,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.11
+station,SB,12,Розовый гаалец,Pink Gaal,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.12
+station,SB,13,Времени,Time,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.13
+station,SB,14,Генетики,Genetics,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.14
+station,SB,15,Полураспада,Half-Life,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.15
+station,SB,16,Банк вирусов,Virus Bank,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.16
+station,SB,17,Аномальная,Anomalous,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.17
+station,SB,18,Истории,History,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.18
+station,SB,19,Аннигиляции,Annihilation,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.19
+station,SB,2,Октан-99,Octane-99,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.2
+station,SB,20,Кибернетики,Cybernetics,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.20
+station,SB,21,Крио-разума,CryoIntelligence,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.21
+station,SB,22,Транспортная,Transport,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.22
+station,SB,23,Адаптивная,Adaptive,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.23
+station,SB,24,Чистого разума,Pure Reason,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.24
+station,SB,25,Вечности,Eternity,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.25
+station,SB,26,Бозон,Boson,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.26
+station,SB,27,Фэяночка,Faeyan Maiden,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.27
+station,SB,28,Звездного разума,Stellar Reason,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.28
+station,SB,29,Бесконечности,Infinity,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.29
+station,SB,3,Органики,Organic,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.3
+station,SB,30,Одиссей,Odysseus,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.30
+station,SB,31,Дедал,Daedalus,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.31
+station,SB,32,Прометей,Prometheus,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.32
+station,SB,33,Активации,Activation,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.33
+station,SB,34,Континуум,Continuum,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.34
+station,SB,35,Атом,Atom,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.35
+station,SB,36,Квантового Перемещения,Quantum Shift,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.36
+station,SB,37,Искусственного Интеллекта,Artificial Intelligence,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.37
+station,SB,38,Икар,Icarus,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.38
+station,SB,39,Обогащения Урана,Uranium Enrichment,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.39
+station,SB,4,Цирконий,Zirconium,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.4
+station,SB,40,Платиновый Стержень,Platinum Rod,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.40
+station,SB,41,Внедрения,Intrusion,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.41
+station,SB,42,Плазма,Plasma,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.42
+station,SB,43,Квантовый Генератор,Quantum Generator,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.43
+station,SB,44,Когерентное Излучение,Coherent Radiation,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.44
+station,SB,45,Дифракции,Diffraction,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.45
+station,SB,46,Интерференции,Interference,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.46
+station,SB,47,Ньютона,Newton,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.47
+station,SB,48,Эйнштейна,Einstein,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.48
+station,SB,49,Водород,Hydrogen,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.49
+station,SB,5,Тестирования,Testing,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.5
+station,SB,50,Радиоволна,Radiowave,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.50
+station,SB,6,Тахиона,Tachyon,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.6
+station,SB,7,Расщепления,Fission,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.7
+station,SB,8,Электрон,Electron,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.8
+station,SB,9,Протон,Proton,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.SB.9
+station,WB,1,Альфа,Alpha,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.1
+station,WB,10,Сокол,Falcon,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.10
+station,WB,11,Кинжал,Dagger,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.11
+station,WB,12,Циклон,Cyclone,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.12
+station,WB,13,Тайфун,Typhoon,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.13
+station,WB,14,Возмездие,Retribution,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.14
+station,WB,15,Тигр,Tiger,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.15
+station,WB,16,Берсерк,Berserker,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.16
+station,WB,17,Шива,Shiva,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.17
+station,WB,18,Шмель,Bumblebee,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.18
+station,WB,19,Вулкан,Vulcano,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.19
+station,WB,2,Бета,Beta,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.2
+station,WB,20,Удар,Strike,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.20
+station,WB,21,Ураган,Hurricane,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.21
+station,WB,22,Смерч,Tornado,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.22
+station,WB,23,Кобра,Cobra,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.23
+station,WB,24,Скорпион,Scorpion,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.24
+station,WB,25,Гром,Thunder,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.25
+station,WB,26,Гекар,Heracles,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.26
+station,WB,27,Центурион,Centurion,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.27
+station,WB,28,Стальной пес,Steel Hound,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.28
+station,WB,29,Сфинкс,Sphinx,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.29
+station,WB,3,Гамма,Gamma,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.3
+station,WB,30,Контроль,Control,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.30
+station,WB,31,Щит,Shield,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.31
+station,WB,32,Последний рубеж,Final Frontier,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.32
+station,WB,33,Передислокация,Redeployment,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.33
+station,WB,34,Штаб шпионажа,Espionage HQ,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.34
+station,WB,35,Штопор,Corkscrew,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.35
+station,WB,36,Винтовка Гаусса,Gauss Rifle,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.36
+station,WB,37,Стелс,Stealth,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.37
+station,WB,38,Антидоминатор,Antidominator,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.38
+station,WB,39,Разрыв,Rupture,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.39
+station,WB,4,Алмаз,Diamond,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.4
+station,WB,40,Калашникова,Kalashnikov,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.40
+station,WB,41,Буран,Blizzard,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.41
+station,WB,42,Зубр,Ace,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.42
+station,WB,43,Легион,Legion,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.43
+station,WB,44,Борец,Fighter,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.44
+station,WB,45,Страж,Guardian,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.45
+station,WB,46,Вторжения,Invasion,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.46
+station,WB,47,Мегатонна,Megaton,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.47
+station,WB,48,Арбалет,Crossbow,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.48
+station,WB,49,Стрелок,Gunner,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.49
+station,WB,5,Туман,Mist,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.5
+station,WB,50,Превентивного удара,Strike,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.50
+station,WB,6,Оскал,Scowl,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.6
+station,WB,7,Клык,Fang,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.7
+station,WB,8,Питон,Python,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.8
+station,WB,9,Грифон,Griffin,,localized_name_pool,CFG/Rus/Lang.dat,RuinName.WB.9

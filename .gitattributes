@@ -26,3 +26,6 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.webm filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
+
+# Сжатые индексы ресурсов: только метаданные, без игровых текстов.
+docs/encyclopedia/catalogs/*.json.gz filter=lfs diff=lfs merge=lfs -text

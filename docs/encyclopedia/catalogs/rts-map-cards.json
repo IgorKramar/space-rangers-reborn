@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "01",
+    "name_ru": "Дизодан в пустыне",
+    "name_en": "Desert Disodane",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "0",
+      "Length": "1",
+      "Map": "Desert1_3e.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Дизодан в пустыне",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.01"
+  },
+  {
+    "id": "02",
+    "name_ru": "Гранд-каньон",
+    "name_en": "Grand Canyon",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "0",
+      "Length": "2",
+      "Map": "Desert2_2e.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Гранд-каньон",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.02"
+  },
+  {
+    "id": "03",
+    "name_ru": "Остров Аленький",
+    "name_en": "Scarlet Island",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "0",
+      "Length": "1",
+      "Map": "Desert3_3e.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Остров Аленький",
+      "PlanetRace": "People,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.03"
+  },
+  {
+    "id": "04",
+    "name_ru": "Жуки",
+    "name_en": "Bugs",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Group": "0",
+      "Length": "2",
+      "Map": "Mars1_2e.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Жуки",
+      "PlanetRace": "Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.04"
+  },
+  {
+    "id": "05",
+    "name_ru": "Агрокишечный комплекс",
+    "name_en": "Agro-Intestinal Refinery",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Group": "0",
+      "Length": "3",
+      "Map": "Mars2_3e.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Агрокишечный комплекс",
+      "PlanetRace": "Maloc",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.05"
+  },
+  {
+    "id": "06",
+    "name_ru": "Гаальский квадрант",
+    "name_en": "Gaalian Quadrant",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Group": "0",
+      "Length": "1",
+      "Map": "Mars3_3e.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Гаальский квадрант",
+      "PlanetRace": "Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.06"
+  },
+  {
+    "id": "07",
+    "name_ru": "Рабогамская резня",
+    "name_en": "Ragobam Bloodbath",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Group": "0",
+      "Length": "2",
+      "Map": "Mars4_3e.cmap",
+      "MaxWins": "0",
+      "MinWins": "2",
+      "Name": "Рабогамская резня",
+      "PlanetRace": "Peleng",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.07"
+  },
+  {
+    "id": "08",
+    "name_ru": "Хавайские острова",
+    "name_en": "Jawaiian Islands",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Group": "0",
+      "Length": "3",
+      "Map": "Summer1_3e.cmap",
+      "MaxWins": "0",
+      "MinWins": "7",
+      "Name": "Хавайские острова",
+      "PlanetRace": "Peleng,People,Fei,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.08"
+  },
+  {
+    "id": "09",
+    "name_ru": "Фонсеры",
+    "name_en": "Foncers",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Group": "0",
+      "Length": "2",
+      "Map": "Summer2_3e.cmap",
+      "MaxWins": "9",
+      "MinWins": "1",
+      "Name": "Фонсеры",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.09"
+  },
+  {
+    "id": "10",
+    "name_ru": "Триларан",
+    "name_en": "Trilaran",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Group": "0",
+      "Length": "3",
+      "Map": "Summer3_2e.cmap",
+      "MaxWins": "0",
+      "MinWins": "7",
+      "Name": "Триларан",
+      "PlanetRace": "Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.10"
+  },
+  {
+    "id": "11",
+    "name_ru": "Малокское кино",
+    "name_en": "Maloq Movie",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Group": "0",
+      "Length": "2",
+      "Map": "Summer4_2e.cmap",
+      "MaxWins": "0",
+      "MinWins": "6",
+      "Name": "Малокское кино",
+      "PlanetRace": "Maloc",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.11"
+  },
+  {
+    "id": "12",
+    "name_ru": "Мерзлота",
+    "name_en": "Permafrost",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Group": "0",
+      "Length": "4",
+      "Map": "Winter1_1e.cmap",
+      "MaxWins": "10",
+      "MinWins": "1",
+      "Name": "Мерзлота",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.12"
+  },
+  {
+    "id": "13",
+    "name_ru": "Тепловая установка",
+    "name_en": "Heating Plant",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Group": "0",
+      "Length": "1",
+      "Map": "Winter2_2e.cmap",
+      "MaxWins": "10",
+      "MinWins": "4",
+      "Name": "Тепловая установка",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.13"
+  },
+  {
+    "id": "14",
+    "name_ru": "Погодная станция",
+    "name_en": "Weather Station",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Group": "0",
+      "Length": "4",
+      "Map": "Winter3_3e.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Погодная станция",
+      "PlanetRace": "Maloc,Peleng,People,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.14"
+  },
+  {
+    "id": "15",
+    "name_ru": "Зеки-ледорубы",
+    "name_en": "Icecutting Inmates",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Group": "0",
+      "Length": "3",
+      "Map": "Winter4_2e.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Зеки-ледорубы",
+      "PlanetRace": "Maloc",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.15"
+  },
+  {
+    "id": "16",
+    "name_ru": "Лаборатория времени",
+    "name_en": "Time Laboratory",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Group": "0",
+      "Length": "3",
+      "Map": "Winter5_3e.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Лаборатория времени",
+      "PlanetRace": "Peleng,People,Fei,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.16"
+  },
+  {
+    "id": "17",
+    "name_ru": "Террон",
+    "name_en": "Terron",
+    "kind": "definition",
+    "facts": {
+      "Access": "99",
+      "Group": "0",
+      "Length": "0",
+      "Map": "Terron.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Террон",
+      "PlanetRace": "Any",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.17"
+  },
+  {
+    "id": "18",
+    "name_ru": "Учебная",
+    "name_en": "Tutorial",
+    "kind": "definition",
+    "facts": {
+      "Access": "0",
+      "Group": "0",
+      "Length": "0",
+      "Map": "Training.cmap",
+      "MaxWins": "0",
+      "MinWins": "0",
+      "Name": "Учебная",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.18"
+  },
+  {
+    "id": "19",
+    "name_ru": "Демонстрационная карта 1",
+    "name_en": "Demo map 1",
+    "kind": "definition",
+    "facts": {
+      "Access": "0",
+      "GovTextLoss": "1",
+      "GovTextWin": "1",
+      "Group": "-1",
+      "Length": "0",
+      "Map": "Demo1.cmap",
+      "MaxWins": "-1",
+      "MinWins": "-1",
+      "Name": "Демонстрационная карта 1",
+      "PlanetRace": "Any",
+      "Reiteration": "1",
+      "RobotsLoss": "1",
+      "RobotsStart": "1",
+      "RobotsWin": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.19"
+  },
+  {
+    "id": "20",
+    "name_ru": "Демонстрационная карта 2",
+    "name_en": "Demo map 2",
+    "kind": "definition",
+    "facts": {
+      "Access": "0",
+      "GovTextLoss": "2",
+      "GovTextWin": "2",
+      "Group": "-1",
+      "Length": "0",
+      "Map": "Demo2.cmap",
+      "MaxWins": "-1",
+      "MinWins": "-1",
+      "Name": "Демонстрационная карта 2",
+      "PlanetRace": "Any",
+      "Reiteration": "1",
+      "RobotsLoss": "2",
+      "RobotsStart": "2",
+      "RobotsWin": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.20"
+  },
+  {
+    "id": "21",
+    "name_ru": "Резиденция Лякуши",
+    "name_en": "Lyakusha's Residence",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "1",
+      "Length": "0",
+      "Map": "ISLANDS.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Резиденция Лякуши",
+      "PlanetRace": "Peleng",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.21"
+  },
+  {
+    "id": "22",
+    "name_ru": "Деградонты",
+    "name_en": "Snoutius Degradius",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "1",
+      "Length": "3",
+      "Map": "PAW.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Деградонты",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.22"
+  },
+  {
+    "id": "23",
+    "name_ru": "Антенна",
+    "name_en": "Antenna",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "1",
+      "Length": "2",
+      "Map": "Bigcrater.cmap",
+      "MaxWins": "0",
+      "MinWins": "2",
+      "Name": "Антенна",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.23"
+  },
+  {
+    "id": "24",
+    "name_ru": "Посадка",
+    "name_en": "Landing",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Group": "1",
+      "Length": "0",
+      "Map": "Boarding.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Посадка",
+      "PlanetRace": "Peleng,People,Maloc",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.24"
+  },
+  {
+    "id": "25",
+    "name_ru": "Железный остров",
+    "name_en": "Iron Island",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Group": "1",
+      "Length": "0",
+      "Map": "Ironisland.cmap",
+      "MaxWins": "10",
+      "MinWins": "1",
+      "Name": "Железный остров",
+      "PlanetRace": "Maloc,Peleng,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.25"
+  },
+  {
+    "id": "26",
+    "name_ru": "Пирамиды",
+    "name_en": "Pyramids",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Group": "1",
+      "Length": "0",
+      "Map": "Pyramids.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Пирамиды",
+      "PlanetRace": "Fei,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.26"
+  },
+  {
+    "id": "27",
+    "name_ru": "Граница",
+    "name_en": "Border",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Rift.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Граница",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.27"
+  },
+  {
+    "id": "28",
+    "name_ru": "Эквентор",
+    "name_en": "Equantor",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Group": "1",
+      "Length": "0",
+      "Map": "Ecventor.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Эквентор",
+      "PlanetRace": "Any",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.28"
+  },
+  {
+    "id": "29",
+    "name_ru": "Модуль",
+    "name_en": "Module",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Module.cmap",
+      "MaxWins": "0",
+      "MinWins": "5",
+      "Name": "Модуль",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.29"
+  },
+  {
+    "id": "30",
+    "name_ru": "Исла-Майолина",
+    "name_en": "Isla-Mayolina",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Group": "1",
+      "Length": "0",
+      "Map": "Isla_Majolina.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Исла-Майолина",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.30"
+  },
+  {
+    "id": "31",
+    "name_ru": "Остров Святого Валентина",
+    "name_en": "St. Valentine's Island",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Group": "1",
+      "Length": "2",
+      "Map": "SaintValentine.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Остров Святого Валентина",
+      "PlanetRace": "People",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.31"
+  },
+  {
+    "id": "32",
+    "name_ru": "Атолл",
+    "name_en": "Atoll",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Group": "1",
+      "Length": "2",
+      "Map": "Atoll.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Атолл",
+      "PlanetRace": "Peleng",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.32"
+  },
+  {
+    "id": "33",
+    "name_ru": "Трезубец",
+    "name_en": "Trident",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Group": "1",
+      "Length": "2",
+      "Map": "Trident.cmap",
+      "MaxWins": "0",
+      "MinWins": "2",
+      "Name": "Трезубец",
+      "PlanetRace": "Peleng,People,Fei,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.33"
+  },
+  {
+    "id": "34",
+    "name_ru": "Звездолет",
+    "name_en": "Starship",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Group": "1",
+      "Length": "2",
+      "Map": "StarCraft.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Звездолет",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.34"
+  },
+  {
+    "id": "35",
+    "name_ru": "Помойка",
+    "name_en": "Dump",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Pomoyka.cmap",
+      "MaxWins": "0",
+      "MinWins": "2",
+      "Name": "Помойка",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.35"
+  },
+  {
+    "id": "36",
+    "name_ru": "Тонущий остров",
+    "name_en": "Sinking Island",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Isle_down.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Тонущий остров",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.36"
+  },
+  {
+    "id": "37",
+    "name_ru": "Глубина",
+    "name_en": "Depth",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Deep.cmap",
+      "MaxWins": "0",
+      "MinWins": "8",
+      "Name": "Глубина",
+      "PlanetRace": "Any",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.37"
+  },
+  {
+    "id": "38",
+    "name_ru": "Реактор",
+    "name_en": "Reactor",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Reactor.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Реактор",
+      "PlanetRace": "Any",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.38"
+  },
+  {
+    "id": "39",
+    "name_ru": "Риалити-шоу",
+    "name_en": "Reality Show",
+    "kind": "definition",
+    "facts": {
+      "Access": "7",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Biohazzard.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Риалити-шоу",
+      "PlanetRace": "Peleng",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.39"
+  },
+  {
+    "id": "40",
+    "name_ru": "Мега-Бур",
+    "name_en": "Megadrill",
+    "kind": "definition",
+    "facts": {
+      "Access": "7",
+      "Group": "1",
+      "Length": "3",
+      "Map": "BUR.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Мега-Бур",
+      "PlanetRace": "Maloc",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.40"
+  },
+  {
+    "id": "41",
+    "name_ru": "Холодный синтез",
+    "name_en": "Cold Fusion",
+    "kind": "definition",
+    "facts": {
+      "Access": "7",
+      "Group": "1",
+      "Length": "2",
+      "Map": "ColdSyntez.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Холодный синтез",
+      "PlanetRace": "Peleng",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.41"
+  },
+  {
+    "id": "42",
+    "name_ru": "Кратер",
+    "name_en": "Crater",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Krater_01.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Кратер",
+      "PlanetRace": "People,Fei,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.42"
+  },
+  {
+    "id": "43",
+    "name_ru": "Малокософт",
+    "name_en": "Maloqsoft",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Malocosoft_01.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Малокософт",
+      "PlanetRace": "Maloc",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.43"
+  },
+  {
+    "id": "44",
+    "name_ru": "Пляжи Мауна-Роа",
+    "name_en": "Mauna Roa Beaches",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Group": "1",
+      "Length": "4",
+      "Map": "MaunaRoa_01.cmap",
+      "MaxWins": "0",
+      "MinWins": "5",
+      "Name": "Пляжи Мауна-Роа",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.44"
+  },
+  {
+    "id": "45",
+    "name_ru": "Мусор",
+    "name_en": "Trash",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Trash_01.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Мусор",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.45"
+  },
+  {
+    "id": "46",
+    "name_ru": "Вирус",
+    "name_en": "Virus",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Virus.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Вирус",
+      "PlanetRace": "Gaal",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.46"
+  },
+  {
+    "id": "47",
+    "name_ru": "Рудники",
+    "name_en": "Mines",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Metall.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Рудники",
+      "PlanetRace": "Maloc",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.47"
+  },
+  {
+    "id": "48",
+    "name_ru": "Аль-Кагул",
+    "name_en": "Al-Kagul",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Group": "1",
+      "Length": "3",
+      "Map": "All_Kagul.cmap",
+      "MaxWins": "0",
+      "MinWins": "15",
+      "Name": "Аль-Кагул",
+      "PlanetRace": "People",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.48"
+  },
+  {
+    "id": "49",
+    "name_ru": "Армагеддец",
+    "name_en": "Armageddong",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Group": "1",
+      "Length": "1",
+      "Map": "armagedd.cmap",
+      "MaxWins": "0",
+      "MinWins": "2",
+      "Name": "Армагеддец",
+      "PlanetRace": "Fei",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.49"
+  },
+  {
+    "id": "50",
+    "name_ru": "Бункер",
+    "name_en": "Bunker",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Bunker.cmap",
+      "MaxWins": "0",
+      "MinWins": "2",
+      "Name": "Бункер",
+      "PlanetRace": "People",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.50"
+  },
+  {
+    "id": "51",
+    "name_ru": "Возгорание",
+    "name_en": "Combustion",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Group": "1",
+      "Length": "2",
+      "Map": "Burn.cmap",
+      "MaxWins": "0",
+      "MinWins": "5",
+      "Name": "Возгорание",
+      "PlanetRace": "Maloc,Peleng,People",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.51"
+  },
+  {
+    "id": "52",
+    "name_ru": "Крио",
+    "name_en": "Cryo",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Crio.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Крио",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.52"
+  },
+  {
+    "id": "53",
+    "name_ru": "Перекрестный огонь",
+    "name_en": "Crossfire",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Crossfire.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Перекрестный огонь",
+      "PlanetRace": "Any",
+      "Reiteration": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.53"
+  },
+  {
+    "id": "54",
+    "name_ru": "Топливо для жизни",
+    "name_en": "Fuel for Life",
+    "kind": "definition",
+    "facts": {
+      "Access": "12",
+      "Group": "1",
+      "Length": "2",
+      "Map": "FuelForLife.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Топливо для жизни",
+      "PlanetRace": "Peleng,People",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.54"
+  },
+  {
+    "id": "55",
+    "name_ru": "Город-113",
+    "name_en": "City-113",
+    "kind": "definition",
+    "facts": {
+      "Access": "12",
+      "Group": "1",
+      "Length": "2",
+      "Map": "Gorod113.cmap",
+      "MaxWins": "0",
+      "MinWins": "2",
+      "Name": "Город-113",
+      "PlanetRace": "People",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.55"
+  },
+  {
+    "id": "56",
+    "name_ru": "Грубахар",
+    "name_en": "Grubaxar",
+    "kind": "definition",
+    "facts": {
+      "Access": "12",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Grubaxar.cmap",
+      "MaxWins": "0",
+      "MinWins": "20",
+      "Name": "Грубахар",
+      "PlanetRace": "Maloc",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.56"
+  },
+  {
+    "id": "57",
+    "name_ru": "In memoria",
+    "name_en": "In Memoriam",
+    "kind": "definition",
+    "facts": {
+      "Access": "13",
+      "Group": "1",
+      "Length": "1",
+      "Map": "Inmemoria.cmap",
+      "MaxWins": "0",
+      "MinWins": "2",
+      "Name": "In memoria",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.57"
+  },
+  {
+    "id": "58",
+    "name_ru": "X-Ray",
+    "name_en": "X-Ray",
+    "kind": "definition",
+    "facts": {
+      "Access": "13",
+      "Group": "1",
+      "Length": "2",
+      "Map": "X-ray.cmap",
+      "MaxWins": "0",
+      "MinWins": "8",
+      "Name": "X-Ray",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.58"
+  },
+  {
+    "id": "59",
+    "name_ru": "Кризисный центр",
+    "name_en": "Crisis Center",
+    "kind": "definition",
+    "facts": {
+      "Access": "13",
+      "Group": "1",
+      "Length": "1",
+      "Map": "Krizisniy_Centr.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Кризисный центр",
+      "PlanetRace": "People",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.59"
+  },
+  {
+    "id": "60",
+    "name_ru": "Тройной удар",
+    "name_en": "Triple Blow",
+    "kind": "definition",
+    "facts": {
+      "Access": "14",
+      "Group": "1",
+      "Length": "0",
+      "Map": "Logic.cmap",
+      "MaxWins": "0",
+      "MinWins": "1",
+      "Name": "Тройной удар",
+      "PlanetRace": "Gaal",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.60"
+  },
+  {
+    "id": "61",
+    "name_ru": "Осада",
+    "name_en": "Siege",
+    "kind": "definition",
+    "facts": {
+      "Access": "14",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Osada.cmap",
+      "MaxWins": "0",
+      "MinWins": "15",
+      "Name": "Осада",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.61"
+  },
+  {
+    "id": "62",
+    "name_ru": "Пирамида",
+    "name_en": "Pyramid",
+    "kind": "definition",
+    "facts": {
+      "Access": "14",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Piramida.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Пирамида",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.62"
+  },
+  {
+    "id": "63",
+    "name_ru": "План",
+    "name_en": "Plan",
+    "kind": "definition",
+    "facts": {
+      "Access": "15",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Plan.cmap",
+      "MaxWins": "0",
+      "MinWins": "5",
+      "Name": "План",
+      "PlanetRace": "People",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.63"
+  },
+  {
+    "id": "64",
+    "name_ru": "Провалъ",
+    "name_en": "Escallop",
+    "kind": "definition",
+    "facts": {
+      "Access": "15",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Proval.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Провалъ",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.64"
+  },
+  {
+    "id": "65",
+    "name_ru": "Красная тревога",
+    "name_en": "Red Alert",
+    "kind": "definition",
+    "facts": {
+      "Access": "15",
+      "Group": "1",
+      "Length": "4",
+      "Map": "RedAlert.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Красная тревога",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.65"
+  },
+  {
+    "id": "66",
+    "name_ru": "Рядовой Райан",
+    "name_en": "Private Ryan",
+    "kind": "definition",
+    "facts": {
+      "Access": "15",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Ryan.cmap",
+      "MaxWins": "0",
+      "MinWins": "3",
+      "Name": "Рядовой Райан",
+      "PlanetRace": "Maloc,Peleng,Fei,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.66"
+  },
+  {
+    "id": "67",
+    "name_ru": "Морской бой",
+    "name_en": "Battleship",
+    "kind": "definition",
+    "facts": {
+      "Access": "16",
+      "Group": "1",
+      "Length": "3",
+      "Map": "SeaBattle.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Морской бой",
+      "PlanetRace": "People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.67"
+  },
+  {
+    "id": "68",
+    "name_ru": "Сфера",
+    "name_en": "Sphere",
+    "kind": "definition",
+    "facts": {
+      "Access": "16",
+      "Group": "1",
+      "Length": "3",
+      "Map": "Sphere.cmap",
+      "MaxWins": "0",
+      "MinWins": "10",
+      "Name": "Сфера",
+      "PlanetRace": "Maloc,Peleng,People,Gaal",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.68"
+  },
+  {
+    "id": "69",
+    "name_ru": "Зенит",
+    "name_en": "Zenith",
+    "kind": "definition",
+    "facts": {
+      "Access": "16",
+      "Group": "1",
+      "Length": "4",
+      "Map": "Zenit.cmap",
+      "MaxWins": "0",
+      "MinWins": "5",
+      "Name": "Зенит",
+      "PlanetRace": "Any",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.69"
+  },
+  {
+    "id": "70",
+    "name_ru": "Ядро",
+    "name_en": "Core",
+    "kind": "definition",
+    "facts": {
+      "Access": "16",
+      "Group": "-1",
+      "Length": "0",
+      "Map": "Core.cmap",
+      "MaxWins": "-1",
+      "MinWins": "-1",
+      "Name": "Ядро",
+      "PlanetRace": "Any",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.70"
+  },
+  {
+    "id": "71",
+    "name_ru": "Особняк (низкая сложность)",
+    "name_en": "Mansion (low difficulty)",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "-1",
+      "Length": "2",
+      "Map": "Mansion (E).cmap",
+      "MaxWins": "-1",
+      "MinWins": "-1",
+      "Name": "Особняк (низкая сложность)",
+      "PlanetRace": "Peleng,People,Fei",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.71"
+  },
+  {
+    "id": "72",
+    "name_ru": "Особняк (высокая сложность)",
+    "name_en": "Mansion (high difficulty)",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "-1",
+      "Length": "2",
+      "Map": "Mansion (H).cmap",
+      "MaxWins": "-1",
+      "MinWins": "-1",
+      "Name": "Особняк (высокая сложность)",
+      "PlanetRace": "Peleng,People,Fei",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.72"
+  },
+  {
+    "id": "73",
+    "name_ru": "Санаторий (высокая сложность)",
+    "name_en": "Health Resort (high difficulty)",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "-1",
+      "Length": "2",
+      "Map": "Sanatory.cmap",
+      "MaxWins": "-1",
+      "MinWins": "-1",
+      "Name": "Санаторий (высокая сложность)",
+      "PlanetRace": "Peleng,People,Fei",
+      "ReinforcementsDisabled": "1",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.73"
+  },
+  {
+    "id": "74",
+    "name_ru": "Убежище",
+    "name_en": "Asylum",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Group": "-1",
+      "Length": "2",
+      "Map": "Asylum.cmap",
+      "MaxWins": "-1",
+      "MinWins": "-1",
+      "Name": "Убежище",
+      "PlanetRace": "Peleng,People,Fei",
+      "Reiteration": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap.74"
+  }
+]

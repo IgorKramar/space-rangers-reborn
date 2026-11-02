@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "0",
+    "name_ru": "Амнезия",
+    "name_en": "Amnesia",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Dif": "40",
+      "Genre": "бродилка-стрелялка",
+      "Group": "0",
+      "Image": "Bm.PQI.Amnesia_08",
+      "Length": "3",
+      "Name": "Амнезия"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.0",
+    "resource": "data\\Quest\\Rus\\Amnesia.qmm"
+  },
+  {
+    "id": "1",
+    "name_ru": "Банкет",
+    "name_en": "Banquet",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Dif": "23",
+      "Genre": "логико-познавательная игра",
+      "Group": "0",
+      "Image": "Bm.PQI.Banket_00",
+      "Length": "2",
+      "Name": "Банкет"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.1",
+    "resource": "data\\Quest\\Rus\\Banket.qmm"
+  },
+  {
+    "id": "10",
+    "name_ru": "Выборы",
+    "name_en": "Elections",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "2",
+      "Genre": "симулятор предвыборной кампании",
+      "Group": "0",
+      "Image": "Bm.PQI.Election_00",
+      "Length": "0",
+      "Name": "Выборы"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.10",
+    "resource": "data\\Quest\\Rus\\Election.qmm"
+  },
+  {
+    "id": "11",
+    "name_ru": "Элус",
+    "name_en": "Eloose",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Dif": "44",
+      "Genre": "логическая головоломка",
+      "Group": "0",
+      "Image": "Bm.PQI.Elus_00",
+      "Length": "2",
+      "Name": "Элус"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.11",
+    "resource": "data\\Quest\\Rus\\Elus.qmm"
+  },
+  {
+    "id": "12",
+    "name_ru": "Фарюки",
+    "name_en": "Fariolas",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Dif": "35",
+      "Genre": "логико-математическая головоломка",
+      "Group": "0",
+      "Image": "Bm.PQI.Faruk_00",
+      "Length": "2",
+      "Name": "Фарюки"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.12",
+    "resource": "data\\Quest\\Rus\\Faruk.qmm"
+  },
+  {
+    "id": "13",
+    "name_ru": "Фонсеры",
+    "name_en": "Foncers",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Dif": "9",
+      "Genre": "гоночный симулятор",
+      "Group": "0",
+      "Image": "Bm.PQI.Foncers_01",
+      "Length": "2",
+      "Name": "Фонсеры"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.13",
+    "resource": "data\\Quest\\Rus\\Foncers.qmm"
+  },
+  {
+    "id": "14",
+    "name_ru": "Гайднет",
+    "name_en": "Guidenet",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Dif": "53",
+      "Genre": "логическая головоломка",
+      "Group": "0",
+      "Image": "Bm.PQI.Gaidnet_03",
+      "Length": "4",
+      "Name": "Гайднет"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.14",
+    "resource": "data\\Quest\\Rus\\Gaidnet.qmm"
+  },
+  {
+    "id": "15",
+    "name_ru": "Джампер",
+    "name_en": "Jumper",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Dif": "46",
+      "Genre": "логическая головоломка",
+      "Group": "0",
+      "Image": "Bm.PQI.Jumper_01",
+      "Length": "2",
+      "Name": "Джампер"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.15",
+    "resource": "data\\Quest\\Rus\\Jumper.qmm"
+  },
+  {
+    "id": "16",
+    "name_ru": "Лабиринт",
+    "name_en": "Labyrinth",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Dif": "51",
+      "Genre": "бродилка с логическими головоломками",
+      "Group": "0",
+      "Image": "Bm.PQI.Maze_00",
+      "Length": "4",
+      "Name": "Лабиринт"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.16",
+    "resource": "data\\Quest\\Rus\\Maze.qmm"
+  },
+  {
+    "id": "17",
+    "name_ru": "Министерство",
+    "name_en": "Ministry",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "3",
+      "Genre": "бродилка с логическими элементами",
+      "Group": "0",
+      "Image": "Bm.PQI.Ministry_00",
+      "Length": "2",
+      "Name": "Министерство"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.17",
+    "resource": "data\\Quest\\Rus\\Ministry.qmm"
+  },
+  {
+    "id": "18",
+    "name_ru": "Мастер Иике-Бааны",
+    "name_en": "Master of Iike-Baana",
+    "kind": "definition",
+    "facts": {
+      "Access": "12",
+      "Dif": "55",
+      "Genre": "фэнтезийная ролевая игра",
+      "Group": "0",
+      "Image": "Bm.PQI.Moi_17",
+      "Length": "4",
+      "Name": "Мастер Иике-Бааны"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.18",
+    "resource": "data\\Quest\\Rus\\Moi.qmm"
+  },
+  {
+    "id": "19",
+    "name_ru": "Музыкальный фестиваль",
+    "name_en": "Music Festival",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Dif": "5",
+      "Genre": "бродилка с элементами менеджмента",
+      "Group": "0",
+      "Image": "Bm.PQI.Muzon_01",
+      "Length": "2",
+      "Name": "Музыкальный фестиваль"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.19",
+    "resource": "data\\Quest\\Rus\\Muzon.qmm"
+  },
+  {
+    "id": "2",
+    "name_ru": "Бомбер",
+    "name_en": "Bomber",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Dif": "24",
+      "Genre": "логико-тактическая игра",
+      "Group": "0",
+      "Image": "Bm.PQI.Bomber_03",
+      "Length": "2",
+      "Name": "Бомбер"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.2",
+    "resource": "data\\Quest\\Rus\\Bomber.qmm"
+  },
+  {
+    "id": "20",
+    "name_ru": "Олимпиада",
+    "name_en": "Olympics",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "47",
+      "Genre": "логическая игра с элементами менеджмента",
+      "Group": "0",
+      "Image": "Bm.PQI.Olympiada_03",
+      "Length": "4",
+      "Name": "Олимпиада"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.20",
+    "resource": "data\\Quest\\Rus\\Olympiada.qmm"
+  },
+  {
+    "id": "21",
+    "name_ru": "Пачвараш",
+    "name_en": "Pachvaraus",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Dif": "37",
+      "Genre": "симулятор жизни животного",
+      "Group": "0",
+      "Image": "Bm.PQI.Pachvarash_00",
+      "Length": "3",
+      "Name": "Пачвараш"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.21",
+    "resource": "data\\Quest\\Rus\\Pachvarash.qmm"
+  },
+  {
+    "id": "22",
+    "name_ru": "Парк аттракционов",
+    "name_en": "Amusement Park",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Dif": "34",
+      "Genre": "бродилка с логическими головоломками",
+      "Group": "0",
+      "Image": "Bm.PQI.Park_05",
+      "Length": "3",
+      "Name": "Парк аттракционов"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.22",
+    "resource": "data\\Quest\\Rus\\Park.qmm"
+  },
+  {
+    "id": "23",
+    "name_ru": "Фараон",
+    "name_en": "Pharaoh",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "1",
+      "Genre": "текстово-логическая головоломка",
+      "Group": "0",
+      "Image": "Bm.PQI.Pharaon_01",
+      "Length": "0",
+      "Name": "Фараон"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.23",
+    "resource": "data\\Quest\\Rus\\Pharaon.qmm"
+  },
+  {
+    "id": "24",
+    "name_ru": "Пилот",
+    "name_en": "Pilot",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Dif": "4",
+      "Genre": "бродилка с логическими головоломками",
+      "Group": "0",
+      "Image": "Bm.PQI.Pilot_02",
+      "Length": "2",
+      "Name": "Пилот"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.24",
+    "resource": "data\\Quest\\Rus\\Pilot.qmm"
+  },
+  {
+    "id": "25",
+    "name_ru": "Пицца",
+    "name_en": "Pizza",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Dif": "22",
+      "Genre": "логико-математическая игра",
+      "Group": "0",
+      "Image": "Bm.PQI.Pizza_00",
+      "Length": "2",
+      "Name": "Пицца"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.25",
+    "resource": "data\\Quest\\Rus\\Pizza.qmm"
+  },
+  {
+    "id": "26",
+    "name_ru": "Проигрыватель",
+    "name_en": "Record Player",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Dif": "15",
+      "Genre": "логическая игра",
+      "Group": "0",
+      "Image": "Bm.PQI.Player_00",
+      "Length": "0",
+      "Name": "Проигрыватель"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.26",
+    "resource": "data\\Quest\\Rus\\Player.qmm"
+  },
+  {
+    "id": "27",
+    "name_ru": "Бои минироботов",
+    "name_en": "Minirobot Battles",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Dif": "14",
+      "Genre": "тактический файтинг",
+      "Group": "0",
+      "Image": "Bm.PQI.Robots_00",
+      "Length": "2",
+      "Name": "Бои минироботов"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.27",
+    "resource": "data\\Quest\\Rus\\Robots.qmm"
+  },
+  {
+    "id": "28",
+    "name_ru": "Военкомат",
+    "name_en": "Recruitment Center",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Dif": "27",
+      "Genre": "менеджер военкомата",
+      "Group": "0",
+      "Image": "Bm.PQI.Rvk_03",
+      "Length": "2",
+      "Name": "Военкомат"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.28",
+    "resource": "data\\Quest\\Rus\\Rvk.qmm"
+  },
+  {
+    "id": "29",
+    "name_ru": "Шашки",
+    "name_en": "Checkers",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Dif": "18",
+      "Genre": "математическая головоломка",
+      "Group": "0",
+      "Image": "Bm.PQI.Shashki_00",
+      "Length": "1",
+      "Name": "Шашки"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.29",
+    "resource": "data\\Quest\\Rus\\Shashki.qmm"
+  },
+  {
+    "id": "3",
+    "name_ru": "Борзухан",
+    "name_en": "Borzukhan",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Dif": "7",
+      "Genre": "бродилка с элементами аркады",
+      "Group": "0",
+      "Image": "Bm.PQI.Borzukhan_04",
+      "Length": "3",
+      "Name": "Борзухан"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.3",
+    "resource": "data\\Quest\\Rus\\Borzukhan.qmm"
+  },
+  {
+    "id": "30",
+    "name_ru": "Лыжный курорт",
+    "name_en": "Ski Resort",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Dif": "13",
+      "Genre": "экономический симулятор",
+      "Group": "0",
+      "Image": "Bm.PQI.Ski_01",
+      "Length": "2",
+      "Name": "Лыжный курорт"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.30",
+    "resource": "data\\Quest\\Rus\\Ski.qmm"
+  },
+  {
+    "id": "31",
+    "name_ru": "Сварокок",
+    "name_en": "Swarokok",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Dif": "11",
+      "Genre": "тактическая игра",
+      "Group": "0",
+      "Image": "Bm.PQI.Svarokok_00",
+      "Length": "2",
+      "Name": "Сварокок"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.31",
+    "resource": "data\\Quest\\Rus\\Svarokok.qmm"
+  },
+  {
+    "id": "32",
+    "name_ru": "Ксенолог",
+    "name_en": "Xenologist",
+    "kind": "definition",
+    "facts": {
+      "Access": "7",
+      "Dif": "28",
+      "Genre": "бродилка",
+      "Group": "0",
+      "Image": "Bm.PQI.Xenolog_00",
+      "Length": "2",
+      "Name": "Ксенолог"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.32",
+    "resource": "data\\Quest\\Rus\\Xenolog.qmm"
+  },
+  {
+    "id": "33",
+    "name_ru": "Ксенопарк",
+    "name_en": "Xenopark",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Dif": "17",
+      "Genre": "логическая головоломка",
+      "Group": "0",
+      "Image": "Bm.PQI.Xenopark_00",
+      "Length": "0",
+      "Name": "Ксенопарк"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.33",
+    "resource": "data\\Quest\\Rus\\Xenopark.qmm"
+  },
+  {
+    "id": "34",
+    "name_ru": "Главный редактор",
+    "name_en": "Editor-in-Chief",
+    "kind": "definition",
+    "facts": {
+      "Access": "7",
+      "Dif": "45",
+      "Genre": "экономический симулятор",
+      "Group": "1",
+      "Image": "Bm.PQI.Glavred_02",
+      "Length": "3",
+      "Name": "Главный редактор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.34",
+    "resource": "data\\Quest\\Rus\\Glavred.qmm"
+  },
+  {
+    "id": "35",
+    "name_ru": "Плохой день рейнджера",
+    "name_en": "Ranger's Bad Day",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Dif": "25",
+      "Genre": "бродилка с элементами файтинга",
+      "Group": "1",
+      "Image": "Bm.PQI.van_01",
+      "Length": "2",
+      "Name": "Плохой день рейнджера"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.35",
+    "resource": "data\\Quest\\Rus\\Badday.qmm"
+  },
+  {
+    "id": "36",
+    "name_ru": "Тестинг",
+    "name_en": "Testing",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Dif": "41",
+      "Genre": "бродилка с элементами файтинга и головоломками",
+      "Group": "1",
+      "Image": "Bm.PQI.van_12",
+      "Length": "4",
+      "Name": "Тестинг"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.36",
+    "resource": "data\\Quest\\Rus\\Testing.qmm"
+  },
+  {
+    "id": "37",
+    "name_ru": "Злой гений",
+    "name_en": "Evil Genius",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Dif": "38",
+      "Genre": "стратегия с элементами файтинга",
+      "Group": "1",
+      "Image": "Bm.PQI.van_13",
+      "Length": "4",
+      "Name": "Злой гений"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.37",
+    "resource": "data\\Quest\\Rus\\Evilgenius.qmm"
+  },
+  {
+    "id": "38",
+    "name_ru": "Логика",
+    "name_en": "Logic",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "6",
+      "Genre": "логическая головоломка",
+      "Group": "1",
+      "Image": "Bm.PQI.Siege_03",
+      "Length": "0",
+      "Name": "Логика"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.38",
+    "resource": "data\\Quest\\Rus\\Logic.qmm"
+  },
+  {
+    "id": "39",
+    "name_ru": "Чемпионат по рыбалке",
+    "name_en": "Fishing Championship",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Dif": "12",
+      "Genre": "симулятор рыбалки",
+      "Group": "1",
+      "Image": "Bm.PQI.van_14",
+      "Length": "2",
+      "Name": "Чемпионат по рыбалке"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.39",
+    "resource": "data\\Quest\\Rus\\Fishingcup.qmm"
+  },
+  {
+    "id": "4",
+    "name_ru": "Цитадели",
+    "name_en": "Citadels",
+    "kind": "definition",
+    "facts": {
+      "Access": "7",
+      "Dif": "29",
+      "Genre": "тактическая стратегия",
+      "Group": "0",
+      "Image": "Bm.PQI.Citadels_00",
+      "Length": "2",
+      "Name": "Цитадели"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.4",
+    "resource": "data\\Quest\\Rus\\Citadels.qmm"
+  },
+  {
+    "id": "40",
+    "name_ru": "Фоторобот",
+    "name_en": "Composite Sketch",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Dif": "20",
+      "Genre": "симулятор составления фоторобота",
+      "Group": "1",
+      "Image": "Bm.PQI.van_50",
+      "Length": "1",
+      "Name": "Фоторобот"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.40",
+    "resource": "data\\Quest\\Rus\\Photorobot.qmm"
+  },
+  {
+    "id": "41",
+    "name_ru": "Пропролог",
+    "name_en": "Proprologue",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Dif": "43",
+      "Genre": "симулятор \"космических рейнджеров\"",
+      "Group": "1",
+      "Image": "Bm.PQI.proprolog_00",
+      "Length": "3",
+      "Name": "Пропролог"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.41",
+    "resource": "data\\Quest\\Rus\\Proprolog.qmm"
+  },
+  {
+    "id": "42",
+    "name_ru": "Фэянская психушка",
+    "name_en": "Faeyan Loony Bin",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Dif": "21",
+      "Genre": "бродилка с логическими головоломками",
+      "Group": "1",
+      "Image": "Bm.PQI.feipsycho_00",
+      "Length": "1",
+      "Name": "Фэянская психушка"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.42",
+    "resource": "data\\Quest\\Rus\\Feipsycho.qmm"
+  },
+  {
+    "id": "43",
+    "name_ru": "Леонардо да Винчи",
+    "name_en": "Leonardo da Vinci",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Dif": "33",
+      "Genre": "логический симулятор мольберта",
+      "Group": "1",
+      "Image": "Bm.PQI.van_38",
+      "Length": "2",
+      "Name": "Леонардо да Винчи"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.43",
+    "resource": "data\\Quest\\Rus\\Leonardo.qmm"
+  },
+  {
+    "id": "44",
+    "name_ru": "Пятнашка",
+    "name_en": "Tag",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Dif": "36",
+      "Genre": "логическая головоломка",
+      "Group": "1",
+      "Image": "Bm.PQI.van_32",
+      "Length": "3",
+      "Name": "Пятнашка"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.44",
+    "resource": "data\\Quest\\Rus\\Codebox.qmm"
+  },
+  {
+    "id": "45",
+    "name_ru": "Сортировка",
+    "name_en": "Assortment",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "10",
+      "Genre": "аркадно-логическая игра",
+      "Group": "1",
+      "Image": "Bm.PQI.van_40",
+      "Length": "2",
+      "Name": "Сортировка"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.45",
+    "resource": "data\\Quest\\Rus\\Sortirovka1.qmm"
+  },
+  {
+    "id": "46",
+    "name_ru": "Колонизация",
+    "name_en": "Colonization",
+    "kind": "definition",
+    "facts": {
+      "Access": "6",
+      "Dif": "42",
+      "Genre": "экономический симулятор",
+      "Group": "1",
+      "Image": "Bm.PQI.kas_16",
+      "Length": "4",
+      "Name": "Колонизация"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.46",
+    "resource": "data\\Quest\\Rus\\Colonization.qmm"
+  },
+  {
+    "id": "47",
+    "name_ru": "Гнездо пиратов",
+    "name_en": "Pirate Nest",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Dif": "39",
+      "Genre": "бродилка с логическими головоломками",
+      "Group": "1",
+      "Image": "Bm.PQI.stealth_10",
+      "Length": "3",
+      "Name": "Гнездо пиратов"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.47",
+    "resource": "data\\Quest\\Rus\\Piratesnest.qmm"
+  },
+  {
+    "id": "48",
+    "name_ru": "Туристы",
+    "name_en": "Tourists",
+    "kind": "definition",
+    "facts": {
+      "Access": "3",
+      "Dif": "26",
+      "Genre": "бродилка с логическими головоломками",
+      "Group": "1",
+      "Image": "Bm.PQI.van_44",
+      "Length": "2",
+      "Name": "Туристы"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.48",
+    "resource": "data\\Quest\\Rus\\Tourists.qmm"
+  },
+  {
+    "id": "49",
+    "name_ru": "Община свидетелей доминатора",
+    "name_en": "Dominator's Witness Community",
+    "kind": "definition",
+    "facts": {
+      "Access": "7",
+      "Dif": "49",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.domoclan_01",
+      "Length": "4",
+      "Name": "Община свидетелей доминатора"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.49",
+    "resource": "data\\Quest\\Rus\\Domoclan.qmm"
+  },
+  {
+    "id": "5",
+    "name_ru": "Глубина",
+    "name_en": "Depth",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "48",
+      "Genre": "логико-математическая игра",
+      "Group": "0",
+      "Image": "Bm.PQI.Depth_00",
+      "Length": "4",
+      "Name": "Глубина"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.5",
+    "resource": "data\\Quest\\Rus\\Depth.qmm"
+  },
+  {
+    "id": "50",
+    "name_ru": "Мафия",
+    "name_en": "Mafia",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Dif": "54",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.mafia_00",
+      "Length": "4",
+      "Name": "Мафия"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.50",
+    "resource": "data\\Quest\\Rus\\Mafia.qmm"
+  },
+  {
+    "id": "51",
+    "name_ru": "Вулканический остров",
+    "name_en": "Volcano Island",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Dif": "30",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.van_65",
+      "Length": "2",
+      "Name": "Вулканический остров"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.51",
+    "resource": "data\\Quest\\Rus\\Vulkan.qmm"
+  },
+  {
+    "id": "52",
+    "name_ru": "Эдельвейс",
+    "name_en": "Edelweiss",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "8",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.edelweiss_00",
+      "Length": "2",
+      "Name": "Эдельвейс"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.52",
+    "resource": "data\\Quest\\Rus\\Edelweiss.qmm"
+  },
+  {
+    "id": "53",
+    "name_ru": "Стелс",
+    "name_en": "Stealth",
+    "kind": "definition",
+    "facts": {
+      "Access": "2",
+      "Dif": "19",
+      "Genre": "бродилка-стрелялка",
+      "Group": "1",
+      "Image": "Bm.PQI.stealth_00",
+      "Length": "1",
+      "Name": "Стелс"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.53",
+    "resource": "data\\Quest\\Rus\\Stealth.qmm"
+  },
+  {
+    "id": "54",
+    "name_ru": "Потерянный герой",
+    "name_en": "Fallen Hero",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Dif": "31",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.van_57",
+      "Length": "3",
+      "Name": "Потерянный герой"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.54",
+    "resource": "data\\Quest\\Rus\\Losthero.qmm"
+  },
+  {
+    "id": "55",
+    "name_ru": "Комплекс",
+    "name_en": "Complex",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Dif": "56",
+      "Genre": "детектив",
+      "Group": "1",
+      "Image": "Bm.PQI.Cybersport_04",
+      "Length": "4",
+      "Name": "Комплекс"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.55",
+    "resource": "data\\Quest\\Rus\\Complex.qmm"
+  },
+  {
+    "id": "56",
+    "name_ru": "Ралли",
+    "name_en": "Rally",
+    "kind": "definition",
+    "facts": {
+      "Access": "5",
+      "Dif": "48",
+      "Genre": "гоночный симулятор с элементами менеджмента",
+      "Group": "1",
+      "Image": "Bm.PQI.Rush_04",
+      "Length": "2",
+      "Name": "Ралли"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.56",
+    "resource": "data\\Quest\\Rus\\Rally.qmm"
+  },
+  {
+    "id": "57",
+    "name_ru": "Ухоногий Сиболусовт",
+    "name_en": "Auropedal Sibolusovtus",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Dif": "70",
+      "Genre": "бродилка с элементами черного юмора",
+      "Group": "1",
+      "Image": "Bm.PQI.63_Sibolusovt",
+      "Length": "4",
+      "Name": "Ухоногий Сиболусовт"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.57",
+    "resource": "data\\Quest\\Rus\\Sibolusovt.qmm"
+  },
+  {
+    "id": "58",
+    "name_ru": "Космолинии",
+    "name_en": "Cosmic Lines",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Dif": "30",
+      "Genre": "экономическая стратегия",
+      "Group": "1",
+      "Image": "Bm.PQI.mafia_03",
+      "Length": "3",
+      "Name": "Космолинии"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.58",
+    "resource": "data\\Quest\\Rus\\SpaceLines.qmm"
+  },
+  {
+    "id": "59",
+    "name_ru": "Таксист",
+    "name_en": "Taxi Driver",
+    "kind": "definition",
+    "facts": {
+      "Access": "8",
+      "Dif": "31",
+      "Genre": "симулятор таксиста",
+      "Group": "1",
+      "Image": "Bm.PQI.Taxist_00",
+      "Length": "2",
+      "Name": "Таксист"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.59",
+    "resource": "data\\Quest\\Rus\\Taxist.qmm"
+  },
+  {
+    "id": "6",
+    "name_ru": "Водолаз",
+    "name_en": "Diver",
+    "kind": "definition",
+    "facts": {
+      "Access": "4",
+      "Dif": "16",
+      "Genre": "бродилка",
+      "Group": "0",
+      "Image": "Bm.PQI.Diver_04",
+      "Length": "0",
+      "Name": "Водолаз"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.6",
+    "resource": "data\\Quest\\Rus\\Diver.qmm"
+  },
+  {
+    "id": "60",
+    "name_ru": "Диск",
+    "name_en": "Disc",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Dif": "17",
+      "Genre": "доставка груза с элементами квеста",
+      "Group": "1",
+      "Image": "Bm.PQI.Disk_60",
+      "Length": "0",
+      "Name": "Диск"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.60",
+    "resource": "data\\Quest\\Rus\\Disk.qmm"
+  },
+  {
+    "id": "61",
+    "name_ru": "Подстава",
+    "name_en": "Frame",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Dif": "37",
+      "Genre": "юмористический детектив",
+      "Group": "1",
+      "Image": "Bm.PQI.Podstava_01",
+      "Length": "2",
+      "Name": "Подстава"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.61",
+    "resource": "data\\Quest\\Rus\\Evidence.qmm"
+  },
+  {
+    "id": "62",
+    "name_ru": "Киберразум",
+    "name_en": "Cybermind",
+    "kind": "definition",
+    "facts": {
+      "Access": "9",
+      "Dif": "55",
+      "Genre": "бродилка с элементами ужасов",
+      "Group": "1",
+      "Image": "Bm.PQI.Kiberrazum_06",
+      "Length": "4",
+      "Name": "Киберразум"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.62",
+    "resource": "data\\Quest\\Rus\\Kiberrazum.qmm"
+  },
+  {
+    "id": "63",
+    "name_ru": "Доомино",
+    "name_en": "Doomino",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "21",
+      "Genre": "логическая игра",
+      "Group": "1",
+      "Image": "Bm.PQI.Doomino",
+      "Length": "2",
+      "Name": "Доомино"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.63",
+    "resource": "data\\Quest\\Rus\\Doomino.qmm"
+  },
+  {
+    "id": "64",
+    "name_ru": "Филиал",
+    "name_en": "Branch",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "46",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.Filial_00",
+      "Length": "3",
+      "Name": "Филиал"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.64",
+    "resource": "data\\Quest\\Rus\\Filial.qmm"
+  },
+  {
+    "id": "65",
+    "name_ru": "Форум",
+    "name_en": "Forum",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "29",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.Forum_00",
+      "Length": "2",
+      "Name": "Форум"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.65",
+    "resource": "data\\Quest\\Rus\\Forum.qmm"
+  },
+  {
+    "id": "66",
+    "name_ru": "Глюки",
+    "name_en": "Glitches",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Dif": "28",
+      "Genre": "бродилка с элементами тихих ужасов",
+      "Group": "1",
+      "Image": "Bm.PQI.Gluki_01",
+      "Length": "2",
+      "Name": "Глюки"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.66",
+    "resource": "data\\Quest\\Rus\\Gluki.qmm"
+  },
+  {
+    "id": "67",
+    "name_ru": "Мегатест",
+    "name_en": "Megatest",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Dif": "6",
+      "Genre": "викторина",
+      "Group": "1",
+      "Image": "Bm.PQI.Energy_00",
+      "Length": "2",
+      "Name": "Мегатест"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.67",
+    "resource": "data\\Quest\\Rus\\Megatest.qmm"
+  },
+  {
+    "id": "68",
+    "name_ru": "Провода",
+    "name_en": "Cables",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Dif": "32",
+      "Genre": "логико-математическая игра",
+      "Group": "1",
+      "Image": "Bm.PQI.Provoda_00",
+      "Length": "2",
+      "Name": "Провода"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.68",
+    "resource": "data\\Quest\\Rus\\Provoda.qmm"
+  },
+  {
+    "id": "69",
+    "name_ru": "Живым или мертвым",
+    "name_en": "Dead or Alive",
+    "kind": "definition",
+    "facts": {
+      "Access": "12",
+      "Dif": "53",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.Election_05",
+      "Length": "3",
+      "Name": "Живым или мертвым"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.69",
+    "resource": "data\\Quest\\Rus\\Deadoralive.qmm"
+  },
+  {
+    "id": "7",
+    "name_ru": "Водитель",
+    "name_en": "Driver",
+    "kind": "definition",
+    "facts": {
+      "Access": "7",
+      "Dif": "32",
+      "Genre": "симулятор дальнобойщика",
+      "Group": "0",
+      "Image": "Bm.PQI.Driver_01",
+      "Length": "3",
+      "Name": "Водитель"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.7",
+    "resource": "data\\Quest\\Rus\\Driver.qmm"
+  },
+  {
+    "id": "70",
+    "name_ru": "Похищенный",
+    "name_en": "Kidnapped",
+    "kind": "definition",
+    "facts": {
+      "Access": "12",
+      "Dif": "53",
+      "Genre": "бродилка с приключениями",
+      "Group": "1",
+      "Image": "Bm.PQI.Kidnapped_01",
+      "Length": "3",
+      "Name": "Похищенный"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.70",
+    "resource": "data\\Quest\\Rus\\Kidnapped.qmm"
+  },
+  {
+    "id": "8",
+    "name_ru": "Наркотики",
+    "name_en": "Narcotics",
+    "kind": "definition",
+    "facts": {
+      "Access": "11",
+      "Dif": "52",
+      "Genre": "бродилка с логическими головоломками",
+      "Group": "0",
+      "Image": "Bm.PQI.Drugs_00",
+      "Length": "4",
+      "Name": "Наркотики"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.8",
+    "resource": "data\\Quest\\Rus\\Drugs.qmm"
+  },
+  {
+    "id": "9",
+    "name_ru": "Легкая работа",
+    "name_en": "Easy Work",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "50",
+      "Genre": "логические головоломки и математические задачи",
+      "Group": "0",
+      "Image": "Bm.PQI.Easywork_06",
+      "Length": "4",
+      "Name": "Легкая работа"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.9",
+    "resource": "data\\Quest\\Rus\\Easywork.qmm"
+  },
+  {
+    "id": "PirateClanPrison",
+    "name_ru": "Тюрьма (пиратская)",
+    "name_en": "Prison (pirate)",
+    "kind": "definition",
+    "facts": {
+      "Access": "0",
+      "Dif": "0",
+      "Genre": "атмосферно-логическая игра",
+      "Group": "-1",
+      "Image": "Bm.PQI.Driver_04",
+      "Length": "2",
+      "Name": "Тюрьма (пиратская)"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.PirateClanPrison",
+    "resource": "data\\Quest\\Rus\\PirateClanPrison.qmm"
+  },
+  {
+    "id": "Prison",
+    "name_ru": "Тюрьма",
+    "name_en": "Prison",
+    "kind": "definition",
+    "facts": {
+      "Access": "0",
+      "Dif": "0",
+      "Genre": "атмосферно-логическая игра",
+      "Group": "0",
+      "Image": "Bm.PQI.Driver_04",
+      "Length": "2",
+      "Name": "Тюрьма"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.Prison",
+    "resource": "data\\Quest\\Rus\\Prison.qmm"
+  },
+  {
+    "id": "STQ_Ataman1",
+    "name_ru": "Диалог с атаманом",
+    "name_en": "Dialogue with the Capo",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "0",
+      "Genre": "сюжетный квест",
+      "Group": "-1",
+      "Image": "Bm.PQI.STQ_Ataman1_00",
+      "Length": "4",
+      "Name": "Диалог с атаманом"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.STQ_Ataman1",
+    "resource": "data\\Quest\\Rus\\STQ_Ataman1.qmm"
+  },
+  {
+    "id": "STQ_Ataman2",
+    "name_ru": "Перехват транспорта",
+    "name_en": "Intercepting the Transport Vessel",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "0",
+      "Genre": "сюжетный квест",
+      "Group": "-1",
+      "Image": "Bm.PQI.Penetrator_04",
+      "Length": "4",
+      "Name": "Перехват транспорта"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.STQ_Ataman2",
+    "resource": "data\\Quest\\Rus\\STQ_Ataman2.qmm"
+  },
+  {
+    "id": "STQ_Baron1",
+    "name_ru": "Штурм базы",
+    "name_en": "Storming the Base",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "0",
+      "Genre": "сюжетный квест",
+      "Group": "-1",
+      "Image": "Bm.PQI.Commando_03",
+      "Length": "4",
+      "Name": "Штурм базы"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.STQ_Baron1",
+    "resource": "data\\Quest\\Rus\\STQ_Baron1.qmm"
+  },
+  {
+    "id": "STQ_Baron2",
+    "name_ru": "Штурм базы",
+    "name_en": "Storming the Base",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "0",
+      "Genre": "сюжетный квест",
+      "Group": "-1",
+      "Image": "Bm.PQI.Siege_00",
+      "Length": "4",
+      "Name": "Штурм базы"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.STQ_Baron2",
+    "resource": "data\\Quest\\Rus\\STQ_Baron2.qmm"
+  },
+  {
+    "id": "STQ_Baron3",
+    "name_ru": "Штурм базы",
+    "name_en": "Storming the Base",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "0",
+      "Genre": "сюжетный квест",
+      "Group": "-1",
+      "Image": "Bm.PQI.van_64",
+      "Length": "4",
+      "Name": "Штурм базы"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.STQ_Baron3",
+    "resource": "data\\Quest\\Rus\\STQ_Baron3.qmm"
+  },
+  {
+    "id": "STQ_Baron4",
+    "name_ru": "Штурм базы",
+    "name_en": "Storming the Base",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "0",
+      "Genre": "сюжетный квест",
+      "Group": "-1",
+      "Image": "Bm.PQI.Diamond_01",
+      "Length": "4",
+      "Name": "Штурм базы"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.STQ_Baron4",
+    "resource": "data\\Quest\\Rus\\STQ_Baron4.qmm"
+  },
+  {
+    "id": "STQ_Headhunter",
+    "name_ru": "Проникновение в госпиталь",
+    "name_en": "Infiltrating the Hospital",
+    "kind": "definition",
+    "facts": {
+      "Access": "10",
+      "Dif": "0",
+      "Genre": "сюжетный квест",
+      "Group": "-1",
+      "Image": "Bm.PQI.STQ_Headhunter_00",
+      "Length": "4",
+      "Name": "Проникновение в госпиталь"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest.List.STQ_Headhunter",
+    "resource": "data\\Quest\\Rus\\STQ_Headhunter.qmm"
+  }
+]

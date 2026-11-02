@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1",
+    "name_ru": "Лучевая болезнь",
+    "name_en": "Radiation Sickness",
+    "kind": "definition",
+    "facts": {
+      "Name": "Лучевая болезнь"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.ExtraIllness.1"
+  }
+]

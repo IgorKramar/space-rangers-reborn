@@ -1,0 +1,242 @@
+[
+  {
+    "id": "01",
+    "name_ru": "Погоня",
+    "name_en": "Pursuit",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "0",
+      "Image": "Map01.jpg",
+      "Map": "ABMap.map_1",
+      "Name": "Погоня"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.01"
+  },
+  {
+    "id": "02",
+    "name_ru": "Арена Справедливости",
+    "name_en": "Arena of Justice",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "0",
+      "Image": "Map02.jpg",
+      "Map": "ABMap.map_2",
+      "Name": "Арена Справедливости"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.02"
+  },
+  {
+    "id": "03",
+    "name_ru": "Пандорика",
+    "name_en": "Pandorica",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "0",
+      "Image": "Map03.jpg",
+      "Map": "ABMap.map_3",
+      "Name": "Пандорика"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.03"
+  },
+  {
+    "id": "04",
+    "name_ru": "Лос-Ласониум",
+    "name_en": "Los-Lasonium",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "1",
+      "Image": "Map04.jpg",
+      "Map": "ABMap.map_4",
+      "Name": "Лос-Ласониум"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.04"
+  },
+  {
+    "id": "05",
+    "name_ru": "Центрифуга",
+    "name_en": "Centrifuge",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "2",
+      "Image": "Map05.jpg",
+      "Map": "ABMap.map_5",
+      "Name": "Центрифуга"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.05"
+  },
+  {
+    "id": "06",
+    "name_ru": "Лабиринт",
+    "name_en": "Labyrinth",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "1",
+      "Image": "Map06.jpg",
+      "Map": "ABMap.map_6",
+      "Name": "Лабиринт"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.06"
+  },
+  {
+    "id": "07",
+    "name_ru": "Мяч",
+    "name_en": "Ball",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "0",
+      "Image": "Map07.jpg",
+      "Map": "ABMap.map_7",
+      "Name": "Мяч"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.07"
+  },
+  {
+    "id": "08",
+    "name_ru": "Многогранный гаалолипипед",
+    "name_en": "Polyhedral Gaalexagon",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "2",
+      "Image": "Map08.jpg",
+      "Map": "ABMap.map_8",
+      "Name": "Многогранный гаалолипипед"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.08"
+  },
+  {
+    "id": "09",
+    "name_ru": "Артификал",
+    "name_en": "Artificale",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "1",
+      "Image": "Map09.jpg",
+      "Map": "ABMap.map_9",
+      "Name": "Артификал"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.09"
+  },
+  {
+    "id": "10",
+    "name_ru": "Трициклизм",
+    "name_en": "Tricyclism",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "3",
+      "Image": "Map10.jpg",
+      "Map": "ABMap.map_10",
+      "Name": "Трициклизм"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.10"
+  },
+  {
+    "id": "11",
+    "name_ru": "Полусфера",
+    "name_en": "Hemisphere",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "3",
+      "Image": "Map11.jpg",
+      "Map": "ABMap.map_11",
+      "Name": "Полусфера"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.11"
+  },
+  {
+    "id": "12",
+    "name_ru": "Квадразырь",
+    "name_en": "Quadrubble",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "3",
+      "Image": "Map12.jpg",
+      "Map": "ABMap.map_12",
+      "Name": "Квадразырь"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.12"
+  },
+  {
+    "id": "13",
+    "name_ru": "Арена Реегбара",
+    "name_en": "Reegbar's Arena",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "3",
+      "Image": "Map13.jpg",
+      "Map": "ABMap.map_13",
+      "Name": "Арена Реегбара"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.13"
+  },
+  {
+    "id": "14",
+    "name_ru": "Крест",
+    "name_en": "Cross",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "2",
+      "Image": "Map14.jpg",
+      "Map": "ABMap.map_14",
+      "Name": "Крест"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.14"
+  },
+  {
+    "id": "15",
+    "name_ru": "Рачехания",
+    "name_en": "Rachehania",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "3",
+      "Image": "Map15.jpg",
+      "Map": "ABMap.map_15",
+      "Name": "Рачехания"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.15"
+  },
+  {
+    "id": "16",
+    "name_ru": "Келлериада",
+    "name_en": "Kelleriada",
+    "kind": "definition",
+    "facts": {
+      "Access": "1",
+      "Dif": "3",
+      "Image": "Map16.jpg",
+      "Map": "ABMap.map_boss",
+      "Name": "Келлериада"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap.16"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "MS_Begin",
+    "resource": "data\\Script\\MS_Begin.scr",
+    "activation": "1,Script.MS_Begin",
+    "localized_parameters": 62,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.MS_Begin"
+  },
+  {
+    "id": "MS_Blazer",
+    "resource": "data\\Script\\MS_Blazer.scr",
+    "activation": "1,Script.MS_Blazer",
+    "localized_parameters": 49,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.MS_Blazer"
+  },
+  {
+    "id": "MS_Keller",
+    "resource": "data\\Script\\MS_Keller.scr",
+    "activation": "1,Script.MS_Keller",
+    "localized_parameters": 104,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.MS_Keller"
+  },
+  {
+    "id": "MS_PB",
+    "resource": "data\\Script\\MS_PB.scr",
+    "activation": "1,Script.MS_PB",
+    "localized_parameters": 14,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.MS_PB"
+  },
+  {
+    "id": "MS_SB1",
+    "resource": "data\\Script\\MS_SB1.scr",
+    "activation": "1,Script.MS_SB1",
+    "localized_parameters": 16,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.MS_SB1"
+  },
+  {
+    "id": "MS_SB2",
+    "resource": "data\\Script\\MS_SB2.scr",
+    "activation": "1,Script.MS_SB2",
+    "localized_parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.MS_SB2"
+  },
+  {
+    "id": "MS_Terron",
+    "resource": "data\\Script\\MS_Terron.scr",
+    "activation": "1,Script.MS_Terron",
+    "localized_parameters": 47,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.MS_Terron"
+  },
+  {
+    "id": "PC_destroyer",
+    "resource": "data\\Script\\PC_destroyer.scr",
+    "activation": "1,Script.PC_destroyer",
+    "localized_parameters": 31,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_destroyer"
+  },
+  {
+    "id": "PC_fem_rangers",
+    "resource": "data\\Script\\PC_fem_rangers.scr",
+    "activation": "1,Script.PC_fem_rangers",
+    "localized_parameters": 299,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_fem_rangers"
+  },
+  {
+    "id": "PC_final",
+    "resource": "data\\Script\\PC_final.scr",
+    "activation": "1,Script.PC_final",
+    "localized_parameters": 92,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_final"
+  },
+  {
+    "id": "PC_part0",
+    "resource": "data\\Script\\PC_part0.scr",
+    "activation": "1,Script.PC_part0",
+    "localized_parameters": 50,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_part0"
+  },
+  {
+    "id": "PC_part1",
+    "resource": "data\\Script\\PC_part1.scr",
+    "activation": "1,Script.PC_part1",
+    "localized_parameters": 48,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_part1"
+  },
+  {
+    "id": "PC_part2",
+    "resource": "data\\Script\\PC_part2.scr",
+    "activation": "1,Script.PC_part2",
+    "localized_parameters": 69,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_part2"
+  },
+  {
+    "id": "PC_part3",
+    "resource": "data\\Script\\PC_part3.scr",
+    "activation": "1,Script.PC_part3",
+    "localized_parameters": 50,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_part3"
+  },
+  {
+    "id": "PC_part4",
+    "resource": "data\\Script\\PC_part4.scr",
+    "activation": "1,Script.PC_part4",
+    "localized_parameters": 44,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_part4"
+  },
+  {
+    "id": "PC_part5",
+    "resource": "data\\Script\\PC_part5.scr",
+    "activation": "1,Script.PC_part5",
+    "localized_parameters": 221,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_part5"
+  },
+  {
+    "id": "PC_part6",
+    "resource": "data\\Script\\PC_part6.scr",
+    "activation": "1,Script.PC_part6",
+    "localized_parameters": 55,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_part6"
+  },
+  {
+    "id": "PC_part7",
+    "resource": "data\\Script\\PC_part7.scr",
+    "activation": "1,Script.PC_part7",
+    "localized_parameters": 68,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_part7"
+  },
+  {
+    "id": "PC_pla01",
+    "resource": "data\\Script\\PC_pla01.scr",
+    "activation": "1,Script.PC_pla01",
+    "localized_parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla01"
+  },
+  {
+    "id": "PC_pla02",
+    "resource": "data\\Script\\PC_pla02.scr",
+    "activation": "1,Script.PC_pla02",
+    "localized_parameters": 44,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla02"
+  },
+  {
+    "id": "PC_pla03",
+    "resource": "data\\Script\\PC_pla03.scr",
+    "activation": "1,Script.PC_pla03",
+    "localized_parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla03"
+  },
+  {
+    "id": "PC_pla04",
+    "resource": "data\\Script\\PC_pla04.scr",
+    "activation": "1,Script.PC_pla04",
+    "localized_parameters": 21,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla04"
+  },
+  {
+    "id": "PC_pla05",
+    "resource": "data\\Script\\PC_pla05.scr",
+    "activation": "1,Script.PC_pla05",
+    "localized_parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla05"
+  },
+  {
+    "id": "PC_pla06",
+    "resource": "data\\Script\\PC_pla06.scr",
+    "activation": "1,Script.PC_pla06",
+    "localized_parameters": 20,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla06"
+  },
+  {
+    "id": "PC_pla07",
+    "resource": "data\\Script\\PC_pla07.scr",
+    "activation": "1,Script.PC_pla07",
+    "localized_parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla07"
+  },
+  {
+    "id": "PC_pla08",
+    "resource": "data\\Script\\PC_pla08.scr",
+    "activation": "1,Script.PC_pla08",
+    "localized_parameters": 43,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla08"
+  },
+  {
+    "id": "PC_pla09",
+    "resource": "data\\Script\\PC_pla09.scr",
+    "activation": "1,Script.PC_pla09",
+    "localized_parameters": 17,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla09"
+  },
+  {
+    "id": "PC_pla10",
+    "resource": "data\\Script\\PC_pla10.scr",
+    "activation": "1,Script.PC_pla10",
+    "localized_parameters": 15,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla10"
+  },
+  {
+    "id": "PC_pla11",
+    "resource": "data\\Script\\PC_pla11.scr",
+    "activation": "1,Script.PC_pla11",
+    "localized_parameters": 36,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla11"
+  },
+  {
+    "id": "PC_pla12",
+    "resource": "data\\Script\\PC_pla12.scr",
+    "activation": "1,Script.PC_pla12",
+    "localized_parameters": 18,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla12"
+  },
+  {
+    "id": "PC_pla13",
+    "resource": "data\\Script\\PC_pla13.scr",
+    "activation": "1,Script.PC_pla13",
+    "localized_parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla13"
+  },
+  {
+    "id": "PC_pla14",
+    "resource": "data\\Script\\PC_pla14.scr",
+    "activation": "1,Script.PC_pla14",
+    "localized_parameters": 19,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla14"
+  },
+  {
+    "id": "PC_pla15",
+    "resource": "data\\Script\\PC_pla15.scr",
+    "activation": "1,Script.PC_pla15",
+    "localized_parameters": 182,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla15"
+  },
+  {
+    "id": "PC_pla16",
+    "resource": "data\\Script\\PC_pla16.scr",
+    "activation": "1,Script.PC_pla16",
+    "localized_parameters": 25,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla16"
+  },
+  {
+    "id": "PC_pla17",
+    "resource": "data\\Script\\PC_pla17.scr",
+    "activation": "1,Script.PC_pla17",
+    "localized_parameters": 16,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla17"
+  },
+  {
+    "id": "PC_pla18",
+    "resource": "data\\Script\\PC_pla18.scr",
+    "activation": "1,Script.PC_pla18",
+    "localized_parameters": 20,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla18"
+  },
+  {
+    "id": "PC_pla19",
+    "resource": "data\\Script\\PC_pla19.scr",
+    "activation": "1,Script.PC_pla19",
+    "localized_parameters": 22,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla19"
+  },
+  {
+    "id": "PC_pla20",
+    "resource": "data\\Script\\PC_pla20.scr",
+    "activation": "1,Script.PC_pla20",
+    "localized_parameters": 18,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla20"
+  },
+  {
+    "id": "PC_pla21",
+    "resource": "data\\Script\\PC_pla21.scr",
+    "activation": "1,Script.PC_pla21",
+    "localized_parameters": 24,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.PC_pla21"
+  },
+  {
+    "id": "test",
+    "resource": "data\\Script\\test.scr",
+    "activation": "1,Script.test",
+    "localized_parameters": 0,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script.test"
+  }
+]

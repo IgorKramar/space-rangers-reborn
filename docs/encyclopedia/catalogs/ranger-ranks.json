@@ -1,0 +1,90 @@
+[
+  {
+    "id": "Ace",
+    "name_ru": "Ас",
+    "name_en": "Ace",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ас"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank.Ace"
+  },
+  {
+    "id": "Admiral",
+    "name_ru": "Адмирал",
+    "name_en": "Admiral",
+    "kind": "definition",
+    "facts": {
+      "Name": "Адмирал"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank.Admiral"
+  },
+  {
+    "id": "Cadet",
+    "name_ru": "Кадет",
+    "name_en": "Cadet",
+    "kind": "definition",
+    "facts": {
+      "Name": "Кадет"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank.Cadet"
+  },
+  {
+    "id": "Commander",
+    "name_ru": "Командор",
+    "name_en": "Commander",
+    "kind": "definition",
+    "facts": {
+      "Name": "Командор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank.Commander"
+  },
+  {
+    "id": "Leader",
+    "name_ru": "Истребитель",
+    "name_en": "Fighter",
+    "kind": "definition",
+    "facts": {
+      "Name": "Истребитель"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank.Leader"
+  },
+  {
+    "id": "Pilot",
+    "name_ru": "Пилот",
+    "name_en": "Pilot",
+    "kind": "definition",
+    "facts": {
+      "Name": "Пилот"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank.Pilot"
+  },
+  {
+    "id": "Rookie",
+    "name_ru": "Новичок",
+    "name_en": "Rookie",
+    "kind": "definition",
+    "facts": {
+      "Name": "Новичок"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank.Rookie"
+  },
+  {
+    "id": "Wingman",
+    "name_ru": "Капитан",
+    "name_en": "Captain",
+    "kind": "definition",
+    "facts": {
+      "Name": "Капитан"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank.Wingman"
+  }
+]

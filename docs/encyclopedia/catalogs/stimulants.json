@@ -1,0 +1,134 @@
+[
+  {
+    "id": "0",
+    "name_ru": "Малокская сижа",
+    "name_en": "Maloq Sizha",
+    "kind": "definition",
+    "facts": {
+      "Name": "Малокская сижа"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.0"
+  },
+  {
+    "id": "1",
+    "name_ru": "Одноглазый Хамас",
+    "name_en": "One-eyed Khamas",
+    "kind": "definition",
+    "facts": {
+      "Name": "Одноглазый Хамас"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.1"
+  },
+  {
+    "id": "10",
+    "name_ru": "Дубльплекс",
+    "name_en": "Doubleplex",
+    "kind": "definition",
+    "facts": {
+      "Name": "Дубльплекс"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.10"
+  },
+  {
+    "id": "11",
+    "name_ru": "Абсолютный статус",
+    "name_en": "Absolute Status",
+    "kind": "definition",
+    "facts": {
+      "Name": "Абсолютный статус"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.11"
+  },
+  {
+    "id": "2",
+    "name_ru": "Звездная пыль",
+    "name_en": "Stardust",
+    "kind": "definition",
+    "facts": {
+      "Name": "Звездная пыль"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.2"
+  },
+  {
+    "id": "3",
+    "name_ru": "Супер техник",
+    "name_en": "Super Technician",
+    "kind": "definition",
+    "facts": {
+      "Name": "Супер техник"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.3"
+  },
+  {
+    "id": "4",
+    "name_ru": "Гаалистра времени",
+    "name_en": "Gaalian Alacrity",
+    "kind": "definition",
+    "facts": {
+      "Name": "Гаалистра времени"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.4"
+  },
+  {
+    "id": "5",
+    "name_ru": "Кровяной джогар",
+    "name_en": "Blood Djogar",
+    "kind": "definition",
+    "facts": {
+      "Name": "Кровяной джогар"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.5"
+  },
+  {
+    "id": "6",
+    "name_ru": "Рагобамский шепот",
+    "name_en": "Ragobam Whisper",
+    "kind": "definition",
+    "facts": {
+      "Name": "Рагобамский шепот"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.6"
+  },
+  {
+    "id": "7",
+    "name_ru": "Ведущий Шахманду",
+    "name_en": "Shakhmandoo Leader",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ведущий Шахманду"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.7"
+  },
+  {
+    "id": "8",
+    "name_ru": "Психотропный кэш",
+    "name_en": "Psychotropic Cache",
+    "kind": "definition",
+    "facts": {
+      "Name": "Психотропный кэш"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.8"
+  },
+  {
+    "id": "9",
+    "name_ru": "Торговая маркировка",
+    "name_en": "Business Mark",
+    "kind": "definition",
+    "facts": {
+      "Name": "Торговая маркировка"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Stimulant.9"
+  }
+]

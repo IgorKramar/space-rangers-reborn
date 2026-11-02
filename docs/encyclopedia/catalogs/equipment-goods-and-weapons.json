@@ -1,0 +1,870 @@
+[
+  {
+    "id": "1",
+    "category": "Goods",
+    "name_ru": "Продукты",
+    "name_en": "Foodstuffs",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Goods.Name.1"
+  },
+  {
+    "id": "2",
+    "category": "Goods",
+    "name_ru": "Медикаменты",
+    "name_en": "Medical Supplies",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Goods.Name.2"
+  },
+  {
+    "id": "3",
+    "category": "Goods",
+    "name_ru": "Техника",
+    "name_en": "Technics",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Goods.Name.3"
+  },
+  {
+    "id": "4",
+    "category": "Goods",
+    "name_ru": "Роскошь",
+    "name_en": "Luxury",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Goods.Name.4"
+  },
+  {
+    "id": "5",
+    "category": "Goods",
+    "name_ru": "Минералы",
+    "name_en": "Minerals",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Goods.Name.5"
+  },
+  {
+    "id": "6",
+    "category": "Goods",
+    "name_ru": "Алкоголь",
+    "name_en": "Alcohol",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Goods.Name.6"
+  },
+  {
+    "id": "7",
+    "category": "Goods",
+    "name_ru": "Оружие",
+    "name_en": "Weapons",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Goods.Name.7"
+  },
+  {
+    "id": "8",
+    "category": "Goods",
+    "name_ru": "Наркотики",
+    "name_en": "Narcotics",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Goods.Name.8"
+  },
+  {
+    "id": "1",
+    "category": "Weapon",
+    "name_ru": "Промышленный лазер",
+    "name_en": "Industrial Laser",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.1"
+  },
+  {
+    "id": "10",
+    "category": "Weapon",
+    "name_ru": "Атомный визион",
+    "name_en": "Atomic Vision",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.10"
+  },
+  {
+    "id": "11",
+    "category": "Weapon",
+    "name_ru": "Дезинтегратор",
+    "name_en": "Disintegrator",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.11"
+  },
+  {
+    "id": "12",
+    "category": "Weapon",
+    "name_ru": "Турбогравир",
+    "name_en": "Turbogravitron",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.12"
+  },
+  {
+    "id": "13",
+    "category": "Weapon",
+    "name_ru": "ИМХО-9000",
+    "name_en": "IMHO-9000",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.13"
+  },
+  {
+    "id": "14",
+    "category": "Weapon",
+    "name_ru": "Вертикс",
+    "name_en": "Vertix",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.14"
+  },
+  {
+    "id": "15",
+    "category": "Weapon",
+    "name_ru": "Торпедный аппарат",
+    "name_en": "Torpedo Tube",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.15"
+  },
+  {
+    "id": "16",
+    "category": "Weapon",
+    "name_ru": "Эсодафер",
+    "name_en": "Esodapher",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.16"
+  },
+  {
+    "id": "17",
+    "category": "Weapon",
+    "name_ru": "Кафаситор",
+    "name_en": "Caphasitor",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.17"
+  },
+  {
+    "id": "18",
+    "category": "Weapon",
+    "name_ru": "Лирекрон",
+    "name_en": "Lirecron",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.18"
+  },
+  {
+    "id": "2",
+    "category": "Weapon",
+    "name_ru": "Осколочное орудие",
+    "name_en": "Fragmentation Cannon",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.2"
+  },
+  {
+    "id": "3",
+    "category": "Weapon",
+    "name_ru": "Лезка",
+    "name_en": "Flux",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.3"
+  },
+  {
+    "id": "4",
+    "category": "Weapon",
+    "name_ru": "Ракетомет",
+    "name_en": "Missile Launcher",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.4"
+  },
+  {
+    "id": "5",
+    "category": "Weapon",
+    "name_ru": "Третон",
+    "name_en": "Treton",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.5"
+  },
+  {
+    "id": "6",
+    "category": "Weapon",
+    "name_ru": "Волновой фазер",
+    "name_en": "Wave Phaser",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.6"
+  },
+  {
+    "id": "7",
+    "category": "Weapon",
+    "name_ru": "Потоковый бластер",
+    "name_en": "Flow Blaster",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.7"
+  },
+  {
+    "id": "8",
+    "category": "Weapon",
+    "name_ru": "Электронный резак",
+    "name_en": "Electronic Cutter",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.8"
+  },
+  {
+    "id": "9",
+    "category": "Weapon",
+    "name_ru": "Мультирезонатор",
+    "name_en": "Multiresonator",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Weapon.Name.9"
+  },
+  {
+    "id": "1",
+    "category": "CargoHook",
+    "name_ru": "Активаторный",
+    "name_en": "Activating",
+    "name_template": "<Type> захват",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.CargoHook.Type.1"
+  },
+  {
+    "id": "2",
+    "category": "CargoHook",
+    "name_ru": "Телекинетический",
+    "name_en": "Telekinetic",
+    "name_template": "<Type> захват",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.CargoHook.Type.2"
+  },
+  {
+    "id": "3",
+    "category": "CargoHook",
+    "name_ru": "Плазмонитевый",
+    "name_en": "Plasmathread",
+    "name_template": "<Type> захват",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.CargoHook.Type.3"
+  },
+  {
+    "id": "4",
+    "category": "CargoHook",
+    "name_ru": "Эктогенный",
+    "name_en": "Ectogenic",
+    "name_template": "<Type> захват",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.CargoHook.Type.4"
+  },
+  {
+    "id": "5",
+    "category": "CargoHook",
+    "name_ru": "Пьезотронный",
+    "name_en": "Piezotropic",
+    "name_template": "<Type> захват",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.CargoHook.Type.5"
+  },
+  {
+    "id": "6",
+    "category": "CargoHook",
+    "name_ru": "Эриметроидный",
+    "name_en": "Erimetric",
+    "name_template": "<Type> захват",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.CargoHook.Type.6"
+  },
+  {
+    "id": "7",
+    "category": "CargoHook",
+    "name_ru": "Оптоволновой",
+    "name_en": "Optoundular",
+    "name_template": "<Type> захват",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.CargoHook.Type.7"
+  },
+  {
+    "id": "8",
+    "category": "CargoHook",
+    "name_ru": "Микротональный",
+    "name_en": "Microtonal",
+    "name_template": "<Type> захват",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.CargoHook.Type.8"
+  },
+  {
+    "id": "1",
+    "category": "DefGenerator",
+    "name_ru": "Коротковолновый",
+    "name_en": "Shortwave",
+    "name_template": "<Type> генератор защиты",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.DefGenerator.Type.1"
+  },
+  {
+    "id": "2",
+    "category": "DefGenerator",
+    "name_ru": "Поляризующий",
+    "name_en": "Polarizing",
+    "name_template": "<Type> генератор защиты",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.DefGenerator.Type.2"
+  },
+  {
+    "id": "3",
+    "category": "DefGenerator",
+    "name_ru": "Мезонный",
+    "name_en": "Mesonic",
+    "name_template": "<Type> генератор защиты",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.DefGenerator.Type.3"
+  },
+  {
+    "id": "4",
+    "category": "DefGenerator",
+    "name_ru": "Сетчатый",
+    "name_en": "Mesh",
+    "name_template": "<Type> генератор защиты",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.DefGenerator.Type.4"
+  },
+  {
+    "id": "5",
+    "category": "DefGenerator",
+    "name_ru": "Полигональный",
+    "name_en": "Polygon",
+    "name_template": "<Type> генератор защиты",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.DefGenerator.Type.5"
+  },
+  {
+    "id": "6",
+    "category": "DefGenerator",
+    "name_ru": "Зональный",
+    "name_en": "Zone",
+    "name_template": "<Type> генератор защиты",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.DefGenerator.Type.6"
+  },
+  {
+    "id": "7",
+    "category": "DefGenerator",
+    "name_ru": "Микроуровневый",
+    "name_en": "Microlevel",
+    "name_template": "<Type> генератор защиты",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.DefGenerator.Type.7"
+  },
+  {
+    "id": "8",
+    "category": "DefGenerator",
+    "name_ru": "Ультраплазменный",
+    "name_en": "Ultraplasmic",
+    "name_template": "<Type> генератор защиты",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.DefGenerator.Type.8"
+  },
+  {
+    "id": "1",
+    "category": "Engine",
+    "name_ru": "Нырковый",
+    "name_en": "Diving",
+    "name_template": "<Type> двигатель",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Engine.Type.1"
+  },
+  {
+    "id": "2",
+    "category": "Engine",
+    "name_ru": "Сингулярный",
+    "name_en": "Singular",
+    "name_template": "<Type> двигатель",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Engine.Type.2"
+  },
+  {
+    "id": "3",
+    "category": "Engine",
+    "name_ru": "Жабродюзный",
+    "name_en": "Gillnozzle",
+    "name_template": "<Type> двигатель",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Engine.Type.3"
+  },
+  {
+    "id": "4",
+    "category": "Engine",
+    "name_ru": "Потоковый",
+    "name_en": "Flow",
+    "name_template": "<Type> двигатель",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Engine.Type.4"
+  },
+  {
+    "id": "5",
+    "category": "Engine",
+    "name_ru": "Сплэшевый",
+    "name_en": "Splash",
+    "name_template": "<Type> двигатель",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Engine.Type.5"
+  },
+  {
+    "id": "6",
+    "category": "Engine",
+    "name_ru": "Гравитонный",
+    "name_en": "Graviton",
+    "name_template": "<Type> двигатель",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Engine.Type.6"
+  },
+  {
+    "id": "7",
+    "category": "Engine",
+    "name_ru": "Стансерный",
+    "name_en": "Stensor",
+    "name_template": "<Type> двигатель",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Engine.Type.7"
+  },
+  {
+    "id": "8",
+    "category": "Engine",
+    "name_ru": "Темпоральный",
+    "name_en": "Temporal",
+    "name_template": "<Type> двигатель",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Engine.Type.8"
+  },
+  {
+    "id": "1",
+    "category": "FuelTanks",
+    "name_ru": "Гипержидкостный",
+    "name_en": "Hyperliquid",
+    "name_template": "<Type> топливный бак",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.FuelTanks.Type.1"
+  },
+  {
+    "id": "2",
+    "category": "FuelTanks",
+    "name_ru": "Конденсатный",
+    "name_en": "Condensed",
+    "name_template": "<Type> топливный бак",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.FuelTanks.Type.2"
+  },
+  {
+    "id": "3",
+    "category": "FuelTanks",
+    "name_ru": "Редукционный",
+    "name_en": "Reductional",
+    "name_template": "<Type> топливный бак",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.FuelTanks.Type.3"
+  },
+  {
+    "id": "4",
+    "category": "FuelTanks",
+    "name_ru": "Протопузырчатый",
+    "name_en": "Protovesicular",
+    "name_template": "<Type> топливный бак",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.FuelTanks.Type.4"
+  },
+  {
+    "id": "5",
+    "category": "FuelTanks",
+    "name_ru": "Позиционный",
+    "name_en": "Positional",
+    "name_template": "<Type> топливный бак",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.FuelTanks.Type.5"
+  },
+  {
+    "id": "6",
+    "category": "FuelTanks",
+    "name_ru": "Эндокластерный",
+    "name_en": "Endoclustered",
+    "name_template": "<Type> топливный бак",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.FuelTanks.Type.6"
+  },
+  {
+    "id": "7",
+    "category": "FuelTanks",
+    "name_ru": "Гироскопический",
+    "name_en": "Gyroscopic",
+    "name_template": "<Type> топливный бак",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.FuelTanks.Type.7"
+  },
+  {
+    "id": "8",
+    "category": "FuelTanks",
+    "name_ru": "Текриновый",
+    "name_en": "Tecronic",
+    "name_template": "<Type> топливный бак",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.FuelTanks.Type.8"
+  },
+  {
+    "id": "1",
+    "category": "Hull",
+    "name_ru": "Гравикорный",
+    "name_en": "Gravicore",
+    "name_template": "<Type> корпус <ShipType>",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Hull.Type.1"
+  },
+  {
+    "id": "2",
+    "category": "Hull",
+    "name_ru": "Мезоструктурный",
+    "name_en": "Mesostructural",
+    "name_template": "<Type> корпус <ShipType>",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Hull.Type.2"
+  },
+  {
+    "id": "3",
+    "category": "Hull",
+    "name_ru": "Рогостовый",
+    "name_en": "Rogust",
+    "name_template": "<Type> корпус <ShipType>",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Hull.Type.3"
+  },
+  {
+    "id": "4",
+    "category": "Hull",
+    "name_ru": "Бромированный",
+    "name_en": "Brominated",
+    "name_template": "<Type> корпус <ShipType>",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Hull.Type.4"
+  },
+  {
+    "id": "5",
+    "category": "Hull",
+    "name_ru": "Хробайтовый",
+    "name_en": "Chrobyte",
+    "name_template": "<Type> корпус <ShipType>",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Hull.Type.5"
+  },
+  {
+    "id": "6",
+    "category": "Hull",
+    "name_ru": "Полиморфный",
+    "name_en": "Polymorphic",
+    "name_template": "<Type> корпус <ShipType>",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Hull.Type.6"
+  },
+  {
+    "id": "7",
+    "category": "Hull",
+    "name_ru": "Нанохитиновый",
+    "name_en": "Nanochitinous",
+    "name_template": "<Type> корпус <ShipType>",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Hull.Type.7"
+  },
+  {
+    "id": "8",
+    "category": "Hull",
+    "name_ru": "Биослотовый",
+    "name_en": "Bioslotting",
+    "name_template": "<Type> корпус <ShipType>",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Hull.Type.8"
+  },
+  {
+    "id": "1",
+    "category": "Radar",
+    "name_ru": "Волновой",
+    "name_en": "Undular",
+    "name_template": "<Type> радар",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Radar.Type.1"
+  },
+  {
+    "id": "2",
+    "category": "Radar",
+    "name_ru": "Субтрансферный",
+    "name_en": "Subtransfer",
+    "name_template": "<Type> радар",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Radar.Type.2"
+  },
+  {
+    "id": "3",
+    "category": "Radar",
+    "name_ru": "Октонный",
+    "name_en": "Octonic",
+    "name_template": "<Type> радар",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Radar.Type.3"
+  },
+  {
+    "id": "4",
+    "category": "Radar",
+    "name_ru": "Пучковый",
+    "name_en": "Fascicular",
+    "name_template": "<Type> радар",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Radar.Type.4"
+  },
+  {
+    "id": "5",
+    "category": "Radar",
+    "name_ru": "Катаурный",
+    "name_en": "Cathauric",
+    "name_template": "<Type> радар",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Radar.Type.5"
+  },
+  {
+    "id": "6",
+    "category": "Radar",
+    "name_ru": "Нейропоточный",
+    "name_en": "Neurolinear",
+    "name_template": "<Type> радар",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Radar.Type.6"
+  },
+  {
+    "id": "7",
+    "category": "Radar",
+    "name_ru": "Этановый",
+    "name_en": "Ethane",
+    "name_template": "<Type> радар",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Radar.Type.7"
+  },
+  {
+    "id": "8",
+    "category": "Radar",
+    "name_ru": "Нуль-контактный",
+    "name_en": "Zero-contact",
+    "name_template": "<Type> радар",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Radar.Type.8"
+  },
+  {
+    "id": "1",
+    "category": "RepairRobot",
+    "name_ru": "Биотический",
+    "name_en": "Biotic",
+    "name_template": "<Type> дроид",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.RepairRobot.Type.1"
+  },
+  {
+    "id": "2",
+    "category": "RepairRobot",
+    "name_ru": "Суспензорный",
+    "name_en": "Suspensory",
+    "name_template": "<Type> дроид",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.RepairRobot.Type.2"
+  },
+  {
+    "id": "3",
+    "category": "RepairRobot",
+    "name_ru": "Трекинговый",
+    "name_en": "Tracking",
+    "name_template": "<Type> дроид",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.RepairRobot.Type.3"
+  },
+  {
+    "id": "4",
+    "category": "RepairRobot",
+    "name_ru": "Стволовой",
+    "name_en": "Tubular",
+    "name_template": "<Type> дроид",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.RepairRobot.Type.4"
+  },
+  {
+    "id": "5",
+    "category": "RepairRobot",
+    "name_ru": "Болидный",
+    "name_en": "Bolide",
+    "name_template": "<Type> дроид",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.RepairRobot.Type.5"
+  },
+  {
+    "id": "6",
+    "category": "RepairRobot",
+    "name_ru": "Тензорный",
+    "name_en": "Tensor",
+    "name_template": "<Type> дроид",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.RepairRobot.Type.6"
+  },
+  {
+    "id": "7",
+    "category": "RepairRobot",
+    "name_ru": "Штифтовый",
+    "name_en": "Dowel",
+    "name_template": "<Type> дроид",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.RepairRobot.Type.7"
+  },
+  {
+    "id": "8",
+    "category": "RepairRobot",
+    "name_ru": "Дуплексный",
+    "name_en": "Duplex",
+    "name_template": "<Type> дроид",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.RepairRobot.Type.8"
+  },
+  {
+    "id": "1",
+    "category": "Scaner",
+    "name_ru": "Трассионный",
+    "name_en": "Tracer",
+    "name_template": "<Type> сканер",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Scaner.Type.1"
+  },
+  {
+    "id": "2",
+    "category": "Scaner",
+    "name_ru": "Вортексный",
+    "name_en": "Vortex",
+    "name_template": "<Type> сканер",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Scaner.Type.2"
+  },
+  {
+    "id": "3",
+    "category": "Scaner",
+    "name_ru": "Нейрощупный",
+    "name_en": "Neuroprobic",
+    "name_template": "<Type> сканер",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Scaner.Type.3"
+  },
+  {
+    "id": "4",
+    "category": "Scaner",
+    "name_ru": "Молекулярный",
+    "name_en": "Molecular",
+    "name_template": "<Type> сканер",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Scaner.Type.4"
+  },
+  {
+    "id": "5",
+    "category": "Scaner",
+    "name_ru": "Коллоидный",
+    "name_en": "Colloidal",
+    "name_template": "<Type> сканер",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Scaner.Type.5"
+  },
+  {
+    "id": "6",
+    "category": "Scaner",
+    "name_ru": "Текторный",
+    "name_en": "Tecoral",
+    "name_template": "<Type> сканер",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Scaner.Type.6"
+  },
+  {
+    "id": "7",
+    "category": "Scaner",
+    "name_ru": "Деатомарный",
+    "name_en": "Deatomic",
+    "name_template": "<Type> сканер",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Scaner.Type.7"
+  },
+  {
+    "id": "8",
+    "category": "Scaner",
+    "name_ru": "Кванторный",
+    "name_en": "Quantifying",
+    "name_template": "<Type> сканер",
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Scaner.Type.8"
+  },
+  {
+    "id": "0",
+    "name_ru": "Оперон",
+    "name_en": "Operon",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Оперон",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Satellite.0",
+    "category": "Satellite"
+  },
+  {
+    "id": "1",
+    "name_ru": "Керинд",
+    "name_en": "Cerind",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Керинд",
+      "Size": "7"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Satellite.1",
+    "category": "Satellite"
+  },
+  {
+    "id": "2",
+    "name_ru": "Тектон",
+    "name_en": "Tecton",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Тектон",
+      "Size": "15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Satellite.2",
+    "category": "Satellite"
+  },
+  {
+    "id": "3",
+    "name_ru": "Шаклас",
+    "name_en": "Shacklas",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Шаклас",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Satellite.3",
+    "category": "Satellite"
+  },
+  {
+    "id": "4",
+    "name_ru": "Нейтра",
+    "name_en": "Neutra",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Нейтра",
+      "Size": "15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Satellite.4",
+    "category": "Satellite"
+  },
+  {
+    "id": "5",
+    "name_ru": "Глазнюк",
+    "name_en": "Oculus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Глазнюк",
+      "Size": "25"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items.Satellite.5",
+    "category": "Satellite"
+  }
+]

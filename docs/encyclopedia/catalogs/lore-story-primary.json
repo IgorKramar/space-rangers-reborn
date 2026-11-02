@@ -1,0 +1,953 @@
+{
+  "schemaVersion": 1,
+  "title": "Первичные сюжетные факты и развилки HD",
+  "compiledBy": "Igor Kramar",
+  "accessDate": "2026-11-02",
+  "edition": "Русская установленная Space Rangers HD; VS_FIXEDFILEINFO 2.1.2500.0, Steam build20648864; хеши оригиналов — в общем манифесте",
+  "method": "Ручная сверка текста локализации и декодированного графа сценария; без прогона в игре",
+  "sourceAuthorityLegend": {
+    "in_world_informed_testimony": "Осведомлённый персонаж сообщает свою версию",
+    "script_rule": "Условие обнаружено в декодированном скрипте",
+    "authored_branch": "Наблюдаемая сцена только выбранной ветви",
+    "conditional_epilogue": "Условный будущий исход после завершения карьеры",
+    "textual_variation": "Различие написания внутри данных",
+    "in_world_testimony": "Рассказ персонажа с его оценками",
+    "conflicting_in_world_accounts": "Различающиеся версии собеседников",
+    "in_world_scientific_explanation": "Объяснение учёного внутри мира",
+    "character_self_description": "Мотив или происхождение в словах самого персонажа",
+    "script_branch": "Выбранная ветвь декодированного сценария",
+    "script_branch_and_dialogue": "Ветвь сценария и соответствующие реплики",
+    "localized_taxonomy_and_scripts": "Локализованный классификатор и его сюжетное использование",
+    "in_world_contested_testimony": "Сведения участника внутреннего конфликта",
+    "in_world_dossier": "Справка собеседника о другом персонаже",
+    "authored_scene_with_character_dialogue": "Наблюдаемая сцена выбранной ветви и реплики её участников",
+    "authored_branch_and_script_result": "Сцена и связанное значение результата",
+    "script_branch_and_in_world_news": "Ветвь кода и её освещение новостями",
+    "in_world_propaganda_candidate": "Редакторская гипотеза о политической версии события",
+    "script_rule_and_dialogue": "Правило сценария и его текстовое объяснение",
+    "conditional_in_world_dialogue": "Реплика, доступная лишь при определённом состоянии мира",
+    "localized_display_name": "Имя отображаемого определения",
+    "in_world_briefing": "Вводная речь учреждения",
+    "authored_mission_and_testimony": "Условие задания и объяснение нанимателя",
+    "authored_mission": "Авторская ситуация задания"
+  },
+  "artifacts": [
+    {
+      "path": "dat/CFG__Rus__Lang.dat.json",
+      "sha256": "2f239773123b7b5ab9c90ca994df7164076c1b51bbe585d11bb8e62a4c13229d"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/MS_SB1.scr.json",
+      "sha256": "9a41fc10fae819ecb3e8e2d34ae0bdfe3c230821a49eff95de1aa47a99740915"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/MS_SB2.scr.json",
+      "sha256": "90bb4b803a65f578f6742e085fdfa8a35ab1cde75ae17d9c1c7c7a4f63afe051"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/MS_PB.scr.json",
+      "sha256": "d54221982750be61546b897ff569474d6eb6cab0ac9589bf2b59f0f74d41a1c3"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/MS_Blazer.scr.json",
+      "sha256": "55c4423421b6c467ed6b3dccb87204e5226066277483f9a6c7f1fc66f0363c9f"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/MS_Keller.scr.json",
+      "sha256": "decf995a90983c6c38f5de128ea7578d469b68e89f737d50fab822d371f3af58"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/MS_Terron.scr.json",
+      "sha256": "71bb5b053f09b34bfc10dd8d140634e381e3d9a6d55baf6ba3109c0d6e9d759e"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_part0.scr.json",
+      "sha256": "6c1fc92c61c7a1b2e305f098390aa0e091de1a38ca55e6a390cf5a8a5462c97f"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_part1.scr.json",
+      "sha256": "199056340decc933439ec529662cca00f6776f2e6f3486c85b2334a4f22a657d"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_part2.scr.json",
+      "sha256": "dd40999c548b5cae5d84a31753d4c0c93bb6eeee951b6f366f69459e197ec270"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_part3.scr.json",
+      "sha256": "c2084267fda77783bdc62a063f7941543315dfc3a1323ad5441f330bcbc2784e"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_part4.scr.json",
+      "sha256": "0e3fe442a45d747f985793fbea544284d8bd47a356dd06af00b79f42b48e74df"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_part5.scr.json",
+      "sha256": "d3ca0e29bf6a82367d966081dcdae88dea109a170163665553c84b4480d6aefd"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_part6.scr.json",
+      "sha256": "2554592003e0e6bb4eec17c371cbd92dd39e951fd155dcdd2ef7d7c5d63061d4"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_part7.scr.json",
+      "sha256": "7265b42c993f0a3cdc481483e1a6c1135b5b781807fef7152ee2297458de9ed3"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_final.scr.json",
+      "sha256": "978cb50c2e4a41c31402f97d752bc531613ffa1d3f8836cf4818b6ece848080c"
+    },
+    {
+      "path": "decoded/DATA__questsRus.pkg/STQ_Baron4.qmm.json",
+      "sha256": "c340dbd8eb830506b0c11243e5e1f5c813e98e22cb9d758f1e809ca9109e0e0a"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/MS_Begin.scr.json",
+      "sha256": "b93e22e76fc0c85589b7f35e043b72ceb5c695861f96862fd1f43946f72f4f11"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_destroyer.scr.json",
+      "sha256": "7d5768e0bbe830face6fd781845fb47c7e11c5668b3a59c4994cafe66884d07e"
+    },
+    {
+      "path": "decoded/DATA__scripts.pkg/PC_fem_rangers.scr.json",
+      "sha256": "8b18f2d640a45a80aeb5ea1d86cb42325383ea4b05f88312a385a8d41e5015fe"
+    }
+  ],
+  "sourceCodeCrosscheck": {
+    "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+    "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+    "file": "source/screens/fGameEnd.pas",
+    "lines": "312-325",
+    "limits": "FPC-проект не доказан побитово тождественным установленному исполняемому файлу"
+  },
+  "facts": [
+    {
+      "id": "origin_scientist",
+      "summary": "Учёный излагает историю запрещённых модульных роботов, тайника малоков и слияния уцелевших модулей с клисанскими.",
+      "sourceAuthority": "in_world_informed_testimony",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_SB2.5"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_SB2.6"
+        }
+      ],
+      "limits": "Это рассказ научной базы с уровнем допуска; предположения об искажении программ явно остаются предположениями."
+    },
+    {
+      "id": "origin_pirate",
+      "summary": "Пиратский рассказ подтверждает общую цепочку и прямо называет ядерную атаку.",
+      "sourceAuthority": "in_world_testimony",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_PB.2"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_PB.3"
+        }
+      ],
+      "limits": "Антималокская оценка и объяснение безумием принадлежат собеседнику."
+    },
+    {
+      "id": "intelligence_dispute",
+      "summary": "Учёный отличает официальное признание малоков от слуха о краже секрета Дзухаллагом; пират считает кражу состоявшейся.",
+      "sourceAuthority": "conflicting_in_world_accounts",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_SB2.7"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_PB.3"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "gralgar_battle",
+      "summary": "В рассказах о Гралгаре Коалиция теряет две трети объединённого флота; доминаторы возобновляют наступление через несколько месяцев.",
+      "sourceAuthority": "in_world_informed_testimony",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_SB2.7"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_PB.3"
+        }
+      ],
+      "limits": "Текст не доказывает тождество исторической уничтоженной планеты и текущего тела Террона."
+    },
+    {
+      "id": "classified_briefing",
+      "summary": "Расширенный инструктаж требует завершённого первого разговора и воинского ранга выше нуля, пока доминаторы не побеждены.",
+      "sourceAuthority": "script_rule",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_SB2.scr",
+          "path": "globalcode"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_SB2.scr",
+          "path": "dialogbegincode"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "nodes_and_klisans",
+      "summary": "Учёный объясняет клисанскую протоплазму как микрокристаллы; ноды доминаторов крупнее и функциональнее.",
+      "sourceAuthority": "in_world_scientific_explanation",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_SB1.2"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "blazer_goal",
+      "summary": "Блазер называет целью абсолютную победу и считает врагами всех вне своей серии.",
+      "sourceAuthority": "character_self_description",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Blazer.3"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Blazer.4"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Blazer.48"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "blazer_outcomes",
+      "summary": "После загрузки программы возможны самоуничтожение Блазера или переподчинение с посадкой; обе ветви вызывают уничтожение его серии.",
+      "sourceAuthority": "script_branch",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_Blazer.scr",
+          "path": "dialog_answers[19]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Blazer.scr",
+          "path": "dialog_answers[21]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Blazer.scr",
+          "path": "dialog_answers[22]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Blazer.scr",
+          "path": "dialog_answers[27]"
+        }
+      ],
+      "limits": "Точное исполнение движковых функций отдельно от графа диалога."
+    },
+    {
+      "id": "keller_goal",
+      "summary": "Келлер называет целью познание и оправдывает разрушение кораблей и организмов анализом.",
+      "sourceAuthority": "character_self_description",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Keller.62"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Keller.63"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Keller.64"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Keller.9"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "keller_origin_confirmation",
+      "summary": "Келлер признаёт совместную роль гуманоидов и клисан в своём возникновении.",
+      "sourceAuthority": "character_self_description",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Keller.68"
+        }
+      ],
+      "limits": "Не подтверждает все детали чужого рассказа о малоках и бомбардировке."
+    },
+    {
+      "id": "keller_basic_outcomes",
+      "summary": "Граф диалога допускает уничтожение с Дематериализатором и уход к клисанам; уход не обещает удаления всех модулей.",
+      "sourceAuthority": "script_branch_and_dialogue",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "dialog_answers[20]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "dialog_answers[21]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "dialog_answers[22]"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Keller.70"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "keller_social_gate",
+      "summary": "Совместные исследования доступны при пиратском ранге не ниже семи и CoalitionDefeated().",
+      "sourceAuthority": "script_rule",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "dialog_messages[42]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "dialog_answers[51]"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "keller_social_target",
+      "summary": "Исследовательский проект направлен в StarId72; выдаётся iКеллер и требуется подготовительный разговор на планете.",
+      "sourceAuthority": "script_rule",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "dialog_messages[31]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "dialog_messages[33]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "dialog_answers[56]"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Programms.KellerCall.Name"
+        }
+      ],
+      "limits": "Это адрес сценария; имя звезды не следует получать механической индексацией алфавитно отсортированного JSON."
+    },
+    {
+      "id": "keller_social_timing",
+      "summary": "Скрипт отмечает прибытие Келлера и через 30 ходов подтверждает успех социального исследования.",
+      "sourceAuthority": "script_rule",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_Keller.scr",
+          "path": "turncode"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Keller.138"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "terron_goal",
+      "summary": "Террон описывает себя как преобразованную планету и стремится превратить всю материю в свой вид.",
+      "sourceAuthority": "character_self_description",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Terron.2"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Terron.3"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Terron.4"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Terron.6"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "sabmodem_branches",
+      "summary": "Сабмодем открывает выбор блокировки вооружения, размножения или планетарного щита; высадка требует RobotSupport().",
+      "sourceAuthority": "script_branch",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_Terron.scr",
+          "path": "dialog_messages[9]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Terron.scr",
+          "path": "dialog_answers[13]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Terron.scr",
+          "path": "dialog_answers[14]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Terron.scr",
+          "path": "dialog_answers[15]"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "terron_star",
+      "summary": "Энерготрон позволяет переключить Террона на преобразование звезды.",
+      "sourceAuthority": "script_branch",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_Terron.scr",
+          "path": "dialog_messages[14]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/MS_Terron.scr",
+          "path": "dialog_answers[20]"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Terron.19"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "terron_conversion",
+      "summary": "Добровольная загрузка Террона в мозг завершает эту карьеру; локализация содержит четыре альтернативных эпилога.",
+      "sourceAuthority": "conditional_epilogue",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/MS_Terron.scr",
+          "path": "dialog_answers[10]"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "FormGameEnd.LossConvertToTerron"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "FormGameEnd.LossConvertToTerron1"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "FormGameEnd.LossConvertToTerron2"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "FormGameEnd.LossConvertToTerron3"
+        }
+      ],
+      "limits": "Эпилоги несовместимы друг с другом; не общая хронология мира."
+    },
+    {
+      "id": "pirate_ladder",
+      "summary": "Пиратская карьера проходит через салагу, юнгу, рейдера, шкипера, головореза, атамана, хана и барона.",
+      "sourceAuthority": "localized_taxonomy_and_scripts",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "RankPirate"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part1.128"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part2.172"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part3.176"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part4.150"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.438"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part6.176"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "makarov_claim",
+      "summary": "Атаман Макаров расследует сотрудничество лидеров пиратов с правительствами и утверждает, что акриновые разработки получены от них.",
+      "sourceAuthority": "in_world_contested_testimony",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.204"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.206"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.207"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.443"
+        }
+      ],
+      "limits": "Противоречит вводным сведениям учёного о собственных разработках пиратов; не сглаживать противоречие."
+    },
+    {
+      "id": "shu",
+      "summary": "Мистер Шу сопровождает ликвидацию Макарова; сведения описывают его как ликвидатора, возвращающегося после уничтожения.",
+      "sourceAuthority": "in_world_dossier",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.143"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.188"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.237"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.238"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part5.395"
+        }
+      ],
+      "limits": "В связанной цепочке PC_fem_rangers.255,270–272 клонирование названо прямо; см. факты shu_clones и shu_survives."
+    },
+    {
+      "id": "pirate_collusion",
+      "summary": "В финальной сцене подслушанный разговор раскрывает сговор Чушкача и Дурдыма против несогласных пиратских авторитетов.",
+      "sourceAuthority": "authored_scene_with_character_dialogue",
+      "references": [
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "locations[id=3].texts[0].text"
+        }
+      ],
+      "limits": "Высказывания о мировом заговоре принадлежат участникам сцены, не означают коррупцию каждого правительства."
+    },
+    {
+      "id": "baron_final_choices",
+      "summary": "Три успешных решения: убить адмирала и арестовать барона; убить барона и арестовать адмирала; убить обоих и возглавить пиратов чести.",
+      "sourceAuthority": "authored_branch_and_script_result",
+      "references": [
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "locations[id=7]"
+        },
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "locations[id=8]"
+        },
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "locations[id=9]"
+        },
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "jumps[id=7]"
+        },
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "jumps[id=8]"
+        },
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "jumps[id=9]"
+        },
+        {
+          "resource": "DATA/scripts.pkg/PC_part7.scr",
+          "path": "turncode"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "baron_fatal_acceptance",
+      "summary": "Согласие на предложение Чушкача и Дурдыма заканчивается гибелью персонажа в сцене.",
+      "sourceAuthority": "authored_branch",
+      "references": [
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "locations[id=10]"
+        },
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "jumps[id=10]"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "baron_no_coalition",
+      "summary": "Если Коалиция уже побеждена, сценарий барона идёт через ритуал вместо того же штурма.",
+      "sourceAuthority": "script_branch",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/PC_part7.scr",
+          "path": "dialogs[2]"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part7.210"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part7.215"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "baron_alternate_combat",
+      "summary": "PC_part7 содержит отдельный боевой исход без завершения четырёх текстовых модулей, с похвалами Дурдыму.",
+      "sourceAuthority": "script_branch_and_in_world_news",
+      "references": [
+        {
+          "resource": "DATA/scripts.pkg/PC_part7.scr",
+          "path": "turncode"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part7.226"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part7.227"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_final.251"
+        }
+      ],
+      "limits": "Условия счётчика сложнее буквального требования убить тысячу кораблей; не заменять описание тестом, который не проводился."
+    },
+    {
+      "id": "baron_propaganda",
+      "summary": "Поздравление может отрицать убийство Чушкача игроком, хотя успешная сцена его показывает.",
+      "sourceAuthority": "in_world_propaganda_candidate",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_final.149"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_final.151"
+        },
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "locations[id=8]"
+        }
+      ],
+      "limits": "Редакторская интерпретация формы подачи; противоречивые показания сохранены."
+    },
+    {
+      "id": "baron_name_variants",
+      "summary": "В русской локализации встречаются Чушкач и Чушкаш.",
+      "sourceAuthority": "textual_variation",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part7.193"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part7.215"
+        },
+        {
+          "resource": "DATA/questsRus.pkg/STQ_Baron4.qmm",
+          "path": "locations[id=3].texts[0].text"
+        }
+      ],
+      "limits": "Не создавать двух персонажей только из-за варианта написания."
+    },
+    {
+      "id": "personal_system",
+      "summary": "После получения баронского ранга текст передаёт игроку систему; скрипт реализует налоговые выплаты на подходящих планетах StarId72 до проекта Келлера.",
+      "sourceAuthority": "script_rule_and_dialogue",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part7.194"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_part7.210"
+        },
+        {
+          "resource": "DATA/scripts.pkg/PC_final.scr",
+          "path": "dialogbegincode"
+        }
+      ],
+      "limits": "Не доказательство полноценного универсального управления колониями."
+    },
+    {
+      "id": "keller_poststory",
+      "summary": "После успеха совместного проекта жители обсуждают исследования, культы Келлера, детские экскурсии и контрабандные трудности.",
+      "sourceAuthority": "conditional_in_world_dialogue",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_final.221"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_final.224"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_final.219"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_final.220"
+        },
+        {
+          "resource": "DATA/scripts.pkg/PC_final.scr",
+          "path": "dialogbegincode"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "program_alias",
+      "summary": "В карточке программа называется Противодействие, в диалоге запуска — Логическое отрицание.",
+      "sourceAuthority": "localized_display_name",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Programms.LogicalNegation.Name"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Blazer.63"
+        }
+      ],
+      "limits": ""
+    },
+    {
+      "id": "timeline_primary",
+      "summary": "Вступительная речь называет окончание клисанской войны двести лет назад и нападение на экспедицию землян шесть лет назад.",
+      "sourceAuthority": "in_world_briefing",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.MS_Begin.64"
+        }
+      ],
+      "limits": "Интервалы речи не заменяют сопоставления календарей всех изданий."
+    },
+    {
+      "id": "counterpiracy_department",
+      "summary": "Отдел противодействия пиратской агрессии сообщает об основании в 3300 году и разведывательных задачах.",
+      "sourceAuthority": "in_world_informed_testimony",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_fem_rangers.58"
+        }
+      ],
+      "limits": "Не датирует создание всех спецслужб Коалиции."
+    },
+    {
+      "id": "shu_clones",
+      "summary": "Агент прямо объясняет возвращения Шу клонированием; задание требует выследить снабжение координационного центра.",
+      "sourceAuthority": "authored_mission_and_testimony",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_fem_rangers.255"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_fem_rangers.270"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_fem_rangers.271"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_fem_rangers.272"
+        }
+      ],
+      "limits": "Этическая оценка клонов и сведения о древних запретах принадлежат собеседнику."
+    },
+    {
+      "id": "shu_survives",
+      "summary": "После уничтожения центра агент сообщает, что оригинальный Шу жив и способен отомстить.",
+      "sourceAuthority": "conditional_in_world_dialogue",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_fem_rangers.335"
+        }
+      ],
+      "limits": "Реплика не доказывает универсальную систему возвращающихся врагов."
+    },
+    {
+      "id": "ancient_empire",
+      "summary": "Кристалл содержит проект корабля Галактической Империи, названный учёными Тенью империи; экипаж более 2000 человек адаптирован для одного рейнджера.",
+      "sourceAuthority": "in_world_scientific_explanation",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_destroyer.0"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_destroyer.5"
+        }
+      ],
+      "limits": "Точная эпоха, состав и падение цивилизации не раскрыты."
+    },
+    {
+      "id": "lost_research",
+      "summary": "Уничтожение исследовавшей станции до передачи данных снова делает технологию Тени империи утраченной.",
+      "sourceAuthority": "conditional_in_world_dialogue",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_destroyer.47"
+        }
+      ],
+      "limits": "Это конкретная сценарная ситуация, не всеобщая модель сохранения знаний."
+    },
+    {
+      "id": "clinic_rescue",
+      "summary": "Поручение включает рейд на оккупированную планету ради спасения миллиардера и сотрудников санатория.",
+      "sourceAuthority": "authored_mission",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla20.83"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla20.84"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla20.89"
+        }
+      ],
+      "limits": "Не всеобщая система беженцев."
+    },
+    {
+      "id": "station_defense",
+      "summary": "Игроку дают средства, оборудование и срок для переоснащения станций и отражения удара доминаторов.",
+      "sourceAuthority": "authored_mission",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla17.81"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla17.88"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla17.94"
+        }
+      ],
+      "limits": "Не доказательство полной военной производственной логистики."
+    },
+    {
+      "id": "religious_relic",
+      "summary": "Орден Геймдевелоперы зари ищет три части Ока краба, используя исследование и сведения кораблей.",
+      "sourceAuthority": "authored_mission_and_testimony",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla21.96"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla21.108"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla21.109"
+        }
+      ],
+      "limits": "Слова о способности поработить галактику не доказаны независимым событием."
+    },
+    {
+      "id": "market_monopoly",
+      "summary": "Правитель просит внешние поставки для вытеснения торговых конкурентов и последующего увеличения цен.",
+      "sourceAuthority": "authored_mission",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla12.91"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla12.104"
+        }
+      ],
+      "limits": "Сюжетный мотив не означает замкнутую экономику каждого рынка."
+    },
+    {
+      "id": "election_sabotage",
+      "summary": "Правитель использует подброшенный компромат и новости для устранения соперника на выборах.",
+      "sourceAuthority": "authored_mission",
+      "references": [
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla03.64"
+        },
+        {
+          "resource": "CFG/Rus/Lang.dat",
+          "path": "Script.PC_pla03.72"
+        }
+      ],
+      "limits": "Не доказательство повсеместной электоральной симуляции."
+    }
+  ]
+}

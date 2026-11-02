@@ -1,0 +1,904 @@
+[
+  {
+    "id": "AGENT",
+    "name_ru": "Спецагент",
+    "name_en": "Secret Agent",
+    "kind": "definition",
+    "facts": {
+      "Name": "Спецагент"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.AGENT"
+  },
+  {
+    "id": "ARCHEOLOGY",
+    "name_ru": "Археолог",
+    "name_en": "Archeologist",
+    "kind": "definition",
+    "facts": {
+      "Name": "Археолог"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.ARCHEOLOGY"
+  },
+  {
+    "id": "BLACKHEAD",
+    "name_ru": "Чёрный Череп",
+    "name_en": "Black Skull",
+    "kind": "definition",
+    "facts": {
+      "Name": "Чёрный Череп"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BLACKHEAD"
+  },
+  {
+    "id": "BREZHNEV",
+    "name_ru": "Потомок Брежнева",
+    "name_en": "Brezhnev Descendant",
+    "kind": "definition",
+    "facts": {
+      "Name": "Потомок Брежнева"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BREZHNEV"
+  },
+  {
+    "id": "BUMMER",
+    "name_ru": "Великий Нехочуха",
+    "name_en": "I Don't Have Time For This",
+    "kind": "definition",
+    "facts": {
+      "Name": "Великий Нехочуха"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BUMMER"
+  },
+  {
+    "id": "CHAMPION",
+    "name_ru": "Чемпион",
+    "name_en": "Champion",
+    "kind": "definition",
+    "facts": {
+      "Name": "Чемпион"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.CHAMPION"
+  },
+  {
+    "id": "DOLGOZHID",
+    "name_ru": "Долгожитель",
+    "name_en": "Long-lived",
+    "kind": "definition",
+    "facts": {
+      "Name": "Долгожитель"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.DOLGOZHID"
+  },
+  {
+    "id": "HOLEMAN",
+    "name_ru": "Потусторонний воин",
+    "name_en": "Ethereal",
+    "kind": "definition",
+    "facts": {
+      "Name": "Потусторонний воин"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.HOLEMAN"
+  },
+  {
+    "id": "ILL",
+    "name_ru": "Вечный пациент",
+    "name_en": "Eternal Healthcare",
+    "kind": "definition",
+    "facts": {
+      "Name": "Вечный пациент"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.ILL"
+  },
+  {
+    "id": "KIBERMAN",
+    "name_ru": "Киберманьяк",
+    "name_en": "Hardcore Nerdiness",
+    "kind": "definition",
+    "facts": {
+      "Name": "Киберманьяк"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.KIBERMAN"
+  },
+  {
+    "id": "MANYFACES",
+    "name_ru": "Многоликий",
+    "name_en": "Many Faces",
+    "kind": "definition",
+    "facts": {
+      "Name": "Многоликий"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.MANYFACES"
+  },
+  {
+    "id": "MONEY",
+    "name_ru": "Богатенький Буратино",
+    "name_en": "It's Never Enough",
+    "kind": "definition",
+    "facts": {
+      "Name": "Богатенький Буратино"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.MONEY"
+  },
+  {
+    "id": "NARKOMAN",
+    "name_ru": "Раб анаболиков",
+    "name_en": "Addict",
+    "kind": "definition",
+    "facts": {
+      "Name": "Раб анаболиков"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.NARKOMAN"
+  },
+  {
+    "id": "OLDFAG",
+    "name_ru": "Ветеран",
+    "name_en": "Old Guard",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ветеран"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.OLDFAG"
+  },
+  {
+    "id": "PEACELOVER",
+    "name_ru": "Пацифист",
+    "name_en": "True Pacifist",
+    "kind": "definition",
+    "facts": {
+      "Name": "Пацифист"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.PEACELOVER"
+  },
+  {
+    "id": "PIECECREATOR",
+    "name_ru": "Миротворец",
+    "name_en": "Peacemaker",
+    "kind": "definition",
+    "facts": {
+      "Name": "Миротворец"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.PIECECREATOR"
+  },
+  {
+    "id": "PRISON",
+    "name_ru": "Пахан",
+    "name_en": "Jailbird",
+    "kind": "definition",
+    "facts": {
+      "Name": "Пахан"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.PRISON"
+  },
+  {
+    "id": "SHIELD",
+    "name_ru": "Страж порядка",
+    "name_en": "Guardian",
+    "kind": "definition",
+    "facts": {
+      "Name": "Страж порядка"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SHIELD"
+  },
+  {
+    "id": "SPEED",
+    "name_ru": "Гонщик болида",
+    "name_en": "Need for Velocity",
+    "kind": "definition",
+    "facts": {
+      "Name": "Гонщик болида"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SPEED"
+  },
+  {
+    "id": "SPRINTER",
+    "name_ru": "Спринтер",
+    "name_en": "FTL",
+    "kind": "definition",
+    "facts": {
+      "Name": "Спринтер"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SPRINTER"
+  },
+  {
+    "id": "TERMINATOR",
+    "name_ru": "Терминатор",
+    "name_en": "Terminator",
+    "kind": "definition",
+    "facts": {
+      "Name": "Терминатор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.TERMINATOR"
+  },
+  {
+    "id": "MASTER",
+    "name_ru": "Вождь",
+    "name_en": "Natural Born Leader",
+    "kind": "definition",
+    "facts": {
+      "Name": "Вождь"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.MASTER"
+  },
+  {
+    "id": "POSTMAN",
+    "name_ru": "Почта Карагона",
+    "name_en": "Postman",
+    "kind": "definition",
+    "facts": {
+      "Name": "Почта Карагона"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.POSTMAN"
+  },
+  {
+    "id": "HULL",
+    "name_ru": "Мир и порядок!",
+    "name_en": "Power Overwhelming",
+    "kind": "definition",
+    "facts": {
+      "Name": "Мир и порядок!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.HULL"
+  },
+  {
+    "id": "PIRATE",
+    "name_ru": "Йо-хо-хо",
+    "name_en": "Yo-ho-ho",
+    "kind": "definition",
+    "facts": {
+      "Name": "Йо-хо-хо"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.PIRATE"
+  },
+  {
+    "id": "FRY",
+    "name_ru": "Жареные факты",
+    "name_en": "Well Done",
+    "kind": "definition",
+    "facts": {
+      "Name": "Жареные факты"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.FRY"
+  },
+  {
+    "id": "COALLITION",
+    "name_ru": "За коалицию!",
+    "name_en": "For Coalition!",
+    "kind": "definition",
+    "facts": {
+      "Name": "За коалицию!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.COALLITION"
+  },
+  {
+    "id": "DEALER",
+    "name_ru": "Магнат",
+    "name_en": "Tycoon",
+    "kind": "definition",
+    "facts": {
+      "Name": "Магнат"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.DEALER"
+  },
+  {
+    "id": "JUMPER",
+    "name_ru": "Гиперактивность",
+    "name_en": "Hyperactivity",
+    "kind": "definition",
+    "facts": {
+      "Name": "Гиперактивность"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.JUMPER"
+  },
+  {
+    "id": "DEFENDER",
+    "name_ru": "Врагу не сдается...",
+    "name_en": "Phalanx",
+    "kind": "definition",
+    "facts": {
+      "Name": "Врагу не сдается..."
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.DEFENDER"
+  },
+  {
+    "id": "NEGOCIANT",
+    "name_ru": "Переговорщик",
+    "name_en": "Negotiator",
+    "kind": "definition",
+    "facts": {
+      "Name": "Переговорщик"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.NEGOCIANT"
+  },
+  {
+    "id": "HATER",
+    "name_ru": "Изгой",
+    "name_en": "Pariah",
+    "kind": "definition",
+    "facts": {
+      "Name": "Изгой"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.HATER"
+  },
+  {
+    "id": "CREDITOR",
+    "name_ru": "Злостный неплательщик",
+    "name_en": "Defaulter",
+    "kind": "definition",
+    "facts": {
+      "Name": "Злостный неплательщик"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.CREDITOR"
+  },
+  {
+    "id": "HOLEPEACE",
+    "name_ru": "Таранов",
+    "name_en": "I Didn't Do Anything Wrong, Sir",
+    "kind": "definition",
+    "facts": {
+      "Name": "Таранов"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.HOLEPEACE"
+  },
+  {
+    "id": "SKILL",
+    "name_ru": "Отличник боевой и политической",
+    "name_en": "Been There, Seen That",
+    "kind": "definition",
+    "facts": {
+      "Name": "Отличник боевой и политической"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SKILL"
+  },
+  {
+    "id": "GUARD",
+    "name_ru": "На страже",
+    "name_en": "You Shall Not Pass",
+    "kind": "definition",
+    "facts": {
+      "Name": "На страже"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.GUARD"
+  },
+  {
+    "id": "SCIENCE",
+    "name_ru": "Двигатель прогресса",
+    "name_en": "Light of Science",
+    "kind": "definition",
+    "facts": {
+      "Name": "Двигатель прогресса"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SCIENCE"
+  },
+  {
+    "id": "IRONMAN",
+    "name_ru": "Полководец",
+    "name_en": "Robot General",
+    "kind": "definition",
+    "facts": {
+      "Name": "Полководец"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.IRONMAN"
+  },
+  {
+    "id": "BOMBER",
+    "name_ru": "Взрывотехник",
+    "name_en": "Splash Damage",
+    "kind": "definition",
+    "facts": {
+      "Name": "Взрывотехник"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BOMBER"
+  },
+  {
+    "id": "ROCKET",
+    "name_ru": "Зато мы делаем ракеты",
+    "name_en": "Fire & Forget",
+    "kind": "definition",
+    "facts": {
+      "Name": "Зато мы делаем ракеты"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.ROCKET"
+  },
+  {
+    "id": "CONTRABAND",
+    "name_ru": "Эль контрабандисто",
+    "name_en": "Smuggler",
+    "kind": "definition",
+    "facts": {
+      "Name": "Эль контрабандисто"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.CONTRABAND"
+  },
+  {
+    "id": "ASTEROID",
+    "name_ru": "Мусоросборщик",
+    "name_en": "Space Miner",
+    "kind": "definition",
+    "facts": {
+      "Name": "Мусоросборщик"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.ASTEROID"
+  },
+  {
+    "id": "QUEST",
+    "name_ru": "Чтение - залог здоровья!",
+    "name_en": "Reading Is Your Friend",
+    "kind": "definition",
+    "facts": {
+      "Name": "Чтение - залог здоровья!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.QUEST"
+  },
+  {
+    "id": "KELLERRESEARCH",
+    "name_ru": "К прогрессу!",
+    "name_en": "New Frontier",
+    "kind": "definition",
+    "facts": {
+      "Name": "К прогрессу!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.KELLERRESEARCH"
+  },
+  {
+    "id": "KELLERDESTROY",
+    "name_ru": "Аста ла виста",
+    "name_en": "Hasta La Vista",
+    "kind": "definition",
+    "facts": {
+      "Name": "Аста ла виста"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.KELLERDESTROY"
+  },
+  {
+    "id": "BLAZERPROGRAM",
+    "name_ru": "Блаззард",
+    "name_en": "Blazzard",
+    "kind": "definition",
+    "facts": {
+      "Name": "Блаззард"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BLAZERPROGRAM"
+  },
+  {
+    "id": "BLAZERPIECE",
+    "name_ru": "Спаси и сохрани",
+    "name_en": "You're Grounded",
+    "kind": "definition",
+    "facts": {
+      "Name": "Спаси и сохрани"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BLAZERPIECE"
+  },
+  {
+    "id": "TERRONSTAR",
+    "name_ru": "Трансформируй это!",
+    "name_en": "Transform This",
+    "kind": "definition",
+    "facts": {
+      "Name": "Трансформируй это!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.TERRONSTAR"
+  },
+  {
+    "id": "TERRONBATTLE",
+    "name_ru": "За ВДВ!",
+    "name_en": "Death From Above",
+    "kind": "definition",
+    "facts": {
+      "Name": "За ВДВ!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.TERRONBATTLE"
+  },
+  {
+    "id": "PIRATESYSTEMS",
+    "name_ru": "Мистер Хаос",
+    "name_en": "Captain Chaos",
+    "kind": "definition",
+    "facts": {
+      "Name": "Мистер Хаос"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.PIRATESYSTEMS"
+  },
+  {
+    "id": "NODES",
+    "name_ru": "Нода бене",
+    "name_en": "Noda Bene",
+    "kind": "definition",
+    "facts": {
+      "Name": "Нода бене"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.NODES"
+  },
+  {
+    "id": "RATING",
+    "name_ru": "Поул-позишн",
+    "name_en": "Pole Position",
+    "kind": "definition",
+    "facts": {
+      "Name": "Поул-позишн"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.RATING"
+  },
+  {
+    "id": "RUINS",
+    "name_ru": "Меценат",
+    "name_en": "Please Donate",
+    "kind": "definition",
+    "facts": {
+      "Name": "Меценат"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.RUINS"
+  },
+  {
+    "id": "PIRATEWIN",
+    "name_ru": "Рачехан и все-все-все",
+    "name_en": "Galaxy in Flames",
+    "kind": "definition",
+    "facts": {
+      "Name": "Рачехан и все-все-все"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.PIRATEWIN"
+  },
+  {
+    "id": "BEST",
+    "name_ru": "Более лучше",
+    "name_en": "Prototype",
+    "kind": "definition",
+    "facts": {
+      "Name": "Более лучше"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BEST"
+  },
+  {
+    "id": "COMMANDOR",
+    "name_ru": "Настоящий полковник",
+    "name_en": "Commander",
+    "kind": "definition",
+    "facts": {
+      "Name": "Настоящий полковник"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.COMMANDOR"
+  },
+  {
+    "id": "BARON",
+    "name_ru": "Убивальников начальник",
+    "name_en": "Baron",
+    "kind": "definition",
+    "facts": {
+      "Name": "Убивальников начальник"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BARON"
+  },
+  {
+    "id": "GIRLSQUEST",
+    "name_ru": "Подкаблучник",
+    "name_en": "Henpecked",
+    "kind": "definition",
+    "facts": {
+      "Name": "Подкаблучник"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.GIRLSQUEST"
+  },
+  {
+    "id": "GIRLSHIRE",
+    "name_ru": "Если б я был султан...",
+    "name_en": "Ranger's Angels",
+    "kind": "definition",
+    "facts": {
+      "Name": "Если б я был султан..."
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.GIRLSHIRE"
+  },
+  {
+    "id": "SHU",
+    "name_ru": "Клонобоец",
+    "name_en": "Copyright",
+    "kind": "definition",
+    "facts": {
+      "Name": "Клонобоец"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SHU"
+  },
+  {
+    "id": "SIDECHANGER",
+    "name_ru": "Принцип неопределенности",
+    "name_en": "Uncertainty principle",
+    "kind": "definition",
+    "facts": {
+      "Name": "Принцип неопределенности"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SIDECHANGER"
+  },
+  {
+    "id": "ENERGY",
+    "name_ru": "Высокие энергии",
+    "name_en": "High energy",
+    "kind": "definition",
+    "facts": {
+      "Name": "Высокие энергии"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.ENERGY"
+  },
+  {
+    "id": "SCRATCHDAMAGE",
+    "name_ru": "Не пробил!",
+    "name_en": "Ricochet",
+    "kind": "definition",
+    "facts": {
+      "Name": "Не пробил!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SCRATCHDAMAGE"
+  },
+  {
+    "id": "SPLINTER",
+    "name_ru": "Осколки империи",
+    "name_en": "Splinters of the Empire",
+    "kind": "definition",
+    "facts": {
+      "Name": "Осколки империи"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SPLINTER"
+  },
+  {
+    "id": "EXPLORER",
+    "name_ru": "На пыльных тропинках далеких планет",
+    "name_en": "That's one small step for a man",
+    "kind": "definition",
+    "facts": {
+      "Name": "На пыльных тропинках далеких планет"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.EXPLORER"
+  },
+  {
+    "id": "TRANCLUCATORS",
+    "name_ru": "Слава роботам!",
+    "name_en": "Glory to Robots!",
+    "kind": "definition",
+    "facts": {
+      "Name": "Слава роботам!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.TRANCLUCATORS"
+  },
+  {
+    "id": "SUNFUEL",
+    "name_ru": "Термоядерная бензоколонка",
+    "name_en": "Thermonuclear Gas Station",
+    "kind": "definition",
+    "facts": {
+      "Name": "Термоядерная бензоколонка"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.SUNFUEL"
+  },
+  {
+    "id": "TERRORIST",
+    "name_ru": "Подрывник-затейник",
+    "name_en": "Demolition Man",
+    "kind": "definition",
+    "facts": {
+      "Name": "Подрывник-затейник"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.TERRORIST"
+  },
+  {
+    "id": "COUNTERTERRORIST",
+    "name_ru": "Правообладатель",
+    "name_en": "Copyright Holder",
+    "kind": "definition",
+    "facts": {
+      "Name": "Правообладатель"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.COUNTERTERRORIST"
+  },
+  {
+    "id": "BLUEKILLS",
+    "name_ru": "Антинаучный",
+    "name_en": "Unscientific",
+    "kind": "definition",
+    "facts": {
+      "Name": "Антинаучный"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BLUEKILLS"
+  },
+  {
+    "id": "GREENKILLS",
+    "name_ru": "И трава зеленее",
+    "name_en": "The Grass Was Greener",
+    "kind": "definition",
+    "facts": {
+      "Name": "И трава зеленее"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.GREENKILLS"
+  },
+  {
+    "id": "REDKILLS",
+    "name_ru": "Война-войной",
+    "name_en": "War Is Just War",
+    "kind": "definition",
+    "facts": {
+      "Name": "Война-войной"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.REDKILLS"
+  },
+  {
+    "id": "BERTORSLAYER",
+    "name_ru": "Монстр мания",
+    "name_en": "Monster Mania",
+    "kind": "definition",
+    "facts": {
+      "Name": "Монстр мания"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.BERTORSLAYER"
+  },
+  {
+    "id": "MAPBUILDER",
+    "name_ru": "Географ карту купил",
+    "name_en": "Mercator wannabe",
+    "kind": "definition",
+    "facts": {
+      "Name": "Географ карту купил"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.MAPBUILDER"
+  },
+  {
+    "id": "HACKER",
+    "name_ru": "Хактивист",
+    "name_en": "Hacktivist",
+    "kind": "definition",
+    "facts": {
+      "Name": "Хактивист"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.HACKER"
+  },
+  {
+    "id": "DELIVERY",
+    "name_ru": "Почтальон Печкин",
+    "name_en": "Mr. Postman",
+    "kind": "definition",
+    "facts": {
+      "Name": "Почтальон Печкин"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.DELIVERY"
+  },
+  {
+    "id": "INVESTOR",
+    "name_ru": "Почётный инвестор",
+    "name_en": "Fat Cat",
+    "kind": "definition",
+    "facts": {
+      "Name": "Почётный инвестор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.INVESTOR"
+  },
+  {
+    "id": "INSURANCE",
+    "name_ru": "Застрахуй братуху",
+    "name_en": "Insure Yourself",
+    "kind": "definition",
+    "facts": {
+      "Name": "Застрахуй братуху"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.INSURANCE"
+  },
+  {
+    "id": "PRISONBAIL",
+    "name_ru": "Своих не бросаем!",
+    "name_en": "Nobody Will Be Left Behind",
+    "kind": "definition",
+    "facts": {
+      "Name": "Своих не бросаем!"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.PRISONBAIL"
+  },
+  {
+    "id": "ROBBER",
+    "name_ru": "Это наша корова",
+    "name_en": "This Is Our Territory!",
+    "kind": "definition",
+    "facts": {
+      "Name": "Это наша корова"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.ROBBER"
+  },
+  {
+    "id": "WARRIORKILLS",
+    "name_ru": "Глоток свободы",
+    "name_en": "Gulp Of Freedom",
+    "kind": "definition",
+    "facts": {
+      "Name": "Глоток свободы"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.WARRIORKILLS"
+  },
+  {
+    "id": "DRAIN",
+    "name_ru": "Механический вампир",
+    "name_en": "Mechanical Vampire",
+    "kind": "definition",
+    "facts": {
+      "Name": "Механический вампир"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements.DRAIN"
+  }
+]

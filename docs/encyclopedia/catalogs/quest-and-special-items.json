@@ -1,0 +1,2200 @@
+[
+  {
+    "id": "ExampleAsteroid",
+    "name_ru": "Учебный астероид",
+    "name_en": "Dummy Asteroid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Учебный астероид",
+      "Owner": "None",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.ExampleAsteroid"
+  },
+  {
+    "id": "OperatedProbe",
+    "name_ru": "Управляемый разведзонд",
+    "name_en": "Controlled Recon Probe",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Управляемый разведзонд",
+      "Owner": "Peleng",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.OperatedProbe"
+  },
+  {
+    "id": "Remains_0",
+    "name_ru": "Координатор",
+    "name_en": "Coordinator",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Координатор",
+      "Owner": "Blazer,Keller,Terron",
+      "Size": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_0"
+  },
+  {
+    "id": "Remains_1",
+    "name_ru": "Стволовик",
+    "name_en": "Damper",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Стволовик",
+      "Owner": "Blazer,Keller,Terron",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_1"
+  },
+  {
+    "id": "Remains_10",
+    "name_ru": "Деструктуризатор",
+    "name_en": "Destructurizer",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Деструктуризатор",
+      "Owner": "Blazer",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_10"
+  },
+  {
+    "id": "Remains_11",
+    "name_ru": "Аргент",
+    "name_en": "Argent",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Аргент",
+      "Owner": "Blazer",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_11"
+  },
+  {
+    "id": "Remains_12",
+    "name_ru": "Релектор",
+    "name_en": "Relector",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Релектор",
+      "Owner": "Blazer",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_12"
+  },
+  {
+    "id": "Remains_13",
+    "name_ru": "Рапторизатор",
+    "name_en": "Raptorizer",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Рапторизатор",
+      "Owner": "Blazer",
+      "Size": "7"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_13"
+  },
+  {
+    "id": "Remains_14",
+    "name_ru": "Бином Т-21/4",
+    "name_en": "Binomial T-21/4",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Бином Т-21/4",
+      "Owner": "Keller",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_14"
+  },
+  {
+    "id": "Remains_15",
+    "name_ru": "Стабилитрон",
+    "name_en": "Stabilitron",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Стабилитрон",
+      "Owner": "Keller",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_15"
+  },
+  {
+    "id": "Remains_16",
+    "name_ru": "Дестабилизатор",
+    "name_en": "Destabilizer",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Дестабилизатор",
+      "Owner": "Keller",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_16"
+  },
+  {
+    "id": "Remains_17",
+    "name_ru": "Спектрон",
+    "name_en": "Spectron",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Спектрон",
+      "Owner": "Keller",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_17"
+  },
+  {
+    "id": "Remains_18",
+    "name_ru": "Мимикрон",
+    "name_en": "Mimicron",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Мимикрон",
+      "Owner": "Keller",
+      "Size": "7"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_18"
+  },
+  {
+    "id": "Remains_19",
+    "name_ru": "Обогатитель",
+    "name_en": "Enricher",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Обогатитель",
+      "Owner": "Terron",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_19"
+  },
+  {
+    "id": "Remains_2",
+    "name_ru": "Турбийон",
+    "name_en": "Turbion",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Турбийон",
+      "Owner": "Terron,Blazer,Keller",
+      "Size": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_2"
+  },
+  {
+    "id": "Remains_20",
+    "name_ru": "Репродуктор",
+    "name_en": "Reproducer",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Репродуктор",
+      "Owner": "Terron",
+      "Size": "12"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_20"
+  },
+  {
+    "id": "Remains_21",
+    "name_ru": "Гнездотрон",
+    "name_en": "Nestotron",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Гнездотрон",
+      "Owner": "Terron",
+      "Size": "16"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_21"
+  },
+  {
+    "id": "Remains_22",
+    "name_ru": "Акселирин",
+    "name_en": "Accelerine",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Акселирин",
+      "Owner": "Terron",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_22"
+  },
+  {
+    "id": "Remains_23",
+    "name_ru": "Мичурер",
+    "name_en": "Michurer",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Мичурер",
+      "Owner": "Terron",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_23"
+  },
+  {
+    "id": "Remains_3",
+    "name_ru": "Спимер",
+    "name_en": "Spimmer",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Спимер",
+      "Owner": "Terron,Blazer,Keller",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_3"
+  },
+  {
+    "id": "Remains_4",
+    "name_ru": "Инбридон",
+    "name_en": "Inbreedon",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Инбридон",
+      "Owner": "Terron,Blazer,Keller",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_4"
+  },
+  {
+    "id": "Remains_5",
+    "name_ru": "Метаблок",
+    "name_en": "Metablock",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Метаблок",
+      "Owner": "Blazer,Keller,Terron",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_5"
+  },
+  {
+    "id": "Remains_6",
+    "name_ru": "Гробот",
+    "name_en": "Grobot",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Гробот",
+      "Owner": "Blazer,Keller,Terron",
+      "Size": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_6"
+  },
+  {
+    "id": "Remains_7",
+    "name_ru": "Энергопакет",
+    "name_en": "Energopack",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Энергопакет",
+      "Owner": "Blazer,Keller,Terron",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_7"
+  },
+  {
+    "id": "Remains_8",
+    "name_ru": "Базовая конструкция",
+    "name_en": "Basic Construction",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Базовая конструкция",
+      "Owner": "Blazer,Keller,Terron",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_8"
+  },
+  {
+    "id": "Remains_9",
+    "name_ru": "Стригер",
+    "name_en": "Strigger",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Стригер",
+      "Owner": "Blazer",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Remains_9"
+  },
+  {
+    "id": "Usl_0",
+    "name_ru": "Захват-взрыватель",
+    "name_en": "Detonating Gripper",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Захват-взрыватель",
+      "Owner": "Maloc",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_0"
+  },
+  {
+    "id": "Usl_1",
+    "name_ru": "Криогенная колба",
+    "name_en": "Cryogenic Flask",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Криогенная колба",
+      "Owner": "Maloc",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_1"
+  },
+  {
+    "id": "Usl_10",
+    "name_ru": "Чхаша",
+    "name_en": "Ckhasha",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Чхаша",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_10"
+  },
+  {
+    "id": "Usl_11",
+    "name_ru": "Контейнер \"Хавас\"",
+    "name_en": "Khavas Container",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Контейнер \"Хавас\"",
+      "Owner": "Peleng",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_11"
+  },
+  {
+    "id": "Usl_12",
+    "name_ru": "Парадные черпала",
+    "name_en": "Ceremonial Silverware",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Парадные черпала",
+      "Owner": "Peleng",
+      "Size": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_12"
+  },
+  {
+    "id": "Usl_13",
+    "name_ru": "Зеленый торт",
+    "name_en": "Green Cake",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Зеленый торт",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_13"
+  },
+  {
+    "id": "Usl_14",
+    "name_ru": "Прозрачная амфора",
+    "name_en": "Transparent Amphora",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Прозрачная амфора",
+      "Owner": "Peleng",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_14"
+  },
+  {
+    "id": "Usl_15",
+    "name_ru": "Робот-клон",
+    "name_en": "Robot Clone",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Робот-клон",
+      "Owner": "Peleng",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_15"
+  },
+  {
+    "id": "Usl_16",
+    "name_ru": "Одежда",
+    "name_en": "Clothes",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Одежда",
+      "Owner": "Peleng",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_16"
+  },
+  {
+    "id": "Usl_17",
+    "name_ru": "Матрицы с записью",
+    "name_en": "Matrices with Data",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Матрицы с записью",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_17"
+  },
+  {
+    "id": "Usl_18",
+    "name_ru": "Призовые кубки",
+    "name_en": "Prize Cups",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Призовые кубки",
+      "Owner": "Peleng",
+      "Size": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_18"
+  },
+  {
+    "id": "Usl_19",
+    "name_ru": "Упаковка сигарет",
+    "name_en": "Pack of Cigarettes",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Упаковка сигарет",
+      "Owner": "People",
+      "Size": "7"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_19"
+  },
+  {
+    "id": "Usl_2",
+    "name_ru": "Малокский флаг",
+    "name_en": "Maloq Flag",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Малокский флаг",
+      "Owner": "Maloc",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_2"
+  },
+  {
+    "id": "Usl_20",
+    "name_ru": "Старинные книги",
+    "name_en": "Ancient Books",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Старинные книги",
+      "Owner": "People",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_20"
+  },
+  {
+    "id": "Usl_21",
+    "name_ru": "Компакт-диски",
+    "name_en": "Compact Disks",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Компакт-диски",
+      "Owner": "People",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_21"
+  },
+  {
+    "id": "Usl_22",
+    "name_ru": "Контейнер с религиозными сувенирами",
+    "name_en": "Container with Religious Souvenirs",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Контейнер с религиозными сувенирами",
+      "Owner": "People",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_22"
+  },
+  {
+    "id": "Usl_23",
+    "name_ru": "Часовой механизм",
+    "name_en": "Clockwork",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Часовой механизм",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_23"
+  },
+  {
+    "id": "Usl_24",
+    "name_ru": "Разноцветный куб",
+    "name_en": "Colored Cube",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Разноцветный куб",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_24"
+  },
+  {
+    "id": "Usl_25",
+    "name_ru": "Дизодан",
+    "name_en": "Disodane",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Дизодан",
+      "Owner": "People",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_25"
+  },
+  {
+    "id": "Usl_26",
+    "name_ru": "Процессоры",
+    "name_en": "Processors",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Процессоры",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_26"
+  },
+  {
+    "id": "Usl_27",
+    "name_ru": "Бронированный кейс",
+    "name_en": "Armored Case",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Бронированный кейс",
+      "Owner": "People",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_27"
+  },
+  {
+    "id": "Usl_28",
+    "name_ru": "Пластиковый короб",
+    "name_en": "Plastic Box",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Пластиковый короб",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_28"
+  },
+  {
+    "id": "Usl_29",
+    "name_ru": "Кассета",
+    "name_en": "Tape",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Кассета",
+      "Owner": "Fei",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_29"
+  },
+  {
+    "id": "Usl_3",
+    "name_ru": "Мозг президента",
+    "name_en": "President's Brain",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Мозг президента",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_3"
+  },
+  {
+    "id": "Usl_30",
+    "name_ru": "Зубная щетка",
+    "name_en": "Toothbrush",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Зубная щетка",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_30"
+  },
+  {
+    "id": "Usl_31",
+    "name_ru": "Cинодиски",
+    "name_en": "Synodisks",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Cинодиски",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_31"
+  },
+  {
+    "id": "Usl_32",
+    "name_ru": "Матричная картина",
+    "name_en": "Matrix Painting",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Матричная картина",
+      "Owner": "Fei",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_32"
+  },
+  {
+    "id": "Usl_33",
+    "name_ru": "Три гинирных емкости",
+    "name_en": "Three Henir Vessels",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Три гинирных емкости",
+      "Owner": "Fei",
+      "Size": "11"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_33"
+  },
+  {
+    "id": "Usl_34",
+    "name_ru": "Красные кнопки",
+    "name_en": "Red Buttons",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Красные кнопки",
+      "Owner": "Fei",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_34"
+  },
+  {
+    "id": "Usl_35",
+    "name_ru": "Пси-оружие",
+    "name_en": "Psy-weapon",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Пси-оружие",
+      "Owner": "Fei",
+      "Size": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_35"
+  },
+  {
+    "id": "Usl_36",
+    "name_ru": "Считыватель дисков",
+    "name_en": "Disk Reader",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Считыватель дисков",
+      "Owner": "Fei",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_36"
+  },
+  {
+    "id": "Usl_37",
+    "name_ru": "Комплект биоигр",
+    "name_en": "Set of Biogames",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Комплект биоигр",
+      "Owner": "Fei",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_37"
+  },
+  {
+    "id": "Usl_38",
+    "name_ru": "СВ-ткани",
+    "name_en": "SSA Fabric",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "СВ-ткани",
+      "Owner": "Fei",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_38"
+  },
+  {
+    "id": "Usl_39",
+    "name_ru": "Сервер",
+    "name_en": "Server",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Сервер",
+      "Owner": "Fei",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_39"
+  },
+  {
+    "id": "Usl_4",
+    "name_ru": "Насекомус",
+    "name_en": "Insectus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Насекомус",
+      "Owner": "Maloc",
+      "Size": "15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_4"
+  },
+  {
+    "id": "Usl_40",
+    "name_ru": "Жучки",
+    "name_en": "Bugs",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Жучки",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_40"
+  },
+  {
+    "id": "Usl_41",
+    "name_ru": "Партия грауков",
+    "name_en": "Batch of Gekkers",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Партия грауков",
+      "Owner": "Gaal",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_41"
+  },
+  {
+    "id": "Usl_42",
+    "name_ru": "Теплая одежда",
+    "name_en": "Warm Clothes",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Теплая одежда",
+      "Owner": "Gaal",
+      "Size": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_42"
+  },
+  {
+    "id": "Usl_43",
+    "name_ru": "Рецепт пиццы",
+    "name_en": "Pizza Recipe",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Рецепт пиццы",
+      "Owner": "Gaal",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_43"
+  },
+  {
+    "id": "Usl_44",
+    "name_ru": "Глыба льда",
+    "name_en": "Block of Ice",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Глыба льда",
+      "Owner": "Gaal",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_44"
+  },
+  {
+    "id": "Usl_45",
+    "name_ru": "Портал",
+    "name_en": "Portal",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Портал",
+      "Owner": "Gaal",
+      "Size": "13"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_45"
+  },
+  {
+    "id": "Usl_46",
+    "name_ru": "Биоконтейнер",
+    "name_en": "Biocontainer",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Биоконтейнер",
+      "Owner": "Peleng",
+      "Size": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_46"
+  },
+  {
+    "id": "Usl_47",
+    "name_ru": "Программатор",
+    "name_en": "Programmator",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Программатор",
+      "Owner": "Gaal",
+      "Size": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_47"
+  },
+  {
+    "id": "Usl_48",
+    "name_ru": "Сканер вселенной",
+    "name_en": "Universe Scanner",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Сканер вселенной",
+      "Owner": "Gaal",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_48"
+  },
+  {
+    "id": "Usl_49",
+    "name_ru": "Сферощит",
+    "name_en": "Spherical Shield",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Сферощит",
+      "Owner": "Gaal",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_49"
+  },
+  {
+    "id": "Usl_5",
+    "name_ru": "Улики",
+    "name_en": "Evidence",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Улики",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_5"
+  },
+  {
+    "id": "Usl_50",
+    "name_ru": "Шлем Освобождения",
+    "name_en": "Liberation Helmet",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Шлем Освобождения",
+      "Owner": "Gaal",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_50"
+  },
+  {
+    "id": "Usl_51",
+    "name_ru": "\"Бабабум\"",
+    "name_en": "Bababoom",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "\"Бабабум\"",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_51"
+  },
+  {
+    "id": "Usl_52",
+    "name_ru": "Контейнер",
+    "name_en": "Container",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Контейнер",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_52"
+  },
+  {
+    "id": "Usl_53",
+    "name_ru": "Посылка с ловушкой",
+    "name_en": "Container with a Trap",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Посылка с ловушкой",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_53"
+  },
+  {
+    "id": "Usl_54",
+    "name_ru": "Пуговица",
+    "name_en": "Button",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Пуговица",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_54"
+  },
+  {
+    "id": "Usl_55",
+    "name_ru": "Аннигилятор материи",
+    "name_en": "Matter Annihilator",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Аннигилятор материи",
+      "Owner": "People",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_55"
+  },
+  {
+    "id": "Usl_56",
+    "name_ru": "Детектор лжи",
+    "name_en": "Lie Detector",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Детектор лжи",
+      "Owner": "Gaal",
+      "Size": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_56"
+  },
+  {
+    "id": "Usl_57",
+    "name_ru": "Останки пенчехлюпа",
+    "name_en": "Penchesplasher Remains",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Останки пенчехлюпа",
+      "Owner": "Peleng",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_57"
+  },
+  {
+    "id": "Usl_58",
+    "name_ru": "Раритетный ковер",
+    "name_en": "Antique Carpet",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Раритетный ковер",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_58"
+  },
+  {
+    "id": "Usl_59",
+    "name_ru": "Пульт управления щитом",
+    "name_en": "Shield Control Console",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Пульт управления щитом",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_59"
+  },
+  {
+    "id": "Usl_6",
+    "name_ru": "Малокский детектор лжи",
+    "name_en": "Maloq Lie Detector",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Малокский детектор лжи",
+      "Owner": "Maloc",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_6"
+  },
+  {
+    "id": "Usl_60",
+    "name_ru": "Гаальская книга",
+    "name_en": "Gaalian Book",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Гаальская книга",
+      "Owner": "Gaal",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_60"
+  },
+  {
+    "id": "Usl_61",
+    "name_ru": "Святой Грааль",
+    "name_en": "Holy Grail",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Святой Грааль",
+      "Owner": "Maloc",
+      "Size": "25"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_61"
+  },
+  {
+    "id": "Usl_62",
+    "name_ru": "\"Семеренка\"",
+    "name_en": "Geartrunk",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "\"Семеренка\"",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_62"
+  },
+  {
+    "id": "Usl_63",
+    "name_ru": "Письмо",
+    "name_en": "Letter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Письмо",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_63"
+  },
+  {
+    "id": "Usl_64",
+    "name_ru": "Малокский табурет",
+    "name_en": "Maloq Stool",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Малокский табурет",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_64"
+  },
+  {
+    "id": "Usl_65",
+    "name_ru": "Сосуд Морального Помутнения",
+    "name_en": "Vessel of Moral Turpitude",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Сосуд Морального Помутнения",
+      "Owner": "Gaal",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_65"
+  },
+  {
+    "id": "Usl_66",
+    "name_ru": "\"Черный ящик\"",
+    "name_en": "Black Box",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "\"Черный ящик\"",
+      "Owner": "Kling",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_66"
+  },
+  {
+    "id": "Usl_67",
+    "name_ru": "Кассета с видеозаписью",
+    "name_en": "Tape with Video Recording",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Кассета с видеозаписью",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_67"
+  },
+  {
+    "id": "Usl_68",
+    "name_ru": "Вакуумный извлекатель малогабаритных организмов",
+    "name_en": "Vacuum extractor for small-scale life-forms",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Вакуумный извлекатель малогабаритных организмов",
+      "Owner": "Gaal",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_68"
+  },
+  {
+    "id": "Usl_69",
+    "name_ru": "Телепорт \"УРОД\"",
+    "name_en": "MONSTER teleport",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Телепорт \"УРОД\"",
+      "Owner": "Fei",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_69"
+  },
+  {
+    "id": "Usl_7",
+    "name_ru": "Спортивный талисман",
+    "name_en": "Sports Mascot",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Спортивный талисман",
+      "Owner": "Maloc",
+      "Size": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_7"
+  },
+  {
+    "id": "Usl_70",
+    "name_ru": "Носитель информации",
+    "name_en": "Data drive",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Носитель информации",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_70"
+  },
+  {
+    "id": "Usl_71",
+    "name_ru": "Секретная записка с паролем",
+    "name_en": "Secret Note with Password",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Секретная записка с паролем",
+      "Owner": "PirateClan",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_71"
+  },
+  {
+    "id": "Usl_72",
+    "name_ru": "Конверт с кредитами",
+    "name_en": "Envelope Full of Credits",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Конверт с кредитами",
+      "Owner": "PirateClan",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_72"
+  },
+  {
+    "id": "Usl_73",
+    "name_ru": "Пиратский флаг",
+    "name_en": "Pirate Flag",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Пиратский флаг",
+      "Owner": "PirateClan",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_73"
+  },
+  {
+    "id": "Usl_74",
+    "name_ru": "Заблокированная карта с кредитами",
+    "name_en": "Locked Credit Card",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Заблокированная карта с кредитами",
+      "Owner": "PirateClan",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_74"
+  },
+  {
+    "id": "Usl_75",
+    "name_ru": "Капсула с гуманоидом",
+    "name_en": "Capsule with Humanoid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Капсула с гуманоидом",
+      "Owner": "PirateClan",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_75"
+  },
+  {
+    "id": "Usl_8",
+    "name_ru": "Коробка подарочная",
+    "name_en": "Gift Box",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Коробка подарочная",
+      "Owner": "Maloc",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_8"
+  },
+  {
+    "id": "Usl_9",
+    "name_ru": "Инкубатор для жаб",
+    "name_en": "Bullfrog Incubator",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Инкубатор для жаб",
+      "Owner": "Peleng",
+      "Size": "7"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_9"
+  },
+  {
+    "id": "Usl_AmuletFragment1",
+    "name_ru": "Фрагмент амулета",
+    "name_en": "Amulet Fragment",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Фрагмент амулета",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_AmuletFragment1"
+  },
+  {
+    "id": "Usl_AmuletFragment2",
+    "name_ru": "Фрагмент амулета",
+    "name_en": "Amulet Fragment",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Фрагмент амулета",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_AmuletFragment2"
+  },
+  {
+    "id": "Usl_AmuletFragment3",
+    "name_ru": "Фрагмент амулета",
+    "name_en": "Amulet Fragment",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Фрагмент амулета",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_AmuletFragment3"
+  },
+  {
+    "id": "Usl_AncientCrystal",
+    "name_ru": "Древний голокристалл",
+    "name_en": "Ancient holocrystal",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Древний голокристалл",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_AncientCrystal"
+  },
+  {
+    "id": "Usl_AnimalCase",
+    "name_ru": "Клетка с редким животным",
+    "name_en": "Cage with a Rare Animal",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Клетка с редким животным",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_AnimalCase"
+  },
+  {
+    "id": "Usl_BeaconBox",
+    "name_ru": "Контейнер с маяками",
+    "name_en": "Container of beacons",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Контейнер с маяками",
+      "Owner": "None",
+      "Size": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_BeaconBox"
+  },
+  {
+    "id": "Usl_Blastshot",
+    "name_ru": "Криокапсула",
+    "name_en": "Cryocapsule",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Криокапсула",
+      "Owner": "None",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Blastshot"
+  },
+  {
+    "id": "Usl_Bomber",
+    "name_ru": "Белый билет",
+    "name_en": "White Ticket",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Белый билет",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Bomber"
+  },
+  {
+    "id": "Usl_Cactus",
+    "name_ru": "Контейнер с кактусами",
+    "name_en": "Container with Cacti",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Контейнер с кактусами",
+      "Owner": "None",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Cactus"
+  },
+  {
+    "id": "Usl_CapsuleStukach",
+    "name_ru": "Капсула",
+    "name_en": "Capsule",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Капсула",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_CapsuleStukach"
+  },
+  {
+    "id": "Usl_Citadels",
+    "name_ru": "Значок \"Ци\"",
+    "name_en": "\"Ci\" Badge",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Значок \"Ци\"",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Citadels"
+  },
+  {
+    "id": "Usl_DataArchive",
+    "name_ru": "Секретный архив",
+    "name_en": "Secret Archive",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Секретный архив",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_DataArchive"
+  },
+  {
+    "id": "Usl_DataDisk",
+    "name_ru": "Диск",
+    "name_en": "Disk",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Диск",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_DataDisk"
+  },
+  {
+    "id": "Usl_Drugs",
+    "name_ru": "Доклад",
+    "name_en": "Report",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Доклад",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Drugs"
+  },
+  {
+    "id": "Usl_Elus",
+    "name_ru": "Малый элуни",
+    "name_en": "Small Elunie",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Малый элуни",
+      "Owner": "Fei",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Elus"
+  },
+  {
+    "id": "Usl_FakedRecords",
+    "name_ru": "Записи",
+    "name_en": "Records",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Записи",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_FakedRecords"
+  },
+  {
+    "id": "Usl_Faruk",
+    "name_ru": "Фарюки",
+    "name_en": "Fariolas",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Фарюки",
+      "Owner": "Fei",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Faruk"
+  },
+  {
+    "id": "Usl_Foncers",
+    "name_ru": "Фонсер-999",
+    "name_en": "Foncer-999",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Фонсер-999",
+      "Owner": "People",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Foncers"
+  },
+  {
+    "id": "Usl_Frodo",
+    "name_ru": "Генератор",
+    "name_en": "Generator",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Генератор",
+      "Owner": "Fei",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Frodo"
+  },
+  {
+    "id": "Usl_GoldenRocket",
+    "name_ru": "Золотая статуэтка",
+    "name_en": "Gold Replica",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Золотая статуэтка",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_GoldenRocket"
+  },
+  {
+    "id": "Usl_InDrynCage",
+    "name_ru": "Клетка с Инь-Дрынем",
+    "name_en": "Cage with Ein-Drein",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Клетка с Инь-Дрынем",
+      "Owner": "None",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_InDrynCage"
+  },
+  {
+    "id": "Usl_JimmyGuitar",
+    "name_ru": "Гитара",
+    "name_en": "Guitar",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Гитара",
+      "Owner": "None",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_JimmyGuitar"
+  },
+  {
+    "id": "Usl_LasosCup",
+    "name_ru": "Чашка",
+    "name_en": "Cup",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Чашка",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_LasosCup"
+  },
+  {
+    "id": "Usl_Melok",
+    "name_ru": "Мелок",
+    "name_en": "Crayon",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Мелок",
+      "Owner": "None",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Melok"
+  },
+  {
+    "id": "Usl_MemoryModule",
+    "name_ru": "Модуль памяти",
+    "name_en": "Memory Module",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Модуль памяти",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_MemoryModule"
+  },
+  {
+    "id": "Usl_Ministry",
+    "name_ru": "Свидетельство",
+    "name_en": "Certificate",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Свидетельство",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Ministry"
+  },
+  {
+    "id": "Usl_MusicialTools",
+    "name_ru": "Инструменты",
+    "name_en": "Instruments",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Инструменты",
+      "Owner": "None",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_MusicialTools"
+  },
+  {
+    "id": "Usl_Muzon",
+    "name_ru": "Музыкальный кубок",
+    "name_en": "Musical Cup",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Музыкальный кубок",
+      "Owner": "People",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Muzon"
+  },
+  {
+    "id": "Usl_Orcs",
+    "name_ru": "Старинная книга",
+    "name_en": "Ancient Book",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Старинная книга",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Orcs"
+  },
+  {
+    "id": "Usl_OverloadedBeacon",
+    "name_ru": "Маяк \"Казахстар-111\"",
+    "name_en": "Kazakhstar-111 Beacon",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Маяк \"Казахстар-111\"",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_OverloadedBeacon"
+  },
+  {
+    "id": "Usl_PTQ63",
+    "name_ru": "Диск с игрой",
+    "name_en": "Game Disk",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Диск с игрой",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ63"
+  },
+  {
+    "id": "Usl_PTQ64",
+    "name_ru": "Вексель",
+    "name_en": "Promissory Note",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Big",
+      "Name": "Вексель",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ64"
+  },
+  {
+    "id": "Usl_PTQ65",
+    "name_ru": "Монокль Злого Гения",
+    "name_en": "Evil Genius Monocle",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Монокль Злого Гения",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ65"
+  },
+  {
+    "id": "Usl_PTQ66",
+    "name_ru": "Кубок Великого Рыболова",
+    "name_en": "Great Fisher's Cup",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Кубок Великого Рыболова",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ66"
+  },
+  {
+    "id": "Usl_PTQ67",
+    "name_ru": "Кейс с контрактом",
+    "name_en": "Case with a Contract",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Кейс с контрактом",
+      "Owner": "Fei",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ67"
+  },
+  {
+    "id": "Usl_PTQ68",
+    "name_ru": "Секретные документы",
+    "name_en": "Secret Documentation",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Секретные документы",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ68"
+  },
+  {
+    "id": "Usl_PTQ69",
+    "name_ru": "Орден \"Золотая палитра\"",
+    "name_en": "Golden Palette Order",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Орден \"Золотая палитра\"",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ69"
+  },
+  {
+    "id": "Usl_PTQ70",
+    "name_ru": "Ящик с золотом",
+    "name_en": "Box of Gold",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Ящик с золотом",
+      "Owner": "None",
+      "Size": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ70"
+  },
+  {
+    "id": "Usl_PTQ71",
+    "name_ru": "Очки \"Мегавижн\"",
+    "name_en": "Megavision Glasses",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Очки \"Мегавижн\"",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQ71"
+  },
+  {
+    "id": "Usl_PTQn60",
+    "name_ru": "Диск",
+    "name_en": "Disk",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Диск",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQn60"
+  },
+  {
+    "id": "Usl_PTQn64",
+    "name_ru": "Важные документы",
+    "name_en": "Important Documentation",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Huge",
+      "Name": "Важные документы",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQn64"
+  },
+  {
+    "id": "Usl_PTQn66",
+    "name_ru": "Оранжевая коробка",
+    "name_en": "Orange Box",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Оранжевая коробка",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_PTQn66"
+  },
+  {
+    "id": "Usl_Pilot",
+    "name_ru": "Сертификат",
+    "name_en": "License",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Сертификат",
+      "Owner": "Peleng",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Pilot"
+  },
+  {
+    "id": "Usl_RandomItem_01",
+    "name_ru": "Контейнер с животным",
+    "name_en": "Container with an Animal",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Контейнер с животным",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_RandomItem_01"
+  },
+  {
+    "id": "Usl_RandomItem_02",
+    "name_ru": "Срочное письмо",
+    "name_en": "Urgent Letter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Срочное письмо",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_RandomItem_02"
+  },
+  {
+    "id": "Usl_RandomItem_03",
+    "name_ru": "Бронированный ящик с ценным грузом",
+    "name_en": "Armored Box with Precious Cargo",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Бронированный ящик с ценным грузом",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_RandomItem_03"
+  },
+  {
+    "id": "Usl_RandomItem_04",
+    "name_ru": "Кейс с документами",
+    "name_en": "Case with Documents",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Кейс с документами",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_RandomItem_04"
+  },
+  {
+    "id": "Usl_Robots",
+    "name_ru": "Дементор",
+    "name_en": "Dementor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Small",
+      "Name": "Дементор",
+      "Owner": "Maloc",
+      "Size": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Robots"
+  },
+  {
+    "id": "Usl_Rvk",
+    "name_ru": "Военная форма",
+    "name_en": "Military Uniform",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Военная форма",
+      "Owner": "People",
+      "Size": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Rvk"
+  },
+  {
+    "id": "Usl_Shashki",
+    "name_ru": "Интеллектуал-ПРОФ",
+    "name_en": "Intellectual-PROF",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Интеллектуал-ПРОФ",
+      "Owner": "People",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Shashki"
+  },
+  {
+    "id": "Usl_Soberisam",
+    "name_ru": "Набор \"Собери доминатора\"",
+    "name_en": "Dominator Model Kit",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Набор \"Собери доминатора\"",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Soberisam"
+  },
+  {
+    "id": "Usl_SpecialBomb",
+    "name_ru": "Бомба",
+    "name_en": "Bomb",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Бомба",
+      "Owner": "None",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_SpecialBomb"
+  },
+  {
+    "id": "Usl_Stroyka",
+    "name_ru": "Контейнер со стройматериалами",
+    "name_en": "Container with Construction Materials",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Контейнер со стройматериалами",
+      "Owner": "None",
+      "Size": "70"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Stroyka"
+  },
+  {
+    "id": "Usl_Svarokok",
+    "name_ru": "Сварококс",
+    "name_en": "Swarokox",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Average",
+      "Name": "Сварококс",
+      "Owner": "Maloc",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_Svarokok"
+  },
+  {
+    "id": "Usl_VigenereCoin",
+    "name_ru": "Гравированная монета",
+    "name_en": "Engraved coin",
+    "kind": "definition",
+    "facts": {
+      "Cost": "Mini",
+      "Name": "Гравированная монета",
+      "Owner": "PirateClan",
+      "Size": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems.Usl_VigenereCoin"
+  }
+]

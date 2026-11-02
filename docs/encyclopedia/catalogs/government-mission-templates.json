@@ -1,0 +1,3514 @@
+[
+  {
+    "id": "0",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Transport",
+      "Status": "Warrior"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.0"
+  },
+  {
+    "id": "1",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Programms,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.1"
+  },
+  {
+    "id": "10",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.10"
+  },
+  {
+    "id": "11",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.11"
+  },
+  {
+    "id": "12",
+    "family": "DefShip",
+    "facts": {
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.12"
+  },
+  {
+    "id": "13",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.13"
+  },
+  {
+    "id": "14",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.14"
+  },
+  {
+    "id": "15",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Liner",
+      "Status": "Pirate"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.15"
+  },
+  {
+    "id": "16",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport",
+      "Status": "Warrior"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.16"
+  },
+  {
+    "id": "17",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.17"
+  },
+  {
+    "id": "18",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.18"
+  },
+  {
+    "id": "19",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 14,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.19"
+  },
+  {
+    "id": "2",
+    "family": "DefShip",
+    "facts": {
+      "InThisSystem": "No",
+      "PlanetRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Trader"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.2"
+  },
+  {
+    "id": "20",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.20"
+  },
+  {
+    "id": "21",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.21"
+  },
+  {
+    "id": "22",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.22"
+  },
+  {
+    "id": "23",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.23"
+  },
+  {
+    "id": "24",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Programms,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Fei",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.24"
+  },
+  {
+    "id": "25",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.25"
+  },
+  {
+    "id": "26",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.26"
+  },
+  {
+    "id": "27",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.27"
+  },
+  {
+    "id": "28",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Ranger",
+      "Status": "Pirate"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.28"
+  },
+  {
+    "id": "29",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.29"
+  },
+  {
+    "id": "3",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.3"
+  },
+  {
+    "id": "30",
+    "family": "DefShip",
+    "facts": {
+      "InThisSystem": "No",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Warrior"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.30"
+  },
+  {
+    "id": "31",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.31"
+  },
+  {
+    "id": "32",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.32"
+  },
+  {
+    "id": "33",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.33"
+  },
+  {
+    "id": "34",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.34"
+  },
+  {
+    "id": "35",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 17,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.35"
+  },
+  {
+    "id": "36",
+    "family": "DefShip",
+    "facts": {
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.36"
+  },
+  {
+    "id": "37",
+    "family": "DefShip",
+    "facts": {
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.37"
+  },
+  {
+    "id": "38",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng,People,Fei",
+      "ShipType": "Liner",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.38"
+  },
+  {
+    "id": "39",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Warrior"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.39"
+  },
+  {
+    "id": "4",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.4"
+  },
+  {
+    "id": "40",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Pirate"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.40"
+  },
+  {
+    "id": "41",
+    "family": "DefShip",
+    "facts": {
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Transport,Liner,Diplomat",
+      "Status": "Warrior"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.41"
+  },
+  {
+    "id": "42",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.42"
+  },
+  {
+    "id": "43",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Warrior"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.43"
+  },
+  {
+    "id": "44",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport,Liner,Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.44"
+  },
+  {
+    "id": "45",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People,Fei,Gaal",
+      "ShipType": "Any",
+      "Status": "Any"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.45"
+  },
+  {
+    "id": "46",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Programms",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.46"
+  },
+  {
+    "id": "47",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.47"
+  },
+  {
+    "id": "48",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.48"
+  },
+  {
+    "id": "49",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 14,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.49"
+  },
+  {
+    "id": "5",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.5"
+  },
+  {
+    "id": "50",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Liner",
+      "Status": "Warrior"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.50"
+  },
+  {
+    "id": "51",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Liner",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 15,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.51"
+  },
+  {
+    "id": "52",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.52"
+  },
+  {
+    "id": "53",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.53"
+  },
+  {
+    "id": "54",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "People",
+      "ShipType": "Diplomat",
+      "Status": " Pirate,Warrior"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.54"
+  },
+  {
+    "id": "55",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.55"
+  },
+  {
+    "id": "56",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng,OnlyPirate",
+      "ShipType": "Diplomat,Liner",
+      "Status": "Pirate"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.56"
+  },
+  {
+    "id": "57",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng,OnlyPirate",
+      "ShipType": "Any",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.57"
+  },
+  {
+    "id": "58",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward",
+      "InThisSystem": "No",
+      "PlanetRace": "Gaal,OnlyPirate",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.58"
+  },
+  {
+    "id": "6",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Maloc",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.6"
+  },
+  {
+    "id": "7",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.7"
+  },
+  {
+    "id": "8",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "InThisSystem": "No",
+      "PlanetRace": "Peleng",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.8"
+  },
+  {
+    "id": "9",
+    "family": "DefShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "InThisSystem": "Yes",
+      "PlanetRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefShip.9"
+  },
+  {
+    "id": "0",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Warrior"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.0"
+  },
+  {
+    "id": "1",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.1"
+  },
+  {
+    "id": "10",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.10"
+  },
+  {
+    "id": "11",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.11"
+  },
+  {
+    "id": "12",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.12"
+  },
+  {
+    "id": "13",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Pirate"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.13"
+  },
+  {
+    "id": "14",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.14"
+  },
+  {
+    "id": "15",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Trader"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.15"
+  },
+  {
+    "id": "16",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Warrior"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.16"
+  },
+  {
+    "id": "17",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Trader"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.17"
+  },
+  {
+    "id": "18",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.18"
+  },
+  {
+    "id": "19",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.19"
+  },
+  {
+    "id": "2",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.2"
+  },
+  {
+    "id": "20",
+    "family": "DefSystem",
+    "facts": {
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.20"
+  },
+  {
+    "id": "21",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.21"
+  },
+  {
+    "id": "22",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.22"
+  },
+  {
+    "id": "23",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Warrior"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.23"
+  },
+  {
+    "id": "24",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Pirate"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.24"
+  },
+  {
+    "id": "25",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Warrior"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.25"
+  },
+  {
+    "id": "26",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Trader"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.26"
+  },
+  {
+    "id": "27",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.27"
+  },
+  {
+    "id": "28",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Warrior"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.28"
+  },
+  {
+    "id": "29",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Trader"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.29"
+  },
+  {
+    "id": "3",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.3"
+  },
+  {
+    "id": "30",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.30"
+  },
+  {
+    "id": "31",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.31"
+  },
+  {
+    "id": "32",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal,Fei,People",
+      "Status": "Trader"
+    },
+    "parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.32"
+  },
+  {
+    "id": "33",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.33"
+  },
+  {
+    "id": "34",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Any",
+      "Status": "Any"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.34"
+  },
+  {
+    "id": "35",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Any",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.35"
+  },
+  {
+    "id": "36",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior"
+    },
+    "parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.36"
+  },
+  {
+    "id": "37",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.37"
+  },
+  {
+    "id": "38",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Trader"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.38"
+  },
+  {
+    "id": "39",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.39"
+  },
+  {
+    "id": "4",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Programms,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.4"
+  },
+  {
+    "id": "40",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.40"
+  },
+  {
+    "id": "41",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Fei",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.41"
+  },
+  {
+    "id": "42",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.42"
+  },
+  {
+    "id": "43",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Trader"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.43"
+  },
+  {
+    "id": "44",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Any",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.44"
+  },
+  {
+    "id": "45",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.45"
+  },
+  {
+    "id": "46",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Maloc",
+      "Status": "Warrior"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.46"
+  },
+  {
+    "id": "47",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Any",
+      "Status": "Any"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.47"
+  },
+  {
+    "id": "48",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.48"
+  },
+  {
+    "id": "49",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "OnlyNonPirate,Gaal",
+      "Status": "Warrior,Trader"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.49"
+  },
+  {
+    "id": "5",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Pirate"
+    },
+    "parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.5"
+  },
+  {
+    "id": "50",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "OnlyNonPirate,People",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.50"
+  },
+  {
+    "id": "51",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.51"
+  },
+  {
+    "id": "52",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "People,Fei,Gaal,OnlyPirate",
+      "Status": "Pirate,Warrior"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.52"
+  },
+  {
+    "id": "53",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "People,Fei,OnlyPirate",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.53"
+  },
+  {
+    "id": "54",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Gaal,OnlyPirate",
+      "Status": "Any"
+    },
+    "parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.54"
+  },
+  {
+    "id": "55",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "People,OnlyPirate",
+      "Status": "Pirate,Warrior"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.55"
+  },
+  {
+    "id": "6",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Warrior"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.6"
+  },
+  {
+    "id": "7",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.7"
+  },
+  {
+    "id": "8",
+    "family": "DefSystem",
+    "facts": {
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Any"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.8"
+  },
+  {
+    "id": "9",
+    "family": "DefSystem",
+    "facts": {
+      "GovernmentAward": "Artefact,Nod",
+      "PlanetRace": "OnlyNonPirate,Peleng",
+      "Status": "Pirate"
+    },
+    "parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.DefSystem.9"
+  },
+  {
+    "id": "0",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.0"
+  },
+  {
+    "id": "1",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Trader"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.1"
+  },
+  {
+    "id": "10",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Any",
+      "ShipType": "Transport,Liner,Diplomat,Ranger,Pirate",
+      "Status": "Warrior"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.10"
+  },
+  {
+    "id": "11",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Any",
+      "ShipType": "Liner",
+      "Status": "Pirate"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.11"
+  },
+  {
+    "id": "12",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Trader"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.12"
+  },
+  {
+    "id": "13",
+    "family": "KillShip",
+    "facts": {
+      "PlanetRace": "Peleng",
+      "ShipRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Trader"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.13"
+  },
+  {
+    "id": "14",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.14"
+  },
+  {
+    "id": "15",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.15"
+  },
+  {
+    "id": "16",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.16"
+  },
+  {
+    "id": "17",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.17"
+  },
+  {
+    "id": "18",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.18"
+  },
+  {
+    "id": "19",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.19"
+  },
+  {
+    "id": "2",
+    "family": "KillShip",
+    "facts": {
+      "PlanetRace": "Maloc",
+      "ShipRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.2"
+  },
+  {
+    "id": "20",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.20"
+  },
+  {
+    "id": "21",
+    "family": "KillShip",
+    "facts": {
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.21"
+  },
+  {
+    "id": "22",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Fei",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.22"
+  },
+  {
+    "id": "23",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.23"
+  },
+  {
+    "id": "24",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.24"
+  },
+  {
+    "id": "25",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Gaal",
+      "ShipType": "Transport",
+      "Status": "Pirate"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.25"
+  },
+  {
+    "id": "26",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Fei",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.26"
+  },
+  {
+    "id": "27",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Pirate"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.27"
+  },
+  {
+    "id": "28",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Fei",
+      "ShipType": "Ranger",
+      "Status": "Trader"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.28"
+  },
+  {
+    "id": "29",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "People",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.29"
+  },
+  {
+    "id": "3",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Peleng,People,Fei,Gaal",
+      "ShipType": "Transport",
+      "Status": "Pirate"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.3"
+  },
+  {
+    "id": "30",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.30"
+  },
+  {
+    "id": "31",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Any",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.31"
+  },
+  {
+    "id": "32",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Maloc,Peleng,People,Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.32"
+  },
+  {
+    "id": "33",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.33"
+  },
+  {
+    "id": "34",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Gaal",
+      "ShipRace": "Any",
+      "ShipType": "Pirate",
+      "Status": "Pirate"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.34"
+  },
+  {
+    "id": "35",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Gaal",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.35"
+  },
+  {
+    "id": "36",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Gaal",
+      "ShipRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Trader"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.36"
+  },
+  {
+    "id": "37",
+    "family": "KillShip",
+    "facts": {
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Pirate"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.37"
+  },
+  {
+    "id": "38",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.38"
+  },
+  {
+    "id": "39",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Liner",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.39"
+  },
+  {
+    "id": "4",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.4"
+  },
+  {
+    "id": "40",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "Peleng",
+      "ShipType": "Transport",
+      "Status": "Any"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.40"
+  },
+  {
+    "id": "41",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "People",
+      "ShipType": "Diplomat,Transport,Liner",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.41"
+  },
+  {
+    "id": "42",
+    "family": "KillShip",
+    "facts": {
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.42"
+  },
+  {
+    "id": "43",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Warrior"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.43"
+  },
+  {
+    "id": "44",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Fei",
+      "ShipType": "Transport",
+      "Status": "Pirate"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.44"
+  },
+  {
+    "id": "45",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People,Fei,Gaal",
+      "ShipRace": "Peleng",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.45"
+  },
+  {
+    "id": "46",
+    "family": "KillShip",
+    "facts": {
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Transport",
+      "Status": "Pirate"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.46"
+  },
+  {
+    "id": "47",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.47"
+  },
+  {
+    "id": "48",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.48"
+  },
+  {
+    "id": "49",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People,Fei",
+      "ShipRace": "Maloc",
+      "ShipType": "Ranger,Transport,Liner,Diplomat",
+      "Status": "Pirate,Warrior"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.49"
+  },
+  {
+    "id": "5",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "People",
+      "ShipType": "Diplomat",
+      "Status": "Pirate"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.5"
+  },
+  {
+    "id": "50",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Gaal",
+      "ShipType": "Transport,Liner,Diplomat",
+      "Status": "Pirate"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.50"
+  },
+  {
+    "id": "51",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Any",
+      "ShipRace": "People,Fei,Gaal",
+      "ShipType": "Ranger,Diplomat,Pirate",
+      "Status": "Pirate"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.51"
+  },
+  {
+    "id": "52",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Programms",
+      "PlanetRace": "Any",
+      "ShipRace": "People,Fei,Gaal",
+      "ShipType": "Ranger,Transport,Liner,Diplomat",
+      "Status": "Pirate,Warrior"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.52"
+  },
+  {
+    "id": "53",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Transport,Liner",
+      "Status": "Pirate,Warrior"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.53"
+  },
+  {
+    "id": "54",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People,Fei,Gaal,Peleng",
+      "ShipRace": "Gaal",
+      "ShipType": "Liner",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.54"
+  },
+  {
+    "id": "55",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People,Fei,Peleng",
+      "ShipRace": "Fei",
+      "ShipType": "Liner",
+      "Status": "Pirate"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.55"
+  },
+  {
+    "id": "56",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Liner",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.56"
+  },
+  {
+    "id": "57",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Fei",
+      "ShipRace": "Any",
+      "ShipType": "Diplomat",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.57"
+  },
+  {
+    "id": "58",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Gaal",
+      "ShipRace": "Gaal",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.58"
+  },
+  {
+    "id": "59",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "People",
+      "ShipRace": "People",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.59"
+  },
+  {
+    "id": "6",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Ranger",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.6"
+  },
+  {
+    "id": "60",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "Gaal",
+      "ShipRace": "People",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.60"
+  },
+  {
+    "id": "61",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Ranger",
+      "Status": "Warrior"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.61"
+  },
+  {
+    "id": "62",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Peleng,People,Fei,Gaal,OnlyPirate",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.62"
+  },
+  {
+    "id": "63",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc,OnlyPirate",
+      "ShipRace": "Fei",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.63"
+  },
+  {
+    "id": "64",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Peleng,OnlyPirate",
+      "ShipRace": "People",
+      "ShipType": "Transport",
+      "Status": "Warrior,Pirate"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.64"
+  },
+  {
+    "id": "7",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "PlanetRace": "Maloc",
+      "ShipRace": "Maloc",
+      "ShipType": "Diplomat",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.7"
+  },
+  {
+    "id": "8",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Maloc",
+      "ShipType": "Pirate",
+      "Status": "Warrior"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.8"
+  },
+  {
+    "id": "9",
+    "family": "KillShip",
+    "facts": {
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "PlanetRace": "Peleng",
+      "ShipRace": "Peleng",
+      "ShipType": "Pirate",
+      "Status": "Any"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.KillShip.9"
+  },
+  {
+    "id": "0",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.0"
+  },
+  {
+    "id": "1",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Warrior",
+      "ToRace": "Maloc"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.1"
+  },
+  {
+    "id": "10",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Programms,Nod",
+      "Status": "Trader",
+      "ToRace": "Peleng"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.10"
+  },
+  {
+    "id": "11",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Artefact,Nod",
+      "Status": "Pirate",
+      "ToRace": "People"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.11"
+  },
+  {
+    "id": "12",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Nod",
+      "Status": "Warrior",
+      "ToRace": "Maloc"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.12"
+  },
+  {
+    "id": "13",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Artefact",
+      "Status": "Any",
+      "ToRace": "Peleng"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.13"
+  },
+  {
+    "id": "14",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "ToRace": "Peleng"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.14"
+  },
+  {
+    "id": "15",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Warrior",
+      "ToRace": "Gaal"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.15"
+  },
+  {
+    "id": "16",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "Status": "Pirate",
+      "ToRace": "People"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.16"
+  },
+  {
+    "id": "17",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "ToRace": "Peleng"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.17"
+  },
+  {
+    "id": "18",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Peleng"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.18"
+  },
+  {
+    "id": "19",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "ToRace": "Peleng"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.19"
+  },
+  {
+    "id": "2",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Fei"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.2"
+  },
+  {
+    "id": "20",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Gaal"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.20"
+  },
+  {
+    "id": "21",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.21"
+  },
+  {
+    "id": "22",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward",
+      "Status": "Any",
+      "ToRace": "Gaal"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.22"
+  },
+  {
+    "id": "23",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "ToRace": "Peleng"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.23"
+  },
+  {
+    "id": "24",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.24"
+  },
+  {
+    "id": "25",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward",
+      "Status": "Trader",
+      "ToRace": "Fei"
+    },
+    "parameters": 15,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.25"
+  },
+  {
+    "id": "26",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "ToRace": "Peleng"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.26"
+  },
+  {
+    "id": "27",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Artefact",
+      "Status": "Warrior",
+      "ToRace": "Peleng"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.27"
+  },
+  {
+    "id": "28",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.28"
+  },
+  {
+    "id": "29",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "ToRace": "People"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.29"
+  },
+  {
+    "id": "3",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.3"
+  },
+  {
+    "id": "30",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.30"
+  },
+  {
+    "id": "31",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.31"
+  },
+  {
+    "id": "32",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "Status": "Trader",
+      "ToRace": "People"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.32"
+  },
+  {
+    "id": "33",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.33"
+  },
+  {
+    "id": "34",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.34"
+  },
+  {
+    "id": "35",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "ToRace": "Peleng"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.35"
+  },
+  {
+    "id": "36",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "ToRace": "Peleng"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.36"
+  },
+  {
+    "id": "37",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "ToRace": "People"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.37"
+  },
+  {
+    "id": "38",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Warrior",
+      "ToRace": "Maloc"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.38"
+  },
+  {
+    "id": "39",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "ToRace": "Maloc"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.39"
+  },
+  {
+    "id": "4",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Trader",
+      "ToRace": "Maloc"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.4"
+  },
+  {
+    "id": "40",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Artefact,Nod",
+      "Status": "Warrior",
+      "ToRace": "People"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.40"
+  },
+  {
+    "id": "41",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "Status": "Pirate",
+      "ToRace": "Maloc"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.41"
+  },
+  {
+    "id": "42",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.42"
+  },
+  {
+    "id": "43",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Nod,Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.43"
+  },
+  {
+    "id": "44",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Nod,Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "Fei"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.44"
+  },
+  {
+    "id": "45",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Nod,Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.45"
+  },
+  {
+    "id": "46",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "Status": "Any",
+      "ToRace": "Peleng"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.46"
+  },
+  {
+    "id": "47",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Artefact,Nod",
+      "Status": "Warrior",
+      "ToRace": "Maloc"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.47"
+  },
+  {
+    "id": "48",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Artefact,Nod",
+      "Status": "Trader",
+      "ToRace": "Maloc"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.48"
+  },
+  {
+    "id": "49",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "ToRace": "Peleng"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.49"
+  },
+  {
+    "id": "5",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "Status": "Any",
+      "ToRace": "Fei"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.5"
+  },
+  {
+    "id": "50",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "Status": "Trader",
+      "ToRace": "People"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.50"
+  },
+  {
+    "id": "51",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Warrior,Trader",
+      "ToRace": "Maloc"
+    },
+    "parameters": 14,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.51"
+  },
+  {
+    "id": "52",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Warrior",
+      "ToRace": "People"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.52"
+  },
+  {
+    "id": "53",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "Status": "Warrior,Trader",
+      "ToRace": "People"
+    },
+    "parameters": 15,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.53"
+  },
+  {
+    "id": "54",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.54"
+  },
+  {
+    "id": "55",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.55"
+  },
+  {
+    "id": "56",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei,Gaal",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.56"
+  },
+  {
+    "id": "57",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Nod",
+      "Status": "Any",
+      "ToRace": "Fei"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.57"
+  },
+  {
+    "id": "58",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng,Maloc",
+      "Status": "Trader",
+      "ToRace": "Gaal"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.58"
+  },
+  {
+    "id": "59",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People,Fei,Gaal",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Fei,Gaal"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.59"
+  },
+  {
+    "id": "6",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward,Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "ToRace": "People"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.6"
+  },
+  {
+    "id": "60",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc,Peleng",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Gaal"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.60"
+  },
+  {
+    "id": "61",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.61"
+  },
+  {
+    "id": "62",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "People,Fei,Gaal"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.62"
+  },
+  {
+    "id": "63",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Any",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Any"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.63"
+  },
+  {
+    "id": "64",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "People,Fei,Gaal"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.64"
+  },
+  {
+    "id": "65",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.65"
+  },
+  {
+    "id": "66",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc,Peleng,People",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "Fei,Gaal"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.66"
+  },
+  {
+    "id": "67",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei,Gaal",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.67"
+  },
+  {
+    "id": "68",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Pirate,Trader",
+      "ToRace": "Fei"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.68"
+  },
+  {
+    "id": "69",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Warrior,Trader",
+      "ToRace": "People"
+    },
+    "parameters": 15,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.69"
+  },
+  {
+    "id": "7",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Reward",
+      "Status": "Trader",
+      "ToRace": "People"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.7"
+  },
+  {
+    "id": "70",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng,People",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Trader",
+      "ToRace": "Fei"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.70"
+  },
+  {
+    "id": "71",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Trader",
+      "ToRace": "People"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.71"
+  },
+  {
+    "id": "72",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc,People,Fei,Gaal",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "Peleng"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.72"
+  },
+  {
+    "id": "73",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Warrior,Trader",
+      "ToRace": "Fei"
+    },
+    "parameters": 13,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.73"
+  },
+  {
+    "id": "74",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Warrior,Trader",
+      "ToRace": "Peleng"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.74"
+  },
+  {
+    "id": "75",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.75"
+  },
+  {
+    "id": "76",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei,Gaal",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.76"
+  },
+  {
+    "id": "77",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Warrior,Trader",
+      "ToRace": "Fei"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.77"
+  },
+  {
+    "id": "78",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Programms,Artefact",
+      "Status": "Any",
+      "ToRace": "People"
+    },
+    "parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.78"
+  },
+  {
+    "id": "79",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Gaal",
+      "GovernmentAward": "Reward,Programms",
+      "Status": "Trader,Warrior",
+      "ToRace": "People"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.79"
+  },
+  {
+    "id": "8",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc",
+      "GovernmentAward": "Programms,Nod",
+      "Status": "Pirate",
+      "ToRace": "Fei"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.8"
+  },
+  {
+    "id": "80",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Fei",
+      "GovernmentAward": "Reward,Programms",
+      "Status": "Any",
+      "ToRace": "Maloc"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.80"
+  },
+  {
+    "id": "81",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "People",
+      "GovernmentAward": "Reward,Programms",
+      "Status": "Any",
+      "ToRace": "Peleng"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.81"
+  },
+  {
+    "id": "82",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng,People,Fei,OnlyPirate",
+      "GovernmentAward": "Reward",
+      "Status": "Any",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "parameters": 10,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.82"
+  },
+  {
+    "id": "83",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng,People,Fei,Gaal,OnlyPirate",
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "Status": "Any",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.83"
+  },
+  {
+    "id": "84",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate",
+      "GovernmentAward": "Reward,Artefact,Nod",
+      "Status": "Trader,Pirate",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.84"
+  },
+  {
+    "id": "85",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate",
+      "GovernmentAward": "Reward",
+      "Status": "Warrior,Pirate",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.85"
+  },
+  {
+    "id": "86",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate",
+      "GovernmentAward": "Reward",
+      "Status": "Any",
+      "ToRace": "Maloc,Peleng,People,Fei,Gaal,OnlyPirate"
+    },
+    "parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.86"
+  },
+  {
+    "id": "9",
+    "family": "SendLetter",
+    "facts": {
+      "FromRace": "Peleng",
+      "GovernmentAward": "Programms,Artefact,Nod",
+      "Status": "Pirate",
+      "ToRace": "People"
+    },
+    "parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest.SendLetter.9"
+  }
+]

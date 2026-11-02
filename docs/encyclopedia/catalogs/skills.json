@@ -1,0 +1,68 @@
+[
+  {
+    "id": "sAccuracy",
+    "name_ru": "Точность пилота",
+    "name_en": "Pilot's Accuracy",
+    "kind": "definition",
+    "facts": {
+      "Name": "Точность пилота"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Skills.sAccuracy"
+  },
+  {
+    "id": "sCharm",
+    "name_ru": "Обаяние пилота",
+    "name_en": "Pilot's Charisma",
+    "kind": "definition",
+    "facts": {
+      "Name": "Обаяние пилота"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Skills.sCharm"
+  },
+  {
+    "id": "sLeadership",
+    "name_ru": "Лидерство",
+    "name_en": "Leadership",
+    "kind": "definition",
+    "facts": {
+      "Name": "Лидерство"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Skills.sLeadership"
+  },
+  {
+    "id": "sMobility",
+    "name_ru": "Маневренность пилота",
+    "name_en": "Pilot's Mobility",
+    "kind": "definition",
+    "facts": {
+      "Name": "Маневренность пилота"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Skills.sMobility"
+  },
+  {
+    "id": "sTechnical",
+    "name_ru": "Знание техники",
+    "name_en": "Technology Skill",
+    "kind": "definition",
+    "facts": {
+      "Name": "Знание техники"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Skills.sTechnical"
+  },
+  {
+    "id": "sTrader",
+    "name_ru": "Навык торговли",
+    "name_en": "Commerce Skill",
+    "kind": "definition",
+    "facts": {
+      "Name": "Навык торговли"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Skills.sTrader"
+  }
+]

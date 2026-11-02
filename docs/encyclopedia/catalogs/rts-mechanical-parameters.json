@@ -1,0 +1,4097 @@
+[
+  {
+    "category": "AIRobotType",
+    "id": "10.[0]",
+    "value": "P,3,RRM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[1]",
+    "value": "W,3,RRM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[2]",
+    "value": "T,3,RRM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[3]",
+    "value": "P,1S,FO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[4]",
+    "value": "W,1S,FO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[5]",
+    "value": "T,1S,FO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[5]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[6]",
+    "value": "H,1S,FO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[6]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[7]",
+    "value": "A,1S,FO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[7]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[8]",
+    "value": "W,1S,FB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[8]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[9]",
+    "value": "H,1S,FB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[9]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "10.[10]",
+    "value": "A,1S,FB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.10.[10]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "11.[0]",
+    "value": "P,3,RRL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.11.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "11.[1]",
+    "value": "W,3,RRL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.11.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "12.[0]",
+    "value": "P,3,RRP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.12.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "12.[1]",
+    "value": "W,3,RRP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.12.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "12.[2]",
+    "value": "H,3,RRM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.12.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "14.[0]",
+    "value": "H,3,RRL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.14.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "14.[1]",
+    "value": "A,3,RRL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.14.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[0]",
+    "value": "H,3,RRP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[1]",
+    "value": "A,3,RRP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[2]",
+    "value": "A,3,RRM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[3]",
+    "value": "P,3,FFG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[4]",
+    "value": "W,3,FFG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[5]",
+    "value": "T,3,FFG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[5]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[6]",
+    "value": "H,3,FFG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[6]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[7]",
+    "value": "A,3,FFG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[7]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[8]",
+    "value": "P,2,CC",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[8]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[9]",
+    "value": "W,2,CC",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[9]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[10]",
+    "value": "T,2,CC",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[10]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[11]",
+    "value": "H,2,CC",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[11]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[12]",
+    "value": "A,2,CC",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[12]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[13]",
+    "value": "P,1S,LO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[13]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[14]",
+    "value": "W,1S,LO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[14]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[15]",
+    "value": "T,1S,LO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[15]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[16]",
+    "value": "H,1S,LO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[16]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[17]",
+    "value": "A,1S,LO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[17]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[18]",
+    "value": "W,1S,LB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[18]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[19]",
+    "value": "H,1S,LB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[19]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "15.[20]",
+    "value": "A,1S,LB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.15.[20]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "18.[0]",
+    "value": "P,2,LE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.18.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "18.[1]",
+    "value": "W,2,LE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.18.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "18.[2]",
+    "value": "T,2,LE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.18.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "18.[3]",
+    "value": "H,2,LE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.18.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "18.[4]",
+    "value": "A,2,LE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.18.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "2.[0]",
+    "value": "P,1,G",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.2.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "2.[1]",
+    "value": "W,1,G",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.2.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "2.[2]",
+    "value": "T,1,G",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.2.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "2.[3]",
+    "value": "H,1,G",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.2.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "2.[4]",
+    "value": "A,1,G",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.2.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[0]",
+    "value": "P,3,GMR",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[1]",
+    "value": "W,3,GMR",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[2]",
+    "value": "T,3,GMR",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[3]",
+    "value": "H,3,GMR",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[4]",
+    "value": "A,3,GMR",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[5]",
+    "value": "P,2S,MFO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[5]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[6]",
+    "value": "W,2S,MFO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[6]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[7]",
+    "value": "T,2S,MFO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[7]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[8]",
+    "value": "H,2S,MFO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[8]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[9]",
+    "value": "A,2S,MFO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[9]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[10]",
+    "value": "P,2S,CLO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[10]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[11]",
+    "value": "W,2S,CLO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[11]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[12]",
+    "value": "T,2S,CLO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[12]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[13]",
+    "value": "H,2S,CLO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[13]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[14]",
+    "value": "A,2S,CLO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[14]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[15]",
+    "value": "P,2S,MMO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[15]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[16]",
+    "value": "W,2S,MMO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[16]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[17]",
+    "value": "T,2S,MMO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[17]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[18]",
+    "value": "H,2S,MMO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[18]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[19]",
+    "value": "A,2S,MMO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[19]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[20]",
+    "value": "W,2S,MFB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[20]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[21]",
+    "value": "H,2S,MFB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[21]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[22]",
+    "value": "A,2S,MFB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[22]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[23]",
+    "value": "W,2S,CLB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[23]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[24]",
+    "value": "H,2S,CLB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[24]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[25]",
+    "value": "A,2S,CLB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[25]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[26]",
+    "value": "W,2S,MMB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[26]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[27]",
+    "value": "H,2S,MMB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[27]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "20.[28]",
+    "value": "A,2S,MMB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.20.[28]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[0]",
+    "value": "W,4S,GGGGO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[1]",
+    "value": "P,3,CCF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[2]",
+    "value": "W,3,CCF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[3]",
+    "value": "T,3,CCF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[4]",
+    "value": "H,3,CCF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[5]",
+    "value": "A,3,CCF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[5]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[6]",
+    "value": "P,3,CCE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[6]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[7]",
+    "value": "W,3,CCE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[7]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[8]",
+    "value": "T,3,CCE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[8]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[9]",
+    "value": "H,3,CCE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[9]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[10]",
+    "value": "A,3,CCE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[10]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[11]",
+    "value": "P,3,FFP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[11]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[12]",
+    "value": "W,3,FFP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[12]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[13]",
+    "value": "T,3,FFP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[13]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[14]",
+    "value": "H,3,FFP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[14]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "25.[15]",
+    "value": "A,3,FFP",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.25.[15]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "30.[0]",
+    "value": "P,3,GMF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.30.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "30.[1]",
+    "value": "W,3,GMF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.30.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "30.[2]",
+    "value": "T,3,GMF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.30.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "30.[3]",
+    "value": "H,3,GMF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.30.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "30.[4]",
+    "value": "A,3,GMF",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.30.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "35.[0]",
+    "value": "P,3,MMM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.35.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "35.[1]",
+    "value": "W,3,MMM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.35.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "35.[2]",
+    "value": "T,3,MMM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.35.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "35.[3]",
+    "value": "H,3,MMM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.35.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "35.[4]",
+    "value": "A,3,MMM",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.35.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "4.[0]",
+    "value": "P,1,C",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.4.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "4.[1]",
+    "value": "W,1,C",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.4.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "4.[2]",
+    "value": "T,1,C",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.4.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "4.[3]",
+    "value": "H,1,C",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.4.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "4.[4]",
+    "value": "A,1,C",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.4.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[0]",
+    "value": "T,4S,CCEEO,S",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[1]",
+    "value": "T,4S,LLEEO,F",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[2]",
+    "value": "P,4S,CCEEO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[3]",
+    "value": "P,4S,GGEEO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[4]",
+    "value": "P,4S,CCEEO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[5]",
+    "value": "H,4S,MMPPO,D",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[5]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[6]",
+    "value": "H,4S,RGGGO,D",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[6]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[7]",
+    "value": "H,4S,RRMM,D",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[7]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "40.[8]",
+    "value": "H,4S,RRPE,D",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.40.[8]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "45.[0]",
+    "value": "H,4S,RFFF,L",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.45.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "45.[1]",
+    "value": "H,4S,RRMMO,D",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.45.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "45.[2]",
+    "value": "H,4S,RRPEO,D",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.45.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "5.[0]",
+    "value": "P,1S,GO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.5.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "5.[1]",
+    "value": "W,1S,GO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.5.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "5.[2]",
+    "value": "T,1S,GO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.5.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "5.[3]",
+    "value": "H,1S,GO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.5.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "5.[4]",
+    "value": "A,1S,GO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.5.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "5.[5]",
+    "value": "W,1S,GB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.5.[5]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "5.[6]",
+    "value": "H,1S,GB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.5.[6]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "5.[7]",
+    "value": "A,1S,GB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.5.[7]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "50.[0]",
+    "value": "A,4S,FFEPO,D",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.50.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "50.[1]",
+    "value": "P,4S,FFEPO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.50.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "50.[2]",
+    "value": "W,4S,LLEEO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.50.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "50.[3]",
+    "value": "T,4S,LLEEO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.50.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "50.[4]",
+    "value": "H,4S,MMPEO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.50.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "50.[5]",
+    "value": "A,4S,MMFFB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.50.[5]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "50.[6]",
+    "value": "A,4S,MMFFO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.50.[6]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "6.[0]",
+    "value": "P,1,M",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.6.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "6.[1]",
+    "value": "W,1,M",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.6.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "6.[2]",
+    "value": "T,1,M",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.6.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "6.[3]",
+    "value": "H,1,M",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.6.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "6.[4]",
+    "value": "A,1,M",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.6.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[0]",
+    "value": "P,2,GG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[0]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[1]",
+    "value": "W,2,GG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[1]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[2]",
+    "value": "T,2,GG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[2]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[3]",
+    "value": "H,2,GG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[3]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[4]",
+    "value": "A,2,GG",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[4]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[5]",
+    "value": "P,2,RL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[5]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[6]",
+    "value": "W,2,RL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[6]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[7]",
+    "value": "T,2,RL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[7]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[8]",
+    "value": "H,2,RL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[8]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[9]",
+    "value": "A,2,RL",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[9]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[10]",
+    "value": "P,1S,CO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[10]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[11]",
+    "value": "W,1S,CO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[11]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[12]",
+    "value": "T,1S,CO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[12]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[13]",
+    "value": "H,1S,CO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[13]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[14]",
+    "value": "A,1S,CO",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[14]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[15]",
+    "value": "W,1S,CB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[15]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[16]",
+    "value": "H,1S,CB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[16]"
+  },
+  {
+    "category": "AIRobotType",
+    "id": "8.[17]",
+    "value": "A,1S,CB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.AIRobotType.8.[17]"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR1_ROTATION_SPEED",
+    "value": "0.1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR1_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR1_STRUCTURE",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR1_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR2_ROTATION_SPEED",
+    "value": "0.09",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR2_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR2_STRUCTURE",
+    "value": "1200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR2_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR3_ROTATION_SPEED",
+    "value": "0.08",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR3_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR3_STRUCTURE",
+    "value": "1300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR3_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR4_ROTATION_SPEED",
+    "value": "0.07",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR4_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR4_STRUCTURE",
+    "value": "1500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR4_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR5_ROTATION_SPEED",
+    "value": "0.06",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR5_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR5_STRUCTURE",
+    "value": "1800",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR5_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR6_ROTATION_SPEED",
+    "value": "0.1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR6_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Armor.ARMOR6_STRUCTURE",
+    "value": "900",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Armor.ARMOR6_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS1_MOVE_SLOPE_CORR_DN",
+    "value": "2.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS1_MOVE_SLOPE_CORR_DN"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS1_MOVE_SLOPE_CORR_UP",
+    "value": "0.7",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS1_MOVE_SLOPE_CORR_UP"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS1_MOVE_SPEED",
+    "value": "0.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS1_MOVE_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS1_MOVE_WATER_CORR",
+    "value": "0.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS1_MOVE_WATER_CORR"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS1_ROTATION_SPEED",
+    "value": "0.03",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS1_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS1_STRUCTURE",
+    "value": "900",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS1_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS2_MOVE_SLOPE_CORR_DN",
+    "value": "2.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS2_MOVE_SLOPE_CORR_DN"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS2_MOVE_SLOPE_CORR_UP",
+    "value": "0.7",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS2_MOVE_SLOPE_CORR_UP"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS2_MOVE_SPEED",
+    "value": "0.6",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS2_MOVE_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS2_MOVE_WATER_CORR",
+    "value": "0.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS2_MOVE_WATER_CORR"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS2_ROTATION_SPEED",
+    "value": "0.04",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS2_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS2_STRUCTURE",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS2_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS3_MOVE_SLOPE_CORR_DN",
+    "value": "2.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS3_MOVE_SLOPE_CORR_DN"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS3_MOVE_SLOPE_CORR_UP",
+    "value": "0.7",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS3_MOVE_SLOPE_CORR_UP"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS3_MOVE_SPEED",
+    "value": "0.4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS3_MOVE_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS3_MOVE_WATER_CORR",
+    "value": "0.8",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS3_MOVE_WATER_CORR"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS3_ROTATION_SPEED",
+    "value": "0.02",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS3_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS3_STRUCTURE",
+    "value": "1400",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS3_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS4_MOVE_SLOPE_CORR_DN",
+    "value": "2.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS4_MOVE_SLOPE_CORR_DN"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS4_MOVE_SLOPE_CORR_UP",
+    "value": "0.7",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS4_MOVE_SLOPE_CORR_UP"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS4_MOVE_SPEED",
+    "value": "0.65",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS4_MOVE_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS4_MOVE_WATER_CORR",
+    "value": "0.8",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS4_MOVE_WATER_CORR"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS4_ROTATION_SPEED",
+    "value": "0.03",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS4_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS4_STRUCTURE",
+    "value": "1200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS4_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS5_MOVE_SLOPE_CORR_DN",
+    "value": "2.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS5_MOVE_SLOPE_CORR_DN"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS5_MOVE_SLOPE_CORR_UP",
+    "value": "0.7",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS5_MOVE_SLOPE_CORR_UP"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS5_MOVE_SPEED",
+    "value": "0.7",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS5_MOVE_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS5_MOVE_WATER_CORR",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS5_MOVE_WATER_CORR"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS5_ROTATION_SPEED",
+    "value": "0.04",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS5_ROTATION_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Chassis.CHASSIS5_STRUCTURE",
+    "value": "1300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Chassis.CHASSIS5_STRUCTURE"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.D.CHASSIS_SPEED",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.D.CHASSIS_SPEED"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.D.COOL_DOWN",
+    "value": "-20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.D.COOL_DOWN"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.D.OVERHEAT",
+    "value": "-20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.D.OVERHEAT"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.F.AIM_PROTECT",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.F.AIM_PROTECT"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.F.BOMB_PROTECT",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.F.BOMB_PROTECT"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.F.LIGHT_PROTECT",
+    "value": "100",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.F.LIGHT_PROTECT"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.L.FIRE_DISTANCE",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.L.FIRE_DISTANCE"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.L.RADAR_DISTANCE",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.L.RADAR_DISTANCE"
+  },
+  {
+    "category": "Chars",
+    "id": "Heads.S.HIT_POINT_ADD",
+    "value": "500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Chars.Heads.S.HIT_POINT_ADD"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Electronics",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Electronics"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Energy",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Energy"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Hitpoint",
+    "value": "6000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Hitpoint"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.MaxBottomAngle",
+    "value": "-30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.MaxBottomAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.MaxTopAngle",
+    "value": "89",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.MaxTopAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Plasm",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Plasm"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Radius",
+    "value": "600",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Radius"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Rotation",
+    "value": "0.9",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Rotation"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Strength",
+    "value": "0900",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Strength"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Titan",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Titan"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.0.Weapon",
+    "value": "WEAPON_CANNON0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.0.Weapon"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Electronics",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Electronics"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Energy",
+    "value": "60",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Energy"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Hitpoint",
+    "value": "10000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Hitpoint"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.MaxBottomAngle",
+    "value": "-30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.MaxBottomAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.MaxTopAngle",
+    "value": "89",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.MaxTopAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Plasm",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Plasm"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Radius",
+    "value": "700",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Radius"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Rotation",
+    "value": "0.3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Rotation"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Strength",
+    "value": "1500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Strength"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Titan",
+    "value": "100",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Titan"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.1.Weapon",
+    "value": "WEAPON_CANNON1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.1.Weapon"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Electronics",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Electronics"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Energy",
+    "value": "80",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Energy"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Hitpoint",
+    "value": "7000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Hitpoint"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.MaxBottomAngle",
+    "value": "-30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.MaxBottomAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.MaxTopAngle",
+    "value": "89",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.MaxTopAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Plasm",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Plasm"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Radius",
+    "value": "500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Radius"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Rotation",
+    "value": "0.5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Rotation"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Strength",
+    "value": "1600",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Strength"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Titan",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Titan"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.2.Weapon",
+    "value": "WEAPON_CANNON2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.2.Weapon"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Electronics",
+    "value": "120",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Electronics"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Energy",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Energy"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Hitpoint",
+    "value": "8000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Hitpoint"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.MaxBottomAngle",
+    "value": "-30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.MaxBottomAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.MaxTopAngle",
+    "value": "89",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.MaxTopAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Plasm",
+    "value": "120",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Plasm"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Radius",
+    "value": "600",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Radius"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Rotation",
+    "value": "0.7",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Rotation"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Strength",
+    "value": "1800",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Strength"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Titan",
+    "value": "80",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Titan"
+  },
+  {
+    "category": "Models",
+    "id": "Cannons.3.Weapon",
+    "value": "WEAPON_CANNON3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Cannons.3.Weapon"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Engine.[0].Inversed",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Engine.[0].Inversed"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Engine.[0].Matrix",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Engine.[0].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Engine.[1].Inversed",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Engine.[1].Inversed"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Engine.[1].Matrix",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Engine.[1].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Vint.Angle",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Vint.Angle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Vint.DAngle",
+    "value": "-0.025",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Vint.DAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Vint.Matrix",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Vint.Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Weapon.Inversed",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Weapon.Inversed"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Weapon.Matrix",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Weapon.Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Weapon.RotationZ",
+    "value": "90",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Weapon.RotationZ"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.0.Weapon.Weapon",
+    "value": "WEAPON_PLASMA",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.0.Weapon.Weapon"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Vint.Angle",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Vint.Angle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Vint.DAngle",
+    "value": "-0.025",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Vint.DAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Vint.Matrix",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Vint.Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[0].Inversed",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[0].Inversed"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[0].Matrix",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[0].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[0].RotationZ",
+    "value": "90",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[0].RotationZ"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[0].Weapon",
+    "value": "WEAPON_GUN",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[0].Weapon"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[1].Inversed",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[1].Inversed"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[1].Matrix",
+    "value": "11",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[1].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[1].RotationZ",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[1].RotationZ"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[1].Weapon",
+    "value": "WEAPON_HOMING_MISSILE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[1].Weapon"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[2].Inversed",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[2].Inversed"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[2].Matrix",
+    "value": "12",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[2].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[2].RotationZ",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[2].RotationZ"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.1.Weapon.[2].Weapon",
+    "value": "WEAPON_HOMING_MISSILE",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.1.Weapon.[2].Weapon"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.2.Vint.[0].Angle",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.2.Vint.[0].Angle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.2.Vint.[0].DAngle",
+    "value": "-0.025",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.2.Vint.[0].DAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.2.Vint.[0].Matrix",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.2.Vint.[0].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.2.Vint.[1].Angle",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.2.Vint.[1].Angle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.2.Vint.[1].DAngle",
+    "value": "-0.025",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.2.Vint.[1].DAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.2.Vint.[1].Matrix",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.2.Vint.[1].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.3.Vint.[0].Angle",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.3.Vint.[0].Angle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.3.Vint.[0].DAngle",
+    "value": "-0.025",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.3.Vint.[0].DAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.3.Vint.[0].Matrix",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.3.Vint.[0].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.3.Vint.[1].Angle",
+    "value": "1.0471975511966",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.3.Vint.[1].Angle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.3.Vint.[1].DAngle",
+    "value": "0.025",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.3.Vint.[1].DAngle"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.3.Vint.[1].Inversed",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.3.Vint.[1].Inversed"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.3.Vint.[1].Matrix",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.3.Vint.[1].Matrix"
+  },
+  {
+    "category": "Models",
+    "id": "Flyers.3.Weapon.Weapon",
+    "value": "WEAPON_BOMB",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Models.Flyers.3.Weapon.Weapon"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR1_ELECTRONICS",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR1_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR1_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR1_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR1_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR1_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR1_TITAN",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR1_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR2_ELECTRONICS",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR2_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR2_ENERGY",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR2_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR2_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR2_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR2_TITAN",
+    "value": "15",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR2_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR3_ELECTRONICS",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR3_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR3_ENERGY",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR3_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR3_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR3_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR3_TITAN",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR3_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR4_ELECTRONICS",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR4_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR4_ENERGY",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR4_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR4_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR4_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR4_TITAN",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR4_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR5_ELECTRONICS",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR5_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR5_ENERGY",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR5_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR5_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR5_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR5_TITAN",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR5_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR6_ELECTRONICS",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR6_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR6_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR6_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR6_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR6_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Armor.ARMOR6_TITAN",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Armor.ARMOR6_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS1_ELECTRONICS",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS1_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS1_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS1_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS1_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS1_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS1_TITAN",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS1_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS2_ELECTRONICS",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS2_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS2_ENERGY",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS2_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS2_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS2_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS2_TITAN",
+    "value": "15",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS2_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS3_ELECTRONICS",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS3_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS3_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS3_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS3_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS3_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS3_TITAN",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS3_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS4_ELECTRONICS",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS4_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS4_ENERGY",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS4_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS4_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS4_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS4_TITAN",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS4_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS5_ELECTRONICS",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS5_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS5_ENERGY",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS5_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS5_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS5_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Chassis.CHASSIS5_TITAN",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Chassis.CHASSIS5_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Head.HEAD1_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Head.HEAD1_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Head.HEAD1_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Head.HEAD1_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Head.HEAD1_TITAN",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Head.HEAD1_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Head.HEAD2_ENERGY",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Head.HEAD2_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Head.HEAD2_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Head.HEAD2_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Head.HEAD3_ELECTRONICS",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Head.HEAD3_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Head.HEAD3_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Head.HEAD3_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Head.HEAD4_PLASM",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Head.HEAD4_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON10_ELECTRONICS",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON10_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON10_ENERGY",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON10_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON10_PLASM",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON10_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON10_TITAN",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON10_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON1_ELECTRONICS",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON1_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON1_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON1_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON1_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON1_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON1_TITAN",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON1_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON2_ELECTRONICS",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON2_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON2_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON2_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON2_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON2_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON2_TITAN",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON2_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON3_ELECTRONICS",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON3_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON3_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON3_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON3_PLASM",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON3_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON3_TITAN",
+    "value": "15",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON3_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON4_ELECTRONICS",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON4_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON4_ENERGY",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON4_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON4_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON4_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON4_TITAN",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON4_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON5_ELECTRONICS",
+    "value": "15",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON5_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON5_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON5_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON5_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON5_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON5_TITAN",
+    "value": "15",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON5_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON6_ELECTRONICS",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON6_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON6_ENERGY",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON6_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON6_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON6_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON6_TITAN",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON6_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON7_ELECTRONICS",
+    "value": "150",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON7_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON7_ENERGY",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON7_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON7_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON7_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON7_TITAN",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON7_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON8_ELECTRONICS",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON8_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON8_ENERGY",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON8_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON8_PLASM",
+    "value": "100",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON8_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON8_TITAN",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON8_TITAN"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON9_ELECTRONICS",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON9_ELECTRONICS"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON9_ENERGY",
+    "value": "100",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON9_ENERGY"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON9_PLASM",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON9_PLASM"
+  },
+  {
+    "category": "Price",
+    "id": "Weapon.WEAPON9_TITAN",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Price.Weapon.WEAPON9_TITAN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_BIGBOOM",
+    "value": "10000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_BIGBOOM"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_BOMB",
+    "value": "2500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_BOMB"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_CANNON0",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_CANNON0"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_CANNON1",
+    "value": "998",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_CANNON1"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_CANNON2",
+    "value": "97",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_CANNON2"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_CANNON3",
+    "value": "1002",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_CANNON3"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_FLAMETHROWER",
+    "value": "60",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_FLAMETHROWER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_GUN",
+    "value": "400",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_GUN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_HOMING_MISSILE",
+    "value": "1500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_HOMING_MISSILE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_LASER",
+    "value": "98",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_LASER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_LIGHTENING",
+    "value": "99",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_LIGHTENING"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_PLASMA",
+    "value": "200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_PLASMA"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_REPAIR",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_REPAIR"
+  },
+  {
+    "category": "Weapons",
+    "id": "Cooldown.WEAPON_VOLCANO",
+    "value": "55",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Cooldown.WEAPON_VOLCANO"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_BOMB",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_BOMB"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_CANNON0",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_CANNON0"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_CANNON1",
+    "value": "100",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_CANNON1"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_CANNON2",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_CANNON2"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_CANNON3",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_CANNON3"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_DEBRIS",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_DEBRIS"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_GUN",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_GUN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_HOMING_MISSILE",
+    "value": "80",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_HOMING_MISSILE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_LASER",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_LASER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_LIGHTENING",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_LIGHTENING"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_PLASMA",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_PLASMA"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_REPAIR",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_REPAIR"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Building.WEAPON_VOLCANO",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Building.WEAPON_VOLCANO"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_BOMB",
+    "value": "500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_BOMB"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_CANNON0",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_CANNON0"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_CANNON1",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_CANNON1"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_CANNON2",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_CANNON2"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_CANNON3",
+    "value": "200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_CANNON3"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_DEBRIS",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_DEBRIS"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_GUN",
+    "value": "60",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_GUN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_HOMING_MISSILE",
+    "value": "250",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_HOMING_MISSILE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_LASER",
+    "value": "25",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_LASER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_LIGHTENING",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_LIGHTENING"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_PLASMA",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_PLASMA"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_REPAIR",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_REPAIR"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Cannon.WEAPON_VOLCANO",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Cannon.WEAPON_VOLCANO"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_ABLAZE",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_ABLAZE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_BIGBOOM",
+    "value": "2000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_BIGBOOM"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_BOMB",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_BOMB"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_CANNON0",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_CANNON0"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_CANNON1",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_CANNON1"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_CANNON2",
+    "value": "25",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_CANNON2"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_CANNON3",
+    "value": "250",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_CANNON3"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_DEBRIS",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_DEBRIS"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_FLAMETHROWER",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_FLAMETHROWER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_GUN",
+    "value": "60",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_GUN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_HOMING_MISSILE",
+    "value": "500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_HOMING_MISSILE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_LASER",
+    "value": "30",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_LASER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_LIGHTENING",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_LIGHTENING"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_PLASMA",
+    "value": "60",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_PLASMA"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_REPAIR",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_REPAIR"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Flyer.WEAPON_VOLCANO",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Flyer.WEAPON_VOLCANO"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_ABLAZE",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_ABLAZE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_BIGBOOM",
+    "value": "2000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_BIGBOOM"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_BOMB",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_BOMB"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_CANNON0",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_CANNON0"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_CANNON1",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_CANNON1"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_CANNON2",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_CANNON2"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_CANNON3",
+    "value": "200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_CANNON3"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_DEBRIS",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_DEBRIS"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_FLAMETHROWER",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_FLAMETHROWER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_GUN",
+    "value": "80",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_GUN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_HOMING_MISSILE",
+    "value": "250",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_HOMING_MISSILE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_LASER",
+    "value": "25",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_LASER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_LIGHTENING",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_LIGHTENING"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_PLASMA",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_PLASMA"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_REPAIR",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_REPAIR"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Object.WEAPON_VOLCANO",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Object.WEAPON_VOLCANO"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_BOMB",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_BOMB"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_CANNON0",
+    "value": "40",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_CANNON0"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_CANNON1",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_CANNON1"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_CANNON2",
+    "value": "25",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_CANNON2"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_CANNON3",
+    "value": "250",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_CANNON3"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_DEBRIS",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_DEBRIS"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_GUN",
+    "value": "60",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_GUN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_HOMING_MISSILE",
+    "value": "250",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_HOMING_MISSILE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_LASER",
+    "value": "25",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_LASER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_LIGHTENING",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_LIGHTENING"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_PLASMA",
+    "value": "60",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_PLASMA"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_REPAIR",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_REPAIR"
+  },
+  {
+    "category": "Weapons",
+    "id": "Damages.Robot.WEAPON_VOLCANO",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Damages.Robot.WEAPON_VOLCANO"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WCP_BOMB",
+    "value": "200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WCP_BOMB"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WCP_FLAMETHROWER",
+    "value": "10000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WCP_FLAMETHROWER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WCP_GUN",
+    "value": "100",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WCP_GUN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WCP_HOMING_MISSILE",
+    "value": "100",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WCP_HOMING_MISSILE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WCP_LASER",
+    "value": "20000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WCP_LASER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WCP_LIGHTENING",
+    "value": "14000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WCP_LIGHTENING"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WCP_PLASMA",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WCP_PLASMA"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WCP_VOLCANO",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WCP_VOLCANO"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_BOMB_COOL",
+    "value": "25",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_BOMB_COOL"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_BOMB_HEAT",
+    "value": "500",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_BOMB_HEAT"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_FLAMETHROWER_COOL",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_FLAMETHROWER_COOL"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_FLAMETHROWER_HEAT",
+    "value": "50",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_FLAMETHROWER_HEAT"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_GUN_COOL",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_GUN_COOL"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_GUN_HEAT",
+    "value": "160",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_GUN_HEAT"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_HOMING_MISSILE_COOL",
+    "value": "25",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_HOMING_MISSILE_COOL"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_HOMING_MISSILE_HEAT",
+    "value": "750",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_HOMING_MISSILE_HEAT"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_LASER_COOL",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_LASER_COOL"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_LASER_HEAT",
+    "value": "20",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_LASER_HEAT"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_LIGHTENING_COOL",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_LIGHTENING_COOL"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_LIGHTENING_HEAT",
+    "value": "80",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_LIGHTENING_HEAT"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_PLASMA_COOL",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_PLASMA_COOL"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_PLASMA_HEAT",
+    "value": "90",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_PLASMA_HEAT"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_VOLCANO_COOL",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_VOLCANO_COOL"
+  },
+  {
+    "category": "Weapons",
+    "id": "Overheat.WEAPON_VOLCANO_HEAT",
+    "value": "10",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Overheat.WEAPON_VOLCANO_HEAT"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_BIGBOOM",
+    "value": "250",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_BIGBOOM"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_BOMB",
+    "value": "370",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_BOMB"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_CANNON0",
+    "value": "330",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_CANNON0"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_CANNON1",
+    "value": "410",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_CANNON1"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_CANNON2",
+    "value": "360",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_CANNON2"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_CANNON3",
+    "value": "420",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_CANNON3"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_FLAMETHROWER",
+    "value": "150",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_FLAMETHROWER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_GUN",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_GUN"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_HOMING_MISSILE",
+    "value": "350",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_HOMING_MISSILE"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_LASER",
+    "value": "250",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_LASER"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_LIGHTENING",
+    "value": "300",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_LIGHTENING"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_PLASMA",
+    "value": "310",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_PLASMA"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_REPAIR",
+    "value": "150",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_REPAIR"
+  },
+  {
+    "category": "Weapons",
+    "id": "Radius.WEAPON_VOLCANO",
+    "value": "250",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Weapons.Radius.WEAPON_VOLCANO"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotArmor",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotArmor"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotChassis",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotChassis"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotHead",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotHead"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotHitpoint",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotHitpoint"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotSide",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotSide"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotStrength",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotStrength"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotWeapon.[0]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotWeapon.[0]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotWeapon.[1]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotWeapon.[1]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[0].BotWeapon.[2]",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[0].BotWeapon.[2]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotArmor",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotArmor"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotChassis",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotChassis"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotHead",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotHead"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotHitpoint",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotHitpoint"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotSide",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotSide"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotStrength",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotStrength"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotWeapon.[0]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotWeapon.[0]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotWeapon.[1]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotWeapon.[1]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[1].BotWeapon.[2]",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[1].BotWeapon.[2]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotArmor",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotArmor"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotChassis",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotChassis"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotHead",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotHead"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotHitpoint",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotHitpoint"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotSide",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotSide"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotStrength",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotStrength"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotWeapon.[0]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotWeapon.[0]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotWeapon.[1]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotWeapon.[1]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[2].BotWeapon.[2]",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[2].BotWeapon.[2]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[3].BotArmor",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[3].BotArmor"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[3].BotChassis",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[3].BotChassis"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[3].BotHead",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[3].BotHead"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[3].BotHitpoint",
+    "value": "1000",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[3].BotHitpoint"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[3].BotSide",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[3].BotSide"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[3].BotStrength",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[3].BotStrength"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[3].BotWeapon.[0]",
+    "value": "8",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[3].BotWeapon.[0]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[3].BotWeapon.[1]",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[3].BotWeapon.[1]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[4].BotArmor",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[4].BotArmor"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[4].BotChassis",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[4].BotChassis"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[4].BotHead",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[4].BotHead"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[4].BotHitpoint",
+    "value": "1200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[4].BotHitpoint"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[4].BotSide",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[4].BotSide"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[4].BotStrength",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[4].BotStrength"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[4].BotWeapon.[0]",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[4].BotWeapon.[0]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[4].BotWeapon.[1]",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[4].BotWeapon.[1]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotArmor",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotArmor"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotChassis",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotChassis"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotHead",
+    "value": "1",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotHead"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotHitpoint",
+    "value": "1200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotHitpoint"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotSide",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotSide"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotStrength",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotStrength"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotWeapon.[0]",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotWeapon.[0]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotWeapon.[1]",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotWeapon.[1]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotWeapon.[2]",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotWeapon.[2]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotWeapon.[3]",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotWeapon.[3]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[5].BotWeapon.[4]",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[5].BotWeapon.[4]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotArmor",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotArmor"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotChassis",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotChassis"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotHead",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotHead"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotHitpoint",
+    "value": "1200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotHitpoint"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotSide",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotSide"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotStrength",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotStrength"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotWeapon.[0]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotWeapon.[0]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotWeapon.[1]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotWeapon.[1]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[6].BotWeapon.[2]",
+    "value": "5",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[6].BotWeapon.[2]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[7].BotArmor",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[7].BotArmor"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[7].BotChassis",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[7].BotChassis"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[7].BotHead",
+    "value": "2",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[7].BotHead"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[7].BotHitpoint",
+    "value": "1200",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[7].BotHitpoint"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[7].BotSide",
+    "value": "4",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[7].BotSide"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[7].BotStrength",
+    "value": "0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[7].BotStrength"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[7].BotWeapon.[0]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[7].BotWeapon.[0]"
+  },
+  {
+    "category": "RobotSpawn",
+    "id": "0.[7].BotWeapon.[1]",
+    "value": "3",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.RobotSpawn.0.[7].BotWeapon.[1]"
+  },
+  {
+    "category": "Side",
+    "id": "0",
+    "value": "Neutral,128,128,128,Minimap,128,128,128",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Side.0"
+  },
+  {
+    "category": "Side",
+    "id": "1",
+    "value": "Yellow,227,158,31,Minimap,255,255,0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Side.1"
+  },
+  {
+    "category": "Side",
+    "id": "2",
+    "value": "Red,142,0,0,Minimap,255,0,0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Side.2"
+  },
+  {
+    "category": "Side",
+    "id": "3",
+    "value": "Blue,0,0,150,Minimap,0,0,255",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Side.3"
+  },
+  {
+    "category": "Side",
+    "id": "4",
+    "value": "Green,0,150,0,Minimap,0,255,0",
+    "source": "CFG/Rus/robots.dat",
+    "block": "da.Side.4"
+  }
+]

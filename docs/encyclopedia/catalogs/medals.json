@@ -1,0 +1,674 @@
+[
+  {
+    "id": "0",
+    "name_ru": "Орден Быка",
+    "name_en": "Order of the Ox",
+    "kind": "definition",
+    "facts": {
+      "Name": "Орден Быка",
+      "Race": "Maloc",
+      "Status": "Pirate",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.0"
+  },
+  {
+    "id": "1",
+    "name_ru": "Калкитовый наконечник",
+    "name_en": "Calcite Spearhead",
+    "kind": "definition",
+    "facts": {
+      "Name": "Калкитовый наконечник",
+      "Race": "Maloc",
+      "Status": "Any",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.1"
+  },
+  {
+    "id": "10",
+    "name_ru": "Коленвал",
+    "name_en": "Crankshaft",
+    "kind": "definition",
+    "facts": {
+      "Name": "Коленвал",
+      "Race": "Fei",
+      "Status": "Trader",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.10"
+  },
+  {
+    "id": "11",
+    "name_ru": "Малый англум",
+    "name_en": "Small Anglum",
+    "kind": "definition",
+    "facts": {
+      "Name": "Малый англум",
+      "Race": "Gaal",
+      "Status": "Any",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.11"
+  },
+  {
+    "id": "12",
+    "name_ru": "Медаль \"Канвен-ивирис\"",
+    "name_en": "Kanven-Iviris Medal",
+    "kind": "definition",
+    "facts": {
+      "Name": "Медаль \"Канвен-ивирис\"",
+      "Race": "Gaal",
+      "Status": "Any",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.12"
+  },
+  {
+    "id": "13",
+    "name_ru": "Орден достоинства",
+    "name_en": "Order of Dignity",
+    "kind": "definition",
+    "facts": {
+      "Name": "Орден достоинства",
+      "Race": "Any",
+      "Status": "Any",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.13"
+  },
+  {
+    "id": "14",
+    "name_ru": "Гвардейский вымпел",
+    "name_en": "Guard's Pennant",
+    "kind": "definition",
+    "facts": {
+      "Name": "Гвардейский вымпел",
+      "Race": "Maloc",
+      "Status": "Any",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.14"
+  },
+  {
+    "id": "15",
+    "name_ru": "Значок \"Грязный камикадзе\"",
+    "name_en": "Dirty Kamikaze Badge",
+    "kind": "definition",
+    "facts": {
+      "Name": "Значок \"Грязный камикадзе\"",
+      "Race": "Peleng",
+      "Status": "Any",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.15"
+  },
+  {
+    "id": "16",
+    "name_ru": "Лягуха с круга",
+    "name_en": "Frog in a Circle",
+    "kind": "definition",
+    "facts": {
+      "Name": "Лягуха с круга",
+      "Race": "Peleng",
+      "Status": "Pirate",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.16"
+  },
+  {
+    "id": "17",
+    "name_ru": "Красный пантеон",
+    "name_en": "Red Pantheon",
+    "kind": "definition",
+    "facts": {
+      "Name": "Красный пантеон",
+      "Race": "Peleng",
+      "Status": "Pirate",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.17"
+  },
+  {
+    "id": "18",
+    "name_ru": "Золотая звезда героя",
+    "name_en": "Hero's Gold Star",
+    "kind": "definition",
+    "facts": {
+      "Name": "Золотая звезда героя",
+      "Race": "People",
+      "Status": "Any",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.18"
+  },
+  {
+    "id": "19",
+    "name_ru": "Тройной ореон",
+    "name_en": "Triple Oreon",
+    "kind": "definition",
+    "facts": {
+      "Name": "Тройной ореон",
+      "Race": "People",
+      "Status": "Any",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.19"
+  },
+  {
+    "id": "2",
+    "name_ru": "Убойный удар",
+    "name_en": "Killing Blow",
+    "kind": "definition",
+    "facts": {
+      "Name": "Убойный удар",
+      "Race": "Maloc",
+      "Status": "Warrior",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.2"
+  },
+  {
+    "id": "20",
+    "name_ru": "Ашианская лента",
+    "name_en": "Ashian Ribbon",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ашианская лента",
+      "Race": "Fei",
+      "Status": "Any",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.20"
+  },
+  {
+    "id": "21",
+    "name_ru": "Большой англум",
+    "name_en": "Big Anglum",
+    "kind": "definition",
+    "facts": {
+      "Name": "Большой англум",
+      "Race": "Gaal",
+      "Status": "Any",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.21"
+  },
+  {
+    "id": "22",
+    "name_ru": "Урановый млеко",
+    "name_en": "Uranium Milk",
+    "kind": "definition",
+    "facts": {
+      "Name": "Урановый млеко",
+      "Race": "Gaal",
+      "Status": "Any",
+      "Type": "ForAccomplishment"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.22"
+  },
+  {
+    "id": "23",
+    "name_ru": "Медаль элитной охраны",
+    "name_en": "Elite Guard Medal",
+    "kind": "definition",
+    "facts": {
+      "Name": "Медаль элитной охраны",
+      "Race": "Maloc",
+      "Status": "Any",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.23"
+  },
+  {
+    "id": "24",
+    "name_ru": "Орден скрытой силы",
+    "name_en": "Secret Force Order",
+    "kind": "definition",
+    "facts": {
+      "Name": "Орден скрытой силы",
+      "Race": "Maloc",
+      "Status": "Pirate",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.24"
+  },
+  {
+    "id": "25",
+    "name_ru": "Бляха \"Танцующий пират\"",
+    "name_en": "Dancing Pirate Badge",
+    "kind": "definition",
+    "facts": {
+      "Name": "Бляха \"Танцующий пират\"",
+      "Race": "Peleng",
+      "Status": "Any",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.25"
+  },
+  {
+    "id": "26",
+    "name_ru": "Сушеный пузырятам",
+    "name_en": "Dried Bubbles",
+    "kind": "definition",
+    "facts": {
+      "Name": "Сушеный пузырятам",
+      "Race": "Peleng",
+      "Status": "Pirate",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.26"
+  },
+  {
+    "id": "27",
+    "name_ru": "Зеленая миля",
+    "name_en": "Green Mike",
+    "kind": "definition",
+    "facts": {
+      "Name": "Зеленая миля",
+      "Race": "Peleng",
+      "Status": "Any",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.27"
+  },
+  {
+    "id": "28",
+    "name_ru": "Значок Аарона Кинга",
+    "name_en": "Aaron King's Badge",
+    "kind": "definition",
+    "facts": {
+      "Name": "Значок Аарона Кинга",
+      "Race": "People",
+      "Status": "Any",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.28"
+  },
+  {
+    "id": "29",
+    "name_ru": "Галопуговица",
+    "name_en": "Galobutton",
+    "kind": "definition",
+    "facts": {
+      "Name": "Галопуговица",
+      "Race": "Fei",
+      "Status": "Any",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.29"
+  },
+  {
+    "id": "3",
+    "name_ru": "Табель воина",
+    "name_en": "Warrior Board",
+    "kind": "definition",
+    "facts": {
+      "Name": "Табель воина",
+      "Race": "Maloc",
+      "Status": "Warrior",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.3"
+  },
+  {
+    "id": "30",
+    "name_ru": "Айбо-3001",
+    "name_en": "Aibo-3001",
+    "kind": "definition",
+    "facts": {
+      "Name": "Айбо-3001",
+      "Race": "Fei",
+      "Status": "Pirate",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.30"
+  },
+  {
+    "id": "31",
+    "name_ru": "Некриловая шпилька",
+    "name_en": "Necrylic Pin",
+    "kind": "definition",
+    "facts": {
+      "Name": "Некриловая шпилька",
+      "Race": "Gaal",
+      "Status": "Any",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.31"
+  },
+  {
+    "id": "32",
+    "name_ru": "Карта мира",
+    "name_en": "World Map",
+    "kind": "definition",
+    "facts": {
+      "Name": "Карта мира",
+      "Race": "Gaal",
+      "Status": "Any",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.32"
+  },
+  {
+    "id": "33",
+    "name_ru": "Алмазная гильза",
+    "name_en": "Diamond Sleeve",
+    "kind": "definition",
+    "facts": {
+      "Name": "Алмазная гильза",
+      "Race": "Any",
+      "Status": "Any",
+      "Type": "ForSecretMission"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.33"
+  },
+  {
+    "id": "34",
+    "name_ru": "Песочный череп",
+    "name_en": "Sandy Skull",
+    "kind": "definition",
+    "facts": {
+      "Name": "Песочный череп",
+      "Race": "Maloc",
+      "Status": "Any",
+      "Type": "ForCowardice"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.34"
+  },
+  {
+    "id": "35",
+    "name_ru": "Кроличья голова",
+    "name_en": "Rabbit Head",
+    "kind": "definition",
+    "facts": {
+      "Name": "Кроличья голова",
+      "Race": "People",
+      "Status": "Any",
+      "Type": "ForCowardice"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.35"
+  },
+  {
+    "id": "36",
+    "name_ru": "Репейник Монго",
+    "name_en": "Mongo Burdock",
+    "kind": "definition",
+    "facts": {
+      "Name": "Репейник Монго",
+      "Race": "Fei",
+      "Status": "Any",
+      "Type": "ForCowardice"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.36"
+  },
+  {
+    "id": "37",
+    "name_ru": "Черная метка",
+    "name_en": "Black Mark",
+    "kind": "definition",
+    "facts": {
+      "Name": "Черная метка",
+      "Race": "Any",
+      "Status": "Any",
+      "Type": "ForPerfidy"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.37"
+  },
+  {
+    "id": "38",
+    "name_ru": "Ржавый гвоздь",
+    "name_en": "Rusty Nail",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ржавый гвоздь",
+      "Race": "Any",
+      "Status": "Any",
+      "Type": "ForPerfidy"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.38"
+  },
+  {
+    "id": "39",
+    "name_ru": "Черное сердце",
+    "name_en": "Black Heart",
+    "kind": "definition",
+    "facts": {
+      "Name": "Черное сердце",
+      "Race": "Any",
+      "Status": "Any",
+      "Type": "ForPerfidy"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.39"
+  },
+  {
+    "id": "4",
+    "name_ru": "Трезубчатый орден",
+    "name_en": "Trident Order",
+    "kind": "definition",
+    "facts": {
+      "Name": "Трезубчатый орден",
+      "Race": "Peleng",
+      "Status": "Any",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.4"
+  },
+  {
+    "id": "40",
+    "name_ru": "Орден Сааба",
+    "name_en": "Order of Saab",
+    "kind": "definition",
+    "facts": {
+      "Name": "Орден Сааба",
+      "Race": "Maloc",
+      "Status": "Warrior",
+      "Type": "ForPlanetBattle"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.40"
+  },
+  {
+    "id": "41",
+    "name_ru": "Слизняк Отто",
+    "name_en": "Otto the Slug",
+    "kind": "definition",
+    "facts": {
+      "Name": "Слизняк Отто",
+      "Race": "Peleng",
+      "Status": "Pirate",
+      "Type": "ForPlanetBattle"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.41"
+  },
+  {
+    "id": "42",
+    "name_ru": "Братец Марио",
+    "name_en": "Mario Brother",
+    "kind": "definition",
+    "facts": {
+      "Name": "Братец Марио",
+      "Race": "People",
+      "Status": "Trader",
+      "Type": "ForPlanetBattle"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.42"
+  },
+  {
+    "id": "43",
+    "name_ru": "Кварцевый стинг",
+    "name_en": "Quartz Sting",
+    "kind": "definition",
+    "facts": {
+      "Name": "Кварцевый стинг",
+      "Race": "Fei",
+      "Status": "Any",
+      "Type": "ForPlanetBattle"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.43"
+  },
+  {
+    "id": "44",
+    "name_ru": "Хрустальная чакра",
+    "name_en": "Crystal Chakra",
+    "kind": "definition",
+    "facts": {
+      "Name": "Хрустальная чакра",
+      "Race": "Gaal",
+      "Status": "Any",
+      "Type": "ForPlanetBattle"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.44"
+  },
+  {
+    "id": "45",
+    "name_ru": "Орден Дзухаллага",
+    "name_en": "Order of Dzuhallag",
+    "kind": "definition",
+    "facts": {
+      "Name": "Орден Дзухаллага",
+      "Race": "Peleng",
+      "Status": "Any",
+      "Type": "ForPlanetBattle"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.45"
+  },
+  {
+    "id": "46",
+    "name_ru": "Кваковая грамота",
+    "name_en": "Quack Commendation",
+    "kind": "definition",
+    "facts": {
+      "Name": "Кваковая грамота",
+      "Race": "Maloc",
+      "Status": "Any",
+      "Type": "ForPlanetBattle"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.46"
+  },
+  {
+    "id": "47",
+    "name_ru": "Рука помощи",
+    "name_en": "Helping Hand",
+    "kind": "definition",
+    "facts": {
+      "Name": "Рука помощи",
+      "Race": "People",
+      "Status": "Any",
+      "Type": "ForPlanetBattle"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.47"
+  },
+  {
+    "id": "5",
+    "name_ru": "Дух болот",
+    "name_en": "Swamp Spirit",
+    "kind": "definition",
+    "facts": {
+      "Name": "Дух болот",
+      "Race": "Peleng",
+      "Status": "Pirate",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.5"
+  },
+  {
+    "id": "6",
+    "name_ru": "Медаль Конгресса",
+    "name_en": "Congressional Medal",
+    "kind": "definition",
+    "facts": {
+      "Name": "Медаль Конгресса",
+      "Race": "People",
+      "Status": "Any",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.6"
+  },
+  {
+    "id": "7",
+    "name_ru": "Именная монета",
+    "name_en": "Nominal Coin",
+    "kind": "definition",
+    "facts": {
+      "Name": "Именная монета",
+      "Race": "People",
+      "Status": "Trader",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.7"
+  },
+  {
+    "id": "8",
+    "name_ru": "Ивикус",
+    "name_en": "Ivicus",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ивикус",
+      "Race": "Fei",
+      "Status": "Any",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.8"
+  },
+  {
+    "id": "9",
+    "name_ru": "Мерциновая подвеска",
+    "name_en": "Mercine Pendant",
+    "kind": "definition",
+    "facts": {
+      "Name": "Мерциновая подвеска",
+      "Race": "Fei",
+      "Status": "Trader",
+      "Type": "ForLiberationSystem"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward.9"
+  }
+]

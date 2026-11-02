@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": [
+    "installation inventory equals source manifest",
+    "all expected archive scenario payloads have private raw and decoded files",
+    "duplicate DAT parameters retain distinct positional paths",
+    "all SCR consume entire payload",
+    "legacy SCR byte-exact roundtrip",
+    "truncated SCR rejected and memo cleaned",
+    "synthetic CP1251 PKG preserves name and payload",
+    "QMM location IDs unique, declared graph counts match, and jump endpoints exist",
+    "source hashes unchanged after extraction",
+    "every PKG entry reconciles with archive counts",
+    "location pool IDs unique within source group"
+  ],
+  "script_versions": {
+    "6": 31,
+    "8": 5,
+    "7": 3,
+    "5": 1
+  },
+  "script_payloads": 40,
+  "legacy_byte_exact_roundtrips": 32,
+  "rejected_truncated_scripts": 40,
+  "quest_payloads": 320,
+  "quest_graph_anomalies": [],
+  "unchanged_source_hashes": 52
+}

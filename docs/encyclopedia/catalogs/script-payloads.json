@@ -1,0 +1,2984 @@
+[
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/MS_Begin.scr",
+    "sha256": "66cdb0c2f000c04a876a2d696a9ca2269a58e7ade1a70b07f01aaadf05d4a130",
+    "bytes": 35316,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 2,
+      "localvars": 48,
+      "stars": 2,
+      "places": 10,
+      "items": 1,
+      "groups": 7,
+      "grouplinks": 0,
+      "states": 15,
+      "dialogs": 7,
+      "dialog_messages": 29,
+      "dialog_answers": 29
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "playerStar",
+          "constellation": -1
+        },
+        {
+          "name": "Star2",
+          "constellation": -1
+        }
+      ],
+      "places": [
+        {
+          "name": "PlaceEA",
+          "star": "playerStar",
+          "type": "near_planet"
+        },
+        {
+          "name": "P1",
+          "star": "Star2",
+          "type": "free"
+        },
+        {
+          "name": "P3",
+          "star": "Star2",
+          "type": "free"
+        },
+        {
+          "name": "P4",
+          "star": "Star2",
+          "type": "free"
+        },
+        {
+          "name": "P5",
+          "star": "Star2",
+          "type": "free"
+        },
+        {
+          "name": "PWait",
+          "star": "Star2",
+          "type": "near_planet"
+        },
+        {
+          "name": "P2",
+          "star": "Star2",
+          "type": "free"
+        },
+        {
+          "name": "P6",
+          "star": "Star2",
+          "type": "free"
+        },
+        {
+          "name": "P7",
+          "star": "Star2",
+          "type": "free"
+        },
+        {
+          "name": "P8",
+          "star": "Star2",
+          "type": "free"
+        }
+      ],
+      "items": [
+        {
+          "name": "ItemEA",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "grRC",
+          "planet": "playerPlanet",
+          "owner": 62,
+          "type": 1
+        },
+        {
+          "name": "grSB",
+          "planet": "playerPlanet",
+          "owner": 62,
+          "type": 1
+        },
+        {
+          "name": "grMC",
+          "planet": "playerPlanet",
+          "owner": 62,
+          "type": 1
+        },
+        {
+          "name": "grDron",
+          "planet": "Planet2",
+          "owner": 62,
+          "type": 33554433
+        },
+        {
+          "name": "grPlayer",
+          "planet": "playerPlanet",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "grPartner",
+          "planet": "Planet2",
+          "owner": 62,
+          "type": 3
+        },
+        {
+          "name": "FakeAsteroid",
+          "planet": "PlanetNone",
+          "owner": 62,
+          "type": 33554433
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "playerStar",
+        "planets": [
+          {
+            "name": "playerPlanet",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          {
+            "name": "otherPlanet",
+            "race": 63,
+            "owner": 63,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          },
+          {
+            "name": "PlanetNone",
+            "race": 62,
+            "owner": 129,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      },
+      {
+        "star_alias": "Star2",
+        "planets": [
+          {
+            "name": "Planet2",
+            "race": 63,
+            "owner": 63,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/MS_Blazer.scr",
+    "sha256": "690b619fd3fdb55e822afc464ab37e86fe05d221e387be059dcb44df3f9e3ad5",
+    "bytes": 10148,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 3,
+      "localvars": 5,
+      "stars": 2,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 1,
+      "dialog_messages": 22,
+      "dialog_answers": 28
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarBlazer",
+          "constellation": -1
+        },
+        {
+          "name": "StarPlayer",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupBlazer",
+          "planet": "PlanetBlazer",
+          "owner": 62,
+          "type": 129
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarBlazer",
+        "planets": [
+          {
+            "name": "PlanetBlazer",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      },
+      {
+        "star_alias": "StarPlayer",
+        "planets": []
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/MS_Keller.scr",
+    "sha256": "ed5f35cb08c0363819ca8e16f08bac4221044e0f8b0cfe5417fb026dbe058747",
+    "bytes": 21352,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 1,
+      "localvars": 15,
+      "stars": 2,
+      "places": 0,
+      "items": 0,
+      "groups": 2,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 2,
+      "dialog_messages": 48,
+      "dialog_answers": 57
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarKeller",
+          "constellation": -1
+        },
+        {
+          "name": "StarPlayer",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupKeller",
+          "planet": "PlanetKeller",
+          "owner": 62,
+          "type": 8193
+        },
+        {
+          "name": "GroupRetreatingPirates",
+          "planet": "PlanetKeller",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarKeller",
+        "planets": [
+          {
+            "name": "PlanetKeller",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      },
+      {
+        "star_alias": "StarPlayer",
+        "planets": []
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/MS_PB.scr",
+    "sha256": "738396f55b2b7dd56b4c3cbff11cb1562ea360a15f6d18eef24d50dadf98382e",
+    "bytes": 4122,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 1,
+      "localvars": 5,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 1,
+      "dialog_messages": 7,
+      "dialog_answers": 7
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "playerStar",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "playerPlanet",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "playerStar",
+        "planets": [
+          {
+            "name": "playerPlanet",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/MS_SB1.scr",
+    "sha256": "121d0b81ac7b3da0d6879f6b33cbb2fec28f327b36bf17fa9d1fd6c459fd1c3f",
+    "bytes": 3620,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 1,
+      "localvars": 5,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 1,
+      "dialog_messages": 8,
+      "dialog_answers": 8
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "playerStar",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "grSB",
+          "planet": "playerPlanet",
+          "owner": 62,
+          "type": 1
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "playerStar",
+        "planets": [
+          {
+            "name": "playerPlanet",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/MS_SB2.scr",
+    "sha256": "94939489f1a183e900a3184bdecf1a891befcb1a7e7d0eacd58399beb4fe5ef7",
+    "bytes": 2103,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 1,
+      "localvars": 4,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 1,
+      "dialog_messages": 3,
+      "dialog_answers": 3
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "playerStar",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "playerPlanet",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "playerStar",
+        "planets": [
+          {
+            "name": "playerPlanet",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/MS_Terron.scr",
+    "sha256": "2c4ef7bd03906e2ca9f3b7137f5ffa24901d33a5fc2e3dec002de6026bcd7945",
+    "bytes": 8796,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 3,
+      "localvars": 6,
+      "stars": 2,
+      "places": 1,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 1,
+      "dialog_messages": 22,
+      "dialog_answers": 25
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarTerron",
+          "constellation": -1
+        },
+        {
+          "name": "StarPlayer",
+          "constellation": -1
+        }
+      ],
+      "places": [
+        {
+          "name": "PlaceToStar",
+          "star": "StarTerron",
+          "type": "free"
+        }
+      ],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupTerron",
+          "planet": "Planet",
+          "owner": 64,
+          "type": 524289
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarTerron",
+        "planets": [
+          {
+            "name": "Planet",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      },
+      {
+        "star_alias": "StarPlayer",
+        "planets": []
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_destroyer.scr",
+    "sha256": "2f9b32ea590a77b9d8e18c3a8666faa7ca6ed9a269496e940d34d6a72e49f6a1",
+    "bytes": 22181,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 23,
+      "stars": 1,
+      "places": 0,
+      "items": 1,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 2,
+      "dialog_messages": 14,
+      "dialog_answers": 15
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "AncientCrystal",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_fem_rangers.scr",
+    "sha256": "a3097cf77cc4a663a145f2bfbea164d09c5c2a6b967449d00bf4f09dab31c992",
+    "bytes": 439405,
+    "scope": "base",
+    "version": 8,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 181,
+      "stars": 1,
+      "places": 0,
+      "items": 2,
+      "groups": 8,
+      "grouplinks": 0,
+      "states": 21,
+      "dialogs": 19,
+      "dialog_messages": 142,
+      "dialog_answers": 127
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "BeaconContainer",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        },
+        {
+          "name": "HybridDroid",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 0
+        },
+        {
+          "name": "GroupFem",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupTransports",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupEnemies",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupDiplo",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupSupply",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupShuCenter",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupOriginalShu",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_final.scr",
+    "sha256": "6f26fd0dac4661ba8e6079e0bc5e4686e849fe4d7e6eae745e4f0e96eccc3cc9",
+    "bytes": 39152,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 2,
+      "localvars": 26,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 12,
+      "dialog_messages": 32,
+      "dialog_answers": 41
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_part0.scr",
+    "sha256": "2271232dc8c479e767f1eaeffa65783336421d1de571f139e4891f89a5de1e90",
+    "bytes": 8934,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 5,
+      "localvars": 7,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 2,
+      "dialog_messages": 14,
+      "dialog_answers": 16
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_part1.scr",
+    "sha256": "e43715659321fbc9d0fccaa00b56bfb0c7de09e8f763121791b7c1b680727755",
+    "bytes": 37096,
+    "scope": "base",
+    "version": 7,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 37,
+      "stars": 1,
+      "places": 0,
+      "items": 1,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 7,
+      "dialog_messages": 24,
+      "dialog_answers": 25
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "MemoryModule",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_part2.scr",
+    "sha256": "482a51cee17f353763e8851b8a1eb0cb3e8e70b757caaff8282c07ac1bf31c04",
+    "bytes": 51890,
+    "scope": "base",
+    "version": 8,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 61,
+      "stars": 1,
+      "places": 0,
+      "items": 1,
+      "groups": 3,
+      "grouplinks": 0,
+      "states": 3,
+      "dialogs": 8,
+      "dialog_messages": 28,
+      "dialog_answers": 35
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "Stukach_Capsule",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "Stukach",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "Dummy",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_part3.scr",
+    "sha256": "bd263da07761a49a2a365c0c6c0f9c59a7bb42bf8b1b268b2a4182beb71164d6",
+    "bytes": 47577,
+    "scope": "base",
+    "version": 8,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 60,
+      "stars": 1,
+      "places": 0,
+      "items": 1,
+      "groups": 2,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 7,
+      "dialog_messages": 19,
+      "dialog_answers": 17
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "SuperBeacon",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupStation",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_part4.scr",
+    "sha256": "9d60a99211b4bef58c81f1469d6c74fa1de37b5cdc916c91268cbc7ff17acca2",
+    "bytes": 56802,
+    "scope": "base",
+    "version": 7,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 57,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 2,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 8,
+      "dialog_messages": 16,
+      "dialog_answers": 19
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupRanger",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_part5.scr",
+    "sha256": "4e9f88f5eb4ca8931d55ea7929297bd6b27dbf2d315dabed95a0107135cc4ea0",
+    "bytes": 187445,
+    "scope": "base",
+    "version": 7,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 4,
+      "localvars": 113,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 6,
+      "grouplinks": 0,
+      "states": 13,
+      "dialogs": 19,
+      "dialog_messages": 96,
+      "dialog_answers": 109
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupShu",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupAtaman",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupHenchman",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupWarriors",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupDiplomat",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_part6.scr",
+    "sha256": "c9f4f30bb05ad3a0fc8af0dd9026356ec61e40a909796ca3f613784acac56951",
+    "bytes": 59573,
+    "scope": "base",
+    "version": 8,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 6,
+      "localvars": 60,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 8,
+      "dialog_messages": 21,
+      "dialog_answers": 26
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_part7.scr",
+    "sha256": "c9def6a05d7da85ab1c5bcf8fa4c969e383fc3c6816efe96aa5495d1be4d28c5",
+    "bytes": 54640,
+    "scope": "base",
+    "version": 8,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 64,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 4,
+      "grouplinks": 0,
+      "states": 5,
+      "dialogs": 4,
+      "dialog_messages": 19,
+      "dialog_answers": 30
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupPirates",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupWarriors",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupWB",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla01.scr",
+    "sha256": "e1b1ce8a8f3f26ff38fda0665af4eb16f04a5dcc09be4c86f7ad78304c8ee2ed",
+    "bytes": 2940,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 6,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 1,
+      "dialog_messages": 3,
+      "dialog_answers": 4
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla02.scr",
+    "sha256": "fa02f60a5ac6ee0c9cfd9e64f31701fd47e151a2f40ab094dab633e79f70181b",
+    "bytes": 27261,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 32,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 3,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 4,
+      "dialog_messages": 20,
+      "dialog_answers": 18
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupTransports",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupPirates",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla03.scr",
+    "sha256": "8b96f24d5fd0a94d4d1387a5bddf1762a6403c20c0c051787b9e6d4ec17a2b35",
+    "bytes": 4732,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 6,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 1,
+      "dialog_messages": 3,
+      "dialog_answers": 4
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla04.scr",
+    "sha256": "2a003e73c798ded2ac34872a3b8d9848758ce0af5e91a62b2ebe6c2c8a323d41",
+    "bytes": 18501,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 25,
+      "stars": 1,
+      "places": 0,
+      "items": 1,
+      "groups": 2,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 5,
+      "dialog_messages": 7,
+      "dialog_answers": 8
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "ItemBomb",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupSB",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla05.scr",
+    "sha256": "b2b048df1c87dbcbac2b412ace7954f9c7aea94b492c4c9da11f8991a1e6bcba",
+    "bytes": 7744,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 16,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 3,
+      "dialog_messages": 3,
+      "dialog_answers": 4
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla06.scr",
+    "sha256": "fad8b10d70b1d489f9d3b9a8d45e1488364758067941e25a537cc730537a81a4",
+    "bytes": 87431,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 35,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 2,
+      "dialog_messages": 6,
+      "dialog_answers": 13
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla07.scr",
+    "sha256": "845549470a279d582c7858cce50b41d7932abc9b4ba82dfdff6e98fc8c85fd5c",
+    "bytes": 8100,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 22,
+      "stars": 1,
+      "places": 0,
+      "items": 1,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 3,
+      "dialog_messages": 3,
+      "dialog_answers": 4
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "ItemRecords",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla08.scr",
+    "sha256": "9ff5b72bbdafe01820d4f66fcfba0abb9138f40041b2c4ba6c7db89fb929382f",
+    "bytes": 29274,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 34,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 2,
+      "grouplinks": 0,
+      "states": 4,
+      "dialogs": 5,
+      "dialog_messages": 20,
+      "dialog_answers": 28
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupHired",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla09.scr",
+    "sha256": "3f9d583f5037480763eeb8c2569cae69c7294caf4ea6bf365b0f27f483aa4675",
+    "bytes": 14513,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 27,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 2,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 5,
+      "dialog_messages": 5,
+      "dialog_answers": 6
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupRuler",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla10.scr",
+    "sha256": "2568fed21a49f0b3095325151c829efe5d4c4180be301db1100d498b6c3d86e1",
+    "bytes": 42529,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 35,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 3,
+      "dialog_messages": 3,
+      "dialog_answers": 4
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla11.scr",
+    "sha256": "6b92c000733ae5748279c6ec87c1a0ee7e48b118981d196753c8d1031c71c599",
+    "bytes": 32064,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 39,
+      "stars": 1,
+      "places": 0,
+      "items": 2,
+      "groups": 5,
+      "grouplinks": 0,
+      "states": 6,
+      "dialogs": 7,
+      "dialog_messages": 12,
+      "dialog_answers": 16
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "AnimalCase",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        },
+        {
+          "name": "GoldStatue",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupPB",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupTransport",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupAttackers",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupRetriever",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla12.scr",
+    "sha256": "0fbb0a1c913f2c7e0ab52fc17125d894b64d0b640aa5e79cd8a6dc51c3032de4",
+    "bytes": 10037,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 17,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 3,
+      "dialog_messages": 8,
+      "dialog_answers": 6
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla13.scr",
+    "sha256": "d99f47d0949dcb97e9520899e27f155660ae3144c6f9378e3c2c9600138c9938",
+    "bytes": 8565,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 17,
+      "stars": 1,
+      "places": 0,
+      "items": 1,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 3,
+      "dialog_messages": 3,
+      "dialog_answers": 4
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "Disk",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla14.scr",
+    "sha256": "31b80005a8c2df520a51d51582ae70a4c4df43e59d8f1f73172229705ee42852",
+    "bytes": 11093,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 23,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 4,
+      "dialog_messages": 4,
+      "dialog_answers": 6
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla15.scr",
+    "sha256": "235157a527e3e90db8143b98875447070147a7269fe92dd84a60bf485d49a8f0",
+    "bytes": 88946,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 69,
+      "stars": 1,
+      "places": 3,
+      "items": 0,
+      "groups": 11,
+      "grouplinks": 0,
+      "states": 26,
+      "dialogs": 23,
+      "dialog_messages": 83,
+      "dialog_answers": 98
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [
+        {
+          "name": "PlaceGroup",
+          "star": "StarNew",
+          "type": "from_ship"
+        },
+        {
+          "name": "PlaceCamera",
+          "star": "StarNew",
+          "type": "from_ship"
+        },
+        {
+          "name": "PlaceStart",
+          "star": "StarNew",
+          "type": "near_planet"
+        }
+      ],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupPeleng",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupGaal",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupFei",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupMaloc",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupPeople",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupAdvisor",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupRuler",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupLiner",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupBambai",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupPirate",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla16.scr",
+    "sha256": "cef37cb59dea004e8bd5ebeafc566d16b06cd3eaa9eb611eba14df2cd8b4439f",
+    "bytes": 16506,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 22,
+      "stars": 1,
+      "places": 0,
+      "items": 1,
+      "groups": 2,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 4,
+      "dialog_messages": 9,
+      "dialog_answers": 11
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "SecretArchive",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupAttackers",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla17.scr",
+    "sha256": "8be593b7e2293e296a35d01fec7d26a5a65f72a719deb99874b8a7cfc4b7462f",
+    "bytes": 13675,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 27,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 5,
+      "dialog_messages": 6,
+      "dialog_answers": 7
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla18.scr",
+    "sha256": "f48b864b086833f87f7a8d0b5301eaecbbe887c5c41e2dc4d68cd585ed6f9495",
+    "bytes": 15723,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 30,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 2,
+      "grouplinks": 0,
+      "states": 3,
+      "dialogs": 5,
+      "dialog_messages": 7,
+      "dialog_answers": 9
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupAttackers",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla19.scr",
+    "sha256": "66f2f027669c1a5d8cc84fb04e072f022a55269d545fd4f8e4b4a5fa44c3440b",
+    "bytes": 13635,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 25,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 6,
+      "dialog_messages": 6,
+      "dialog_answers": 7
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla20.scr",
+    "sha256": "c12b0469f869580bb186a0fc96f9d0d65b69c2c67607619474e4d872ffe2ce5d",
+    "bytes": 11202,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 22,
+      "stars": 1,
+      "places": 0,
+      "items": 0,
+      "groups": 1,
+      "grouplinks": 0,
+      "states": 1,
+      "dialogs": 4,
+      "dialog_messages": 4,
+      "dialog_answers": 5
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/PC_pla21.scr",
+    "sha256": "72ad21d21ea1bbdd2aa37274f8fdb821fc7c13e6020f8597471733fd7f09fc76",
+    "bytes": 30743,
+    "scope": "base",
+    "version": 6,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 0,
+      "localvars": 52,
+      "stars": 1,
+      "places": 0,
+      "items": 3,
+      "groups": 3,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 4,
+      "dialog_messages": 7,
+      "dialog_answers": 9
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "StarNew",
+          "constellation": -1
+        }
+      ],
+      "places": [],
+      "items": [
+        {
+          "name": "AmuletPiece1",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        },
+        {
+          "name": "AmuletPiece2",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        },
+        {
+          "name": "AmuletPiece3",
+          "place": "",
+          "kind": 5,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupNew",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupNedrug1",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        },
+        {
+          "name": "GroupNedrug2",
+          "planet": "PlanetNew",
+          "owner": 62,
+          "type": 126
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "StarNew",
+        "planets": [
+          {
+            "name": "PlanetNew",
+            "race": 62,
+            "owner": 62,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "DATA/scripts.pkg",
+    "path": "DATA/Script/TEST.SCR",
+    "sha256": "7008c48b8c7f8a621b18e9fd3f5b0c63c35bb7bb4b6b5f7905ce4a3eceb57dfc",
+    "bytes": 6576,
+    "scope": "base",
+    "version": 5,
+    "status": "decoded",
+    "counts": {
+      "globalvars": 1,
+      "localvars": 17,
+      "stars": 1,
+      "places": 1,
+      "items": 2,
+      "groups": 6,
+      "grouplinks": 0,
+      "states": 2,
+      "dialogs": 4,
+      "dialog_messages": 9,
+      "dialog_answers": 5
+    },
+    "bindings": {
+      "stars": [
+        {
+          "name": "Star1",
+          "constellation": -1
+        }
+      ],
+      "places": [
+        {
+          "name": "PlaceNew",
+          "star": "Star1",
+          "type": "from_ship"
+        }
+      ],
+      "items": [
+        {
+          "name": "ItemNew",
+          "place": "PlaceNew",
+          "kind": 4,
+          "type": 0,
+          "size": 10,
+          "level": 1,
+          "owner": 6,
+          "useless": "RadioBeacon"
+        },
+        {
+          "name": "ItemInPlanet",
+          "place": "Planet1",
+          "kind": 1,
+          "type": 11,
+          "size": 10,
+          "level": 7,
+          "owner": 4,
+          "useless": ""
+        }
+      ],
+      "groups": [
+        {
+          "name": "GroupRC",
+          "planet": "Planet1",
+          "owner": 62,
+          "type": 1
+        },
+        {
+          "name": "GroupPirate",
+          "planet": "Planet1",
+          "owner": 256,
+          "type": 9
+        },
+        {
+          "name": "GroupWarrior",
+          "planet": "Planet1",
+          "owner": 62,
+          "type": 5
+        },
+        {
+          "name": "GroupTransport",
+          "planet": "Planet1",
+          "owner": 62,
+          "type": 17
+        },
+        {
+          "name": "GroupLiner",
+          "planet": "Planet1",
+          "owner": 62,
+          "type": 33
+        },
+        {
+          "name": "GroupDiplomat",
+          "planet": "Planet1",
+          "owner": 62,
+          "type": 65
+        }
+      ]
+    },
+    "star_planet_bindings": [
+      {
+        "star_alias": "Star1",
+        "planets": [
+          {
+            "name": "Planet1",
+            "race": 62,
+            "owner": 63,
+            "economy": 14,
+            "government": 62,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

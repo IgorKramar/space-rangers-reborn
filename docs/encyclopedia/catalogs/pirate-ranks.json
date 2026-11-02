@@ -1,0 +1,90 @@
+[
+  {
+    "id": "Ataman",
+    "name_ru": "Атаман",
+    "name_en": "Capo",
+    "kind": "definition",
+    "facts": {
+      "Name": "Атаман"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate.Ataman"
+  },
+  {
+    "id": "Baron",
+    "name_ru": "Барон",
+    "name_en": "Baron",
+    "kind": "definition",
+    "facts": {
+      "Name": "Барон"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate.Baron"
+  },
+  {
+    "id": "Khan",
+    "name_ru": "Хан",
+    "name_en": "Khan",
+    "kind": "definition",
+    "facts": {
+      "Name": "Хан"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate.Khan"
+  },
+  {
+    "id": "Kid",
+    "name_ru": "Юнга",
+    "name_en": "Ship Boy",
+    "kind": "definition",
+    "facts": {
+      "Name": "Юнга"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate.Kid"
+  },
+  {
+    "id": "Noobie",
+    "name_ru": "Салага",
+    "name_en": "Noob",
+    "kind": "definition",
+    "facts": {
+      "Name": "Салага"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate.Noobie"
+  },
+  {
+    "id": "Rader",
+    "name_ru": "Рейдер",
+    "name_en": "Raider",
+    "kind": "definition",
+    "facts": {
+      "Name": "Рейдер"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate.Rader"
+  },
+  {
+    "id": "Rough",
+    "name_ru": "Головорез",
+    "name_en": "Cutthroat",
+    "kind": "definition",
+    "facts": {
+      "Name": "Головорез"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate.Rough"
+  },
+  {
+    "id": "Skipper",
+    "name_ru": "Шкипер",
+    "name_en": "Skipper",
+    "kind": "definition",
+    "facts": {
+      "Name": "Шкипер"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate.Skipper"
+  }
+]

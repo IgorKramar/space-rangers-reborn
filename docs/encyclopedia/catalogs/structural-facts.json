@@ -1,0 +1,2967 @@
+{
+  "schema_version": 1,
+  "author": "Igor Kramar",
+  "date": "2026-11-02",
+  "scope": "Исследование исходников без запуска и без изменения игры",
+  "source_revision": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+  "source_worktree_clean": true,
+  "installed_build_relation": "Не установлено побитовое/поведенческое соответствие установленному Steamбинарнику; происхождение установленного контента фиксируется отдельным манифестом.",
+  "facts": [
+    {
+      "id": "S01",
+      "claim": "Репозиторий — неофициальный FPC-порт реконструированного Delphi-кода; авторство исходной игры и добавлений различается.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Происхождение источника",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "NOTICE.md",
+        "line": 1,
+        "end_line": 36,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/NOTICE.md#L1"
+      },
+      "limitations": "MIT распространяется на собственные изменения порта, не автоматически на исходную игру и её ресурсы."
+    },
+    {
+      "id": "S02",
+      "claim": "Число звёзд по умолчанию — 73; возможно переопределение Constellations.GalaxyCountStars.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Генератор новой игры",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aConst.pas",
+        "line": 2314,
+        "end_line": 2319,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aConst.pas#L2314"
+      },
+      "limitations": "73 — настройка этого кода, а не универсальный размер каждой модифицированной галактики."
+    },
+    {
+      "id": "S03",
+      "claim": "Положение звёзд и созвездий генерируется с использованием GenerationSeed.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Генератор новой игры",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 6837,
+        "end_line": 7070,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L6837"
+      },
+      "limitations": "Именной каталог не задаёт фиксированных координат или соседей."
+    },
+    {
+      "id": "S04",
+      "claim": "Имя звезды берётся из Star по индексу объекта modulo число параметров; первая часть значения до запятой.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Именование систем",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 4753,
+        "end_line": 4764,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L4753"
+      },
+      "limitations": "Порядок параметров существенен; имена проходят последующие преобразования."
+    },
+    {
+      "id": "S05",
+      "claim": "Система с индексом 2 получает 7 планет и специальный солнечный режим; первые пять систем кроме неё — 6 планет/3 населённых; 70 и 71 имеют специальные пиратские режимы.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Структура начальной галактики",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 4803,
+        "end_line": 4827,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L4803"
+      },
+      "limitations": "Поле Inhabited=0 в солнечной ветке — маркер режима, не число населённых миров."
+    },
+    {
+      "id": "S06",
+      "claim": "Солнечные имена выбираются по порядку из PlanetName.Solar; Земле задаётся спутник Moon, отдельные параметры орбит и миров прописаны в коде.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Солнечная система",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aPlanet.pas",
+        "line": 367,
+        "end_line": 435,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aPlanet.pas#L367"
+      },
+      "limitations": "Обнаружение 9 имён в локализации не означает создание всех 9: цикл генератора задаёт 7."
+    },
+    {
+      "id": "S07",
+      "claim": "Обычные имена планет выбираются без повторения из списка владельца; в первых пяти системах используется начало списка, затем случайный выбор; при исчерпании — имя звезды с номером.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Именование планет",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fGameSettings.pas",
+        "line": 362,
+        "end_line": 397,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fGameSettings.pas#L362"
+      },
+      "limitations": "Отдельные солнечные, пиратские и сценарные случаи обходят этот путь."
+    },
+    {
+      "id": "S08",
+      "claim": "Пиратские имена планет получаются из PlanetName по внутреннему имени владельца; особый режим 10 берёт первый элемент.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Пиратские миры",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aPlanet.pas",
+        "line": 705,
+        "end_line": 714,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aPlanet.pas#L705"
+      },
+      "limitations": "В установленной локализации внутренний ключ называется PirateClan, а не Pirate."
+    },
+    {
+      "id": "S09",
+      "claim": "После выбора особой удалённой звезды последняя звезда получает её имя; каталог Star не следует буквально считать списком финальных уникальных объектов партии.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Особая система при генерации",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fGameSettings.pas",
+        "line": 313,
+        "end_line": 361,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fGameSettings.pas#L313"
+      },
+      "limitations": "Смысл последующих сюжетных преобразований требует проверки сценариев и сохранения."
+    },
+    {
+      "id": "S10",
+      "claim": "Станция выбирает имя из RuinName.<тип>, избегая занятых имён своего типа; при исчерпании добавляет числовой суффикс. ModRuinNameConfig имеет приоритет.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Именование станций",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aRuins.pas",
+        "line": 325,
+        "end_line": 390,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aRuins.pas#L325"
+      },
+      "limitations": "Это пулы допустимых названий, не фиксированные места всех станций."
+    },
+    {
+      "id": "S11",
+      "claim": "Стартовая генерация создаёт центры рейнджеров, науки и медицины в начальной системе и пиратскую, деловую и военную станции в соседних по дистанции системах.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Начальные станции",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fGameSettings.pas",
+        "line": 679,
+        "end_line": 684,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fGameSettings.pas#L679"
+      },
+      "limitations": "Сценарии, моды и последующая симуляция могут изменять состав."
+    },
+    {
+      "id": "S12",
+      "claim": "Перед стартом выполняется 300 прогревочных ходов; год задан как 365 ходов.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Календарные константы",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 12,
+        "end_line": 18,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L12"
+      },
+      "limitations": "Число 200 здесь — базовые шаги движения на ход, не дни и не реальное время."
+    },
+    {
+      "id": "S13",
+      "claim": "Генератор действительно выполняет GalaxyWarmupTurns циклов расчёта системы игрока и галактики.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Стартовое состояние",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fGameSettings.pas",
+        "line": 702,
+        "end_line": 719,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fGameSettings.pas#L702"
+      },
+      "limitations": "Начало видимой партии уже является результатом симуляции, а не только расстановки объектов."
+    },
+    {
+      "id": "S14",
+      "claim": "TOwnerId различает пять рас Коалиции, доминаторов, необитаемость и пиратскую принадлежность.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Таксономия владельцев",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 474,
+        "end_line": 474,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L474"
+      },
+      "limitations": "oiPirate — политическая принадлежность, oiUninhabited — статус; нельзя выводить восемь биологических рас."
+    },
+    {
+      "id": "S15",
+      "claim": "Доминаторы разделены на серии Блазера, Келлера, Террона; тип корпуса/корабля задаётся независимо восьмью TKlingType.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Таксономия доминаторов",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 300,
+        "end_line": 303,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L300"
+      },
+      "limitations": "Таблица реализации не заменяет историю происхождения серий."
+    },
+    {
+      "id": "S16",
+      "claim": "Контроль систем имеет три базовые стороны: Коалиция, доминаторы, пираты.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Фракции",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 354,
+        "end_line": 354,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L354"
+      },
+      "limitations": "В коде также существуют модификационные custom-faction поля; это не доказательство четвёртой канонической стороны."
+    },
+    {
+      "id": "S17",
+      "claim": "Планетные экономики: аграрная, смешанная, индустриальная; правительства: анархия, диктатура, монархия, республика, демократия.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Таксономия планет",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 341,
+        "end_line": 346,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L341"
+      },
+      "limitations": "Отдельная производственная специализация каждого предприятия здесь не описывается."
+    },
+    {
+      "id": "S18",
+      "claim": "В TItemType — 76 идентификаторов, из них первые восемь — Food, Medicine, Technics, Luxury, Minerals, Alcohol, Arms, Narcotics.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Таксономия вещей",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aConst.pas",
+        "line": 607,
+        "end_line": 684,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aConst.pas#L607"
+      },
+      "limitations": "Это типы, а не число конкретных предметов/моделей; CustomWeapon и служебные типы требуют отличать от штатного контента."
+    },
+    {
+      "id": "S19",
+      "claim": "TShipType включает 6 мобильных категорий и 8 станционных, включая CustomStation; THullType отдельно задаёт 11 классов.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Корабли и станции",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 93,
+        "end_line": 124,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L93"
+      },
+      "limitations": "Установленный каталог имён имеет 7 стандартных групп станций без UB: дополнительный enum нельзя автоматически объявлять официальным контентом."
+    },
+    {
+      "id": "S20",
+      "claim": "На планете восемь рынков ежедневно ориентируются на целевые цены и запасы с поправками расы, правительства, экономики, размера, дефицита и избытка.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Экономика",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aPlanet.pas",
+        "line": 3346,
+        "end_line": 3408,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aPlanet.pas#L3346"
+      },
+      "limitations": "Эта формула описывает существующую абстрактную экономику, не физические производственные цепочки."
+    },
+    {
+      "id": "S21",
+      "claim": "Количество товаров непосредственно изменяется случайными шагами к/от целевого запаса и ограничивается снизу нулём.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Источники и стоки товаров",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aPlanet.pas",
+        "line": 3409,
+        "end_line": 3427,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aPlanet.pas#L3409"
+      },
+      "limitations": "Прямое восстановление запаса несовместимо с новым требованием строгого материального баланса без изменения правил."
+    },
+    {
+      "id": "S22",
+      "claim": "NPC-транспорт покупает и продаёт реальные количества рыночных товаров, проверяя деньги, свободный трюм и наличный запас.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Торговые NPC",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aTransport.pas",
+        "line": 471,
+        "end_line": 525,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aTransport.pas#L471"
+      },
+      "limitations": "Движение грузов существует; это не подтверждает наличие многоступенчатых рецептов и бухгалтерского баланса всей галактики."
+    },
+    {
+      "id": "S23",
+      "claim": "Транспорты строят очередь достижимых планет с учётом дальности, состояния корпуса и контроля систем, затем выбирают пункт торговли.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Навигация торговли",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aTransport.pas",
+        "line": 405,
+        "end_line": 468,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aTransport.pas#L405"
+      },
+      "limitations": "Наличие физически летающих торговцев не делает их поток единственным источником снабжения."
+    },
+    {
+      "id": "S24",
+      "claim": "Смена правительства уже реализована: выбирается иная форма, меняются отношения к рейнджерам, формируется новость.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Политика",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aPlanet.pas",
+        "line": 3430,
+        "end_line": 3523,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aPlanet.pas#L3430"
+      },
+      "limitations": "Не означает выборы, партии, наследование должности или персональную биографию губернатора."
+    },
+    {
+      "id": "S25",
+      "claim": "Случайные экономические события включают революцию, месторождение/нехватку минералов, дефициты и избытки оружия, техники, пищи, медикаментов, роскоши и алкоголя.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Кризисы",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aPlanet.pas",
+        "line": 3525,
+        "end_line": 3814,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aPlanet.pas#L3525"
+      },
+      "limitations": "Обнаруженные события — рыночные модификаторы и новости; многоступенчатая демографическая модель не подтверждена."
+    },
+    {
+      "id": "S26",
+      "claim": "Планеты развивают двадцать направлений изобретений; отдельные функции выбирают и продвигают текущее исследование.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Технологии",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 311,
+        "end_line": 332,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L311"
+      },
+      "limitations": "Список направлений не равен рецептам изготовления отдельных устройств."
+    },
+    {
+      "id": "S27",
+      "claim": "Исследование доминаторских серий продвигается при наличии научных баз; материалы расходуются, завершение открывает соответствующие программы и публикует новость.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Научная война",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 10161,
+        "end_line": 10226,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L10161"
+      },
+      "limitations": "Базовая скорость остаётся ненулевой при минимальной эффективности; не переносить сюда новую модель только оплаченных заказов."
+    },
+    {
+      "id": "S28",
+      "claim": "Галактика обновляет удалённые системы, группы освобождения, активные сценарии и затем увеличивает CurrentTurn.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Суточная симуляция",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 2712,
+        "end_line": 2819,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L2712"
+      },
+      "limitations": "Система игрока имеет отдельную фазу того же хода; это не два независимых календаря."
+    },
+    {
+      "id": "S29",
+      "claim": "Текстовый квест при AdvanceDays экспортирует деньги/внешние параметры и для каждого дня запускает расчёты системы игрока и галактики.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Время в квестах",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/quests/fPlanetQuest.pas",
+        "line": 2627,
+        "end_line": 2647,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/quests/fPlanetQuest.pas#L2627"
+      },
+      "limitations": "StandaloneQuestMode имеет особую ветку; не все переходы текста обязаны расходовать дни."
+    },
+    {
+      "id": "S30",
+      "claim": "Планетный экран различает запуск текстового квеста и кнопку окончания хода; перед входом в квест создаёт автосохранение.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Планетный интерфейс",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fPlanet.pas",
+        "line": 244,
+        "end_line": 259,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fPlanet.pas#L244"
+      },
+      "limitations": "Для полного времени конкретного действия надо читать его обработчик и данные квеста."
+    },
+    {
+      "id": "S31",
+      "claim": "Имя, раса пилота, портрет, навыки, здоровье, отношения, деньги и партнёрские связи находятся в TShip.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Идентичность персонажей",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aShip.pas",
+        "line": 107,
+        "end_line": 175,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aShip.pas#L107"
+      },
+      "limitations": "Само наличие Id корабля не создаёт отдельной постоянной записи человека."
+    },
+    {
+      "id": "S32",
+      "claim": "Три карьеры рейнджера — торговец, пират, воин; активность по карьерам и выдающиеся достижения обновляются отдельно.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Прогрессия NPC",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aRanger.pas",
+        "line": 1358,
+        "end_line": 1389,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aRanger.pas#L1358"
+      },
+      "limitations": "Пиратская карьера рейнджера не равна автоматическому созданию отдельного TPirate; полный жизненный цикл должностей не подтверждён."
+    },
+    {
+      "id": "S33",
+      "claim": "У корабля есть EnemyShip, TruceShip, PartnerShip и срок партнёрства; существуют индивидуальные RangerRelations.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Отношения и спутники",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aShip.pas",
+        "line": 168,
+        "end_line": 174,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aShip.pas#L168"
+      },
+      "limitations": "Не подтверждает полноценную систему заклятого врага или командной организации."
+    },
+    {
+      "id": "S34",
+      "claim": "Шесть базовых навыков: меткость, манёвренность, техника, торговля, обаяние, лидерство.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Навыки",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 245,
+        "end_line": 245,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L245"
+      },
+      "limitations": "Русские названия здесь перевод внутренней семантики; точные подписи UI надо брать из Skills локализации."
+    },
+    {
+      "id": "S35",
+      "claim": "Здоровье капитана различает 12 болезней и 12 стимуляторов с отдельным состоянием прогресса и сроков.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Персонажные состояния",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 61,
+        "end_line": 90,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L61"
+      },
+      "limitations": "Это состояния капитана, не медицинская симуляция планетного населения."
+    },
+    {
+      "id": "S36",
+      "claim": "Новость имеет Id, Turn, NewsType, Text; типы включают революции, рынки, войны, рейнджеров, заключение, станции, исследования и операции.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Новости",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 570,
+        "end_line": 624,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L570"
+      },
+      "limitations": "46 типов новостей не означают 46 единственных сюжетов."
+    },
+    {
+      "id": "S37",
+      "claim": "Планетные новости удаляются, когда им больше 30 ходов.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Хранение новостей",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 9223,
+        "end_line": 9238,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L9223"
+      },
+      "limitations": "Нельзя называть этот список вечной историей партии."
+    },
+    {
+      "id": "S38",
+      "claim": "TGalaxyEvent хранит тип, ход, числовые и текстовые данные и поддерживает сохранение/загрузку.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "События симуляции",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyEvent.pas",
+        "line": 17,
+        "end_line": 31,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyEvent.pas#L17"
+      },
+      "limitations": "Полей typed participants/location/causes в этой структуре нет; смысл payload определяется производителем.",
+      "supporting_sources": [
+        {
+          "path": "source/game/aGalaxyEvent.pas",
+          "line": 113,
+          "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+          "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyEvent.pas#L113"
+        },
+        {
+          "path": "source/game/aGalaxyEvent.pas",
+          "line": 145,
+          "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+          "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyEvent.pas#L145"
+        }
+      ]
+    },
+    {
+      "id": "S39",
+      "claim": "Журнал GalaxyEvents удаляет события старше 1825 ходов; добавление также ограничивает список размером менее 10000.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Срок хранения событий",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 11064,
+        "end_line": 11071,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L11064"
+      },
+      "limitations": "Второй предел реализован в aGalaxyEvent.pas:187–194; история ограничена и возрастом, и числом записей.",
+      "supporting_sources": [
+        {
+          "path": "source/game/aGalaxyEvent.pas",
+          "line": 187,
+          "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+          "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyEvent.pas#L187"
+        }
+      ]
+    },
+    {
+      "id": "S40",
+      "claim": "Улучшения и ремонт оборудования уже существуют: ConditionPercent, BrokenFlag, три уровня Improve и улучшение на научной базе.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Состояние оборудования",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aItem.pas",
+        "line": 141,
+        "end_line": 187,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aItem.pas#L141"
+      },
+      "limitations": "Износ/поломка не тождественны новому набору частичных качественных неисправностей."
+    },
+    {
+      "id": "S41",
+      "claim": "Ремонт восстанавливает ConditionPercent до100 и снимает BrokenFlag; цена зависит от повреждений и вида предмета.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Ремонт",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aItem.pas",
+        "line": 1344,
+        "end_line": 1395,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aItem.pas#L1344"
+      },
+      "limitations": "Расход только денег в этой функции не равен доказательству полной стоимости всех сценарных ремонтов."
+    },
+    {
+      "id": "S42",
+      "claim": "Необитаемые планеты имеют развёртываемые спутники, траектории и панель исследования; на планете хранится поверхностная добыча.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Исследование необитаемых миров",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fPlanetNO.pas",
+        "line": 75,
+        "end_line": 96,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fPlanetNO.pas#L75"
+      },
+      "limitations": "Механика поиска уже есть; многоэтапная научная программа с гипотезами — отдельное предлагаемое расширение.",
+      "supporting_sources": [
+        {
+          "path": "source/game/aPlanet.pas",
+          "line": 4222,
+          "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+          "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aPlanet.pas#L4222"
+        }
+      ]
+    },
+    {
+      "id": "S43",
+      "claim": "Базовые правительственные задания имеют пять типов: письмо, уничтожение корабля, текстовый квест, защита системы, защита корабля.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Задания",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 516,
+        "end_line": 516,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L516"
+      },
+      "limitations": "Это типы каркаса заданий, не полный список сценарных историй."
+    },
+    {
+      "id": "S44",
+      "claim": "Текстовые квесты назначаются подходящим планетам при генерации по расе и условиям поверхности; планета получает TextQuestId.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Привязка квестов",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 9086,
+        "end_line": 9143,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L9086"
+      },
+      "limitations": "Нельзя объявлять любую планету из текста постоянным географическим местом без проверки подстановок."
+    },
+    {
+      "id": "S45",
+      "claim": "Военная база позволяет оплатить создание группы освобождения с кораблями, пунктами маршрута и датой сборов.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Совместные операции",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fRuinsTalk.pas",
+        "line": 4180,
+        "end_line": 4223,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fRuinsTalk.pas#L4180"
+      },
+      "limitations": "Это основа совместной войны, а не подтверждение логистического снабжения по рецептам."
+    },
+    {
+      "id": "S46",
+      "claim": "Группы освобождения имеют сохранение, загрузку, маршрут, выбор цели, построение приказов и продвижение кораблей.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Организация флота",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGroup.pas",
+        "line": 92,
+        "end_line": 346,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGroup.pas#L92"
+      },
+      "limitations": "Наличие TGroup не означает пользовательскую корпорацию или постоянную командную иерархию."
+    },
+    {
+      "id": "S47",
+      "claim": "Бизнес-центр предоставляет кредиты, депозиты и инвестиции; коалиционные проекты включают станции, субсидии и военную операцию.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Финансовые услуги",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fRuinsTalk.pas",
+        "line": 2644,
+        "end_line": 2700,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fRuinsTalk.pas#L2644"
+      },
+      "limitations": "Инвестиция в станцию не доказывает личное владение и управление станцией игроком.",
+      "supporting_sources": [
+        {
+          "path": "source/game/aGalaxyStruct.pas",
+          "line": 218,
+          "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+          "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L218"
+        }
+      ]
+    },
+    {
+      "id": "S48",
+      "claim": "В Доминионе покупается или продлевается пиратская лицензия на TurnsPerYear.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Пиратская ветка",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fRuinsTalk.pas",
+        "line": 8035,
+        "end_line": 8078,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fRuinsTalk.pas#L8035"
+      },
+      "limitations": "Нельзя переименовать это в каперский патент правительства против заданной державы без проверки текста и последствий."
+    },
+    {
+      "id": "S49",
+      "claim": "Чёрные дыры создаются и закрываются в общей симуляции, хранят две звезды и CreatedTurn; обычная временная дыра закрывается после200ходов при допустимых условиях.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Аномалии переходов",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 2905,
+        "end_line": 2965,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L2905"
+      },
+      "limitations": "Это не доказательство движущихся штормов, временных облаков или научной экспедиции из нового плана."
+    },
+    {
+      "id": "S50",
+      "claim": "Сценарный загрузчик поддерживает версии5–8 и отдельные ветки формата до7.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Формат SCR",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/script/aScript.pas",
+        "line": 3105,
+        "end_line": 3164,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/script/aScript.pas#L3105"
+      },
+      "limitations": "Установленные SCRv6 нельзя читать схемойv7 без адаптации и проверки полного потребления файла."
+    },
+    {
+      "id": "S51",
+      "claim": "Сценарии описывают места, звёзды, планеты, группы, предметы, состояния, диалоги и запросы текстового/аркадного/планетного боя.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Инструментарий авторских историй",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/script/aScript.pas",
+        "line": 28,
+        "end_line": 115,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/script/aScript.pas#L28"
+      },
+      "limitations": "Возможности языка сами по себе не доказывают, что конкретная история поставляется в игре."
+    },
+    {
+      "id": "S52",
+      "claim": "RTS подключён как отдельный модуль с Run и статистикой; правительственный экран сохраняет и восстанавливает снимок вокруг боя.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Стыковка RTS с кампанией",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fGov.pas",
+        "line": 429,
+        "end_line": 475,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fGov.pas#L429"
+      },
+      "limitations": "Новые гарантии однократного результата, подготовки и технического повтора требуют отдельной проверки; наличие снимка их не доказывает."
+    },
+    {
+      "id": "S53",
+      "claim": "После экрана завершения ContinueClicked освобождает Galaxy и переводит в результаты/титры; это не продолжение послевоенной симуляции.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Одна ветка завершения",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/screens/fGameEnd.pas",
+        "line": 460,
+        "end_line": 477,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/screens/fGameEnd.pas#L460"
+      },
+      "limitations": "Не является исчерпывающим анализом всех сюжетных условий победы и вариантов продолжения до этого экрана."
+    },
+    {
+      "id": "S54",
+      "claim": "У игрока существует удалённое хранение через StorageEntries и записи LocationOwner/Item/SlotIndex.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Склады игрока",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aPlayer.pas",
+        "line": 29,
+        "end_line": 45,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aPlayer.pas#L29"
+      },
+      "limitations": "Новая собственность на складах и поставки должны учитывать уже существующее хранение; общий реестр прав всех NPC не подтверждён."
+    },
+    {
+      "id": "S55",
+      "claim": "Текущая версия формата сохранений в исследуемом коде —167.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Сохранения",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aConst.pas",
+        "line": 103,
+        "end_line": 103,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aConst.pas#L103"
+      },
+      "limitations": "Это версия формата source-ветки, не номер установленной игры, Steambuild или обещание совместимости нового движка."
+    },
+    {
+      "id": "S56",
+      "claim": "Разрешение каждой доминаторской серии имеет несколько условий: уничтожение центрального корабля и особые сюжетные состояния Террона, Келлера или Блазера.",
+      "status": "VERIFIED_SOURCE",
+      "scope": "Условия завершения доминаторских веток",
+      "source": {
+        "repository": "https://github.com/pakompom/SpaceRangersHD_FPC",
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "path": "source/game/aGalaxy.pas",
+        "line": 3034,
+        "end_line": 3128,
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxy.pas#L3034"
+      },
+      "limitations": "Точный смысл TerronToStarTurn, KellerLeaveTurn, KellerResearchTargetStarId, BlazerLandingPlanetId и условия их достижения устанавливаются по сценариям и диалогам; внутреннее имя не заменяет лор."
+    }
+  ],
+  "taxonomies": [
+    {
+      "name": "TOwnerId",
+      "count": 8,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 474,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L474"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "oiMaloc"
+        },
+        {
+          "id": 1,
+          "symbol": "oiPeleng"
+        },
+        {
+          "id": 2,
+          "symbol": "oiHuman"
+        },
+        {
+          "id": 3,
+          "symbol": "oiFeyan"
+        },
+        {
+          "id": 4,
+          "symbol": "oiGaal"
+        },
+        {
+          "id": 5,
+          "symbol": "oiDominator"
+        },
+        {
+          "id": 6,
+          "symbol": "oiUninhabited"
+        },
+        {
+          "id": 7,
+          "symbol": "oiPirate"
+        }
+      ]
+    },
+    {
+      "name": "TShipType",
+      "count": 14,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 93,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L93"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "stKling"
+        },
+        {
+          "id": 1,
+          "symbol": "stRanger"
+        },
+        {
+          "id": 2,
+          "symbol": "stTransport"
+        },
+        {
+          "id": 3,
+          "symbol": "stPirate"
+        },
+        {
+          "id": 4,
+          "symbol": "stWarrior"
+        },
+        {
+          "id": 5,
+          "symbol": "stTranclucator"
+        },
+        {
+          "id": 6,
+          "symbol": "rstRangerCenter"
+        },
+        {
+          "id": 7,
+          "symbol": "rstPirateBase"
+        },
+        {
+          "id": 8,
+          "symbol": "rstMilitaryBase"
+        },
+        {
+          "id": 9,
+          "symbol": "rstScienceBase"
+        },
+        {
+          "id": 10,
+          "symbol": "rstBusinessCenter"
+        },
+        {
+          "id": 11,
+          "symbol": "rstMedicalBase"
+        },
+        {
+          "id": 12,
+          "symbol": "rstDominion"
+        },
+        {
+          "id": 13,
+          "symbol": "rstCustomStation"
+        }
+      ]
+    },
+    {
+      "name": "THullType",
+      "count": 11,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 113,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L113"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "htRanger"
+        },
+        {
+          "id": 1,
+          "symbol": "htWarrior"
+        },
+        {
+          "id": 2,
+          "symbol": "htPirate"
+        },
+        {
+          "id": 3,
+          "symbol": "htTransport"
+        },
+        {
+          "id": 4,
+          "symbol": "htLiner"
+        },
+        {
+          "id": 5,
+          "symbol": "htDiplomat"
+        },
+        {
+          "id": 6,
+          "symbol": "htKling"
+        },
+        {
+          "id": 7,
+          "symbol": "htTranclucator"
+        },
+        {
+          "id": 8,
+          "symbol": "htStation"
+        },
+        {
+          "id": 9,
+          "symbol": "htSpecial"
+        },
+        {
+          "id": 10,
+          "symbol": "htFlagship"
+        }
+      ]
+    },
+    {
+      "name": "TKlingType",
+      "count": 8,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 300,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L300"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "ktBoss"
+        },
+        {
+          "id": 1,
+          "symbol": "ktEquantor"
+        },
+        {
+          "id": 2,
+          "symbol": "ktUrgant"
+        },
+        {
+          "id": 3,
+          "symbol": "ktSmersh"
+        },
+        {
+          "id": 4,
+          "symbol": "ktMenoc"
+        },
+        {
+          "id": 5,
+          "symbol": "ktShtip"
+        },
+        {
+          "id": 6,
+          "symbol": "ktBertor"
+        },
+        {
+          "id": 7,
+          "symbol": "ktKlig"
+        }
+      ]
+    },
+    {
+      "name": "TDominatorSeries",
+      "count": 3,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 303,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L303"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "dsBlazer"
+        },
+        {
+          "id": 1,
+          "symbol": "dsKeller"
+        },
+        {
+          "id": 2,
+          "symbol": "dsTerron"
+        }
+      ]
+    },
+    {
+      "name": "TRangerCareer",
+      "count": 3,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 306,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L306"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "rcTrader"
+        },
+        {
+          "id": 1,
+          "symbol": "rcPirate"
+        },
+        {
+          "id": 2,
+          "symbol": "rcWarrior"
+        }
+      ]
+    },
+    {
+      "name": "TPlanetInvention",
+      "count": 20,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 311,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L311"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "piHull"
+        },
+        {
+          "id": 1,
+          "symbol": "piFuelTanks"
+        },
+        {
+          "id": 2,
+          "symbol": "piEngine"
+        },
+        {
+          "id": 3,
+          "symbol": "piRadar"
+        },
+        {
+          "id": 4,
+          "symbol": "piScanner"
+        },
+        {
+          "id": 5,
+          "symbol": "piRepairRobot"
+        },
+        {
+          "id": 6,
+          "symbol": "piCargoHook"
+        },
+        {
+          "id": 7,
+          "symbol": "piMainTech"
+        },
+        {
+          "id": 8,
+          "symbol": "piIndustrialLaser"
+        },
+        {
+          "id": 9,
+          "symbol": "piFragmentationCannon"
+        },
+        {
+          "id": 10,
+          "symbol": "piFlux"
+        },
+        {
+          "id": 11,
+          "symbol": "piMissileLauncher"
+        },
+        {
+          "id": 12,
+          "symbol": "piTreton"
+        },
+        {
+          "id": 13,
+          "symbol": "piWavePhaser"
+        },
+        {
+          "id": 14,
+          "symbol": "piFlowBlaster"
+        },
+        {
+          "id": 15,
+          "symbol": "piElectronicCutter"
+        },
+        {
+          "id": 16,
+          "symbol": "piMultiresonator"
+        },
+        {
+          "id": 17,
+          "symbol": "piAtomicVision"
+        },
+        {
+          "id": 18,
+          "symbol": "piDisintegrator"
+        },
+        {
+          "id": 19,
+          "symbol": "piTurbogravitron"
+        }
+      ]
+    },
+    {
+      "name": "TPlanetEconomy",
+      "count": 3,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 341,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L341"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "peAgricultural"
+        },
+        {
+          "id": 1,
+          "symbol": "peMixed"
+        },
+        {
+          "id": 2,
+          "symbol": "peIndustrial"
+        }
+      ]
+    },
+    {
+      "name": "TPlanetGovernment",
+      "count": 5,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 346,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L346"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "pgAnarchy"
+        },
+        {
+          "id": 1,
+          "symbol": "pgDictatorship"
+        },
+        {
+          "id": 2,
+          "symbol": "pgMonarchy"
+        },
+        {
+          "id": 3,
+          "symbol": "pgRepublic"
+        },
+        {
+          "id": 4,
+          "symbol": "pgDemocracy"
+        }
+      ]
+    },
+    {
+      "name": "TStarFaction",
+      "count": 3,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 354,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L354"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "sfCoalition"
+        },
+        {
+          "id": 1,
+          "symbol": "sfDominators"
+        },
+        {
+          "id": 2,
+          "symbol": "sfPirates"
+        }
+      ]
+    },
+    {
+      "name": "TPilotSkill",
+      "count": 6,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 245,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L245"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "psAccuracy"
+        },
+        {
+          "id": 1,
+          "symbol": "psManeuverability"
+        },
+        {
+          "id": 2,
+          "symbol": "psTechnical"
+        },
+        {
+          "id": 3,
+          "symbol": "psTrading"
+        },
+        {
+          "id": 4,
+          "symbol": "psCharisma"
+        },
+        {
+          "id": 5,
+          "symbol": "psLeadership"
+        }
+      ]
+    },
+    {
+      "name": "TProgramIndex",
+      "count": 12,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 248,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L248"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "prgKellerCall"
+        },
+        {
+          "id": 1,
+          "symbol": "prgLogicalNegation"
+        },
+        {
+          "id": 2,
+          "symbol": "prgDematerial"
+        },
+        {
+          "id": 3,
+          "symbol": "prgEnergotron"
+        },
+        {
+          "id": 4,
+          "symbol": "prgSabCrack"
+        },
+        {
+          "id": 5,
+          "symbol": "prgIntercom"
+        },
+        {
+          "id": 6,
+          "symbol": "prgShipwreck"
+        },
+        {
+          "id": 7,
+          "symbol": "prgWeaponBlocking"
+        },
+        {
+          "id": 8,
+          "symbol": "prgInsanity"
+        },
+        {
+          "id": 9,
+          "symbol": "prgShock"
+        },
+        {
+          "id": 10,
+          "symbol": "prgSelfDestruction"
+        },
+        {
+          "id": 11,
+          "symbol": "prgDisconnection"
+        }
+      ]
+    },
+    {
+      "name": "TCaptainHealthEffect",
+      "count": 24,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 61,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L61"
+      },
+      "values": [
+        {
+          "id": 1,
+          "symbol": "heBlindness"
+        },
+        {
+          "id": 2,
+          "symbol": "heChekumash"
+        },
+        {
+          "id": 3,
+          "symbol": "heHolyFanaticism"
+        },
+        {
+          "id": 4,
+          "symbol": "heComplexImmunocide"
+        },
+        {
+          "id": 5,
+          "symbol": "heMysteriousLuatanza"
+        },
+        {
+          "id": 6,
+          "symbol": "heDrugAddiction"
+        },
+        {
+          "id": 7,
+          "symbol": "heWhirlwindConcussion"
+        },
+        {
+          "id": 8,
+          "symbol": "hePulledMuscle"
+        },
+        {
+          "id": 9,
+          "symbol": "heGrandMalosausus"
+        },
+        {
+          "id": 10,
+          "symbol": "heBitterPelenosia"
+        },
+        {
+          "id": 11,
+          "symbol": "heAkaSezyanka"
+        },
+        {
+          "id": 12,
+          "symbol": "heNewMolizone"
+        },
+        {
+          "id": 13,
+          "symbol": "heMaloqSizha"
+        },
+        {
+          "id": 14,
+          "symbol": "heOneEyedKhamas"
+        },
+        {
+          "id": 15,
+          "symbol": "heStardust"
+        },
+        {
+          "id": 16,
+          "symbol": "heSuperTechnician"
+        },
+        {
+          "id": 17,
+          "symbol": "heGaalianAlacrity"
+        },
+        {
+          "id": 18,
+          "symbol": "heBloodDjogar"
+        },
+        {
+          "id": 19,
+          "symbol": "heRagobamWhisper"
+        },
+        {
+          "id": 20,
+          "symbol": "heShakhmandooLeader"
+        },
+        {
+          "id": 21,
+          "symbol": "hePsychotropicCache"
+        },
+        {
+          "id": 22,
+          "symbol": "heBusinessMark"
+        },
+        {
+          "id": 23,
+          "symbol": "heDoubleplex"
+        },
+        {
+          "id": 24,
+          "symbol": "heAbsoluteStatus"
+        }
+      ]
+    },
+    {
+      "name": "TCoalitionProject",
+      "count": 12,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 218,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L218"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "cpCreateRangerCenter"
+        },
+        {
+          "id": 1,
+          "symbol": "cpCreatePirateBase"
+        },
+        {
+          "id": 2,
+          "symbol": "cpCreateMilitaryBase"
+        },
+        {
+          "id": 3,
+          "symbol": "cpCreateScienceBase"
+        },
+        {
+          "id": 4,
+          "symbol": "cpCreateBusinessCenter"
+        },
+        {
+          "id": 5,
+          "symbol": "cpCreateMedicalBase"
+        },
+        {
+          "id": 6,
+          "symbol": "cpRangersSubsidy"
+        },
+        {
+          "id": 7,
+          "symbol": "cpPiratesSubsidy"
+        },
+        {
+          "id": 8,
+          "symbol": "cpTransportSubsidy"
+        },
+        {
+          "id": 9,
+          "symbol": "cpLostSubsidy"
+        },
+        {
+          "id": 10,
+          "symbol": "cpWarSubsidy"
+        },
+        {
+          "id": 11,
+          "symbol": "cpWarOperation"
+        }
+      ]
+    },
+    {
+      "name": "TQuestType",
+      "count": 5,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 516,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L516"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "qtSendLetter"
+        },
+        {
+          "id": 1,
+          "symbol": "qtKillShip"
+        },
+        {
+          "id": 2,
+          "symbol": "qtPlanetQuest"
+        },
+        {
+          "id": 3,
+          "symbol": "qtDefendSystem"
+        },
+        {
+          "id": 4,
+          "symbol": "qtDefendShip"
+        }
+      ]
+    },
+    {
+      "name": "TGalaxyNewsKind",
+      "count": 46,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 570,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L570"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "gnScript"
+        },
+        {
+          "id": 1,
+          "symbol": "gnRevolutionAnarchy"
+        },
+        {
+          "id": 2,
+          "symbol": "gnRevolutionDictatorship"
+        },
+        {
+          "id": 3,
+          "symbol": "gnRevolutionMonarchy"
+        },
+        {
+          "id": 4,
+          "symbol": "gnRevolutionRepublic"
+        },
+        {
+          "id": 5,
+          "symbol": "gnRevolutionDemocracy"
+        },
+        {
+          "id": 6,
+          "symbol": "gnMineralDeposit"
+        },
+        {
+          "id": 7,
+          "symbol": "gnMineralShortage"
+        },
+        {
+          "id": 8,
+          "symbol": "gnArmsSurplus"
+        },
+        {
+          "id": 9,
+          "symbol": "gnArmsShortage"
+        },
+        {
+          "id": 10,
+          "symbol": "gnTechnicsSurplus"
+        },
+        {
+          "id": 11,
+          "symbol": "gnFoodSurplus"
+        },
+        {
+          "id": 12,
+          "symbol": "gnFoodShortage"
+        },
+        {
+          "id": 13,
+          "symbol": "gnMedicineSurplus"
+        },
+        {
+          "id": 14,
+          "symbol": "gnLuxurySurplus"
+        },
+        {
+          "id": 15,
+          "symbol": "gnLuxuryShortage"
+        },
+        {
+          "id": 16,
+          "symbol": "gnAlcoholSurplus"
+        },
+        {
+          "id": 17,
+          "symbol": "gnAlcoholShortage"
+        },
+        {
+          "id": 18,
+          "symbol": "gnTransportActivity"
+        },
+        {
+          "id": 19,
+          "symbol": "gnManyPirates"
+        },
+        {
+          "id": 20,
+          "symbol": "gnSomePirates"
+        },
+        {
+          "id": 21,
+          "symbol": "gnNoPirates"
+        },
+        {
+          "id": 22,
+          "symbol": "gnManyRangers"
+        },
+        {
+          "id": 23,
+          "symbol": "gnEminentRangerLocation"
+        },
+        {
+          "id": 24,
+          "symbol": "gnDominatorAttack"
+        },
+        {
+          "id": 25,
+          "symbol": "gnDominatorAttackRepelled"
+        },
+        {
+          "id": 26,
+          "symbol": "gnLiberationGroupCreated"
+        },
+        {
+          "id": 27,
+          "symbol": "gnPirateAttack"
+        },
+        {
+          "id": 28,
+          "symbol": "gnPirateAttackRepelled"
+        },
+        {
+          "id": 29,
+          "symbol": "gnCoalitionTakesDominatorSystem"
+        },
+        {
+          "id": 30,
+          "symbol": "gnCoalitionTakesPirateSystem"
+        },
+        {
+          "id": 31,
+          "symbol": "gnPiratesTakeDominatorSystem"
+        },
+        {
+          "id": 32,
+          "symbol": "gnPiratesTakeCoalitionSystem"
+        },
+        {
+          "id": 33,
+          "symbol": "gnDominatorsTakeCoalitionSystem"
+        },
+        {
+          "id": 34,
+          "symbol": "gnDominatorsTakePirateSystem"
+        },
+        {
+          "id": 35,
+          "symbol": "gnCoalitionDefeated"
+        },
+        {
+          "id": 36,
+          "symbol": "gnWormholeCreated"
+        },
+        {
+          "id": 37,
+          "symbol": "gnEminentWarrior"
+        },
+        {
+          "id": 38,
+          "symbol": "gnEminentTrader"
+        },
+        {
+          "id": 39,
+          "symbol": "gnEminentPirate"
+        },
+        {
+          "id": 40,
+          "symbol": "gnImprisonment"
+        },
+        {
+          "id": 41,
+          "symbol": "gnStationCreated"
+        },
+        {
+          "id": 42,
+          "symbol": "gnCoalitionInvestment"
+        },
+        {
+          "id": 43,
+          "symbol": "gnDominatorResearchCompleted"
+        },
+        {
+          "id": 44,
+          "symbol": "gnStationSpecialShip"
+        },
+        {
+          "id": 45,
+          "symbol": "gnMilitaryBaseOperation"
+        }
+      ]
+    },
+    {
+      "name": "TScriptActionType",
+      "count": 62,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aGalaxyStruct.pas",
+        "line": 128,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aGalaxyStruct.pas#L128"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "satOnStep"
+        },
+        {
+          "id": 1,
+          "symbol": "satOnWeaponShot"
+        },
+        {
+          "id": 2,
+          "symbol": "satOnMissileShot"
+        },
+        {
+          "id": 3,
+          "symbol": "satOnDealingDamage"
+        },
+        {
+          "id": 4,
+          "symbol": "satOnDealingFatalDamage"
+        },
+        {
+          "id": 5,
+          "symbol": "satOnDealingKamikazeDamage"
+        },
+        {
+          "id": 6,
+          "symbol": "satOnTakingDamage"
+        },
+        {
+          "id": 7,
+          "symbol": "satOnTakingDamageEn"
+        },
+        {
+          "id": 8,
+          "symbol": "satOnTakingDamageSp"
+        },
+        {
+          "id": 9,
+          "symbol": "satOnTakingDamageMi"
+        },
+        {
+          "id": 10,
+          "symbol": "satOnWeaponShot2"
+        },
+        {
+          "id": 11,
+          "symbol": "satOnMissileShot2"
+        },
+        {
+          "id": 12,
+          "symbol": "satOnGettingWeaponHit"
+        },
+        {
+          "id": 13,
+          "symbol": "satOnGettingMissileHit"
+        },
+        {
+          "id": 14,
+          "symbol": "satOnDroidRepair"
+        },
+        {
+          "id": 15,
+          "symbol": "satOnItemPickUp"
+        },
+        {
+          "id": 16,
+          "symbol": "satOnScan"
+        },
+        {
+          "id": 17,
+          "symbol": "satOnChameleonConfusion"
+        },
+        {
+          "id": 18,
+          "symbol": "satOnScanPossibility"
+        },
+        {
+          "id": 19,
+          "symbol": "satOnAnotherItem"
+        },
+        {
+          "id": 20,
+          "symbol": "satOnAnotherItem2"
+        },
+        {
+          "id": 21,
+          "symbol": "satOnAnotherGoods"
+        },
+        {
+          "id": 22,
+          "symbol": "satOnItemHit"
+        },
+        {
+          "id": 23,
+          "symbol": "satOnMissileHittingObject"
+        },
+        {
+          "id": 24,
+          "symbol": "satOnEnteringForm"
+        },
+        {
+          "id": 25,
+          "symbol": "satOnLeavingForm"
+        },
+        {
+          "id": 26,
+          "symbol": "satOnReEnteringForm"
+        },
+        {
+          "id": 27,
+          "symbol": "satOnEnteringOtherShip"
+        },
+        {
+          "id": 28,
+          "symbol": "satOnLeavingOtherShip"
+        },
+        {
+          "id": 29,
+          "symbol": "satOnReEnteringOtherShip"
+        },
+        {
+          "id": 30,
+          "symbol": "satOnPlayerSkillIncrease"
+        },
+        {
+          "id": 31,
+          "symbol": "satOnPlayerTalkedWithShip"
+        },
+        {
+          "id": 32,
+          "symbol": "satOnShipTalkedWithPlayer"
+        },
+        {
+          "id": 33,
+          "symbol": "satOnDropItem"
+        },
+        {
+          "id": 34,
+          "symbol": "satOnDropItemFixed"
+        },
+        {
+          "id": 35,
+          "symbol": "satOnMovingItemToStorage"
+        },
+        {
+          "id": 36,
+          "symbol": "satOnReduceEqBattle"
+        },
+        {
+          "id": 37,
+          "symbol": "satOnReduceEqUse"
+        },
+        {
+          "id": 38,
+          "symbol": "satOnReduceEqForce"
+        },
+        {
+          "id": 39,
+          "symbol": "satOnReduceEqForsage"
+        },
+        {
+          "id": 40,
+          "symbol": "satOnItemDestroy"
+        },
+        {
+          "id": 41,
+          "symbol": "satOnPlayerChangeHull"
+        },
+        {
+          "id": 42,
+          "symbol": "satOnPlayerUseMM"
+        },
+        {
+          "id": 43,
+          "symbol": "satOnPlayerBuyEq"
+        },
+        {
+          "id": 44,
+          "symbol": "satOnItemEquip"
+        },
+        {
+          "id": 45,
+          "symbol": "satOnItemDeEquip"
+        },
+        {
+          "id": 46,
+          "symbol": "satOnTrancPacking"
+        },
+        {
+          "id": 47,
+          "symbol": "satOnShipBuysGoods"
+        },
+        {
+          "id": 48,
+          "symbol": "satOnShipSellsGoods"
+        },
+        {
+          "id": 49,
+          "symbol": "satOnShowingItemInfo"
+        },
+        {
+          "id": 50,
+          "symbol": "satOnShowingShipInfo"
+        },
+        {
+          "id": 51,
+          "symbol": "satOnShowingStarInfo"
+        },
+        {
+          "id": 52,
+          "symbol": "satOnNonStandartEqChange"
+        },
+        {
+          "id": 53,
+          "symbol": "satOnCustomTargetting"
+        },
+        {
+          "id": 54,
+          "symbol": "satOnCustomTargettingCheck"
+        },
+        {
+          "id": 55,
+          "symbol": "satOnStartAB"
+        },
+        {
+          "id": 56,
+          "symbol": "satOnABItemDrop"
+        },
+        {
+          "id": 57,
+          "symbol": "satOnGovItemReward"
+        },
+        {
+          "id": 58,
+          "symbol": "satOnCheckingUsability"
+        },
+        {
+          "id": 59,
+          "symbol": "satOnCheckingUsability2"
+        },
+        {
+          "id": 60,
+          "symbol": "satOnCheckingUsabilityGoods"
+        },
+        {
+          "id": 61,
+          "symbol": "satOnDeath"
+        }
+      ]
+    },
+    {
+      "name": "TItemType",
+      "count": 76,
+      "status": "VERIFIED_SOURCE",
+      "scope": "Внутренняя таксономия FPC; не перечень готовых ассетов",
+      "source": {
+        "path": "source/game/aConst.pas",
+        "line": 607,
+        "commit": "1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5",
+        "url": "https://github.com/pakompom/SpaceRangersHD_FPC/blob/1d1835a1e6b3846ffdb76eb687c07e41f8aafcb5/source/game/aConst.pas#L607"
+      },
+      "values": [
+        {
+          "id": 0,
+          "symbol": "t_Food"
+        },
+        {
+          "id": 1,
+          "symbol": "t_Medicine"
+        },
+        {
+          "id": 2,
+          "symbol": "t_Technics"
+        },
+        {
+          "id": 3,
+          "symbol": "t_Luxury"
+        },
+        {
+          "id": 4,
+          "symbol": "t_Minerals"
+        },
+        {
+          "id": 5,
+          "symbol": "t_Alcohol"
+        },
+        {
+          "id": 6,
+          "symbol": "t_Arms"
+        },
+        {
+          "id": 7,
+          "symbol": "t_Narcotics"
+        },
+        {
+          "id": 8,
+          "symbol": "t_Artefact"
+        },
+        {
+          "id": 9,
+          "symbol": "t_Artefact2"
+        },
+        {
+          "id": 10,
+          "symbol": "t_ArtefactHull"
+        },
+        {
+          "id": 11,
+          "symbol": "t_ArtefactFuel"
+        },
+        {
+          "id": 12,
+          "symbol": "t_ArtefactSpeed"
+        },
+        {
+          "id": 13,
+          "symbol": "t_ArtefactPower"
+        },
+        {
+          "id": 14,
+          "symbol": "t_ArtefactRadar"
+        },
+        {
+          "id": 15,
+          "symbol": "t_ArtefactScaner"
+        },
+        {
+          "id": 16,
+          "symbol": "t_ArtefactDroid"
+        },
+        {
+          "id": 17,
+          "symbol": "t_ArtefactNano"
+        },
+        {
+          "id": 18,
+          "symbol": "t_ArtefactHook"
+        },
+        {
+          "id": 19,
+          "symbol": "t_ArtefactDef"
+        },
+        {
+          "id": 20,
+          "symbol": "t_ArtefactAnalyzer"
+        },
+        {
+          "id": 21,
+          "symbol": "t_ArtefactMiniExpl"
+        },
+        {
+          "id": 22,
+          "symbol": "t_ArtefactAntigrav"
+        },
+        {
+          "id": 23,
+          "symbol": "t_ArtefactTransmitter"
+        },
+        {
+          "id": 24,
+          "symbol": "t_ArtefactBomb"
+        },
+        {
+          "id": 25,
+          "symbol": "t_ArtefactTranclucator"
+        },
+        {
+          "id": 26,
+          "symbol": "t_ArtDefToEnergy"
+        },
+        {
+          "id": 27,
+          "symbol": "t_ArtEnergyPulse"
+        },
+        {
+          "id": 28,
+          "symbol": "t_ArtEnergyDef"
+        },
+        {
+          "id": 29,
+          "symbol": "t_ArtSplinter"
+        },
+        {
+          "id": 30,
+          "symbol": "t_ArtDecelerate"
+        },
+        {
+          "id": 31,
+          "symbol": "t_ArtMissileDef"
+        },
+        {
+          "id": 32,
+          "symbol": "t_ArtForsage"
+        },
+        {
+          "id": 33,
+          "symbol": "t_ArtWeaponToSpeed"
+        },
+        {
+          "id": 34,
+          "symbol": "t_ArtGiperJump"
+        },
+        {
+          "id": 35,
+          "symbol": "t_ArtBlackHole"
+        },
+        {
+          "id": 36,
+          "symbol": "t_ArtDefToArms1"
+        },
+        {
+          "id": 37,
+          "symbol": "t_ArtDefToArms2"
+        },
+        {
+          "id": 38,
+          "symbol": "t_ArtArtefactor"
+        },
+        {
+          "id": 39,
+          "symbol": "t_ArtBio"
+        },
+        {
+          "id": 40,
+          "symbol": "t_ArtPDTurret"
+        },
+        {
+          "id": 41,
+          "symbol": "t_ArtFastRacks"
+        },
+        {
+          "id": 42,
+          "symbol": "t_Hull"
+        },
+        {
+          "id": 43,
+          "symbol": "t_FuelTanks"
+        },
+        {
+          "id": 44,
+          "symbol": "t_Engine"
+        },
+        {
+          "id": 45,
+          "symbol": "t_Radar"
+        },
+        {
+          "id": 46,
+          "symbol": "t_Scaner"
+        },
+        {
+          "id": 47,
+          "symbol": "t_RepairRobot"
+        },
+        {
+          "id": 48,
+          "symbol": "t_CargoHook"
+        },
+        {
+          "id": 49,
+          "symbol": "t_DefGenerator"
+        },
+        {
+          "id": 50,
+          "symbol": "t_Weapon1"
+        },
+        {
+          "id": 51,
+          "symbol": "t_Weapon2"
+        },
+        {
+          "id": 52,
+          "symbol": "t_Weapon3"
+        },
+        {
+          "id": 53,
+          "symbol": "t_Weapon4"
+        },
+        {
+          "id": 54,
+          "symbol": "t_Weapon5"
+        },
+        {
+          "id": 55,
+          "symbol": "t_Weapon6"
+        },
+        {
+          "id": 56,
+          "symbol": "t_Weapon7"
+        },
+        {
+          "id": 57,
+          "symbol": "t_Weapon8"
+        },
+        {
+          "id": 58,
+          "symbol": "t_Weapon9"
+        },
+        {
+          "id": 59,
+          "symbol": "t_Weapon10"
+        },
+        {
+          "id": 60,
+          "symbol": "t_Weapon11"
+        },
+        {
+          "id": 61,
+          "symbol": "t_Weapon12"
+        },
+        {
+          "id": 62,
+          "symbol": "t_Weapon13"
+        },
+        {
+          "id": 63,
+          "symbol": "t_Weapon14"
+        },
+        {
+          "id": 64,
+          "symbol": "t_Weapon15"
+        },
+        {
+          "id": 65,
+          "symbol": "t_Weapon16"
+        },
+        {
+          "id": 66,
+          "symbol": "t_Weapon17"
+        },
+        {
+          "id": 67,
+          "symbol": "t_Weapon18"
+        },
+        {
+          "id": 68,
+          "symbol": "t_CustomWeapon"
+        },
+        {
+          "id": 69,
+          "symbol": "t_Protoplasm"
+        },
+        {
+          "id": 70,
+          "symbol": "t_UselessItem"
+        },
+        {
+          "id": 71,
+          "symbol": "t_MicroModule"
+        },
+        {
+          "id": 72,
+          "symbol": "t_Cistern"
+        },
+        {
+          "id": 73,
+          "symbol": "t_Satellite"
+        },
+        {
+          "id": 74,
+          "symbol": "t_TreasureMap"
+        },
+        {
+          "id": 75,
+          "symbol": "t_UselessCountableItem"
+        }
+      ]
+    }
+  ],
+  "expansion_matrix": [
+    {
+      "number": 1,
+      "proposal": "Посещение разных мест на планете",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Планетный экран, государственный диалог, привязанные к планетам текстовые квесты и сценарные диалоги.",
+      "proposed_delta_or_unknown": "Постоянная сеть посещаемых мест с локальными персонажами и изменяемым состоянием каждого места.",
+      "source_fact_ids": [
+        "S30",
+        "S44",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 2,
+      "proposal": "Межзвёздная экономика производства и поставок",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Восемь товаров, рыночные цены/запасы, перевозчики с грузом и деньгами, дефициты.",
+      "proposed_delta_or_unknown": "Замкнутый материальный баланс, предприятия, рецепты, энергия, работники, доставка как обязательство.",
+      "source_fact_ids": [
+        "S20",
+        "S21",
+        "S22",
+        "S23"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 3,
+      "proposal": "Своя планетная база или станция-крепость",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть станции, их создание, инвестиции в коалиционные проекты, хранение имущества.",
+      "proposed_delta_or_unknown": "Личное основание/право собственности, управляющий, развитие и сюжетная жизнь базы требуют отдельной системы.",
+      "source_fact_ids": [
+        "S10",
+        "S11",
+        "S47",
+        "S54"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 4,
+      "proposal": "Особый дух каждой системы и планеты",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Пулы имён, особые стартовые системы, расы, правительства, экономика и распределённые авторские квесты.",
+      "proposed_delta_or_unknown": "Постоянные авторские биографии и места для каждого мира; не заменять процедурные подстановки фиктивной канонической картой.",
+      "source_fact_ids": [
+        "S04",
+        "S05",
+        "S06",
+        "S17",
+        "S44"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 5,
+      "proposal": "Полная галактическая хроника",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "46 типов новостей и сериализуемые события.",
+      "proposed_delta_or_unknown": "Бессрочная история, типизированные участники/причины, версии издателей, запаздывание сведений.",
+      "source_fact_ids": [
+        "S36",
+        "S37",
+        "S38",
+        "S39"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 6,
+      "proposal": "Живые правительства",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Пять строев, случайные революции, смена отношений и рыночных коэффициентов.",
+      "proposed_delta_or_unknown": "Политические группы, выборы, персональные правители, тайные договоры и управленческие бюджеты.",
+      "source_fact_ids": [
+        "S17",
+        "S24",
+        "S25"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 7,
+      "proposal": "Колониальные кризисы",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Планетные дефициты/избытки и новости, болезни капитана.",
+      "proposed_delta_or_unknown": "Группы населения, эпидемии поселений, энергосеть, экология и долгосрочные причинные последствия помощи.",
+      "source_fact_ids": [
+        "S25",
+        "S35"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 8,
+      "proposal": "Беженцы и переселение",
+      "assessment": "Проверить",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть транспортные классы, защита корабля и планеты с изменяемым контролем.",
+      "proposed_delta_or_unknown": "Миграционные потоки не подтверждены источником; отдельные эвакуационные истории надо проверить во всех сценариях.",
+      "source_fact_ids": [
+        "S19",
+        "S23",
+        "S43"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 9,
+      "proposal": "Культурные движения",
+      "assessment": "Проверить",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Сценарии допускают организации, диалоги и события; отдельные болезни/описания не являются движениями.",
+      "proposed_delta_or_unknown": "Проверить авторские культы/сообщества в текстах; самостоятельная модель распространения влияния не установлена.",
+      "source_fact_ids": [
+        "S35",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 10,
+      "proposal": "NPC с собственной судьбой",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Рейнджеры имеют карьеры, развитие, отношения, врагов и напарников.",
+      "proposed_delta_or_unknown": "Человек независимо от корпуса, имущество/долги, смена должностей и история жизни.",
+      "source_fact_ids": [
+        "S31",
+        "S32",
+        "S33"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 11,
+      "proposal": "Космическая археология",
+      "assessment": "Проверить",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть артефакты, поиск на планетах и авторский сценарный инструментарий.",
+      "proposed_delta_or_unknown": "Тематический мотив древних цивилизаций проверить по текстам; постоянная цепочка научных доказательств не подтверждена.",
+      "source_fact_ids": [
+        "S18",
+        "S42",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 12,
+      "proposal": "Перемещающиеся звёздные аномалии",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Временные чёрные дыры с общим временем жизни и связью звёзд.",
+      "proposed_delta_or_unknown": "Перемещающиеся зоны гравитации/радиации/искажений и воздействие на оборудование/связь.",
+      "source_fact_ids": [
+        "S49"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 13,
+      "proposal": "Реликтовые технологии и собственные исследования",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Артефакты, планетные изобретения, исследования доминаторов и программы.",
+      "proposed_delta_or_unknown": "Неизвестные физические принципы как знания, открытия рецептов и производство экспериментальных устройств.",
+      "source_fact_ids": [
+        "S18",
+        "S26",
+        "S27"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 14,
+      "proposal": "Кладбища кораблей",
+      "assessment": "Проверить",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть трофеи/предметы и сценарные места; наличие отдельного мотива не проверено этим обзором.",
+      "proposed_delta_or_unknown": "Нужно сверить все карты/сценарии; самостоятельная система больших полей обломков, экипажей и расследований не подтверждена.",
+      "source_fact_ids": [
+        "S18",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 15,
+      "proposal": "Научные программы на аномальных планетах",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Исследование необитаемых миров спутниками, траектории, поверхностная добыча.",
+      "proposed_delta_or_unknown": "Образцы, гипотезы, повторные экспедиции, риски заражения и состояние научной станции.",
+      "source_fact_ids": [
+        "S42"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 16,
+      "proposal": "Загадки чёрных дыр",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Чёрные дыры, отдельный аркадный режим, сценарные запросы к нему.",
+      "proposed_delta_or_unknown": "Новые сигналы, следы экспедиций и расследования; конкретные аналогичные сюжеты сверить с картами и текстами.",
+      "source_fact_ids": [
+        "S49",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 17,
+      "proposal": "Великая научная экспедиция всей партии",
+      "assessment": "Новое",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть конечные исследования доминаторов и отдельные авторские сценарии.",
+      "proposed_delta_or_unknown": "Процедурно составляемая многолетняя общегалактическая научная загадка — новая надстройка; не утверждение об отсутствии крупных сюжетов.",
+      "source_fact_ids": [
+        "S27",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 18,
+      "proposal": "Настоящий экипаж со специальностями и отношениями",
+      "assessment": "Новое",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "У TShip есть один набор навыков/здоровья/портрета капитана и партнёрские корабли.",
+      "proposed_delta_or_unknown": "Несколько самостоятельных людей на одном корабле, роли, совместимость заданий и личные линии.",
+      "source_fact_ids": [
+        "S31",
+        "S33",
+        "S35"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 19,
+      "proposal": "Частичные неисправности подсистем",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Оборудование имеет степень износа, флаг поломки, ремонт; программы могут менять боевое состояние.",
+      "proposed_delta_or_unknown": "Качественные частичные отказы, перегрев/помехи, отдельные тактические способы исправления.",
+      "source_fact_ids": [
+        "S40",
+        "S41",
+        "S27"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 20,
+      "proposal": "Экспериментальный тюнинг",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Улучшение предметов, научная база, микромодули как тип контента.",
+      "proposed_delta_or_unknown": "Собираемые сочетания преимуществ/рисков и авторские протоколы испытаний поверх существующего улучшения.",
+      "source_fact_ids": [
+        "S18",
+        "S40",
+        "S41"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 21,
+      "proposal": "Конструктор прототипов",
+      "assessment": "Новое",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Вещи/исследования и модификационные custom-типы существуют.",
+      "proposed_delta_or_unknown": "Рецепты с неполным знанием результата, расход физических компонентов и знания от неудач — новая система.",
+      "source_fact_ids": [
+        "S18",
+        "S26",
+        "S27"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 22,
+      "proposal": "Абордаж и захват судна",
+      "assessment": "Проверить",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть отношения, плен/тюрьма в игровых событиях и сценарные изменения объектов.",
+      "proposed_delta_or_unknown": "Нужно проверить специальные пиратские сюжеты; системный захват корпуса с отдельной судьбой экипажа не доказан.",
+      "source_fact_ids": [
+        "S31",
+        "S36",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 23,
+      "proposal": "Передвижная мастерская",
+      "assessment": "Новое",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть ремонт предметов, трюм, грузовые захваты и корабельное оборудование.",
+      "proposed_delta_or_unknown": "Рабочие мощности крупного корабля для ремонта других судов, разборки трофеев и обслуживания клиентов.",
+      "source_fact_ids": [
+        "S18",
+        "S40",
+        "S41"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 24,
+      "proposal": "Легендарные корабли с собственной историей",
+      "assessment": "Новое",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "У корабля есть Id/CreationTurn, у оборудования свои состояния; именованные корабли могут быть сценарными.",
+      "proposed_delta_or_unknown": "Хроника корпуса отдельно от капитана, уникальные шрамы и наследование исторической ценности.",
+      "source_fact_ids": [
+        "S31",
+        "S38",
+        "S40"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 25,
+      "proposal": "Охота за головами как карьера",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Правительственное задание на уничтожение корабля; NPC летают и имеют отношения.",
+      "proposed_delta_or_unknown": "Досье целей, привычки, расследование сети контактов, сдача и перевербовка.",
+      "source_fact_ids": [
+        "S23",
+        "S33",
+        "S43"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 26,
+      "proposal": "Предприятие спасательной службы",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Защита корабля как задание и кооперация/партнёры.",
+      "proposed_delta_or_unknown": "Организация спасения, буксировка, страхование и эвакуационная экономика; защиту не следует автоматически называть спасением.",
+      "source_fact_ids": [
+        "S33",
+        "S43"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 27,
+      "proposal": "Каперские лицензии правительств",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "У Доминиона есть покупаемая/продлеваемая пиратская лицензия.",
+      "proposed_delta_or_unknown": "Правительственный патент против заданных целей с разной юридической оценкой сторонами — другое правило; требуется точная проверка текста лицензии.",
+      "source_fact_ids": [
+        "S48"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 28,
+      "proposal": "Разведывательная сеть информаторов",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть новости, отношения, информационные интерфейсы и сценарные сообщения.",
+      "proposed_delta_or_unknown": "Вербуемые люди, доверие, источники сведений, потеря контакта и стоимость сети.",
+      "source_fact_ids": [
+        "S33",
+        "S36",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 29,
+      "proposal": "Межзвёздный дипломат",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть дипломатический класс транспорта, перемирия и сценарные диалоги.",
+      "proposed_delta_or_unknown": "Полноценное посредничество между правительствами, переговоры, пленные и предотвращение войн.",
+      "source_fact_ids": [
+        "S19",
+        "S33",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 30,
+      "proposal": "Торговая корпорация",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Торговля NPC/игрока, удалённое хранение, кредиты, депозиты и инвестиции.",
+      "proposed_delta_or_unknown": "Организация с контрактами, предприятиями, поставщиками, эксклюзивными правами и делегированием.",
+      "source_fact_ids": [
+        "S22",
+        "S47",
+        "S54"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 31,
+      "proposal": "Межзвёздная почтовая служба",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Доставка письма уже один из пяти типов поручений.",
+      "proposed_delta_or_unknown": "Разные классы посылок, физические образцы, опасные грузы и организация доставки.",
+      "source_fact_ids": [
+        "S43"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 32,
+      "proposal": "Личный заклятый враг",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Индивидуальные отношения, EnemyShip и перемирия.",
+      "proposed_delta_or_unknown": "Повторные появления после поражения, смена корабля/тактики, эволюция характера и непрерывная биография.",
+      "source_fact_ids": [
+        "S31",
+        "S33"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 33,
+      "proposal": "Ответная эволюция доминаторов",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Три серии, восемь типов, технологии и военные действия.",
+      "proposed_delta_or_unknown": "Выбор новых специализаций в ответ на агрегированную тактику игрока/Коалиции с предупреждающими разведданными.",
+      "source_fact_ids": [
+        "S15",
+        "S27",
+        "S28"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 34,
+      "proposal": "Военная логистика и линия фронта",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Три стороны контроля систем, войны, группы освобождения и маршруты наступления.",
+      "proposed_delta_or_unknown": "Физические цепочки снабжения, расход боеприпасов/ресурсов флотами, блокада как зависимость производства.",
+      "source_fact_ids": [
+        "S16",
+        "S20",
+        "S21",
+        "S45",
+        "S46"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 35,
+      "proposal": "Совместные операции с тактическими целями",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Оплачиваемая операция военной базы, сбор флота, маршрут и поручения защиты.",
+      "proposed_delta_or_unknown": "Набор новых целей: блокада, конвои, станции, диверсии и причинные исходы.",
+      "source_fact_ids": [
+        "S43",
+        "S45",
+        "S46"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 36,
+      "proposal": "Собственная эскадра как организация",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Напарники, срок службы, лидерство и групповые приказы освобождения.",
+      "proposed_delta_or_unknown": "Постоянная командная структура игрока, патрули, роли капитанов, организационная память и потери.",
+      "source_fact_ids": [
+        "S33",
+        "S34",
+        "S46"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 37,
+      "proposal": "Послевоенная галактика",
+      "assessment": "Новое",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Есть ветки завершения войны; Continue на экране финала освобождает мир и ведёт в результаты.",
+      "proposed_delta_or_unknown": "Длительное продолжение кампании с демобилизацией, конфликтами союзников и мирной экономикой. Все условия финала ещё требуют сверки сценариев.",
+      "source_fact_ids": [
+        "S53"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    },
+    {
+      "number": 38,
+      "proposal": "Режиссёр галактических историй",
+      "assessment": "Частично",
+      "assessment_status": "INFERENCE_FROM_SOURCE",
+      "verified_baseline": "Сценарии, текущие события, условные привязки и обновление каждый ход.",
+      "proposed_delta_or_unknown": "Композиция авторских сцен из причинной истории мира без произвольного создания ресурсов/побед.",
+      "source_fact_ids": [
+        "S28",
+        "S38",
+        "S44",
+        "S51"
+      ],
+      "limitation": "Оценка системного расширения; тематические совпадения в отдельных сценариях требуют смыслового чтения полного корпуса."
+    }
+  ],
+  "installed_executable": {
+    "source": "Rangers.exe",
+    "file_version": "2.1.2500.0",
+    "steam_build_id": "20648864",
+    "sha256": "83300344af802bc51e64389c58f047e5afdf195c133048098be3881fae29ed98",
+    "version_evidence": "executable-version.json; единственный кандидат VS_FIXEDFILEINFO",
+    "steam_build_evidence": "манифест установленного Steam-приложения, зафиксирован владельцем исследования",
+    "relation_to_source": "Поведенческое соответствие ревизии FPC не доказано."
+  },
+  "analysis_levels": {
+    "decoded": "Парсер прочитал структуру; для SCR/QMM проверено полное потребление входа в отдельном извлечении. Это не смысловое чтение.",
+    "indexed": "Сохранены идентификаторы, пути, метаданные, размеры/хеши; содержимое может оставаться нерасшифрованным.",
+    "semantically_read": "Человекочитаемое утверждение привязано к конкретному прочитанному фрагменту; этот файл доказывает только перечисленные source-факты.",
+    "tested": "Динамическое поведение проверено запуском/тестом; игровой запуск в данном source-аудите не выполнялся."
+  }
+}

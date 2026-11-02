@@ -1,0 +1,24 @@
+{
+  "source": "Rangers.exe",
+  "bytes": 4995584,
+  "sha256": "83300344af802bc51e64389c58f047e5afdf195c133048098be3881fae29ed98",
+  "fixed_file_info_candidates": [
+    {
+      "offset": 4994356,
+      "structure_version": "0x10000",
+      "file_version": [
+        2,
+        1,
+        2500,
+        0
+      ],
+      "product_version": [
+        2,
+        1,
+        2500,
+        0
+      ]
+    }
+  ],
+  "method": "VS_FIXEDFILEINFO signature scan; no executable launch"
+}

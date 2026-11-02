@@ -1,0 +1,5175 @@
+[
+  {
+    "id": "0",
+    "name_ru": "Аппер",
+    "name_en": "Upper",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine,Radar",
+      "Name": "Аппер",
+      "Priority": "80",
+      "bonRadar": "400",
+      "bonSpeed": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.0"
+  },
+  {
+    "id": "1",
+    "name_ru": "Электро",
+    "name_en": "Electro",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy",
+      "Name": "Электро",
+      "Priority": "100",
+      "bonWEnergy": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.1"
+  },
+  {
+    "id": "10",
+    "name_ru": "Фэйджоуль",
+    "name_en": "Faejoel",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Name": "Фэйджоуль",
+      "Owner": "Fei",
+      "Priority": "70",
+      "Size": "120",
+      "bonJump": "8",
+      "bonSpeed": "25"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.10"
+  },
+  {
+    "id": "100",
+    "name_ru": "Интегратор",
+    "name_en": "Integrator",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WSplinter,WMissile",
+      "Name": "Интегратор",
+      "Priority": "50",
+      "Size": "125",
+      "bonWEnergy": "5",
+      "bonWMissile": "10",
+      "bonWSplinter": "15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.100"
+  },
+  {
+    "id": "101",
+    "name_ru": "Магникум",
+    "name_en": "Magnicum",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hook",
+      "Name": "Магникум",
+      "Priority": "50",
+      "bonHook": "70",
+      "bonHookRadius": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.101"
+  },
+  {
+    "id": "102",
+    "name_ru": "Стоплай",
+    "name_en": "Stopbark",
+    "kind": "definition",
+    "facts": {
+      "Cost": "150",
+      "Equipments": "FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator",
+      "Name": "Стоплай",
+      "Priority": "50",
+      "Size": "70"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.102"
+  },
+  {
+    "id": "103",
+    "name_ru": "Импелган",
+    "name_en": "Impalegun",
+    "kind": "definition",
+    "facts": {
+      "Cost": "125",
+      "Equipments": "Scaner",
+      "Name": "Импелган",
+      "Priority": "40",
+      "bonScan": "7"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.103"
+  },
+  {
+    "id": "104",
+    "name_ru": "Парагон",
+    "name_en": "Paragon",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "Hook",
+      "Name": "Парагон",
+      "Owner": "Maloc,People,Fei,Gaal",
+      "Priority": "40",
+      "Size": "110",
+      "bonHook": "80"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.104"
+  },
+  {
+    "id": "105",
+    "name_ru": "Стратер",
+    "name_en": "Strutter",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Name": "Стратер",
+      "Owner": "Maloc",
+      "Priority": "50",
+      "bonJump": "6",
+      "bonSpeed": "100"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.105"
+  },
+  {
+    "id": "106",
+    "name_ru": "Конвектор",
+    "name_en": "Convector",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Radar,Scaner",
+      "Name": "Конвектор",
+      "Owner": "People",
+      "Priority": "55",
+      "bonRadar": "1000",
+      "bonScan": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.106"
+  },
+  {
+    "id": "107",
+    "name_ru": "Сжим",
+    "name_en": "Clip",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator,WEnergy,WSplinter,WMissile",
+      "Name": "Сжим",
+      "Owner": "Fei",
+      "Priority": "65",
+      "Size": "60"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.107"
+  },
+  {
+    "id": "108",
+    "name_ru": "Микрострел",
+    "name_en": "Microshooter",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine,WEnergy,WSplinter,WMissile",
+      "Name": "Микрострел",
+      "Owner": "People,Fei,Gaal",
+      "Priority": "65",
+      "bonJump": "10",
+      "bonWRadius": "50"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.108"
+  },
+  {
+    "id": "109",
+    "name_ru": "Сдвиг",
+    "name_en": "Displacement",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Name": "Сдвиг",
+      "Owner": "Peleng, People",
+      "Priority": "50",
+      "bonJump": "14"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.109"
+  },
+  {
+    "id": "11",
+    "name_ru": "Шелест",
+    "name_en": "Rustle",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "DefGenerator",
+      "Name": "Шелест",
+      "Priority": "70",
+      "Size": "125",
+      "bonDef": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.11"
+  },
+  {
+    "id": "110",
+    "name_ru": "Дронз",
+    "name_en": "Dronze",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Droid",
+      "Name": "Дронз",
+      "Owner": "Maloc,Peleng",
+      "Priority": "50",
+      "bonDroid": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.110"
+  },
+  {
+    "id": "111",
+    "name_ru": "Диощит",
+    "name_en": "Dioshield",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "DefGenerator,WMissile",
+      "Name": "Диощит",
+      "Owner": "Fei,People",
+      "Priority": "40",
+      "bonDef": "5",
+      "bonWMissile": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.111"
+  },
+  {
+    "id": "112",
+    "name_ru": "Маформ",
+    "name_en": "Maform",
+    "kind": "definition",
+    "facts": {
+      "Cost": "160",
+      "Equipments": "WEnergy,WSplinter,WMissile",
+      "Fragility": "55",
+      "Name": "Маформ",
+      "Owner": "Maloc",
+      "Priority": "50",
+      "Size": "120",
+      "bonWEnergy": "3",
+      "bonWMissile": "14",
+      "bonWSplinter": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.112"
+  },
+  {
+    "id": "113",
+    "name_ru": "Объемник",
+    "name_en": "Volumer",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "FuelTank",
+      "Name": "Объемник",
+      "Owner": "Peleng,Fei",
+      "Priority": "60",
+      "bonFuel": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.113"
+  },
+  {
+    "id": "114",
+    "name_ru": "Сплинтер",
+    "name_en": "Splinter",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WSplinter",
+      "Name": "Сплинтер",
+      "Owner": "Maloc,Peleng",
+      "Priority": "60",
+      "bonWSplinter": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.114"
+  },
+  {
+    "id": "115",
+    "name_ru": "Колебратор",
+    "name_en": "Colebrator",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Radar,Hook,DefGenerator",
+      "Name": "Колебратор",
+      "Priority": "60",
+      "bonDef": "3",
+      "bonHook": "40",
+      "bonRadar": "700"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.115"
+  },
+  {
+    "id": "116",
+    "name_ru": "Энергос",
+    "name_en": "Energos",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy",
+      "Name": "Энергос",
+      "Priority": "60",
+      "bonWEnergy": "7"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.116"
+  },
+  {
+    "id": "117",
+    "name_ru": "Бронепакет",
+    "name_en": "Armorpack",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Бронепакет",
+      "Priority": "60",
+      "Size": "90",
+      "bonHull": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.117"
+  },
+  {
+    "id": "118",
+    "name_ru": "Спаай",
+    "name_en": "Insighter",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Radar,Scaner",
+      "Name": "Спаай",
+      "Owner": "Gaal",
+      "Priority": "50",
+      "bonRadar": "1500",
+      "bonScan": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.118"
+  },
+  {
+    "id": "119",
+    "name_ru": "Тюринг",
+    "name_en": "Turing",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WSplinter,WMissile",
+      "Name": "Тюринг",
+      "Priority": "55",
+      "Size": "50",
+      "bonWEnergy": "-5",
+      "bonWMissile": "-7",
+      "bonWRadius": "-10",
+      "bonWSplinter": "-5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.119"
+  },
+  {
+    "id": "12",
+    "name_ru": "Дальстар",
+    "name_en": "Dalstar",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine,Radar,WEnergy,WSplinter,WMissile",
+      "Name": "Дальстар",
+      "Owner": "Peleng",
+      "Priority": "70",
+      "bonJump": "8",
+      "bonRadar": "500",
+      "bonWRadius": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.12"
+  },
+  {
+    "id": "120",
+    "name_ru": "Эскалибур",
+    "name_en": "Excalibur",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy",
+      "Name": "Эскалибур",
+      "Owner": "People",
+      "Priority": "40",
+      "bonWEnergy": "15",
+      "bonWRadius": "40"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.120"
+  },
+  {
+    "id": "121",
+    "name_ru": "Эксплодер",
+    "name_en": "Exploder",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Name": "Эксплодер",
+      "Owner": "Peleng,People,Fei,Gaal",
+      "Priority": "35",
+      "bonJump": "-7",
+      "bonSpeed": "150"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.121"
+  },
+  {
+    "id": "122",
+    "name_ru": "Патч 0.95 бета",
+    "name_en": "Patch 0.95 beta",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine,Radar,Scaner,Droid,WEnergy,WSplinter,WMissile",
+      "Name": "Патч 0.95 бета",
+      "Owner": "Peleng,People,Gaal",
+      "Priority": "35",
+      "bonDroid": "12",
+      "bonRadar": "500",
+      "bonScan": "4",
+      "bonSpeed": "50",
+      "bonWRadius": "50"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.122"
+  },
+  {
+    "id": "123",
+    "name_ru": "Оптиматор",
+    "name_en": "Optimator",
+    "kind": "definition",
+    "facts": {
+      "Cost": "75",
+      "Equipments": "FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator",
+      "Fragility": "80",
+      "Name": "Оптиматор",
+      "Owner": "Peleng",
+      "Priority": "40",
+      "Size": "75"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.123"
+  },
+  {
+    "id": "124",
+    "name_ru": "Аддон",
+    "name_en": "Addon",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Аддон",
+      "Owner": "Maloc,Fei,Gaal,People",
+      "Priority": "40",
+      "Size": "115"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.124"
+  },
+  {
+    "id": "125",
+    "name_ru": "Горанд",
+    "name_en": "Gorand",
+    "kind": "definition",
+    "facts": {
+      "Cost": "130",
+      "Equipments": "WEnergy,WSplinter,WMissile",
+      "Fragility": "55",
+      "Name": "Горанд",
+      "Owner": "Any",
+      "Priority": "50"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.125"
+  },
+  {
+    "id": "13",
+    "name_ru": "Миниразмерный",
+    "name_en": "Minisized",
+    "kind": "definition",
+    "facts": {
+      "Cost": "70",
+      "Equipments": "FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator,WSplinter",
+      "Name": "Миниразмерный",
+      "Owner": "People",
+      "Priority": "70",
+      "Size": "80"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.13"
+  },
+  {
+    "id": "14",
+    "name_ru": "Дроннер",
+    "name_en": "Dronner",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Droid",
+      "Name": "Дроннер",
+      "Priority": "70",
+      "Size": "150",
+      "bonDroid": "15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.14"
+  },
+  {
+    "id": "15",
+    "name_ru": "Цент",
+    "name_en": "Cent",
+    "kind": "definition",
+    "facts": {
+      "Cost": "25",
+      "Equipments": "FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator,WEnergy,WSplinter,WMissile",
+      "Name": "Цент",
+      "Priority": "80",
+      "Size": "110"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.15"
+  },
+  {
+    "id": "16",
+    "name_ru": "Громодрын",
+    "name_en": "Massodrope",
+    "kind": "definition",
+    "facts": {
+      "Cost": "50",
+      "Equipments": "Droid",
+      "Name": "Громодрын",
+      "Owner": "Peleng,Maloc",
+      "Priority": "70",
+      "bonDroid": "12"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.16"
+  },
+  {
+    "id": "17",
+    "name_ru": "Платинос",
+    "name_en": "Platicoat",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "Any",
+      "Name": "Платинос",
+      "Priority": "70"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.17"
+  },
+  {
+    "id": "18",
+    "name_ru": "Клейн",
+    "name_en": "Klein",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WSplinter,WMissile",
+      "Name": "Клейн",
+      "Priority": "75",
+      "bonWEnergy": "7",
+      "bonWMissile": "14",
+      "bonWRadius": "-20",
+      "bonWSplinter": "15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.18"
+  },
+  {
+    "id": "19",
+    "name_ru": "Пакстон",
+    "name_en": "Paxton",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "DefGenerator",
+      "Name": "Пакстон",
+      "Owner": "Maloc",
+      "Priority": "80",
+      "Size": "25",
+      "bonDef": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.19"
+  },
+  {
+    "id": "2",
+    "name_ru": "Ракетон",
+    "name_en": "Rocketon",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WMissile",
+      "Name": "Ракетон",
+      "Priority": "100",
+      "bonWEnergy": "4",
+      "bonWMissile": "14"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.2"
+  },
+  {
+    "id": "20",
+    "name_ru": "Гугаал",
+    "name_en": "Gugaal",
+    "kind": "definition",
+    "facts": {
+      "Cost": "125",
+      "Equipments": "Engine",
+      "Name": "Гугаал",
+      "Owner": "Gaal",
+      "Priority": "75",
+      "bonSpeed": "60"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.20"
+  },
+  {
+    "id": "200",
+    "name_ru": "Крепчак",
+    "name_en": "Harding",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Крепчак",
+      "Owner": "Peleng,People",
+      "Priority": "30",
+      "bonHull": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.200"
+  },
+  {
+    "id": "201",
+    "name_ru": "Джампгейтор 3.11",
+    "name_en": "Jumpgator 3.11",
+    "kind": "definition",
+    "facts": {
+      "Cost": "140",
+      "Equipments": "Engine",
+      "Name": "Джампгейтор 3.11",
+      "Priority": "20",
+      "bonJump": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.201"
+  },
+  {
+    "id": "202",
+    "name_ru": "Экстример",
+    "name_en": "Extremer",
+    "kind": "definition",
+    "facts": {
+      "Cost": "160",
+      "Equipments": "Hull",
+      "Name": "Экстример",
+      "Owner": "Maloc",
+      "Priority": "20",
+      "Size": "120"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.202"
+  },
+  {
+    "id": "203",
+    "name_ru": "Джейк",
+    "name_en": "Jake",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Name": "Джейк",
+      "Priority": "20",
+      "bonSpeed": "140"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.203"
+  },
+  {
+    "id": "204",
+    "name_ru": "Универс",
+    "name_en": "Universe",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Any",
+      "Name": "Универс",
+      "Priority": "1",
+      "bonDef": "6",
+      "bonDroid": "25",
+      "bonFuel": "15",
+      "bonHook": "60",
+      "bonHull": "5",
+      "bonRadar": "800",
+      "bonScan": "6",
+      "bonSpeed": "70",
+      "bonWEnergy": "20",
+      "bonWMissile": "30",
+      "bonWSplinter": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.204"
+  },
+  {
+    "id": "205",
+    "name_ru": "Иикебанит",
+    "name_en": "Iikebaanite",
+    "kind": "definition",
+    "facts": {
+      "Cost": "250",
+      "Equipments": "Any",
+      "Name": "Иикебанит",
+      "Owner": "Gaal",
+      "Priority": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.205"
+  },
+  {
+    "id": "206",
+    "name_ru": "Минивизион",
+    "name_en": "Minivision",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Radar",
+      "Name": "Минивизион",
+      "Priority": "20",
+      "Size": "85",
+      "bonRadar": "1500"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.206"
+  },
+  {
+    "id": "207",
+    "name_ru": "Микроразмерный",
+    "name_en": "Microsize",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator",
+      "Fragility": "66",
+      "Name": "Микроразмерный",
+      "Owner": "Maloc,Peleng,People,Fei",
+      "Priority": "10",
+      "Size": "70"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.207"
+  },
+  {
+    "id": "208",
+    "name_ru": "Жампа",
+    "name_en": "Jumpa",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Fragility": "77",
+      "Name": "Жампа",
+      "Priority": "20",
+      "bonJump": "14"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.208"
+  },
+  {
+    "id": "209",
+    "name_ru": "Винтарь",
+    "name_en": "Threader",
+    "kind": "definition",
+    "facts": {
+      "Cost": "150",
+      "Equipments": "WSplinter",
+      "Name": "Винтарь",
+      "Owner": "Maloc,Peleng",
+      "Priority": "15",
+      "bonWSplinter": "35"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.209"
+  },
+  {
+    "id": "21",
+    "name_ru": "Патч 0.96 альфа",
+    "name_en": "Patch 0.96 alpha",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine,Radar,Scaner,Droid,WEnergy,WSplinter,WMissile",
+      "Name": "Патч 0.96 альфа",
+      "Owner": "Any",
+      "Priority": "70",
+      "bonDroid": "8",
+      "bonRadar": "250",
+      "bonScan": "2",
+      "bonSpeed": "25",
+      "bonWRadius": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.21"
+  },
+  {
+    "id": "210",
+    "name_ru": "Антифэй",
+    "name_en": "Antifae",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WMissile",
+      "Name": "Антифэй",
+      "Owner": "Maloc,Peleng,People,Gaal",
+      "Priority": "10",
+      "bonWMissile": "45"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.210"
+  },
+  {
+    "id": "211",
+    "name_ru": "Дальпун",
+    "name_en": "Farsight",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WSplinter",
+      "Name": "Дальпун",
+      "Owner": "Maloc,Peleng,People,Fei",
+      "Priority": "10",
+      "Size": "135",
+      "bonWRadius": "120"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.211"
+  },
+  {
+    "id": "212",
+    "name_ru": "Хокус",
+    "name_en": "Hocus",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hook",
+      "Name": "Хокус",
+      "Priority": "20",
+      "bonHook": "150",
+      "bonHookRadius": "-10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.212"
+  },
+  {
+    "id": "213",
+    "name_ru": "Бач",
+    "name_en": "Dimin",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "FuelTank",
+      "Name": "Бач",
+      "Owner": "People,Gaal",
+      "Priority": "10",
+      "bonFuel": "35"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.213"
+  },
+  {
+    "id": "214",
+    "name_ru": "Двима",
+    "name_en": "Drover",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Name": "Двима",
+      "Owner": "Maloc",
+      "Priority": "10",
+      "bonJump": "20",
+      "bonSpeed": "180"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.214"
+  },
+  {
+    "id": "215",
+    "name_ru": "Броинг",
+    "name_en": "Broing",
+    "kind": "definition",
+    "facts": {
+      "Cost": "140",
+      "Equipments": "Hull,DefGenerator",
+      "Name": "Броинг",
+      "Owner": "Peleng",
+      "Priority": "5",
+      "bonDef": "8",
+      "bonHull": "7"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.215"
+  },
+  {
+    "id": "216",
+    "name_ru": "Жжения",
+    "name_en": "Burnz",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WSplinter,WMissile",
+      "Name": "Жжения",
+      "Owner": "Gaal,Peleng",
+      "Priority": "10",
+      "bonWEnergy": "20",
+      "bonWMissile": "45",
+      "bonWSplinter": "40"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.216"
+  },
+  {
+    "id": "217",
+    "name_ru": "Панцирь",
+    "name_en": "Shell",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Панцирь",
+      "Owner": "Maloc",
+      "Priority": "1",
+      "bonHull": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.217"
+  },
+  {
+    "id": "218",
+    "name_ru": "Редуза",
+    "name_en": "Redusa",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Name": "Редуза",
+      "Owner": "Peleng",
+      "Priority": "35",
+      "bonSpeed": "140"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.218"
+  },
+  {
+    "id": "219",
+    "name_ru": "Хаб",
+    "name_en": "Hub",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Хаб",
+      "Owner": "Fei,People",
+      "Priority": "3",
+      "Size": "125"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.219"
+  },
+  {
+    "id": "220",
+    "name_ru": "Ламбалд",
+    "name_en": "Lambald",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WSplinter,WMissile,FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator",
+      "Fragility": "45",
+      "Name": "Ламбалд",
+      "Owner": "Any",
+      "Priority": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.220"
+  },
+  {
+    "id": "23",
+    "name_ru": "Берсерк",
+    "name_en": "Berserker",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WSplinter,WMissile",
+      "Name": "Берсерк",
+      "Owner": "Any",
+      "Priority": "90",
+      "Size": "130",
+      "bonWEnergy": "5",
+      "bonWMissile": "10",
+      "bonWRadius": "20",
+      "bonWSplinter": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.23"
+  },
+  {
+    "id": "24",
+    "name_ru": "Интердизайн",
+    "name_en": "Interdesign",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Интердизайн",
+      "Priority": "90",
+      "Size": "107"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.24"
+  },
+  {
+    "id": "25",
+    "name_ru": "Стаксер",
+    "name_en": "Staxer",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Fragility": "60",
+      "Name": "Стаксер",
+      "Owner": "Maloc,Peleng,People,Fei",
+      "Priority": "70",
+      "bonJump": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.25"
+  },
+  {
+    "id": "3",
+    "name_ru": "Бронд",
+    "name_en": "Brond",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull,DefGenerator",
+      "Name": "Бронд",
+      "Priority": "100",
+      "bonDef": "3",
+      "bonHull": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.3"
+  },
+  {
+    "id": "300",
+    "name_ru": "Форсер",
+    "name_en": "Forcer",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Форсер",
+      "Priority": "50",
+      "bonSlotForsage": "1",
+      "bonSlotRadar": "1",
+      "bonSlotScaner": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.300"
+  },
+  {
+    "id": "301",
+    "name_ru": "Диамант",
+    "name_en": "Diamant",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Диамант",
+      "Priority": "70",
+      "bonSlotDroid": "1",
+      "bonSlotHook": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.301"
+  },
+  {
+    "id": "302",
+    "name_ru": "Гезават",
+    "name_en": "Jeiad",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Гезават",
+      "Priority": "70",
+      "bonSlotDef": "1",
+      "bonSlotHook": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.302"
+  },
+  {
+    "id": "303",
+    "name_ru": "Раструг",
+    "name_en": "Rasta",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Раструг",
+      "Priority": "70",
+      "bonSlotDef": "1",
+      "bonSlotDroid": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.303"
+  },
+  {
+    "id": "304",
+    "name_ru": "Прозотор",
+    "name_en": "Prozotor",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Прозотор",
+      "Priority": "20",
+      "bonSlotArt": "1",
+      "bonSlotWeapon": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.304"
+  },
+  {
+    "id": "305",
+    "name_ru": "Армор",
+    "name_en": "Armorer",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Армор",
+      "Priority": "10",
+      "bonSlotWeapon": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.305"
+  },
+  {
+    "id": "306",
+    "name_ru": "Перфорит",
+    "name_en": "Perforator",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Hull",
+      "Name": "Перфорит",
+      "Priority": "30",
+      "bonSlotArt": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.306"
+  },
+  {
+    "id": "350",
+    "name_ru": "Убийца",
+    "name_en": "Assassin",
+    "kind": "definition",
+    "facts": {
+      "Cost": "130",
+      "Equipments": "Hull",
+      "KindGraph": "1",
+      "Name": "Убийца",
+      "Size": "110",
+      "Special": "1",
+      "bonSpeed": "150",
+      "bonWEnergy": "15",
+      "bonWMissile": "40",
+      "bonWSplinter": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.350"
+  },
+  {
+    "id": "351",
+    "name_ru": "Скала",
+    "name_en": "Rock",
+    "kind": "definition",
+    "facts": {
+      "Cost": "130",
+      "Equipments": "Hull",
+      "KindGraph": "2",
+      "Name": "Скала",
+      "Size": "120",
+      "Special": "1",
+      "bonDroid": "20",
+      "bonHull": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.351"
+  },
+  {
+    "id": "352",
+    "name_ru": "Болид",
+    "name_en": "Bolide",
+    "kind": "definition",
+    "facts": {
+      "Cost": "130",
+      "Equipments": "Hull",
+      "KindGraph": "3",
+      "Name": "Болид",
+      "Size": "100",
+      "Special": "1",
+      "bonHull": "-3",
+      "bonJump": "20",
+      "bonRadar": "1000",
+      "bonSpeed": "300"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.352"
+  },
+  {
+    "id": "353",
+    "name_ru": "Быстрый корпус I",
+    "name_en": "Fast Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Name": "Быстрый корпус I",
+      "Priority": "10",
+      "Size": "70",
+      "Special": "1",
+      "bonSlotArt": "-2",
+      "bonSlotWeapon": "-2",
+      "bonSpeed": "100"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.353"
+  },
+  {
+    "id": "354",
+    "name_ru": "Быстрый корпус II",
+    "name_en": "Fast Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Name": "Быстрый корпус II",
+      "Priority": "30",
+      "Size": "80",
+      "Special": "1",
+      "bonSlotArt": "-2",
+      "bonSlotWeapon": "-1",
+      "bonSpeed": "150"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.354"
+  },
+  {
+    "id": "355",
+    "name_ru": "Быстрый корпус III",
+    "name_en": "Fast Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Name": "Быстрый корпус III",
+      "Priority": "50",
+      "Size": "90",
+      "Special": "1",
+      "bonSlotArt": "-1",
+      "bonSlotDef": "-1",
+      "bonSpeed": "200"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.355"
+  },
+  {
+    "id": "356",
+    "name_ru": "Быстрый корпус IV",
+    "name_en": "Fast Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Name": "Быстрый корпус IV",
+      "Priority": "70",
+      "Size": "100",
+      "Special": "1",
+      "bonSpeed": "150"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.356"
+  },
+  {
+    "id": "357",
+    "name_ru": "Неуязвимый корпус I",
+    "name_en": "Invincible Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Name": "Неуязвимый корпус I",
+      "Priority": "10",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "3",
+      "bonSlotArt": "-2",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.357"
+  },
+  {
+    "id": "358",
+    "name_ru": "Неуязвимый корпус II",
+    "name_en": "Invincible Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Name": "Неуязвимый корпус II",
+      "Priority": "30",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "6",
+      "bonSlotArt": "-2",
+      "bonSlotWeapon": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.358"
+  },
+  {
+    "id": "359",
+    "name_ru": "Неуязвимый корпус III",
+    "name_en": "Invincible Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Name": "Неуязвимый корпус III",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "9",
+      "bonSlotArt": "-2",
+      "bonSlotForsage": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.359"
+  },
+  {
+    "id": "360",
+    "name_ru": "Неуязвимый корпус IV",
+    "name_en": "Invincible Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Name": "Неуязвимый корпус IV",
+      "Priority": "70",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.360"
+  },
+  {
+    "id": "361",
+    "name_ru": "Ремонтный корпус I",
+    "name_en": "Repair Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Name": "Ремонтный корпус I",
+      "Priority": "10",
+      "Size": "100",
+      "Special": "1",
+      "bonDroid": "10",
+      "bonSlotArt": "-2",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.361"
+  },
+  {
+    "id": "362",
+    "name_ru": "Ремонтный корпус II",
+    "name_en": "Repair Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Name": "Ремонтный корпус II",
+      "Priority": "30",
+      "Size": "100",
+      "Special": "1",
+      "bonDroid": "25",
+      "bonSlotArt": "-2",
+      "bonSlotWeapon": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.362"
+  },
+  {
+    "id": "363",
+    "name_ru": "Ремонтный корпус III",
+    "name_en": "Repair Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Name": "Ремонтный корпус III",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonDroid": "40",
+      "bonSlotArt": "-1",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.363"
+  },
+  {
+    "id": "364",
+    "name_ru": "Ремонтный корпус IV",
+    "name_en": "Repair Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Name": "Ремонтный корпус IV",
+      "Priority": "70",
+      "Size": "100",
+      "Special": "1",
+      "bonDroid": "25"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.364"
+  },
+  {
+    "id": "365",
+    "name_ru": "Миоплазменный корпус I",
+    "name_en": "Myoplasmic Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Name": "Миоплазменный корпус I",
+      "Priority": "10",
+      "Size": "100",
+      "Special": "1",
+      "bonSlotArt": "-1",
+      "bonSlotWeapon": "-2",
+      "bonSpeed": "-20",
+      "bonWEnergy": "4",
+      "bonWSplinter": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.365"
+  },
+  {
+    "id": "366",
+    "name_ru": "Миоплазменный корпус II",
+    "name_en": "Myoplasmic Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Name": "Миоплазменный корпус II",
+      "Priority": "30",
+      "Size": "100",
+      "Special": "1",
+      "bonSlotArt": "-1",
+      "bonSlotWeapon": "-1",
+      "bonSpeed": "-40",
+      "bonWEnergy": "7",
+      "bonWSplinter": "12"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.366"
+  },
+  {
+    "id": "367",
+    "name_ru": "Миоплазменный корпус III",
+    "name_en": "Myoplasmic Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Name": "Миоплазменный корпус III",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonSlotScaner": "-1",
+      "bonSpeed": "-60",
+      "bonWEnergy": "10",
+      "bonWSplinter": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.367"
+  },
+  {
+    "id": "368",
+    "name_ru": "Миоплазменный корпус IV",
+    "name_en": "Myoplasmic Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Name": "Миоплазменный корпус IV",
+      "Priority": "70",
+      "Size": "100",
+      "Special": "1",
+      "bonSpeed": "-40",
+      "bonWEnergy": "7",
+      "bonWSplinter": "12"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.368"
+  },
+  {
+    "id": "369",
+    "name_ru": "Пигамарный корпус I",
+    "name_en": "Pygamore Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Name": "Пигамарный корпус I",
+      "Priority": "10",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonRadar": "-200",
+      "bonSlotArt": "-1",
+      "bonSlotWeapon": "-2",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.369"
+  },
+  {
+    "id": "370",
+    "name_ru": "Пигамарный корпус II",
+    "name_en": "Pygamore Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Name": "Пигамарный корпус II",
+      "Priority": "30",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "-5",
+      "bonRadar": "-300",
+      "bonSlotArt": "-1",
+      "bonSlotWeapon": "-1",
+      "bonWMissile": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.370"
+  },
+  {
+    "id": "371",
+    "name_ru": "Пигамарный корпус III",
+    "name_en": "Pygamore Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Name": "Пигамарный корпус III",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "-7",
+      "bonRadar": "-500",
+      "bonSlotScaner": "-1",
+      "bonWMissile": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.371"
+  },
+  {
+    "id": "372",
+    "name_ru": "Пигамарный корпус IV",
+    "name_en": "Pygamore Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Name": "Пигамарный корпус IV",
+      "Priority": "70",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "-5",
+      "bonRadar": "-300",
+      "bonWMissile": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.372"
+  },
+  {
+    "id": "373",
+    "name_ru": "Миоплазменный топливный бак I",
+    "name_en": "Myoplasmic Fuel Tank I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "10",
+      "Name": "Миоплазменный топливный бак I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSpeed": "-10",
+      "bonWEnergy": "2",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.373"
+  },
+  {
+    "id": "374",
+    "name_ru": "Миоплазменный двигатель I",
+    "name_en": "Myoplasmic Engine I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "11",
+      "Name": "Миоплазменный двигатель I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSpeed": "-10",
+      "bonWEnergy": "2",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.374"
+  },
+  {
+    "id": "375",
+    "name_ru": "Миоплазменный радар I",
+    "name_en": "Myoplasmic Radar I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "10",
+      "Name": "Миоплазменный радар I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSpeed": "-10",
+      "bonWEnergy": "2",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.375"
+  },
+  {
+    "id": "376",
+    "name_ru": "Миоплазменный сканер I",
+    "name_en": "Myoplasmic Scanner I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "10",
+      "Name": "Миоплазменный сканер I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSpeed": "-10",
+      "bonWEnergy": "2",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.376"
+  },
+  {
+    "id": "377",
+    "name_ru": "Миоплазменный дроид I",
+    "name_en": "Myoplasmic Droid I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "KindGraph": "16",
+      "Name": "Миоплазменный дроид I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSpeed": "-10",
+      "bonWEnergy": "2",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.377"
+  },
+  {
+    "id": "378",
+    "name_ru": "Миоплазменный захват I",
+    "name_en": "Myoplasmic Gripper I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "10",
+      "Name": "Миоплазменный захват I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSpeed": "-10",
+      "bonWEnergy": "2",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.378"
+  },
+  {
+    "id": "379",
+    "name_ru": "Миоплазменный генератор защиты I",
+    "name_en": "Myoplasmic Shield Generator I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "KindGraph": "10",
+      "Name": "Миоплазменный генератор защиты I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSpeed": "-10",
+      "bonWEnergy": "2",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.379"
+  },
+  {
+    "id": "380",
+    "name_ru": "Миоплазменный топливный бак II",
+    "name_en": "Myoplasmic Fuel Tank II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "10",
+      "Name": "Миоплазменный топливный бак II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSpeed": "-20",
+      "bonWEnergy": "3",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.380"
+  },
+  {
+    "id": "381",
+    "name_ru": "Миоплазменный двигатель II",
+    "name_en": "Myoplasmic Engine II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "11",
+      "Name": "Миоплазменный двигатель II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSpeed": "-20",
+      "bonWEnergy": "3",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.381"
+  },
+  {
+    "id": "382",
+    "name_ru": "Миоплазменный радар II",
+    "name_en": "Myoplasmic Radar II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "10",
+      "Name": "Миоплазменный радар II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSpeed": "-20",
+      "bonWEnergy": "3",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.382"
+  },
+  {
+    "id": "383",
+    "name_ru": "Миоплазменный сканер II",
+    "name_en": "Myoplasmic Scanner II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "10",
+      "Name": "Миоплазменный сканер II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSpeed": "-20",
+      "bonWEnergy": "3",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.383"
+  },
+  {
+    "id": "384",
+    "name_ru": "Миоплазменный дроид II",
+    "name_en": "Myoplasmic Droid II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "KindGraph": "16",
+      "Name": "Миоплазменный дроид II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSpeed": "-20",
+      "bonWEnergy": "3",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.384"
+  },
+  {
+    "id": "385",
+    "name_ru": "Миоплазменный захват II",
+    "name_en": "Myoplasmic Gripper II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "10",
+      "Name": "Миоплазменный захват II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSpeed": "-20",
+      "bonWEnergy": "3",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.385"
+  },
+  {
+    "id": "386",
+    "name_ru": "Миоплазменный генератор защиты II",
+    "name_en": "Myoplasmic Shield Generator II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "KindGraph": "10",
+      "Name": "Миоплазменный генератор защиты II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSpeed": "-20",
+      "bonWEnergy": "3",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.386"
+  },
+  {
+    "id": "387",
+    "name_ru": "Миоплазменный топливный бак III",
+    "name_en": "Myoplasmic Fuel Tank III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "10",
+      "Name": "Миоплазменный топливный бак III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSpeed": "-30",
+      "bonWEnergy": "5",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.387"
+  },
+  {
+    "id": "388",
+    "name_ru": "Миоплазменный двигатель III",
+    "name_en": "Myoplasmic Engine III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "11",
+      "Name": "Миоплазменный двигатель III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSpeed": "-30",
+      "bonWEnergy": "5",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.388"
+  },
+  {
+    "id": "389",
+    "name_ru": "Миоплазменный радар III",
+    "name_en": "Myoplasmic Radar III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "10",
+      "Name": "Миоплазменный радар III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSpeed": "-30",
+      "bonWEnergy": "5",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.389"
+  },
+  {
+    "id": "390",
+    "name_ru": "Миоплазменный сканер III",
+    "name_en": "Myoplasmic Scanner III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "10",
+      "Name": "Миоплазменный сканер III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSpeed": "-30",
+      "bonWEnergy": "5",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.390"
+  },
+  {
+    "id": "391",
+    "name_ru": "Миоплазменный дроид III",
+    "name_en": "Myoplasmic Droid III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "KindGraph": "16",
+      "Name": "Миоплазменный дроид III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSpeed": "-30",
+      "bonWEnergy": "5",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.391"
+  },
+  {
+    "id": "392",
+    "name_ru": "Миоплазменный захват III",
+    "name_en": "Myoplasmic Gripper III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "10",
+      "Name": "Миоплазменный захват III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSpeed": "-30",
+      "bonWEnergy": "5",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.392"
+  },
+  {
+    "id": "393",
+    "name_ru": "Миоплазменный генератор защиты III",
+    "name_en": "Myoplasmic Shield Generator III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "KindGraph": "10",
+      "Name": "Миоплазменный генератор защиты III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSpeed": "-30",
+      "bonWEnergy": "5",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.393"
+  },
+  {
+    "id": "394",
+    "name_ru": "Пигамарный топливный бак I",
+    "name_en": "Pygamore Fuel Tank I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "11",
+      "Name": "Пигамарный топливный бак I",
+      "Priority": "10",
+      "Special": "1",
+      "bonDef": "-1",
+      "bonRadar": "-50",
+      "bonWMissile": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.394"
+  },
+  {
+    "id": "395",
+    "name_ru": "Пигамарный двигатель I",
+    "name_en": "Pygamore Engine I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "12",
+      "Name": "Пигамарный двигатель I",
+      "Priority": "10",
+      "Special": "1",
+      "bonDef": "-1",
+      "bonRadar": "-50",
+      "bonWMissile": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.395"
+  },
+  {
+    "id": "396",
+    "name_ru": "Пигамарный радар I",
+    "name_en": "Pygamore Radar I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "11",
+      "Name": "Пигамарный радар I",
+      "Priority": "10",
+      "Special": "1",
+      "bonDef": "-1",
+      "bonRadar": "-50",
+      "bonWMissile": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.396"
+  },
+  {
+    "id": "397",
+    "name_ru": "Пигамарный сканер I",
+    "name_en": "Pygamore Scanner I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "11",
+      "Name": "Пигамарный сканер I",
+      "Priority": "10",
+      "Special": "1",
+      "bonDef": "-1",
+      "bonRadar": "-50",
+      "bonWMissile": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.397"
+  },
+  {
+    "id": "398",
+    "name_ru": "Пигамарный дроид I",
+    "name_en": "Pygamore Droid I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "KindGraph": "10",
+      "Name": "Пигамарный дроид I",
+      "Priority": "10",
+      "Special": "1",
+      "bonDef": "-1",
+      "bonRadar": "-50",
+      "bonWMissile": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.398"
+  },
+  {
+    "id": "399",
+    "name_ru": "Пигамарный захват I",
+    "name_en": "Pygamore Gripper I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "11",
+      "Name": "Пигамарный захват I",
+      "Priority": "10",
+      "Special": "1",
+      "bonDef": "-1",
+      "bonRadar": "-50",
+      "bonWMissile": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.399"
+  },
+  {
+    "id": "4",
+    "name_ru": "Ресиз",
+    "name_en": "Resizer",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "FuelTank",
+      "Name": "Ресиз",
+      "Priority": "100",
+      "Size": "120",
+      "bonFuel": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.4"
+  },
+  {
+    "id": "400",
+    "name_ru": "Пигамарный генератор защиты I",
+    "name_en": "Pygamore Shield Generator I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "KindGraph": "11",
+      "Name": "Пигамарный генератор защиты I",
+      "Priority": "10",
+      "Special": "1",
+      "bonDef": "-1",
+      "bonRadar": "-50",
+      "bonWMissile": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.400"
+  },
+  {
+    "id": "401",
+    "name_ru": "Пигамарный топливный бак II",
+    "name_en": "Pygamore Fuel Tank II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "11",
+      "Name": "Пигамарный топливный бак II",
+      "Priority": "30",
+      "Special": "1",
+      "bonDef": "-2",
+      "bonRadar": "-100",
+      "bonWMissile": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.401"
+  },
+  {
+    "id": "402",
+    "name_ru": "Пигамарный двигатель II",
+    "name_en": "Pygamore Engine II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "12",
+      "Name": "Пигамарный двигатель II",
+      "Priority": "30",
+      "Special": "1",
+      "bonDef": "-2",
+      "bonRadar": "-100",
+      "bonWMissile": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.402"
+  },
+  {
+    "id": "403",
+    "name_ru": "Пигамарный радар II",
+    "name_en": "Pygamore Radar II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "11",
+      "Name": "Пигамарный радар II",
+      "Priority": "30",
+      "Special": "1",
+      "bonDef": "-2",
+      "bonRadar": "-100",
+      "bonWMissile": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.403"
+  },
+  {
+    "id": "404",
+    "name_ru": "Пигамарный сканер II",
+    "name_en": "Pygamore Scanner II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "11",
+      "Name": "Пигамарный сканер II",
+      "Priority": "30",
+      "Special": "1",
+      "bonDef": "-2",
+      "bonRadar": "-100",
+      "bonWMissile": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.404"
+  },
+  {
+    "id": "405",
+    "name_ru": "Пигамарный дроид II",
+    "name_en": "Pygamore Droid II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "KindGraph": "10",
+      "Name": "Пигамарный дроид II",
+      "Priority": "30",
+      "Special": "1",
+      "bonDef": "-2",
+      "bonRadar": "-100",
+      "bonWMissile": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.405"
+  },
+  {
+    "id": "406",
+    "name_ru": "Пигамарный захват II",
+    "name_en": "Pygamore Gripper II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "11",
+      "Name": "Пигамарный захват II",
+      "Priority": "30",
+      "Special": "1",
+      "bonDef": "-2",
+      "bonRadar": "-100",
+      "bonWMissile": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.406"
+  },
+  {
+    "id": "407",
+    "name_ru": "Пигамарный генератор защиты II",
+    "name_en": "Pygamore Shield Generator II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "KindGraph": "11",
+      "Name": "Пигамарный генератор защиты II",
+      "Priority": "30",
+      "Special": "1",
+      "bonDef": "-2",
+      "bonRadar": "-100",
+      "bonWMissile": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.407"
+  },
+  {
+    "id": "408",
+    "name_ru": "Пигамарный топливный бак III",
+    "name_en": "Pygamore Fuel Tank III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "11",
+      "Name": "Пигамарный топливный бак III",
+      "Priority": "50",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonRadar": "-250",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.408"
+  },
+  {
+    "id": "409",
+    "name_ru": "Пигамарный двигатель III",
+    "name_en": "Pygamore Engine III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "12",
+      "Name": "Пигамарный двигатель III",
+      "Priority": "50",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonRadar": "-250",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.409"
+  },
+  {
+    "id": "410",
+    "name_ru": "Пигамарный радар III",
+    "name_en": "Pygamore Radar III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "11",
+      "Name": "Пигамарный радар III",
+      "Priority": "50",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonRadar": "-250",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.410"
+  },
+  {
+    "id": "411",
+    "name_ru": "Пигамарный сканер III",
+    "name_en": "Pygamore Scanner III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "11",
+      "Name": "Пигамарный сканер III",
+      "Priority": "50",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonRadar": "-250",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.411"
+  },
+  {
+    "id": "412",
+    "name_ru": "Пигамарный дроид III",
+    "name_en": "Pygamore Droid III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "KindGraph": "10",
+      "Name": "Пигамарный дроид III",
+      "Priority": "50",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonRadar": "-250",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.412"
+  },
+  {
+    "id": "413",
+    "name_ru": "Пигамарный захват III",
+    "name_en": "Pygamore Hook III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "11",
+      "Name": "Пигамарный захват III",
+      "Priority": "50",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonRadar": "-250",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.413"
+  },
+  {
+    "id": "414",
+    "name_ru": "Пигамарный генератор защиты III",
+    "name_en": "Pygamore Shield Generator III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "KindGraph": "11",
+      "Name": "Пигамарный генератор защиты III",
+      "Priority": "50",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonRadar": "-250",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.414"
+  },
+  {
+    "id": "415",
+    "name_ru": "Трансцендентальный двигатель I",
+    "name_en": "Transcendental Engine I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "10",
+      "Name": "Трансцендентальный двигатель I",
+      "Priority": "10",
+      "Special": "1",
+      "bonDef": "2",
+      "bonMass": "10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.415"
+  },
+  {
+    "id": "416",
+    "name_ru": "Трансцендентальный двигатель II",
+    "name_en": "Transcendental Engine II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "10",
+      "Name": "Трансцендентальный двигатель II",
+      "Priority": "30",
+      "Special": "1",
+      "bonDef": "3",
+      "bonMass": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.416"
+  },
+  {
+    "id": "417",
+    "name_ru": "Трансцендентальный двигатель III",
+    "name_en": "Transcendental Engine III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "KindGraph": "10",
+      "Name": "Трансцендентальный двигатель III",
+      "Priority": "50",
+      "Special": "1",
+      "bonDef": "4",
+      "bonMass": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.417"
+  },
+  {
+    "id": "418",
+    "name_ru": "Апгрейтинговый захват I",
+    "name_en": "Upgraded Gripper I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Hook",
+      "Fragility": "110",
+      "KindGraph": "14",
+      "Name": "Апгрейтинговый захват I",
+      "Priority": "10",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "10",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.418"
+  },
+  {
+    "id": "419",
+    "name_ru": "Апгрейтинговый генератор защиты I",
+    "name_en": "Upgraded Shield Generator I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "DefGenerator",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый генератор защиты I",
+      "Priority": "10",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "10",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.419"
+  },
+  {
+    "id": "420",
+    "name_ru": "Апгрейтинговый двигатель I",
+    "name_en": "Upgraded Engine I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Engine",
+      "Fragility": "110",
+      "KindGraph": "14",
+      "Name": "Апгрейтинговый двигатель I",
+      "Priority": "10",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "10",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.420"
+  },
+  {
+    "id": "421",
+    "name_ru": "Апгрейтинговый топливный бак I",
+    "name_en": "Upgraded Fuel Tank I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "FuelTank",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый топливный бак I",
+      "Priority": "10",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "10",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.421"
+  },
+  {
+    "id": "422",
+    "name_ru": "Апгрейтинговый радар I",
+    "name_en": "Upgraded Radar I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Radar",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый радар I",
+      "Priority": "10",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "10",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.422"
+  },
+  {
+    "id": "423",
+    "name_ru": "Апгрейтинговый сканер I",
+    "name_en": "Upgraded Scanner I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Scaner",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый сканер I",
+      "Priority": "10",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "10",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.423"
+  },
+  {
+    "id": "424",
+    "name_ru": "Апгрейтинговый захват II",
+    "name_en": "Upgraded Gripper II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Hook",
+      "Fragility": "110",
+      "KindGraph": "14",
+      "Name": "Апгрейтинговый захват II",
+      "Priority": "30",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "15",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.424"
+  },
+  {
+    "id": "425",
+    "name_ru": "Апгрейтинговый генератор защиты II",
+    "name_en": "Upgraded Shield Generator II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "DefGenerator",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый генератор защиты II",
+      "Priority": "30",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "15",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.425"
+  },
+  {
+    "id": "426",
+    "name_ru": "Апгрейтинговый двигатель II",
+    "name_en": "Upgraded Engine II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Engine",
+      "Fragility": "110",
+      "KindGraph": "14",
+      "Name": "Апгрейтинговый двигатель II",
+      "Priority": "30",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "15",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.426"
+  },
+  {
+    "id": "427",
+    "name_ru": "Апгрейтинговый топливный бак II",
+    "name_en": "Upgraded Fuel Tank II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "FuelTank",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый топливный бак II",
+      "Priority": "30",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "15",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.427"
+  },
+  {
+    "id": "428",
+    "name_ru": "Апгрейтинговый радар II",
+    "name_en": "Upgraded Radar II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Radar",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый радар II",
+      "Priority": "30",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "15",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.428"
+  },
+  {
+    "id": "429",
+    "name_ru": "Апгрейтинговый сканер II",
+    "name_en": "Upgraded Scanner II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Scaner",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый сканер II",
+      "Priority": "30",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "15",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.429"
+  },
+  {
+    "id": "430",
+    "name_ru": "Апгрейтинговый захват III",
+    "name_en": "Upgraded Gripper III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Hook",
+      "Fragility": "110",
+      "KindGraph": "14",
+      "Name": "Апгрейтинговый захват III",
+      "Priority": "50",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "20",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.430"
+  },
+  {
+    "id": "431",
+    "name_ru": "Апгрейтинговый генератор защиты III",
+    "name_en": "Upgraded Shield Generator III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "DefGenerator",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый генератор защиты III",
+      "Priority": "50",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "20",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.431"
+  },
+  {
+    "id": "432",
+    "name_ru": "Апгрейтинговый двигатель III",
+    "name_en": "Upgraded Engine III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Engine",
+      "Fragility": "110",
+      "KindGraph": "14",
+      "Name": "Апгрейтинговый двигатель III",
+      "Priority": "50",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "20",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.432"
+  },
+  {
+    "id": "433",
+    "name_ru": "Апгрейтинговый топливный бак III",
+    "name_en": "Upgraded Fuel Tank III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "FuelTank",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый топливный бак III",
+      "Priority": "50",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "20",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.433"
+  },
+  {
+    "id": "434",
+    "name_ru": "Апгрейтинговый радар III",
+    "name_en": "Upgraded Radar III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Radar",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый радар III",
+      "Priority": "50",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "20",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.434"
+  },
+  {
+    "id": "435",
+    "name_ru": "Апгрейтинговый сканер III",
+    "name_en": "Upgraded Scanner III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "90",
+      "Equipments": "Scaner",
+      "Fragility": "110",
+      "KindGraph": "13",
+      "Name": "Апгрейтинговый сканер III",
+      "Priority": "50",
+      "Size": "85",
+      "Special": "1",
+      "bonHookRadius": "20",
+      "bonSkill2": "1",
+      "bonSkill5": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.435"
+  },
+  {
+    "id": "436",
+    "name_ru": "Биогенный дроид I",
+    "name_en": "Biogenic Droid I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "Fragility": "80",
+      "KindGraph": "14",
+      "Name": "Биогенный дроид I",
+      "Priority": "10",
+      "Special": "1",
+      "bonJump": "2",
+      "bonRadar": "100",
+      "bonScan": "3",
+      "bonSkill3": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.436"
+  },
+  {
+    "id": "437",
+    "name_ru": "Биогенный дроид II",
+    "name_en": "Biogenic Droid II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "Fragility": "80",
+      "KindGraph": "14",
+      "Name": "Биогенный дроид II",
+      "Priority": "30",
+      "Special": "1",
+      "bonJump": "3",
+      "bonRadar": "200",
+      "bonScan": "6",
+      "bonSkill3": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.437"
+  },
+  {
+    "id": "438",
+    "name_ru": "Биогенный дроид III",
+    "name_en": "Biogenic Droid III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "Fragility": "80",
+      "KindGraph": "14",
+      "Name": "Биогенный дроид III",
+      "Priority": "50",
+      "Special": "1",
+      "bonJump": "4",
+      "bonRadar": "300",
+      "bonScan": "9",
+      "bonSkill3": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.438"
+  },
+  {
+    "id": "439",
+    "name_ru": "Нанобролитовый дроид I",
+    "name_en": "Nanobrolite Droid I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "Fragility": "90",
+      "KindGraph": "13",
+      "Name": "Нанобролитовый дроид I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "2",
+      "bonWRadius": "-10",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.439"
+  },
+  {
+    "id": "440",
+    "name_ru": "Нанобролитовый двигатель I",
+    "name_en": "Nanobrolite Engine I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "Fragility": "90",
+      "KindGraph": "13",
+      "Name": "Нанобролитовый двигатель I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "2",
+      "bonWRadius": "-10",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.440"
+  },
+  {
+    "id": "441",
+    "name_ru": "Нанобролитовый генератор защиты I",
+    "name_en": "Nanobrolite Shield Generator I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "Fragility": "90",
+      "KindGraph": "14",
+      "Name": "Нанобролитовый генератор защиты I",
+      "Priority": "10",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "2",
+      "bonWRadius": "-10",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.441"
+  },
+  {
+    "id": "442",
+    "name_ru": "Нанобролитовый дроид II",
+    "name_en": "Nanobrolite Droid II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "Fragility": "90",
+      "KindGraph": "13",
+      "Name": "Нанобролитовый дроид II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "4",
+      "bonWRadius": "-20",
+      "bonWSplinter": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.442"
+  },
+  {
+    "id": "443",
+    "name_ru": "Нанобролитовый двигатель II",
+    "name_en": "Nanobrolite Engine II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "Fragility": "90",
+      "KindGraph": "13",
+      "Name": "Нанобролитовый двигатель II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "4",
+      "bonWRadius": "-20",
+      "bonWSplinter": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.443"
+  },
+  {
+    "id": "444",
+    "name_ru": "Нанобролитовый генератор защиты II",
+    "name_en": "Nanobrolite Shield Generator II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "Fragility": "90",
+      "KindGraph": "14",
+      "Name": "Нанобролитовый генератор защиты II",
+      "Priority": "30",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "4",
+      "bonWRadius": "-20",
+      "bonWSplinter": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.444"
+  },
+  {
+    "id": "445",
+    "name_ru": "Нанобролитовый дроид III",
+    "name_en": "Nanobrolite Droid III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Droid",
+      "Fragility": "90",
+      "KindGraph": "13",
+      "Name": "Нанобролитовый дроид III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "6",
+      "bonWRadius": "-30",
+      "bonWSplinter": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.445"
+  },
+  {
+    "id": "446",
+    "name_ru": "Нанобролитовый двигатель III",
+    "name_en": "Nanobrolite Engine III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Engine",
+      "Fragility": "90",
+      "KindGraph": "13",
+      "Name": "Нанобролитовый двигатель III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "6",
+      "bonWRadius": "-30",
+      "bonWSplinter": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.446"
+  },
+  {
+    "id": "447",
+    "name_ru": "Нанобролитовый генератор защиты III",
+    "name_en": "Nanobrolite Shield Generator III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "DefGenerator",
+      "Fragility": "90",
+      "KindGraph": "14",
+      "Name": "Нанобролитовый генератор защиты III",
+      "Priority": "50",
+      "Special": "1",
+      "bonSkill1": "1",
+      "bonSkill4": "-1",
+      "bonWEnergy": "6",
+      "bonWRadius": "-30",
+      "bonWSplinter": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.447"
+  },
+  {
+    "id": "448",
+    "name_ru": "Ультрасплавный сканер I",
+    "name_en": "Ultraalloy Scanner I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный сканер I",
+      "Priority": "10",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "7",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.448"
+  },
+  {
+    "id": "449",
+    "name_ru": "Ультрасплавный радар I",
+    "name_en": "Ultraalloy Radar I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный радар I",
+      "Priority": "10",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "7",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.449"
+  },
+  {
+    "id": "450",
+    "name_ru": "Ультрасплавный топливный бак I",
+    "name_en": "Ultraalloy Fuel Tank I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный топливный бак I",
+      "Priority": "10",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "7",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.450"
+  },
+  {
+    "id": "451",
+    "name_ru": "Ультрасплавный захват I",
+    "name_en": "Ultraalloy Gripper I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "13",
+      "Name": "Ультрасплавный захват I",
+      "Priority": "10",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "7",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-10"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.451"
+  },
+  {
+    "id": "452",
+    "name_ru": "Ультрасплавный сканер II",
+    "name_en": "Ultraalloy Scanner II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный сканер II",
+      "Priority": "30",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "11",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.452"
+  },
+  {
+    "id": "453",
+    "name_ru": "Ультрасплавный радар II",
+    "name_en": "Ultraalloy Radar II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный радар II",
+      "Priority": "30",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "11",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.453"
+  },
+  {
+    "id": "454",
+    "name_ru": "Ультрасплавный топливный бак II",
+    "name_en": "Ultraalloy Fuel Tank II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный топливный бак II",
+      "Priority": "30",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "11",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.454"
+  },
+  {
+    "id": "455",
+    "name_ru": "Ультрасплавный захват II",
+    "name_en": "Ultraalloy Gripper II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "13",
+      "Name": "Ультрасплавный захват II",
+      "Priority": "30",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "11",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-15"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.455"
+  },
+  {
+    "id": "456",
+    "name_ru": "Ультрасплавный радар III",
+    "name_en": "Ultraalloy Radar III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Radar",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный радар III",
+      "Priority": "50",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "15",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.456"
+  },
+  {
+    "id": "457",
+    "name_ru": "Ультрасплавный топливный бак III",
+    "name_en": "Ultraalloy Fuel Tank III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "FuelTank",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный топливный бак III",
+      "Priority": "50",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "15",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.457"
+  },
+  {
+    "id": "458",
+    "name_ru": "Ультрасплавный захват III",
+    "name_en": "Ultraalloy Gripper III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Hook",
+      "KindGraph": "13",
+      "Name": "Ультрасплавный захват III",
+      "Priority": "50",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "15",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.458"
+  },
+  {
+    "id": "459",
+    "name_ru": "Ультрасплавный сканер III",
+    "name_en": "Ultraalloy Scanner III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "110",
+      "Equipments": "Scaner",
+      "KindGraph": "14",
+      "Name": "Ультрасплавный сканер III",
+      "Priority": "50",
+      "Size": "80",
+      "Special": "1",
+      "bonDroid": "15",
+      "bonSkill1": "-1",
+      "bonSkill3": "1",
+      "bonSpeed": "-20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.459"
+  },
+  {
+    "id": "460",
+    "name_ru": "Корпус \"Добрый лякуша\" I",
+    "name_en": "Kindhearted Lyakusha Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Fragility": "110",
+      "Name": "Корпус \"Добрый лякуша\" I",
+      "Priority": "10",
+      "Size": "110",
+      "Special": "1",
+      "bonSlotArt": "-1",
+      "bonSlotDef": "-1",
+      "bonSlotDroid": "-1",
+      "bonSlotScaner": "-1",
+      "bonSlotWeapon": "-1",
+      "bonWEnergy": "5",
+      "bonWMissile": "4",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.460"
+  },
+  {
+    "id": "461",
+    "name_ru": "Корпус \"Добрый лякуша\" II",
+    "name_en": "Kindhearted Lyakusha Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Fragility": "110",
+      "Name": "Корпус \"Добрый лякуша\" II",
+      "Priority": "30",
+      "Size": "110",
+      "Special": "1",
+      "bonSlotArt": "-1",
+      "bonSlotDroid": "-1",
+      "bonSlotScaner": "-1",
+      "bonWEnergy": "7",
+      "bonWMissile": "8",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.461"
+  },
+  {
+    "id": "462",
+    "name_ru": "Корпус \"Добрый лякуша\" III",
+    "name_en": "Kindhearted Lyakusha Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Fragility": "110",
+      "Name": "Корпус \"Добрый лякуша\" III",
+      "Priority": "50",
+      "Size": "110",
+      "Special": "1",
+      "bonSlotArt": "-1",
+      "bonSlotScaner": "-1",
+      "bonWEnergy": "10",
+      "bonWMissile": "12",
+      "bonWSplinter": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.462"
+  },
+  {
+    "id": "463",
+    "name_ru": "Корпус \"Добрый лякуша\" IV",
+    "name_en": "Kindhearted Lyakusha Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Fragility": "110",
+      "Name": "Корпус \"Добрый лякуша\" IV",
+      "Priority": "70",
+      "Size": "110",
+      "Special": "1",
+      "bonWEnergy": "7",
+      "bonWMissile": "8",
+      "bonWSplinter": "6"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.463"
+  },
+  {
+    "id": "464",
+    "name_ru": "Корпус \"Мирный корсар\" I",
+    "name_en": "Peaceful Corsair Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Мирный корсар\" I",
+      "Priority": "10",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "3",
+      "bonHull": "1",
+      "bonSkill1": "-1",
+      "bonSkill3": "-1",
+      "bonSlotArt": "-2",
+      "bonSlotDroid": "-1",
+      "bonSlotForsage": "-1",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.464"
+  },
+  {
+    "id": "465",
+    "name_ru": "Корпус \"Мирный корсар\" II",
+    "name_en": "Peaceful Corsair Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Мирный корсар\" II",
+      "Priority": "30",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "6",
+      "bonHull": "2",
+      "bonSkill1": "-1",
+      "bonSkill3": "-1",
+      "bonSlotArt": "-2",
+      "bonSlotForsage": "-1",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.465"
+  },
+  {
+    "id": "466",
+    "name_ru": "Корпус \"Мирный корсар\" III",
+    "name_en": "Peaceful Corsair Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Мирный корсар\" III",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "9",
+      "bonHull": "3",
+      "bonSkill1": "-1",
+      "bonSkill3": "-1",
+      "bonSlotArt": "-1",
+      "bonSlotForsage": "-1",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.466"
+  },
+  {
+    "id": "467",
+    "name_ru": "Корпус \"Мирный корсар\" IV",
+    "name_en": "Peaceful Corsair Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Мирный корсар\" IV",
+      "Priority": "70",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "6",
+      "bonHull": "2",
+      "bonSkill1": "-1",
+      "bonSkill3": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.467"
+  },
+  {
+    "id": "468",
+    "name_ru": "Корпус \"Честный ренегал\" I",
+    "name_en": "Conscientious Renegal Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Fragility": "90",
+      "Name": "Корпус \"Честный ренегал\" I",
+      "Priority": "10",
+      "Size": "100",
+      "Special": "1",
+      "bonHookRadius": "10",
+      "bonJump": "3",
+      "bonMass": "-10",
+      "bonSkill4": "-3",
+      "bonSlotArt": "-2",
+      "bonSlotScaner": "-1",
+      "bonSlotWeapon": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.468"
+  },
+  {
+    "id": "469",
+    "name_ru": "Корпус \"Честный ренегал\" II",
+    "name_en": "Conscientious Renegal Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Fragility": "90",
+      "Name": "Корпус \"Честный ренегал\" II",
+      "Priority": "30",
+      "Size": "100",
+      "Special": "1",
+      "bonHookRadius": "20",
+      "bonJump": "5",
+      "bonMass": "-20",
+      "bonSkill4": "-3",
+      "bonSlotArt": "-2",
+      "bonSlotScaner": "-1",
+      "bonSlotWeapon": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.469"
+  },
+  {
+    "id": "470",
+    "name_ru": "Корпус \"Честный ренегал\" III",
+    "name_en": "Conscientious Renegal Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Fragility": "90",
+      "Name": "Корпус \"Честный ренегал\" III",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonHookRadius": "30",
+      "bonJump": "7",
+      "bonMass": "-30",
+      "bonSkill4": "-3",
+      "bonSlotArt": "-2",
+      "bonSlotScaner": "-1",
+      "bonSlotWeapon": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.470"
+  },
+  {
+    "id": "471",
+    "name_ru": "Корпус \"Честный ренегал\" IV",
+    "name_en": "Conscientious Renegal Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Fragility": "90",
+      "Name": "Корпус \"Честный ренегал\" IV",
+      "Priority": "70",
+      "Size": "100",
+      "Special": "1",
+      "bonHookRadius": "20",
+      "bonJump": "5",
+      "bonMass": "-20",
+      "bonSkill4": "-3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.471"
+  },
+  {
+    "id": "472",
+    "name_ru": "Корпус \"Молния\" I",
+    "name_en": "Dandy Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Fragility": "120",
+      "Name": "Корпус \"Молния\" I",
+      "Priority": "10",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "-3",
+      "bonJump": "4",
+      "bonRadar": "100",
+      "bonSlotArt": "-1",
+      "bonSlotDef": "-1",
+      "bonSlotDroid": "-1",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.472"
+  },
+  {
+    "id": "473",
+    "name_ru": "Корпус \"Молния\" II",
+    "name_en": "Dandy Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Fragility": "120",
+      "Name": "Корпус \"Молния\" II",
+      "Priority": "30",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "-4",
+      "bonJump": "8",
+      "bonRadar": "150",
+      "bonSlotDef": "-1",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.473"
+  },
+  {
+    "id": "474",
+    "name_ru": "Корпус \"Молния\" III",
+    "name_en": "Dandy Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Fragility": "120",
+      "Name": "Корпус \"Молния\" III",
+      "Priority": "50",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "-6",
+      "bonJump": "12",
+      "bonRadar": "200",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.474"
+  },
+  {
+    "id": "475",
+    "name_ru": "Корпус \"Молния\" IV",
+    "name_en": "Dandy Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Fragility": "120",
+      "Name": "Корпус \"Молния\" IV",
+      "Priority": "70",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "-4",
+      "bonJump": "8",
+      "bonRadar": "150"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.475"
+  },
+  {
+    "id": "476",
+    "name_ru": "Корпус \"Броненосец\" I",
+    "name_en": "Ironclad Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Броненосец\" I",
+      "Priority": "10",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "3",
+      "bonSkill2": "-2",
+      "bonSlotArt": "-3",
+      "bonSlotForsage": "-1",
+      "bonSlotScaner": "-1",
+      "bonSlotWeapon": "-1",
+      "bonSpeed": "-50",
+      "bonWEnergy": "2",
+      "bonWSplinter": "1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.476"
+  },
+  {
+    "id": "477",
+    "name_ru": "Корпус \"Броненосец\" II",
+    "name_en": "Ironclad Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Броненосец\" II",
+      "Priority": "30",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "4",
+      "bonSkill2": "-2",
+      "bonSlotArt": "-3",
+      "bonSlotForsage": "-1",
+      "bonSlotWeapon": "-1",
+      "bonSpeed": "-75",
+      "bonWEnergy": "4",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.477"
+  },
+  {
+    "id": "478",
+    "name_ru": "Корпус \"Броненосец\" III",
+    "name_en": "Ironclad Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Броненосец\" III",
+      "Priority": "50",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "6",
+      "bonSkill2": "-2",
+      "bonSlotArt": "-2",
+      "bonSlotForsage": "-1",
+      "bonSlotWeapon": "-1",
+      "bonSpeed": "-100",
+      "bonWEnergy": "6",
+      "bonWSplinter": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.478"
+  },
+  {
+    "id": "479",
+    "name_ru": "Корпус \"Броненосец\" IV",
+    "name_en": "Ironclad Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Броненосец\" IV",
+      "Priority": "70",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "4",
+      "bonSkill2": "-2",
+      "bonSpeed": "-75",
+      "bonWEnergy": "4",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.479"
+  },
+  {
+    "id": "480",
+    "name_ru": "Корпус \"Ушастик\" I",
+    "name_en": "Dumbo Hull I",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "Hull",
+      "Fragility": "80",
+      "Name": "Корпус \"Ушастик\" I",
+      "Priority": "10",
+      "Size": "90",
+      "Special": "1",
+      "bonSkill5": "3",
+      "bonSlotArt": "-2",
+      "bonSlotWeapon": "-2",
+      "bonWMissile": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.480"
+  },
+  {
+    "id": "481",
+    "name_ru": "Корпус \"Ушастик\" II",
+    "name_en": "Dumbo Hull II",
+    "kind": "definition",
+    "facts": {
+      "Cost": "300",
+      "Equipments": "Hull",
+      "Fragility": "80",
+      "Name": "Корпус \"Ушастик\" II",
+      "Priority": "30",
+      "Size": "90",
+      "Special": "1",
+      "bonSkill5": "3",
+      "bonSlotArt": "-2",
+      "bonSlotWeapon": "-1",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.481"
+  },
+  {
+    "id": "482",
+    "name_ru": "Корпус \"Ушастик\" III",
+    "name_en": "Dumbo Hull III",
+    "kind": "definition",
+    "facts": {
+      "Cost": "400",
+      "Equipments": "Hull",
+      "Fragility": "80",
+      "Name": "Корпус \"Ушастик\" III",
+      "Priority": "50",
+      "Size": "90",
+      "Special": "1",
+      "bonSkill5": "3",
+      "bonSlotArt": "-1",
+      "bonSlotWeapon": "-1",
+      "bonWMissile": "12"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.482"
+  },
+  {
+    "id": "483",
+    "name_ru": "Корпус \"Ушастик\" IV",
+    "name_en": "Dumbo Hull IV",
+    "kind": "definition",
+    "facts": {
+      "Cost": "500",
+      "Equipments": "Hull",
+      "Fragility": "80",
+      "Name": "Корпус \"Ушастик\" IV",
+      "Priority": "70",
+      "Size": "90",
+      "Special": "1",
+      "bonSkill5": "3",
+      "bonWMissile": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.483"
+  },
+  {
+    "id": "484",
+    "name_ru": "Корпус \"Добрейший лякуша\"",
+    "name_en": "Benevolent Lyakusha Hull",
+    "kind": "definition",
+    "facts": {
+      "Cost": "600",
+      "Equipments": "Hull",
+      "Fragility": "110",
+      "Name": "Корпус \"Добрейший лякуша\"",
+      "Priority": "50",
+      "Size": "110",
+      "Special": "1",
+      "bonWEnergy": "14",
+      "bonWMissile": "20",
+      "bonWSplinter": "12"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.484"
+  },
+  {
+    "id": "485",
+    "name_ru": "Корпус \"Безобиднейший корсар\"",
+    "name_en": "Pacifist Corsair Hull",
+    "kind": "definition",
+    "facts": {
+      "Cost": "600",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Безобиднейший корсар\"",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonDef": "10",
+      "bonHull": "4",
+      "bonSkill1": "-1",
+      "bonSkill3": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.485"
+  },
+  {
+    "id": "486",
+    "name_ru": "Корпус \"Честнейший ренегал\"",
+    "name_en": "Honest Renegal Hull",
+    "kind": "definition",
+    "facts": {
+      "Cost": "600",
+      "Equipments": "Hull",
+      "Fragility": "90",
+      "Name": "Корпус \"Честнейший ренегал\"",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonHookRadius": "50",
+      "bonJump": "13",
+      "bonMass": "-50",
+      "bonSkill4": "-3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.486"
+  },
+  {
+    "id": "487",
+    "name_ru": "Корпус \"Молния\" V",
+    "name_en": "Dandy Hull V",
+    "kind": "definition",
+    "facts": {
+      "Cost": "600",
+      "Equipments": "Hull",
+      "Fragility": "120",
+      "Name": "Корпус \"Молния\" V",
+      "Priority": "50",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "-12",
+      "bonJump": "20",
+      "bonRadar": "400"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.487"
+  },
+  {
+    "id": "488",
+    "name_ru": "Корпус \"Броненосец\" V",
+    "name_en": "Ironclad Hull V",
+    "kind": "definition",
+    "facts": {
+      "Cost": "600",
+      "Equipments": "Hull",
+      "Name": "Корпус \"Броненосец\" V",
+      "Priority": "50",
+      "Size": "130",
+      "Special": "1",
+      "bonDef": "12",
+      "bonSkill2": "-2",
+      "bonSpeed": "-200",
+      "bonWEnergy": "8",
+      "bonWSplinter": "9"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.488"
+  },
+  {
+    "id": "489",
+    "name_ru": "Корпус \"Ушастик\" V",
+    "name_en": "Dumbo Hull V",
+    "kind": "definition",
+    "facts": {
+      "Cost": "600",
+      "Equipments": "Hull",
+      "Fragility": "80",
+      "Name": "Корпус \"Ушастик\" V",
+      "Priority": "50",
+      "Size": "90",
+      "Special": "1",
+      "bonSkill5": "3",
+      "bonWMissile": "20"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.489"
+  },
+  {
+    "id": "490",
+    "name_ru": "Тень Империи",
+    "name_en": "Shadow of the Empire",
+    "kind": "definition",
+    "facts": {
+      "Cost": "100",
+      "Equipments": "Hull",
+      "HullGraphSize": "200",
+      "Name": "Тень Империи",
+      "Priority": "50",
+      "Size": "100",
+      "Special": "1",
+      "bonHull": "4",
+      "bonSkill1": "2",
+      "bonSkill2": "2",
+      "bonSkill5": "-2",
+      "bonSkill6": "2",
+      "bonSlotForsage": "-1",
+      "bonSlotWeapon": "-2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.490"
+  },
+  {
+    "id": "491",
+    "name_ru": "Гибридный дроид",
+    "name_en": "Hybrid Droid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "100",
+      "Equipments": "Droid",
+      "KindGraph": "15",
+      "Name": "Гибридный дроид",
+      "Priority": "100",
+      "Special": "1",
+      "bonDroid": "8",
+      "bonHull": "2",
+      "bonJump": "3",
+      "bonSpeed": "50",
+      "bonWEnergy": "3",
+      "bonWMissile": "12",
+      "bonWRadius": "20",
+      "bonWSplinter": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.491"
+  },
+  {
+    "id": "492",
+    "name_ru": "Гибридный дроид",
+    "name_en": "Hybrid Droid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "100",
+      "Equipments": "Droid",
+      "KindGraph": "15",
+      "Name": "Гибридный дроид",
+      "Priority": "100",
+      "Special": "1",
+      "bonDroid": "12",
+      "bonHull": "3",
+      "bonWEnergy": "4",
+      "bonWMissile": "16",
+      "bonWRadius": "30",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.492"
+  },
+  {
+    "id": "493",
+    "name_ru": "Гибридный дроид",
+    "name_en": "Hybrid Droid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "100",
+      "Equipments": "Droid",
+      "KindGraph": "15",
+      "Name": "Гибридный дроид",
+      "Priority": "100",
+      "Special": "1",
+      "bonJump": "4",
+      "bonSpeed": "75",
+      "bonWEnergy": "4",
+      "bonWMissile": "16",
+      "bonWRadius": "30",
+      "bonWSplinter": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.493"
+  },
+  {
+    "id": "494",
+    "name_ru": "Гибридный дроид",
+    "name_en": "Hybrid Droid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "100",
+      "Equipments": "Droid",
+      "KindGraph": "15",
+      "Name": "Гибридный дроид",
+      "Priority": "100",
+      "Special": "1",
+      "bonDroid": "12",
+      "bonHull": "3",
+      "bonJump": "4",
+      "bonSpeed": "75"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.494"
+  },
+  {
+    "id": "495",
+    "name_ru": "Гибридный дроид",
+    "name_en": "Hybrid Droid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "100",
+      "Equipments": "Droid",
+      "KindGraph": "15",
+      "Name": "Гибридный дроид",
+      "Priority": "100",
+      "Special": "1",
+      "bonWEnergy": "5",
+      "bonWMissile": "20",
+      "bonWRadius": "40",
+      "bonWSplinter": "5"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.495"
+  },
+  {
+    "id": "496",
+    "name_ru": "Гибридный дроид",
+    "name_en": "Hybrid Droid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "100",
+      "Equipments": "Droid",
+      "KindGraph": "15",
+      "Name": "Гибридный дроид",
+      "Priority": "100",
+      "Special": "1",
+      "bonDroid": "16",
+      "bonHull": "4"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.496"
+  },
+  {
+    "id": "497",
+    "name_ru": "Гибридный дроид",
+    "name_en": "Hybrid Droid",
+    "kind": "definition",
+    "facts": {
+      "Cost": "100",
+      "Equipments": "Droid",
+      "KindGraph": "15",
+      "Name": "Гибридный дроид",
+      "Priority": "100",
+      "Special": "1",
+      "bonJump": "5",
+      "bonSpeed": "100"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.497"
+  },
+  {
+    "id": "498",
+    "name_ru": "Акринатор",
+    "name_en": "Acrynator",
+    "kind": "definition",
+    "facts": {
+      "Cost": "200",
+      "Equipments": "FuelTank,Engine,Radar,Scaner,Droid,Hook,DefGenerator",
+      "Name": "Акринатор",
+      "Priority": "0",
+      "Size": "200",
+      "Special": "1",
+      "bonExtraAkrinEff": "200",
+      "bonExtraAkrinPenalty": "-100"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.498"
+  },
+  {
+    "id": "5",
+    "name_ru": "Поточный",
+    "name_en": "Inliner",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Scaner",
+      "Name": "Поточный",
+      "Priority": "100",
+      "bonScan": "3"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.5"
+  },
+  {
+    "id": "500",
+    "name_ru": "\"Дифрод\"",
+    "name_en": "Diphrode",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W01",
+      "Name": "\"Дифрод\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.500"
+  },
+  {
+    "id": "501",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W01",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.501"
+  },
+  {
+    "id": "502",
+    "name_ru": "\"Адроптер\"",
+    "name_en": "Adropter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W01",
+      "Name": "\"Адроптер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.502"
+  },
+  {
+    "id": "503",
+    "name_ru": "\"Стилермейн\"",
+    "name_en": "Stylermain",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W02",
+      "Name": "\"Стилермейн\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.503"
+  },
+  {
+    "id": "504",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W02",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.504"
+  },
+  {
+    "id": "505",
+    "name_ru": "\"Инвейтер\"",
+    "name_en": "Inveiter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W02",
+      "Name": "\"Инвейтер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.505"
+  },
+  {
+    "id": "506",
+    "name_ru": "\"Дифрод\"",
+    "name_en": "Diphrode",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W03",
+      "Name": "\"Дифрод\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.506"
+  },
+  {
+    "id": "507",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W03",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.507"
+  },
+  {
+    "id": "508",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W03",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.508"
+  },
+  {
+    "id": "509",
+    "name_ru": "\"Армолок\"",
+    "name_en": "Armoloc",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W03",
+      "Name": "\"Армолок\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "4",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.509"
+  },
+  {
+    "id": "510",
+    "name_ru": "\"Дифрод\"",
+    "name_en": "Diphrode",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W04",
+      "Name": "\"Дифрод\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.510"
+  },
+  {
+    "id": "511",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W04",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.511"
+  },
+  {
+    "id": "512",
+    "name_ru": "\"Адроптер\"",
+    "name_en": "Adropter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W04",
+      "Name": "\"Адроптер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.512"
+  },
+  {
+    "id": "513",
+    "name_ru": "\"Инвейтер\"",
+    "name_en": "Inveiter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W04",
+      "Name": "\"Инвейтер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "4",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.513"
+  },
+  {
+    "id": "514",
+    "name_ru": "\"Армолок\"",
+    "name_en": "Armoloc",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W05",
+      "Name": "\"Армолок\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.514"
+  },
+  {
+    "id": "515",
+    "name_ru": "\"Адроптер\"",
+    "name_en": "Adropter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W05",
+      "Name": "\"Адроптер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.515"
+  },
+  {
+    "id": "516",
+    "name_ru": "\"Стилермейн\"",
+    "name_en": "Stylermain",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W05",
+      "Name": "\"Стилермейн\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.516"
+  },
+  {
+    "id": "517",
+    "name_ru": "\"Армолок\"",
+    "name_en": "Armoloc",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W06",
+      "Name": "\"Армолок\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.517"
+  },
+  {
+    "id": "518",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W06",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.518"
+  },
+  {
+    "id": "519",
+    "name_ru": "\"Стилермейн\"",
+    "name_en": "Stylermain",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W06",
+      "Name": "\"Стилермейн\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.519"
+  },
+  {
+    "id": "520",
+    "name_ru": "\"Дифрод\"",
+    "name_en": "Diphrode",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W07",
+      "Name": "\"Дифрод\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.520"
+  },
+  {
+    "id": "521",
+    "name_ru": "\"Армолок\"",
+    "name_en": "Armoloc",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W07",
+      "Name": "\"Армолок\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.521"
+  },
+  {
+    "id": "522",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W07",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.522"
+  },
+  {
+    "id": "523",
+    "name_ru": "\"Армолок\"",
+    "name_en": "Armoloc",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W08",
+      "Name": "\"Армолок\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.523"
+  },
+  {
+    "id": "524",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W08",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.524"
+  },
+  {
+    "id": "525",
+    "name_ru": "\"Инвейтер\"",
+    "name_en": "Inveiter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W08",
+      "Name": "\"Инвейтер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.525"
+  },
+  {
+    "id": "526",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W09",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.526"
+  },
+  {
+    "id": "527",
+    "name_ru": "\"Армолок\"",
+    "name_en": "Armoloc",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W09",
+      "Name": "\"Армолок\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.527"
+  },
+  {
+    "id": "528",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W09",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.528"
+  },
+  {
+    "id": "529",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W10",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.529"
+  },
+  {
+    "id": "530",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W10",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.530"
+  },
+  {
+    "id": "531",
+    "name_ru": "\"Дифрод\"",
+    "name_en": "Diphrode",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W11",
+      "Name": "\"Дифрод\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.531"
+  },
+  {
+    "id": "532",
+    "name_ru": "\"Армолок\"",
+    "name_en": "Armoloc",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W11",
+      "Name": "\"Армолок\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.532"
+  },
+  {
+    "id": "533",
+    "name_ru": "\"Адроптер\"",
+    "name_en": "Adropter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W11",
+      "Name": "\"Адроптер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.533"
+  },
+  {
+    "id": "534",
+    "name_ru": "\"Дифрод\"",
+    "name_en": "Diphrode",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W12",
+      "Name": "\"Дифрод\"",
+      "OnPlanets": "1",
+      "Owner": "Maloc,Peleng,People,Fei,Gaal",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.534"
+  },
+  {
+    "id": "535",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W12",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.535"
+  },
+  {
+    "id": "536",
+    "name_ru": "\"Инвейтер\"",
+    "name_en": "Inveiter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W12",
+      "Name": "\"Инвейтер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.536"
+  },
+  {
+    "id": "537",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W16",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.537"
+  },
+  {
+    "id": "538",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W16",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.538"
+  },
+  {
+    "id": "539",
+    "name_ru": "\"Инвейтер\"",
+    "name_en": "Inveiter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W16",
+      "Name": "\"Инвейтер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.539"
+  },
+  {
+    "id": "540",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W17",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "1",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.540"
+  },
+  {
+    "id": "541",
+    "name_ru": "\"Джавитор\"",
+    "name_en": "Javitor",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W17",
+      "Name": "\"Джавитор\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.541"
+  },
+  {
+    "id": "542",
+    "name_ru": "\"Стилермейн\"",
+    "name_en": "Stylermain",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W17",
+      "Name": "\"Стилермейн\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.542"
+  },
+  {
+    "id": "543",
+    "name_ru": "\"Лифокар\"",
+    "name_en": "Liphocarus",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W18",
+      "Name": "\"Лифокар\"",
+      "OnPlanets": "1",
+      "Priority": "10",
+      "ShotVisual": "2",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.543"
+  },
+  {
+    "id": "544",
+    "name_ru": "\"Адроптер\"",
+    "name_en": "Adropter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W18",
+      "Name": "\"Адроптер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "3",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.544"
+  },
+  {
+    "id": "545",
+    "name_ru": "\"Инвейтер\"",
+    "name_en": "Inveiter",
+    "kind": "definition",
+    "facts": {
+      "Cost": "120",
+      "Equipments": "W18",
+      "Name": "\"Инвейтер\"",
+      "OnPlanets": "1",
+      "Owner": "PirateClan",
+      "Priority": "10",
+      "ShotVisual": "4",
+      "Size": "110",
+      "Special": "1",
+      "bonScan": "-1"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.545"
+  },
+  {
+    "id": "6",
+    "name_ru": "Антент",
+    "name_en": "Antent",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Radar,Scaner",
+      "Name": "Антент",
+      "Priority": "100",
+      "bonRadar": "210",
+      "bonScan": "2"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.6"
+  },
+  {
+    "id": "7",
+    "name_ru": "Боттер",
+    "name_en": "Botter",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Droid",
+      "Fragility": "60",
+      "Name": "Боттер",
+      "Owner": "Fei",
+      "Priority": "70",
+      "bonDroid": "8"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.7"
+  },
+  {
+    "id": "8",
+    "name_ru": "Дальномет",
+    "name_en": "Farshooter",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "WEnergy,WSplinter,WMissile",
+      "Name": "Дальномет",
+      "Priority": "100",
+      "bonWRadius": "25"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.8"
+  },
+  {
+    "id": "9",
+    "name_ru": "Вихрь",
+    "name_en": "Vortex",
+    "kind": "definition",
+    "facts": {
+      "Equipments": "Engine",
+      "Name": "Вихрь",
+      "Owner": "People",
+      "Priority": "90",
+      "bonJump": "3",
+      "bonSpeed": "30"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls.9"
+  }
+]

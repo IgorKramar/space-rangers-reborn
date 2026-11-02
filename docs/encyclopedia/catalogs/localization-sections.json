@@ -1,0 +1,520 @@
+[
+  {
+    "id": "ABMap",
+    "children": 16,
+    "leaf_parameters": 96,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ABMap"
+  },
+  {
+    "id": "Achievements",
+    "children": 86,
+    "leaf_parameters": 168,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Achievements"
+  },
+  {
+    "id": "Artefacts",
+    "children": 36,
+    "leaf_parameters": 257,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts"
+  },
+  {
+    "id": "Asteroid",
+    "children": 6,
+    "leaf_parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Asteroid"
+  },
+  {
+    "id": "BV",
+    "children": 1,
+    "leaf_parameters": 1,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "BV"
+  },
+  {
+    "id": "CaseConv",
+    "children": 59,
+    "leaf_parameters": 59,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "CaseConv"
+  },
+  {
+    "id": "Cheat",
+    "children": 15,
+    "leaf_parameters": 17,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Cheat"
+  },
+  {
+    "id": "Constellations",
+    "children": 1,
+    "leaf_parameters": 20,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Constellations"
+  },
+  {
+    "id": "Economy",
+    "children": 2,
+    "leaf_parameters": 6,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Economy"
+  },
+  {
+    "id": "FormAB",
+    "children": 16,
+    "leaf_parameters": 16,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormAB"
+  },
+  {
+    "id": "FormAbout",
+    "children": 9,
+    "leaf_parameters": 662,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormAbout"
+  },
+  {
+    "id": "FormCfgSettings",
+    "children": 183,
+    "leaf_parameters": 183,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormCfgSettings"
+  },
+  {
+    "id": "FormGS",
+    "children": 29,
+    "leaf_parameters": 29,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormGS"
+  },
+  {
+    "id": "FormGalaxy",
+    "children": 26,
+    "leaf_parameters": 30,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormGalaxy"
+  },
+  {
+    "id": "FormGameEnd",
+    "children": 29,
+    "leaf_parameters": 29,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormGameEnd"
+  },
+  {
+    "id": "FormGameMenu",
+    "children": 8,
+    "leaf_parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormGameMenu"
+  },
+  {
+    "id": "FormGameSet2",
+    "children": 8,
+    "leaf_parameters": 258,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormGameSet2"
+  },
+  {
+    "id": "FormGov",
+    "children": 35,
+    "leaf_parameters": 132,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormGov"
+  },
+  {
+    "id": "FormHangar",
+    "children": 7,
+    "leaf_parameters": 28,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormHangar"
+  },
+  {
+    "id": "FormInfo",
+    "children": 158,
+    "leaf_parameters": 204,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormInfo"
+  },
+  {
+    "id": "FormIntroduction",
+    "children": 9,
+    "leaf_parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormIntroduction"
+  },
+  {
+    "id": "FormLoadAB",
+    "children": 5,
+    "leaf_parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormLoadAB"
+  },
+  {
+    "id": "FormLoadQuest",
+    "children": 11,
+    "leaf_parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormLoadQuest"
+  },
+  {
+    "id": "FormLoadRobot",
+    "children": 23,
+    "leaf_parameters": 23,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormLoadRobot"
+  },
+  {
+    "id": "FormMain",
+    "children": 16,
+    "leaf_parameters": 17,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormMain"
+  },
+  {
+    "id": "FormMods",
+    "children": 34,
+    "leaf_parameters": 36,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormMods"
+  },
+  {
+    "id": "FormPQuest",
+    "children": 8,
+    "leaf_parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormPQuest"
+  },
+  {
+    "id": "FormPlanetNO",
+    "children": 9,
+    "leaf_parameters": 9,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormPlanetNO"
+  },
+  {
+    "id": "FormRating",
+    "children": 32,
+    "leaf_parameters": 35,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormRating"
+  },
+  {
+    "id": "FormRewards",
+    "children": 1,
+    "leaf_parameters": 1,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormRewards"
+  },
+  {
+    "id": "FormRuins",
+    "children": 14,
+    "leaf_parameters": 1075,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormRuins"
+  },
+  {
+    "id": "FormRuinsRC",
+    "children": 2,
+    "leaf_parameters": 49,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormRuinsRC"
+  },
+  {
+    "id": "FormRuinsSB",
+    "children": 2,
+    "leaf_parameters": 11,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormRuinsSB"
+  },
+  {
+    "id": "FormSaveManager",
+    "children": 22,
+    "leaf_parameters": 22,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormSaveManager"
+  },
+  {
+    "id": "FormScore",
+    "children": 53,
+    "leaf_parameters": 74,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormScore"
+  },
+  {
+    "id": "FormShip",
+    "children": 94,
+    "leaf_parameters": 105,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormShip"
+  },
+  {
+    "id": "FormShop",
+    "children": 7,
+    "leaf_parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "FormShop"
+  },
+  {
+    "id": "GalaxyNews",
+    "children": 19,
+    "leaf_parameters": 225,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "GalaxyNews"
+  },
+  {
+    "id": "GovGreetings",
+    "children": 118,
+    "leaf_parameters": 987,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "GovGreetings"
+  },
+  {
+    "id": "Goverment",
+    "children": 1,
+    "leaf_parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Goverment"
+  },
+  {
+    "id": "Help",
+    "children": 74,
+    "leaf_parameters": 74,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Help"
+  },
+  {
+    "id": "HullType",
+    "children": 92,
+    "leaf_parameters": 1458,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "HullType"
+  },
+  {
+    "id": "Illness",
+    "children": 3,
+    "leaf_parameters": 102,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness"
+  },
+  {
+    "id": "Investment",
+    "children": 11,
+    "leaf_parameters": 64,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Investment"
+  },
+  {
+    "id": "Items",
+    "children": 16,
+    "leaf_parameters": 543,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Items"
+  },
+  {
+    "id": "MicroModuls",
+    "children": 276,
+    "leaf_parameters": 3799,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "MicroModuls"
+  },
+  {
+    "id": "Month",
+    "children": 12,
+    "leaf_parameters": 12,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Month"
+  },
+  {
+    "id": "Planet",
+    "children": 5,
+    "leaf_parameters": 37,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Planet"
+  },
+  {
+    "id": "PlanetCongratulations",
+    "children": 7,
+    "leaf_parameters": 49,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetCongratulations"
+  },
+  {
+    "id": "PlanetName",
+    "children": 8,
+    "leaf_parameters": 663,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetName"
+  },
+  {
+    "id": "PlanetQuest",
+    "children": 4,
+    "leaf_parameters": 785,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "PlanetQuest"
+  },
+  {
+    "id": "Programms",
+    "children": 14,
+    "leaf_parameters": 40,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms"
+  },
+  {
+    "id": "Quest",
+    "children": 11,
+    "leaf_parameters": 2436,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Quest"
+  },
+  {
+    "id": "Race",
+    "children": 1,
+    "leaf_parameters": 8,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Race"
+  },
+  {
+    "id": "RangerInfo",
+    "children": 1,
+    "leaf_parameters": 3,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RangerInfo"
+  },
+  {
+    "id": "Rank",
+    "children": 10,
+    "leaf_parameters": 26,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Rank"
+  },
+  {
+    "id": "RankPirate",
+    "children": 10,
+    "leaf_parameters": 26,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RankPirate"
+  },
+  {
+    "id": "Relations",
+    "children": 1,
+    "leaf_parameters": 5,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Relations"
+  },
+  {
+    "id": "Reward",
+    "children": 49,
+    "leaf_parameters": 248,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Reward"
+  },
+  {
+    "id": "RobotsMap",
+    "children": 74,
+    "leaf_parameters": 1826,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RobotsMap"
+  },
+  {
+    "id": "RuinName",
+    "children": 7,
+    "leaf_parameters": 336,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "RuinName"
+  },
+  {
+    "id": "Script",
+    "children": 40,
+    "leaf_parameters": 1915,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Script"
+  },
+  {
+    "id": "ShipCharacter",
+    "children": 15,
+    "leaf_parameters": 15,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ShipCharacter"
+  },
+  {
+    "id": "ShipCharacterFemale",
+    "children": 1,
+    "leaf_parameters": 1,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ShipCharacterFemale"
+  },
+  {
+    "id": "ShipGreetings",
+    "children": 257,
+    "leaf_parameters": 2747,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ShipGreetings"
+  },
+  {
+    "id": "ShipInfo",
+    "children": 2,
+    "leaf_parameters": 17,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ShipInfo"
+  },
+  {
+    "id": "ShipName",
+    "children": 5,
+    "leaf_parameters": 1803,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ShipName"
+  },
+  {
+    "id": "ShipType",
+    "children": 8,
+    "leaf_parameters": 89,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "ShipType"
+  },
+  {
+    "id": "Skills",
+    "children": 7,
+    "leaf_parameters": 19,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Skills"
+  },
+  {
+    "id": "Star",
+    "children": 73,
+    "leaf_parameters": 73,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Star"
+  },
+  {
+    "id": "Talk",
+    "children": 25,
+    "leaf_parameters": 2392,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Talk"
+  },
+  {
+    "id": "Tips",
+    "children": 19,
+    "leaf_parameters": 32,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Tips"
+  },
+  {
+    "id": "UselessItems",
+    "children": 158,
+    "leaf_parameters": 789,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "UselessItems"
+  },
+  {
+    "id": "Warning",
+    "children": 7,
+    "leaf_parameters": 7,
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Warning"
+  }
+]

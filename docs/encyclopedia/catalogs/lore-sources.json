@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "title": "Интернет-источники лора Космических Рейнджеров",
+  "compiledBy": "Igor Kramar",
+  "accessDate": "2026-11-02",
+  "scope": "Веб-источники для сверки с установленной HD и исходниками; не перечень всех файлов игры",
+  "sourcePriority": [
+    "installed_game_text_and_scripts",
+    "primary_official_edition_specific",
+    "primary_developer_or_author",
+    "secondary_with_provenance",
+    "unverified_lead"
+  ],
+  "sources": [
+    {
+      "id": "W01",
+      "url": "https://sr2.snk-games.net/",
+      "title": "Архив официального сайта КР2: новости",
+      "publisher": "Elemental Games / 1C; сохранён сотрудниками СНК-Games",
+      "edition": "КР2 / Перезагрузка / неофициальная Революция",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Перезагрузка: анонс выхода 07.09.2007",
+        "Революция 2010 названа неофициальной",
+        "Сохранение старого сайта объяснено 17.12.2011"
+      ],
+      "notes": "Веб-архив на домене SNK; правообладание старым содержанием отдельно указано на странице. Новость не доказывает включение всего мода в HD."
+    },
+    {
+      "id": "W02",
+      "url": "https://sr2.snk-games.net/game/story.htm",
+      "title": "КР2: сюжет",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "3300 год; интервал после войны: 200 лет",
+        "Три враждующих между собой серии доминаторов",
+        "Свобода выбора и самостоятельное развитие мира"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "W03",
+      "url": "https://sr2.snk-games.net/game/sr.htm",
+      "title": "КР1: сюжет первой части",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР1, изложение на сайте КР2",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Рейнджеры-добровольцы; роль посла Гээлмбо",
+        "Махпелла: бой или мир",
+        "КР1 выпущена в конце 2002"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "W04",
+      "url": "https://sr2.snk-games.net/game/features.htm",
+      "title": "Особенности и новшества КР2",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Автономный мир, конкурирующие рейнджеры",
+        "Различные способы завершения",
+        "Новые медицинские базы, бизнес-центры, зонды, RTS"
+      ],
+      "notes": "Числа контента здесь исторические рекламные, не текущая инвентаризация HD."
+    },
+    {
+      "id": "W05",
+      "url": "https://sr2.snk-games.net/guide/races.htm",
+      "title": "Справочник: расы",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Пять рас Коалиции и их различия",
+        "Общий кредит и человеческая хронология",
+        "Три машинные серии"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "W06",
+      "url": "https://sr2.snk-games.net/guide/spaceobjects.htm",
+      "title": "Справочник: космические объекты",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Шесть исходных типов станций",
+        "Экономические последствия природных и политических событий",
+        "Исследование необитаемых планет"
+      ],
+      "notes": "Не использовать число шесть как сумму актуальной HD: позже добавлены доминионы."
+    },
+    {
+      "id": "W07",
+      "url": "https://sr2.snk-games.net/guide/ships.htm",
+      "title": "Справочник: корабли",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Капитаны имеют характер; поведение меняется",
+        "Рейнджеры, мирные, военные, пираты",
+        "Транспорты, лайнеры, дипломаты"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "W08",
+      "url": "https://sr2.snk-games.net/guide/ships2.htm",
+      "title": "Справочник: доминаторы и неизвестные корабли",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Три серии и классы кораблей",
+        "Неизвестные корабли гиперпространства"
+      ],
+      "notes": "Неполный каталог нынешней HD."
+    },
+    {
+      "id": "W09",
+      "url": "https://sr2.snk-games.net/guide/equipment.htm",
+      "title": "Справочник: оборудование",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Классы оборудования и повреждения",
+        "Различия расовых технологий"
+      ],
+      "notes": "Наборы характеристик сверять с текущими данными, а не историческим балансом."
+    },
+    {
+      "id": "W10",
+      "url": "https://sr2.snk-games.net/guide/weapon.htm",
+      "title": "Справочник: вооружение",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "15 исторических типов оружия",
+        "ИМХО-9000, Вертикс, торпеды связаны с тремя сериями",
+        "Технологические описания часто шутливы"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "W11",
+      "url": "https://sr2.snk-games.net/guide/hyper.htm",
+      "title": "Справочник: гиперпространство",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Аркадные бои в чёрных дырах",
+        "Келлер связан с гиперпространством"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "W12",
+      "url": "https://sr2.snk-games.net/guide/quest.htm",
+      "title": "Справочник: текстовые квесты",
+      "publisher": "Elemental Games / 1C",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "35 текстовых приключений в историческом описании",
+        "Участие Союза Независимых Квестописателей",
+        "Логические и повествовательные формы"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "W13",
+      "url": "https://store.steampowered.com/app/214730/Space_Rangers_HD_A_War_Apart/?l=russian",
+      "title": "Space Rangers HD: A War Apart: официальная страница продукта",
+      "publisher": "SNK Games / Fulqrum Publishing / Steam",
+      "edition": "HD (описание релиза 2013)",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_publisher",
+      "access": "read",
+      "claims": [
+        "Официальное самостоятельное дополнение",
+        "Пиратская и доминаторская ветви",
+        "Пират или агент под прикрытием",
+        "Steam: 17.10.2013"
+      ],
+      "notes": "Маркетинговые количества новинок не равны полному составу обновлённой установки."
+    },
+    {
+      "id": "W14",
+      "url": "https://gameway.com.ua/analytics/interview/13010-kosmicheskie-reyndzheryi-hd-revolyutsiya-otkroveniya-sozdateley.html",
+      "title": "«Космические рейнджеры HD: Революция» — откровения создателей",
+      "publisher": "GameWay; перепечатка ответов разработчиков",
+      "edition": "HD: планы на 16.05.2012",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_interview_reprint",
+      "access": "read",
+      "claims": [
+        "HD включает кампанию Доминаторов и дополнения Перезагрузки",
+        "Переработка интерфейса",
+        "Создание собственных вещей не планировалось"
+      ],
+      "notes": "Дорелизное интервью: планы не доказывают реализацию. Переиздание ответов с форума 1С-Софтклаб."
+    },
+    {
+      "id": "W15",
+      "url": "https://dtf.ru/gamedev/65368-istoriya-tvorchestva-dmitriya-gusarova-avtora-kosmicheskih-reindzherov-i-kings-bounty",
+      "title": "История творчества Дмитрия Гусарова",
+      "publisher": "Дмитрий Гусаров; DTF, публикация Андрея Верещагина",
+      "edition": "Авторское воспоминание, 22.08.2019",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_author_retrospective",
+      "access": "read",
+      "claims": [
+        "Elite, Космические войны, Вавилон-5 как источники вдохновения",
+        "Star Control и Nether Earth",
+        "Гладиатор и редактор квестов"
+      ],
+      "notes": "Авторское свидетельство об истории замысла; не сценарная библия, не полный список участников."
+    },
+    {
+      "id": "W16",
+      "url": "https://itc.ua/articles/kosmicheskie_rejndzhery_2_dominatory_19377/",
+      "title": "Космические Рейнджеры 2: Доминаторы",
+      "publisher": "ITC.ua, 15.12.2004",
+      "edition": "КР2: Доминаторы (2004)",
+      "accessDate": "2026-11-02",
+      "reliability": "review_with_developer_quote",
+      "access": "read",
+      "claims": [
+        "Гусаров характеризует RTS как необязательный бонус",
+        "Свобода выбора игровых занятий"
+      ],
+      "notes": "Слова разработчика переданы журналистом. Оценки рецензента отделены от авторского намерения."
+    },
+    {
+      "id": "W17",
+      "url": "https://ru.wikipedia.org/wiki/Космические_рейнджеры_2:_Доминаторы",
+      "title": "Космические рейнджеры 2: Доминаторы",
+      "publisher": "Википедия, сообщество",
+      "edition": "Смешивает КР2 / Перезагрузку / HD",
+      "accessDate": "2026-11-02",
+      "reliability": "secondary_community",
+      "access": "read",
+      "claims": [
+        "Версия происхождения доминаторов",
+        "Интервал 250 лет противоречит W02",
+        "Раздел баз содержит поздний Доминион"
+      ],
+      "notes": "Содержит смешение редакций: под заголовком КР2 описана HD. Происхождение требует сверки с игровыми диалогами; не первичная основа канона."
+    },
+    {
+      "id": "W18",
+      "url": "https://steamcommunity.com/app/214730/discussions/1/606068060819576575/",
+      "title": "Update 2.1.1880 (February, 05)",
+      "publisher": "Bercut -=EG=-, метка developer в Steam",
+      "edition": "HD 2.1.1880, 05.02.2015",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_developer_changelog",
+      "access": "read",
+      "claims": [
+        "Доминионы существовали в 2.1.1880",
+        "Клановые пираты, барон, секретная база",
+        "Поведение и диалоги исправлялись патчами"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "W19",
+      "url": "https://www.gogdb.org/product/1207667113/releasenotes",
+      "title": "Space Rangers HD: A War Apart — Release Notes",
+      "publisher": "GOG Database: архив издательских release notes",
+      "edition": "HD 2.1.x",
+      "accessDate": "2026-11-02",
+      "reliability": "secondary_mirror_of_primary",
+      "access": "read",
+      "claims": [
+        "Доминион добавлен в 2.1.1800",
+        "Флагманы добавлены в 2.1.1980",
+        "QMM и исправления именигенератора позднее релиза"
+      ],
+      "notes": "Не официальный домен GOG. Указанная дата большого агрегированного обновления не дата каждого включённого старого патча."
+    },
+    {
+      "id": "W20",
+      "url": "https://steamcommunity.com/app/214730/allnews/?l=russian",
+      "title": "Новости издателя Space Rangers HD: A War Apart",
+      "publisher": "Fulqrum / официальная лента приложения Steam",
+      "edition": "HD: обновление 09.09.2025",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_publisher",
+      "access": "read",
+      "claims": [
+        "Официальное обновление 09.09.2025",
+        "Флагман, Доминион, Тень Империи и Берторы упомянуты",
+        "Две новые композиции NiKiNiT"
+      ],
+      "notes": "Лента изменяется. Зафиксирована дата конкретного сообщения; не заявление об отсутствии более поздних обновлений."
+    },
+    {
+      "id": "W21",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=253596035",
+      "title": "The Complete English Guide for SR HD",
+      "publisher": "WaKKO151, yaoza889 и участники сообщества Steam",
+      "edition": "HD; обновлено 13.09.2025",
+      "accessDate": "2026-11-02",
+      "reliability": "secondary_community",
+      "access": "read",
+      "claims": [
+        "Ранги и финал пиратской ветви",
+        "Tortugatz, адмирал, барон как поисковые ориентиры"
+      ],
+      "notes": "Прохождение, не источник русского написания и не каноническая единственная концовка. Динамическая страница выводит предупреждение о совместимости/доступности; использовать только как указатель для проверки данных."
+    },
+    {
+      "id": "W22",
+      "url": "https://avalon.srclan.org/?chapter=sr2&content=faq",
+      "title": "Авалон: FAQ КР2",
+      "publisher": "Клан Авалон, сообщество",
+      "edition": "КР2; точная версия не установлена",
+      "accessDate": "2026-11-02",
+      "reliability": "unverified_search_lead",
+      "access": "search_excerpt_only",
+      "claims": [
+        "Гралгар / Кайо как ориентир для проверки генератора"
+      ],
+      "notes": "Получен поисковый фрагмент, открытие завершилось таймаутом. Утверждение не принято в канон."
+    },
+    {
+      "id": "W23",
+      "url": "https://rangers.fandom.com/ru/wiki/Концовки_игры",
+      "title": "Концовки игры",
+      "publisher": "Space Rangers Wiki / Fandom",
+      "edition": "КР1 / КР2 / HD",
+      "accessDate": "2026-11-02",
+      "reliability": "unverified_search_lead",
+      "access": "search_excerpt_only",
+      "claims": [
+        "Вариант Келлера с Нифигацем",
+        "Разные условия финалов между изданиями"
+      ],
+      "notes": "Доступ блокируется robots.txt; доступны только поисковые фрагменты. Требуется первичная сверка."
+    },
+    {
+      "id": "W24",
+      "url": "https://rangers.fandom.com/ru/wiki/История_версий/Космические_Рейнджеры_HD:_Революция",
+      "title": "История версий HD",
+      "publisher": "Space Rangers Wiki / Fandom",
+      "edition": "HD 2.1.x",
+      "accessDate": "2026-11-02",
+      "reliability": "unverified_search_lead",
+      "access": "search_excerpt_only",
+      "claims": [
+        "Версионные различия; станции и генерация"
+      ],
+      "notes": "Доступ robots.txt; поисковые фрагменты не заменяют changelog установки."
+    },
+    {
+      "id": "W25",
+      "url": "https://sr2.snk-games.net/crew/index.htm",
+      "title": "Команда КР2",
+      "publisher": "Elemental Games / 1C",
+      "edition": "Ретроспектива команды на старом сайте",
+      "accessDate": "2026-11-02",
+      "reliability": "primary_archived",
+      "access": "read",
+      "claims": [
+        "Разработка КР2 2003–2004",
+        "Поддержка сайта сотрудниками SNK в 2011"
+      ],
+      "notes": "Страница позднее редактировалась; не заменяет финальные титры установки."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "chronology_gap",
+      "sources": [
+        "W02",
+        "W17"
+      ],
+      "description": "200 против 250 лет после войны с клисанами; оба источника называют 3300 год. Не выводить точную дату окончания войны из вторичных пересказов."
+    },
+    {
+      "id": "station_count",
+      "sources": [
+        "W06",
+        "W18",
+        "W19"
+      ],
+      "description": "Шесть типов в исходном справочнике КР2; Доминион — позднее добавление HD. Редакции нельзя объединять без пометки."
+    },
+    {
+      "id": "quest_counts",
+      "sources": [
+        "W04",
+        "W12",
+        "W13",
+        "W14"
+      ],
+      "description": "Количество новинок и стартовые маркетинговые количества не равны числу QMM в текущей установке."
+    },
+    {
+      "id": "revolution_namesake",
+      "sources": [
+        "W01",
+        "W13"
+      ],
+      "description": "Неофициальная Революция 2010 и официальная HD: Революция 2013 — разные редакции."
+    }
+  ],
+  "excluded": [
+    "Пиратские раздачи и репаки: не скачивались и не использовались",
+    "Ролевые форумы и фанатские стихи: не доказательство событий канона",
+    "Фанатские модпаки: отдельные произведения, не доказательство наличия контента в чистой HD",
+    "Недоступный PDF руководства на Amazon >10MB: не прочитан"
+  ],
+  "openQuestions": [
+    "Сопоставить рассказ о происхождении доминаторов с русскими диалогами и сценариями конкретной установки",
+    "Проверить все финальные ветви и имена HD по Script/QMM",
+    "Уточнить, фиксированы ли Гралгар/Кайо/Тортугац/Нифигац и условия их генерации по коду",
+    "Сверить историю обновлений с changelog установленной сборки"
+  ],
+  "searchLog": [
+    {
+      "query": "Space Rangers HD A War Apart official manual races dominators pirates",
+      "result": "Steam product page and legacy official guide found"
+    },
+    {
+      "query": "Космические рейнджеры 2 Доминаторы руководство малоки пеленги фэяне гаальцы",
+      "result": "Official race/objects/equipment guide found"
+    },
+    {
+      "query": "Космические рейнджеры интервью Дмитрий Гусаров юмор сюжет",
+      "result": "Author retrospective and contemporary review found"
+    },
+    {
+      "query": "Космические рейнджеры Келлер Террон происхождение",
+      "result": "Community summaries; exact story remains pending game-dialogue verification"
+    },
+    {
+      "query": "Космические рейнджеры HD Доминион Барон",
+      "result": "Developer changelog, GOG release-note mirror, community walkthrough"
+    },
+    {
+      "query": "Космические рейнджеры 3300 3000 история",
+      "result": "Conflicting interval 200/250 years; primary official plot selected, discrepancy retained"
+    },
+    {
+      "query": "Космические рейнджеры 2 Перезагрузка site:1c.ru",
+      "result": "Publisher search results supplemented by dated official legacy news"
+    },
+    {
+      "query": "Космические рейнджеры HD 2.1.1800",
+      "result": "Version-dependent station addition checked in release notes"
+    },
+    {
+      "query": "Space Rangers 2 Reboot Steam official",
+      "result": "Delisted/unavailable store page; no current purchase or content claims inferred"
+    }
+  ]
+}

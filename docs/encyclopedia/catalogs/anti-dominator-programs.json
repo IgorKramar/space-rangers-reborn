@@ -1,0 +1,134 @@
+[
+  {
+    "id": "Dematerial",
+    "name_ru": "Дематериализатор",
+    "name_en": "Dematerializer",
+    "kind": "definition",
+    "facts": {
+      "Name": "Дематериализатор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.Dematerial"
+  },
+  {
+    "id": "Disconnection",
+    "name_ru": "Системное отключение",
+    "name_en": "System shutdown",
+    "kind": "definition",
+    "facts": {
+      "Name": "Системное отключение"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.Disconnection"
+  },
+  {
+    "id": "Energotron",
+    "name_ru": "Энерготрон",
+    "name_en": "Energotron",
+    "kind": "definition",
+    "facts": {
+      "Name": "Энерготрон"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.Energotron"
+  },
+  {
+    "id": "Insanity",
+    "name_ru": "Гатрикс матрица",
+    "name_en": "Gatrix matrix",
+    "kind": "definition",
+    "facts": {
+      "Name": "Гатрикс матрица"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.Insanity"
+  },
+  {
+    "id": "Intercom",
+    "name_ru": "Интерком",
+    "name_en": "Intercom",
+    "kind": "definition",
+    "facts": {
+      "Name": "Интерком"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.Intercom"
+  },
+  {
+    "id": "KellerCall",
+    "name_ru": "iКеллер",
+    "name_en": "iKeller",
+    "kind": "definition",
+    "facts": {
+      "Name": "iКеллер"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.KellerCall"
+  },
+  {
+    "id": "LogicalNegation",
+    "name_ru": "Противодействие",
+    "name_en": "Counteraction",
+    "kind": "definition",
+    "facts": {
+      "Name": "Противодействие"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.LogicalNegation"
+  },
+  {
+    "id": "SabCrack",
+    "name_ru": "Сабмодем",
+    "name_en": "Submodem",
+    "kind": "definition",
+    "facts": {
+      "Name": "Сабмодем"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.SabCrack"
+  },
+  {
+    "id": "SelfDestruction",
+    "name_ru": "Абсолютное оружие",
+    "name_en": "Absolute weapon",
+    "kind": "definition",
+    "facts": {
+      "Name": "Абсолютное оружие"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.SelfDestruction"
+  },
+  {
+    "id": "Shipwreck",
+    "name_ru": "Аварийный сигнал",
+    "name_en": "Distress signal",
+    "kind": "definition",
+    "facts": {
+      "Name": "Аварийный сигнал"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.Shipwreck"
+  },
+  {
+    "id": "Shock",
+    "name_ru": "Шоккер-5300",
+    "name_en": "Shocker-5300",
+    "kind": "definition",
+    "facts": {
+      "Name": "Шоккер-5300"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.Shock"
+  },
+  {
+    "id": "WeaponBlocking",
+    "name_ru": "W-Кодер",
+    "name_en": "W-Coder",
+    "kind": "definition",
+    "facts": {
+      "Name": "W-Кодер"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Programms.WeaponBlocking"
+  }
+]

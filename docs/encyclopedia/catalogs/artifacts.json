@@ -1,0 +1,354 @@
+[
+  {
+    "id": "ArtAnalyzer",
+    "name_ru": "Вероятностный анализатор",
+    "name_en": "Probability Analyzer",
+    "kind": "definition",
+    "facts": {
+      "Name": "Вероятностный анализатор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtAnalyzer"
+  },
+  {
+    "id": "ArtAntigrav",
+    "name_ru": "Антигравитатор",
+    "name_en": "Antigravitazer",
+    "kind": "definition",
+    "facts": {
+      "Name": "Антигравитатор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtAntigrav"
+  },
+  {
+    "id": "ArtArtefactor",
+    "name_ru": "Артефактор",
+    "name_en": "Artifactor",
+    "kind": "definition",
+    "facts": {
+      "Name": "Артефактор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtArtefactor"
+  },
+  {
+    "id": "ArtBio",
+    "name_ru": "Биомир",
+    "name_en": "Bioworld",
+    "kind": "definition",
+    "facts": {
+      "Name": "Биомир"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtBio"
+  },
+  {
+    "id": "ArtBlackHole",
+    "name_ru": "Субпортал",
+    "name_en": "Subportal",
+    "kind": "definition",
+    "facts": {
+      "Name": "Субпортал"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtBlackHole"
+  },
+  {
+    "id": "ArtBomb",
+    "name_ru": "Кварковая бомба",
+    "name_en": "Quark bomb",
+    "kind": "definition",
+    "facts": {
+      "Name": "Кварковая бомба"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtBomb"
+  },
+  {
+    "id": "ArtDecelerate",
+    "name_ru": "Вжик",
+    "name_en": "Zing",
+    "kind": "definition",
+    "facts": {
+      "Name": "Вжик"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtDecelerate"
+  },
+  {
+    "id": "ArtDef",
+    "name_ru": "Поляризатор",
+    "name_en": "Polarizer",
+    "kind": "definition",
+    "facts": {
+      "Name": "Поляризатор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtDef"
+  },
+  {
+    "id": "ArtDefToArms1",
+    "name_ru": "Протон",
+    "name_en": "Proton",
+    "kind": "definition",
+    "facts": {
+      "Name": "Протон"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtDefToArms1"
+  },
+  {
+    "id": "ArtDefToArms2",
+    "name_ru": "Армс",
+    "name_en": "ARMS",
+    "kind": "definition",
+    "facts": {
+      "Name": "Армс"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtDefToArms2"
+  },
+  {
+    "id": "ArtDefToEnergy",
+    "name_ru": "Пропорционар",
+    "name_en": "Proportionar",
+    "kind": "definition",
+    "facts": {
+      "Name": "Пропорционар"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtDefToEnergy"
+  },
+  {
+    "id": "ArtDroid",
+    "name_ru": "Дроид младший",
+    "name_en": "Junior Droid",
+    "kind": "definition",
+    "facts": {
+      "Name": "Дроид младший"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtDroid"
+  },
+  {
+    "id": "ArtEnergyDef",
+    "name_ru": "Проглот",
+    "name_en": "Swallower",
+    "kind": "definition",
+    "facts": {
+      "Name": "Проглот"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtEnergyDef"
+  },
+  {
+    "id": "ArtEnergyPulse",
+    "name_ru": "Пятерик",
+    "name_en": "Fiver",
+    "kind": "definition",
+    "facts": {
+      "Name": "Пятерик"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtEnergyPulse"
+  },
+  {
+    "id": "ArtFastRacks",
+    "name_ru": "Ралс",
+    "name_en": "Rals",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ралс"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtFastRacks"
+  },
+  {
+    "id": "ArtForsage",
+    "name_ru": "Обливионный коннектор",
+    "name_en": "Oblivion Connector",
+    "kind": "definition",
+    "facts": {
+      "Name": "Обливионный коннектор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtForsage"
+  },
+  {
+    "id": "ArtFuel",
+    "name_ru": "Черная жижа",
+    "name_en": "Black Goo",
+    "kind": "definition",
+    "facts": {
+      "Name": "Черная жижа"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtFuel"
+  },
+  {
+    "id": "ArtGiperJump",
+    "name_ru": "Гипергенератор",
+    "name_en": "Hypergenerator",
+    "kind": "definition",
+    "facts": {
+      "Name": "Гипергенератор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtGiperJump"
+  },
+  {
+    "id": "ArtHook",
+    "name_ru": "Эриметр",
+    "name_en": "Erimeter",
+    "kind": "definition",
+    "facts": {
+      "Name": "Эриметр"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtHook"
+  },
+  {
+    "id": "ArtHull",
+    "name_ru": "Железные жупи",
+    "name_en": "Iron Zoopie",
+    "kind": "definition",
+    "facts": {
+      "Name": "Железные жупи"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtHull"
+  },
+  {
+    "id": "ArtMiniExpl",
+    "name_ru": "Локализатор взрывной волны",
+    "name_en": "Blast Wave Localizer",
+    "kind": "definition",
+    "facts": {
+      "Name": "Локализатор взрывной волны"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtMiniExpl"
+  },
+  {
+    "id": "ArtMissileDef",
+    "name_ru": "Ракетанг",
+    "name_en": "Rocketang",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ракетанг"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtMissileDef"
+  },
+  {
+    "id": "ArtNano",
+    "name_ru": "Нанитоиды",
+    "name_en": "Nanitoids",
+    "kind": "definition",
+    "facts": {
+      "Name": "Нанитоиды"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtNano"
+  },
+  {
+    "id": "ArtPDTurret",
+    "name_ru": "а'Эгис",
+    "name_en": "a'Egis",
+    "kind": "definition",
+    "facts": {
+      "Name": "а'Эгис"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtPDTurret"
+  },
+  {
+    "id": "ArtPower",
+    "name_ru": "Отморозки",
+    "name_en": "Frostix",
+    "kind": "definition",
+    "facts": {
+      "Name": "Отморозки"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtPower"
+  },
+  {
+    "id": "ArtRadar",
+    "name_ru": "Пролонгер",
+    "name_en": "Prolonger",
+    "kind": "definition",
+    "facts": {
+      "Name": "Пролонгер"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtRadar"
+  },
+  {
+    "id": "ArtScaner",
+    "name_ru": "Сканерный кэш",
+    "name_en": "Scanner Cache",
+    "kind": "definition",
+    "facts": {
+      "Name": "Сканерный кэш"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtScaner"
+  },
+  {
+    "id": "ArtSpeed",
+    "name_ru": "Пси-ускоритель материи",
+    "name_en": "Matter Psi-Accelerator",
+    "kind": "definition",
+    "facts": {
+      "Name": "Пси-ускоритель материи"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtSpeed"
+  },
+  {
+    "id": "ArtSplinter",
+    "name_ru": "Навинт",
+    "name_en": "Screw-on",
+    "kind": "definition",
+    "facts": {
+      "Name": "Навинт"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtSplinter"
+  },
+  {
+    "id": "ArtTranclucator",
+    "name_ru": "Транклюкатор",
+    "name_en": "Tranclucator",
+    "kind": "definition",
+    "facts": {
+      "Name": "Транклюкатор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtTranclucator"
+  },
+  {
+    "id": "ArtTransmitter",
+    "name_ru": "Трансфакторный маяк",
+    "name_en": "Transfactorial Beacon",
+    "kind": "definition",
+    "facts": {
+      "Name": "Трансфакторный маяк"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtTransmitter"
+  },
+  {
+    "id": "ArtWeaponToSpeed",
+    "name_ru": "Сопланатор",
+    "name_en": "Nozzlenator",
+    "kind": "definition",
+    "facts": {
+      "Name": "Сопланатор"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Artefacts.ArtWeaponToSpeed"
+  }
+]

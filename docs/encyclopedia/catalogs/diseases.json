@@ -1,0 +1,134 @@
+[
+  {
+    "id": "0",
+    "name_ru": "Ослепление",
+    "name_en": "Blindness",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ослепление"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.0"
+  },
+  {
+    "id": "1",
+    "name_ru": "Чекумаш",
+    "name_en": "Chekumash",
+    "kind": "definition",
+    "facts": {
+      "Name": "Чекумаш"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.1"
+  },
+  {
+    "id": "10",
+    "name_ru": "Ака Сециянка",
+    "name_en": "Aka Sezyanka",
+    "kind": "definition",
+    "facts": {
+      "Name": "Ака Сециянка"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.10"
+  },
+  {
+    "id": "11",
+    "name_ru": "Новый молизон",
+    "name_en": "New Molizone",
+    "kind": "definition",
+    "facts": {
+      "Name": "Новый молизон"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.11"
+  },
+  {
+    "id": "2",
+    "name_ru": "Святой фанатизм",
+    "name_en": "Holy Fanaticism",
+    "kind": "definition",
+    "facts": {
+      "Name": "Святой фанатизм"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.2"
+  },
+  {
+    "id": "3",
+    "name_ru": "Комплексный иммуноцид",
+    "name_en": "Complex Immunocide",
+    "kind": "definition",
+    "facts": {
+      "Name": "Комплексный иммуноцид"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.3"
+  },
+  {
+    "id": "4",
+    "name_ru": "Загадочная луатанция",
+    "name_en": "Mysterious Luatanza",
+    "kind": "definition",
+    "facts": {
+      "Name": "Загадочная луатанция"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.4"
+  },
+  {
+    "id": "5",
+    "name_ru": "Наркозависимость",
+    "name_en": "Drug Addiction",
+    "kind": "definition",
+    "facts": {
+      "Name": "Наркозависимость"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.5"
+  },
+  {
+    "id": "6",
+    "name_ru": "Вихревая контузия",
+    "name_en": "Whirlwind Concussion",
+    "kind": "definition",
+    "facts": {
+      "Name": "Вихревая контузия"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.6"
+  },
+  {
+    "id": "7",
+    "name_ru": "Мышечное растяжение",
+    "name_en": "Pulled Muscle",
+    "kind": "definition",
+    "facts": {
+      "Name": "Мышечное растяжение"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.7"
+  },
+  {
+    "id": "8",
+    "name_ru": "Великий Малососус",
+    "name_en": "Grand Malosausus",
+    "kind": "definition",
+    "facts": {
+      "Name": "Великий Малососус"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.8"
+  },
+  {
+    "id": "9",
+    "name_ru": "Горькая пеленоша",
+    "name_en": "Bitter Pelenosia",
+    "kind": "definition",
+    "facts": {
+      "Name": "Горькая пеленоша"
+    },
+    "source": "CFG/Rus/Lang.dat",
+    "block": "Illness.Illness.9"
+  }
+]
