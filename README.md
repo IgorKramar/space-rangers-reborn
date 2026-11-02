@@ -26,15 +26,15 @@
 После клонирования:
 
 ```sh
-work-run -- git lfs install --local
-work-run -- git lfs pull
+git lfs install --local
+git lfs pull
 ```
 
 Перед отправкой новых ассетов:
 
 ```sh
-work-run -- git lfs status
-work-run -- git lfs fsck
+git lfs status
+git lfs fsck
 ```
 
 Git хранит LFS-указатели на бинарные файлы. JSON, Markdown, исходники и текстовые SVG остаются в обычной истории Git. Миграцию уже опубликованной истории нужно проводить отдельно, согласовав её последствия.
